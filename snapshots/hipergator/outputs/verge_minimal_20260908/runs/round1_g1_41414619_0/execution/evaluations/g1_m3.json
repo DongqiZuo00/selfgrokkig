@@ -1,0 +1,16 @@
+{
+  "checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+  "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321",
+  "evaluation_cache_hit": true,
+  "source_evidence_id": "base",
+  "sample_ids": [
+    "rollout_00",
+    "rollout_01",
+    "rollout_02",
+    "rollout_03",
+    "rollout_04",
+    "rollout_05",
+    "rollout_06",
+    "rollout_07"
+  ]
+}

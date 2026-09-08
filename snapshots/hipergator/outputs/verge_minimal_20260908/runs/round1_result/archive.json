@@ -1,0 +1,253 @@
+{
+  "changes": {
+    "direct": "retained",
+    "g1": "retained",
+    "g2": "retained",
+    "g3": "retained"
+  },
+  "cells": [
+    {
+      "key": [
+        2,
+        1
+      ],
+      "candidate": {
+        "evaluation": {
+          "checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+          "training_seed": 20260908,
+          "manifest_id": "verge_prepend_rb_v1_20260908:selection_first8:de03eceec552de11",
+          "instance_ids": [
+            "verge_prepend_rb_v1_20260908_selection_0000",
+            "verge_prepend_rb_v1_20260908_selection_0001",
+            "verge_prepend_rb_v1_20260908_selection_0002",
+            "verge_prepend_rb_v1_20260908_selection_0003",
+            "verge_prepend_rb_v1_20260908_selection_0004",
+            "verge_prepend_rb_v1_20260908_selection_0005",
+            "verge_prepend_rb_v1_20260908_selection_0006",
+            "verge_prepend_rb_v1_20260908_selection_0007"
+          ],
+          "sample_ids": [
+            "rollout_00",
+            "rollout_01",
+            "rollout_02",
+            "rollout_03",
+            "rollout_04",
+            "rollout_05",
+            "rollout_06",
+            "rollout_07",
+            "rollout_08",
+            "rollout_09",
+            "rollout_10",
+            "rollout_11",
+            "rollout_12",
+            "rollout_13",
+            "rollout_14",
+            "rollout_15",
+            "rollout_16",
+            "rollout_17",
+            "rollout_18",
+            "rollout_19",
+            "rollout_20",
+            "rollout_21",
+            "rollout_22",
+            "rollout_23",
+            "rollout_24",
+            "rollout_25",
+            "rollout_26",
+            "rollout_27",
+            "rollout_28",
+            "rollout_29",
+            "rollout_30",
+            "rollout_31"
+          ],
+          "counts": [
+            [
+              32,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              32,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              32,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              32,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              32,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              32,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              32,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              32,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        "cycle_count": 184
+      }
+    }
+  ],
+  "lead": {
+    "evaluation": {
+      "checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "training_seed": 20260908,
+      "manifest_id": "verge_prepend_rb_v1_20260908:selection_first8:de03eceec552de11",
+      "instance_ids": [
+        "verge_prepend_rb_v1_20260908_selection_0000",
+        "verge_prepend_rb_v1_20260908_selection_0001",
+        "verge_prepend_rb_v1_20260908_selection_0002",
+        "verge_prepend_rb_v1_20260908_selection_0003",
+        "verge_prepend_rb_v1_20260908_selection_0004",
+        "verge_prepend_rb_v1_20260908_selection_0005",
+        "verge_prepend_rb_v1_20260908_selection_0006",
+        "verge_prepend_rb_v1_20260908_selection_0007"
+      ],
+      "sample_ids": [
+        "rollout_00",
+        "rollout_01",
+        "rollout_02",
+        "rollout_03",
+        "rollout_04",
+        "rollout_05",
+        "rollout_06",
+        "rollout_07",
+        "rollout_08",
+        "rollout_09",
+        "rollout_10",
+        "rollout_11",
+        "rollout_12",
+        "rollout_13",
+        "rollout_14",
+        "rollout_15",
+        "rollout_16",
+        "rollout_17",
+        "rollout_18",
+        "rollout_19",
+        "rollout_20",
+        "rollout_21",
+        "rollout_22",
+        "rollout_23",
+        "rollout_24",
+        "rollout_25",
+        "rollout_26",
+        "rollout_27",
+        "rollout_28",
+        "rollout_29",
+        "rollout_30",
+        "rollout_31"
+      ],
+      "counts": [
+        [
+          32,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          32,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "cycle_count": 184
+  },
+  "saturated": false
+}

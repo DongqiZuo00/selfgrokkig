@@ -1,0 +1,2177 @@
+{
+  "round_id": "verge_minimal_round1_20260908",
+  "training_seed": 20260908,
+  "base_checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+  "selection": {
+    "manifest_id": "verge_prepend_rb_v1_20260908:selection_first8:de03eceec552de11",
+    "instance_ids": [
+      "verge_prepend_rb_v1_20260908_selection_0000",
+      "verge_prepend_rb_v1_20260908_selection_0001",
+      "verge_prepend_rb_v1_20260908_selection_0002",
+      "verge_prepend_rb_v1_20260908_selection_0003",
+      "verge_prepend_rb_v1_20260908_selection_0004",
+      "verge_prepend_rb_v1_20260908_selection_0005",
+      "verge_prepend_rb_v1_20260908_selection_0006",
+      "verge_prepend_rb_v1_20260908_selection_0007"
+    ],
+    "sample_ids": [
+      "rollout_00",
+      "rollout_01",
+      "rollout_02",
+      "rollout_03",
+      "rollout_04",
+      "rollout_05",
+      "rollout_06",
+      "rollout_07",
+      "rollout_08",
+      "rollout_09",
+      "rollout_10",
+      "rollout_11",
+      "rollout_12",
+      "rollout_13",
+      "rollout_14",
+      "rollout_15",
+      "rollout_16",
+      "rollout_17",
+      "rollout_18",
+      "rollout_19",
+      "rollout_20",
+      "rollout_21",
+      "rollout_22",
+      "rollout_23",
+      "rollout_24",
+      "rollout_25",
+      "rollout_26",
+      "rollout_27",
+      "rollout_28",
+      "rollout_29",
+      "rollout_30",
+      "rollout_31"
+    ],
+    "prompt_view_sha256": "6b1f0506a1ec26cd0e9fabe27ac3826b660b1701ab1b61c90941caee88d298f6",
+    "test_contracts": {
+      "verge_prepend_rb_v1_20260908_selection_0000": {
+        "test_ids": [
+          "09ab8ae732db6f410e65088e37415c338321ed64421109ffe1395330b5eceb45",
+          "9a85c9288a00216763492c7753c40dcf21014ba8dd9105c5cf7417072a7ab82f",
+          "9a2608e8789c94c9a5bf00fb0142ac85560ddf058ce3738f63246bebd81c0180",
+          "d112f437108bd514225bc3c98e30e75913129da06e33fe89576da5ca4b7c6d3a",
+          "73ae54084326d0523583c0da96212c1df8f167cf580b894e1531a304af9cb786",
+          "576ef3f65b96edcb111342bd5b55ed17bf254143e7f0cde05bc3574cf59ec461",
+          "654c2a4f8ccd2ff36feaa0aa947e74b8a7247cdf1fd9c2f74057548af266f0fb",
+          "44af3b8d035192b6317a813cf4d8f480689fed91eb016d5deb33b292da8869de",
+          "ba62679d5fef43cb90a5df08bd86fec993f6770115a8c08d12f1e4e708e0f140",
+          "7a53b59a756ed8ccb8e0323f0e7a237e28db2b9bf761b046f40c636fc69577cd",
+          "54a3e3e1d08c91a869012009fe1fa1d3aeb191c0108ff86be427b035b37585e8",
+          "8a71b8f0ec66554ed7b224333308777fadbaf32373641ac37a50270f368679e6",
+          "5d78b7c7e737c8dbd6738c136fe020378f00ba4d925cb505df71e3df84e18fe8",
+          "0a9eec045570ec2636e5835ff20d8950fe4daf30892775d5f0289d4228e74779",
+          "75ae8a5f37a02644f45d9b585376906b0f6b8be2ff35db5c37b0893b9d44a57a",
+          "61805e4449a14f3fa82c778eba474ba998b20b207a977053a29bcb286dfaa9c6",
+          "c9423d17ec622d26d1dc970cec9997d1f85e852a0357cd305169830087c53635",
+          "97357bd6decbb109b168b57aacf593bb08b9a1fcb454c8d717c6b3bc8d0a5ce4",
+          "bdb8ffc2b0d5e3ebe55334059f68575df839c82f1c1b637f3e102f741f0eb1c5",
+          "0e271b2d7bb4e3a7745479a7f0c2fc3eb37e19813b9ecf308d17de7982761263",
+          "8926590a0bf3c2e0be1bcbbdefc9c31e26884ccf37c313ed7f9d499b7a00639b",
+          "eeebc51b622a69317138784000d5feadc3a2af22c6ea1295ab0431628f2e73e7",
+          "3cf893e41aa82b0f78311d56e1047ecf84ef7b8796778ac9c78daf3c6b1d4ee6",
+          "415b12de9a1eda25658dd5ab8c4b8603918d2f6995bdc1d9f9ee2df07e69c222",
+          "f0fedb1cb78a34c0fe72750390884da252cb3552efc5efdfc40054c4b943cc5c",
+          "2232e691ec739efde380bae3f2f7e614f1ba3fab93f0612e1c6f07efd2cbbc1f",
+          "cf5ed76a6617fce9c497dfe2435897f06001e463d9ab6bc20f2a86fb6c770a35",
+          "04292596ecba479e9045340abd3fb2171e3b502396964a64fe72d2649449f85f",
+          "30bd588631704a4eaaf882804514d26895ba1115103287bd446f9d2bb54e7137",
+          "f2137839454615529b75f416e358a8c853dcf409fc76bd4deb4c1fd46471a52d",
+          "a3d238e283dbbc4a4ce69628319315db92d21811322977a44f8a18d2431f41fb",
+          "31bb2ad5f6bf6a290f8bbcaf4a094c14aecaa8309fb53bfee9e8c1bd660e4e12",
+          "c1c55305b9f62c6dc26c6813d8f3bb51da3b7d16996fdab7cffe7c035f439673",
+          "1a233207fadc702ae7f9c93dcc867247e97d651c4132cb8766f2ef0ddd1d0f56",
+          "8155e32f96230a3e730374df979240b42654f2b14a686df3fdf3034bf7ae8ee8",
+          "4d7422ed177c10130383bd8a1cd07c1b46e5fdebcb302b0a0fd437aeaac6833f"
+        ],
+        "class_by_test": {
+          "09ab8ae732db6f410e65088e37415c338321ed64421109ffe1395330b5eceb45": "matches_0__pending_r_0",
+          "9a85c9288a00216763492c7753c40dcf21014ba8dd9105c5cf7417072a7ab82f": "matches_0__pending_r_0",
+          "9a2608e8789c94c9a5bf00fb0142ac85560ddf058ce3738f63246bebd81c0180": "matches_0__pending_r_0",
+          "d112f437108bd514225bc3c98e30e75913129da06e33fe89576da5ca4b7c6d3a": "matches_0__pending_r_0",
+          "73ae54084326d0523583c0da96212c1df8f167cf580b894e1531a304af9cb786": "matches_0__pending_r_0",
+          "576ef3f65b96edcb111342bd5b55ed17bf254143e7f0cde05bc3574cf59ec461": "matches_0__pending_r_0",
+          "654c2a4f8ccd2ff36feaa0aa947e74b8a7247cdf1fd9c2f74057548af266f0fb": "matches_0__pending_r_1",
+          "44af3b8d035192b6317a813cf4d8f480689fed91eb016d5deb33b292da8869de": "matches_0__pending_r_1",
+          "ba62679d5fef43cb90a5df08bd86fec993f6770115a8c08d12f1e4e708e0f140": "matches_0__pending_r_1",
+          "7a53b59a756ed8ccb8e0323f0e7a237e28db2b9bf761b046f40c636fc69577cd": "matches_0__pending_r_1",
+          "54a3e3e1d08c91a869012009fe1fa1d3aeb191c0108ff86be427b035b37585e8": "matches_0__pending_r_1",
+          "8a71b8f0ec66554ed7b224333308777fadbaf32373641ac37a50270f368679e6": "matches_0__pending_r_1",
+          "5d78b7c7e737c8dbd6738c136fe020378f00ba4d925cb505df71e3df84e18fe8": "matches_1__pending_r_0",
+          "0a9eec045570ec2636e5835ff20d8950fe4daf30892775d5f0289d4228e74779": "matches_1__pending_r_0",
+          "75ae8a5f37a02644f45d9b585376906b0f6b8be2ff35db5c37b0893b9d44a57a": "matches_1__pending_r_0",
+          "61805e4449a14f3fa82c778eba474ba998b20b207a977053a29bcb286dfaa9c6": "matches_1__pending_r_0",
+          "c9423d17ec622d26d1dc970cec9997d1f85e852a0357cd305169830087c53635": "matches_1__pending_r_0",
+          "97357bd6decbb109b168b57aacf593bb08b9a1fcb454c8d717c6b3bc8d0a5ce4": "matches_1__pending_r_0",
+          "bdb8ffc2b0d5e3ebe55334059f68575df839c82f1c1b637f3e102f741f0eb1c5": "matches_1__pending_r_1",
+          "0e271b2d7bb4e3a7745479a7f0c2fc3eb37e19813b9ecf308d17de7982761263": "matches_1__pending_r_1",
+          "8926590a0bf3c2e0be1bcbbdefc9c31e26884ccf37c313ed7f9d499b7a00639b": "matches_1__pending_r_1",
+          "eeebc51b622a69317138784000d5feadc3a2af22c6ea1295ab0431628f2e73e7": "matches_1__pending_r_1",
+          "3cf893e41aa82b0f78311d56e1047ecf84ef7b8796778ac9c78daf3c6b1d4ee6": "matches_1__pending_r_1",
+          "415b12de9a1eda25658dd5ab8c4b8603918d2f6995bdc1d9f9ee2df07e69c222": "matches_1__pending_r_1",
+          "f0fedb1cb78a34c0fe72750390884da252cb3552efc5efdfc40054c4b943cc5c": "matches_2plus__pending_r_0",
+          "2232e691ec739efde380bae3f2f7e614f1ba3fab93f0612e1c6f07efd2cbbc1f": "matches_2plus__pending_r_0",
+          "cf5ed76a6617fce9c497dfe2435897f06001e463d9ab6bc20f2a86fb6c770a35": "matches_2plus__pending_r_0",
+          "04292596ecba479e9045340abd3fb2171e3b502396964a64fe72d2649449f85f": "matches_2plus__pending_r_0",
+          "30bd588631704a4eaaf882804514d26895ba1115103287bd446f9d2bb54e7137": "matches_2plus__pending_r_0",
+          "f2137839454615529b75f416e358a8c853dcf409fc76bd4deb4c1fd46471a52d": "matches_2plus__pending_r_0",
+          "a3d238e283dbbc4a4ce69628319315db92d21811322977a44f8a18d2431f41fb": "matches_2plus__pending_r_1",
+          "31bb2ad5f6bf6a290f8bbcaf4a094c14aecaa8309fb53bfee9e8c1bd660e4e12": "matches_2plus__pending_r_1",
+          "c1c55305b9f62c6dc26c6813d8f3bb51da3b7d16996fdab7cffe7c035f439673": "matches_2plus__pending_r_1",
+          "1a233207fadc702ae7f9c93dcc867247e97d651c4132cb8766f2ef0ddd1d0f56": "matches_2plus__pending_r_1",
+          "8155e32f96230a3e730374df979240b42654f2b14a686df3fdf3034bf7ae8ee8": "matches_2plus__pending_r_1",
+          "4d7422ed177c10130383bd8a1cd07c1b46e5fdebcb302b0a0fd437aeaac6833f": "matches_2plus__pending_r_1"
+        },
+        "expected_classes": [
+          "matches_0__pending_r_0",
+          "matches_0__pending_r_1",
+          "matches_1__pending_r_0",
+          "matches_1__pending_r_1",
+          "matches_2plus__pending_r_0",
+          "matches_2plus__pending_r_1"
+        ]
+      },
+      "verge_prepend_rb_v1_20260908_selection_0001": {
+        "test_ids": [
+          "09ab8ae732db6f410e65088e37415c338321ed64421109ffe1395330b5eceb45",
+          "e163eec3cc748738961be4e3f103b99342aef27ec8dbad99e91cd9b66727f2ff",
+          "9a2608e8789c94c9a5bf00fb0142ac85560ddf058ce3738f63246bebd81c0180",
+          "d112f437108bd514225bc3c98e30e75913129da06e33fe89576da5ca4b7c6d3a",
+          "a6ec0f287ac2ac3be61a5552e3e51eeea010cf1e49824193565754eae4b23a80",
+          "73ae54084326d0523583c0da96212c1df8f167cf580b894e1531a304af9cb786",
+          "1ee415a85c5a7771787e14dcdbb575eaf0bd0ea7d6dbfafdb30d8a2177d00a30",
+          "f5634a73a92bc3f02c21d2434739d2a2fadd4eeee08c5166c6c70d96cbd24a22",
+          "ecbcb7af15aa6c563c20d736e45a72efbfca61294ea61e548430b6c27d568bd1",
+          "9c6850be9c98efbba06db43cf8f61a7fdcb94d1b9ab469aba13d4d56e399941f",
+          "33986e85c37dcf0377086ad94ee08d2a6dc86c750d12641e1752436c0538c1b3",
+          "2ae63cc903d20aec1c9e049032e450fc1310e3378c4c2f4b98eb0ce2a5de9435",
+          "4ecc0b58a362e094ee6d0ecbd61e1a671e3e49fa8cdbef7af168071715314876",
+          "d7c0cc0240f9de482658a4c6f48b6462c46a245eee046dbac99fcefb68d86f89",
+          "a9ac3f90b6c5aaf88bae15d3c15990fdc27a60ca976aa6e59a251c87a7a119a3",
+          "884d26e954bd6ebd7d734fb2f9ba24ed31eac2b1928dd4b2158f027ae38802e2",
+          "9246507c4e929d7b7f14de78236989d6b45893cf36195ce6408470669319d37f",
+          "6ee922fa05a3821f62b30baefa447d5d6924c215019477b2b3074b1004c735cd",
+          "ed30700ffa42c626f83d59dd7cbd90f8dfae1cd731eab6cf2ef38c8144363ece",
+          "7111912ff10c896f819222d917b7c6eebabb7bc07ba6db8ee4e43eae068b8656",
+          "8926590a0bf3c2e0be1bcbbdefc9c31e26884ccf37c313ed7f9d499b7a00639b",
+          "bae2991a1c00c5fab55005a46156cd29fd4132ff50c60d380ee5fdd0972a621e",
+          "1178f6c54ab905f592b4382b1ee58636010f46e5eba0eb735f6da21cb39e7202",
+          "30dc82d3fd6797b07cfaa98944609d9737cad89d0a1c5c0765ec3c99782866fe",
+          "a6b0e05be8a9c8b73a5ce337c5e6a42950684c03748383cb8d75bbed40595427",
+          "2150eff97e4e1e761971ff8db7f405415e6c07b3d64cc6602c8103212dfdd87b",
+          "5eb659272542f5bbed848c30fde55f14622445b5fe5ae06c18aed110567474f2",
+          "30bd588631704a4eaaf882804514d26895ba1115103287bd446f9d2bb54e7137",
+          "93040c0155c3c32a8284fe945cce222f8419b3b44018d845153ed9ce730cd58d",
+          "b57d03b6147efcc099628d51c302ad36e1e390e4edc11d3e31e85064f8fcb0a0",
+          "2f13aa1b081aa37e7073aa15281eceb063e370c79ab28729fb868222489fdb41",
+          "51ae48986bb54f51ca1ea39a5f75ef0397a310254adff67de97d024f074ba63d",
+          "0df6081a72aa5761350c6a7ec90a163e65593085dd5c02f19a17f4032634e5ce",
+          "8a012a514598f9258e81345f2dae4f980bf4aea6037f0050bc0ae530a5170b75",
+          "a73f6b48d8244384e2e2d0eb6cbc7e4db8033ce236685fe63c72fafd4f845fe2",
+          "a8f027cc282a3d9452afa9cec3c286a95d9fb888593278f0da83868a46717e03"
+        ],
+        "class_by_test": {
+          "09ab8ae732db6f410e65088e37415c338321ed64421109ffe1395330b5eceb45": "matches_0__pending_r_0",
+          "e163eec3cc748738961be4e3f103b99342aef27ec8dbad99e91cd9b66727f2ff": "matches_0__pending_r_0",
+          "9a2608e8789c94c9a5bf00fb0142ac85560ddf058ce3738f63246bebd81c0180": "matches_0__pending_r_0",
+          "d112f437108bd514225bc3c98e30e75913129da06e33fe89576da5ca4b7c6d3a": "matches_0__pending_r_0",
+          "a6ec0f287ac2ac3be61a5552e3e51eeea010cf1e49824193565754eae4b23a80": "matches_0__pending_r_0",
+          "73ae54084326d0523583c0da96212c1df8f167cf580b894e1531a304af9cb786": "matches_0__pending_r_0",
+          "1ee415a85c5a7771787e14dcdbb575eaf0bd0ea7d6dbfafdb30d8a2177d00a30": "matches_0__pending_r_1",
+          "f5634a73a92bc3f02c21d2434739d2a2fadd4eeee08c5166c6c70d96cbd24a22": "matches_0__pending_r_1",
+          "ecbcb7af15aa6c563c20d736e45a72efbfca61294ea61e548430b6c27d568bd1": "matches_0__pending_r_1",
+          "9c6850be9c98efbba06db43cf8f61a7fdcb94d1b9ab469aba13d4d56e399941f": "matches_0__pending_r_1",
+          "33986e85c37dcf0377086ad94ee08d2a6dc86c750d12641e1752436c0538c1b3": "matches_0__pending_r_1",
+          "2ae63cc903d20aec1c9e049032e450fc1310e3378c4c2f4b98eb0ce2a5de9435": "matches_0__pending_r_1",
+          "4ecc0b58a362e094ee6d0ecbd61e1a671e3e49fa8cdbef7af168071715314876": "matches_1__pending_r_0",
+          "d7c0cc0240f9de482658a4c6f48b6462c46a245eee046dbac99fcefb68d86f89": "matches_1__pending_r_0",
+          "a9ac3f90b6c5aaf88bae15d3c15990fdc27a60ca976aa6e59a251c87a7a119a3": "matches_1__pending_r_0",
+          "884d26e954bd6ebd7d734fb2f9ba24ed31eac2b1928dd4b2158f027ae38802e2": "matches_1__pending_r_0",
+          "9246507c4e929d7b7f14de78236989d6b45893cf36195ce6408470669319d37f": "matches_1__pending_r_0",
+          "6ee922fa05a3821f62b30baefa447d5d6924c215019477b2b3074b1004c735cd": "matches_1__pending_r_0",
+          "ed30700ffa42c626f83d59dd7cbd90f8dfae1cd731eab6cf2ef38c8144363ece": "matches_1__pending_r_1",
+          "7111912ff10c896f819222d917b7c6eebabb7bc07ba6db8ee4e43eae068b8656": "matches_1__pending_r_1",
+          "8926590a0bf3c2e0be1bcbbdefc9c31e26884ccf37c313ed7f9d499b7a00639b": "matches_1__pending_r_1",
+          "bae2991a1c00c5fab55005a46156cd29fd4132ff50c60d380ee5fdd0972a621e": "matches_1__pending_r_1",
+          "1178f6c54ab905f592b4382b1ee58636010f46e5eba0eb735f6da21cb39e7202": "matches_1__pending_r_1",
+          "30dc82d3fd6797b07cfaa98944609d9737cad89d0a1c5c0765ec3c99782866fe": "matches_1__pending_r_1",
+          "a6b0e05be8a9c8b73a5ce337c5e6a42950684c03748383cb8d75bbed40595427": "matches_2plus__pending_r_0",
+          "2150eff97e4e1e761971ff8db7f405415e6c07b3d64cc6602c8103212dfdd87b": "matches_2plus__pending_r_0",
+          "5eb659272542f5bbed848c30fde55f14622445b5fe5ae06c18aed110567474f2": "matches_2plus__pending_r_0",
+          "30bd588631704a4eaaf882804514d26895ba1115103287bd446f9d2bb54e7137": "matches_2plus__pending_r_0",
+          "93040c0155c3c32a8284fe945cce222f8419b3b44018d845153ed9ce730cd58d": "matches_2plus__pending_r_0",
+          "b57d03b6147efcc099628d51c302ad36e1e390e4edc11d3e31e85064f8fcb0a0": "matches_2plus__pending_r_0",
+          "2f13aa1b081aa37e7073aa15281eceb063e370c79ab28729fb868222489fdb41": "matches_2plus__pending_r_1",
+          "51ae48986bb54f51ca1ea39a5f75ef0397a310254adff67de97d024f074ba63d": "matches_2plus__pending_r_1",
+          "0df6081a72aa5761350c6a7ec90a163e65593085dd5c02f19a17f4032634e5ce": "matches_2plus__pending_r_1",
+          "8a012a514598f9258e81345f2dae4f980bf4aea6037f0050bc0ae530a5170b75": "matches_2plus__pending_r_1",
+          "a73f6b48d8244384e2e2d0eb6cbc7e4db8033ce236685fe63c72fafd4f845fe2": "matches_2plus__pending_r_1",
+          "a8f027cc282a3d9452afa9cec3c286a95d9fb888593278f0da83868a46717e03": "matches_2plus__pending_r_1"
+        },
+        "expected_classes": [
+          "matches_0__pending_r_0",
+          "matches_0__pending_r_1",
+          "matches_1__pending_r_0",
+          "matches_1__pending_r_1",
+          "matches_2plus__pending_r_0",
+          "matches_2plus__pending_r_1"
+        ]
+      },
+      "verge_prepend_rb_v1_20260908_selection_0002": {
+        "test_ids": [
+          "576ef3f65b96edcb111342bd5b55ed17bf254143e7f0cde05bc3574cf59ec461",
+          "09ab8ae732db6f410e65088e37415c338321ed64421109ffe1395330b5eceb45",
+          "9a2608e8789c94c9a5bf00fb0142ac85560ddf058ce3738f63246bebd81c0180",
+          "afbc73dfa3f172da3e1c2ffb14e925be5430a3f76a837aa6ab3f2aacd048be26",
+          "a6ec0f287ac2ac3be61a5552e3e51eeea010cf1e49824193565754eae4b23a80",
+          "4dc06d84272350eda63d12edcdcdb6b13b3fe98861c0b1d602f09d2d7e647402",
+          "a40fb034b2d60969c6fc9265f16955ad40b69496b844932720144b60e03cf5fc",
+          "7b564ba4ca4eb1f484b19b4120bd4d95a7f46bda82b81e9192c52306d433b374",
+          "92320b821666e1bfe4d7e8c2cdda047b0547369819916c8ea900274f144c6aab",
+          "8f0d598cd2b5cb2c73e0b195269ca13987b4ec04f91050589e805ef9dbc7aee2",
+          "d77641fb5c65c6adc1a9a03214e551a0eaee79fdbfc3f3dc79475e0b0a16cb9a",
+          "e56303ff250d1d3ab7c76e67987dca93cb17088f1da1a454b9ae957615e0fc30",
+          "a9ac3f90b6c5aaf88bae15d3c15990fdc27a60ca976aa6e59a251c87a7a119a3",
+          "8f668801d20eb6a582a01d8c5b18dce926f31c3a2036160cc40d9ce98cedfa67",
+          "884d26e954bd6ebd7d734fb2f9ba24ed31eac2b1928dd4b2158f027ae38802e2",
+          "23ecea3bd110dbc580c79d966abbc17ce144283ad7cdc1a715dcf3655e63bcee",
+          "97357bd6decbb109b168b57aacf593bb08b9a1fcb454c8d717c6b3bc8d0a5ce4",
+          "e6ce15b61bfd74e0ea98400a9a688164597f8e8ad2a01d1662787d1c22785780",
+          "315fcbae27b3c2e67666bdd4c31dbd2615b73bce1394c0af2b25f7e21597c355",
+          "dad06164e3c672153de93fdd96125a934335297d194fc639cea887229da8cb8a",
+          "f0ce600af5f3a056a21e30f71460757d921665d818e9c2600a8f059a4e7102d2",
+          "adb98b9b1c637495c71859cd3e7cee1a0e468ba734738a8b1e44e7c732679dbc",
+          "8a91b486b5de5cadf03857be1bccbc25e3c0658590af90a3f57786b25c83a294",
+          "a696cd6c699340c24f6b3baf61684a699ec5ed14c2ce724d45597d8bbedc0a01",
+          "8c344378da66cc10f0cdb6185de1ea6fcc413ede9b8dd95f077642a2ffbc7a20",
+          "e8a4f7e1f8775974d2b7fc0c77a846adb617908f45c93f738dc3281cde449113",
+          "59d6e78635e497ebe4bf0df4dcfe9877f568320181d3a8e6ebc0ab6f43811af1",
+          "ea39ad273d9f8bd296a4574f38ed9540de89ed05bd313185fe4fa44139d4c8b0",
+          "6a9aba18afbc21e46e0e33bc4a8f0be26baaa92e426e70de2cbb93c32e65805c",
+          "7e4279c17522477040ecf4b8b4b01aab9fa09c0e6e15242db8790fc306c371a8",
+          "f7b4637328bb711d5f0c31bf9835a9c7cdeae29a9c8c871827c44e6c22cddf6e",
+          "eb18bd2064ea79cdd24526242593ca4c6226a7e358ebce5617579d1a1e2f9ba0",
+          "d738fbea3d0d4d4bd036125583f26357dfaea059c685bca2fce404cd569ed37c",
+          "5e8fe9be887a2d41d53f132e0c7fb46c5122a9c95a0423d1d262fe9ca499fb2d",
+          "1ae3bfd92071bb2079e5c8a1b683bc1d44de8a5f24e79ae4550a009bc08202a6",
+          "dc36088affe8d5808b8ce11d916306b2234425e381d33e5c61fdfd9aff0ea685"
+        ],
+        "class_by_test": {
+          "576ef3f65b96edcb111342bd5b55ed17bf254143e7f0cde05bc3574cf59ec461": "matches_0__pending_r_0",
+          "09ab8ae732db6f410e65088e37415c338321ed64421109ffe1395330b5eceb45": "matches_0__pending_r_0",
+          "9a2608e8789c94c9a5bf00fb0142ac85560ddf058ce3738f63246bebd81c0180": "matches_0__pending_r_0",
+          "afbc73dfa3f172da3e1c2ffb14e925be5430a3f76a837aa6ab3f2aacd048be26": "matches_0__pending_r_0",
+          "a6ec0f287ac2ac3be61a5552e3e51eeea010cf1e49824193565754eae4b23a80": "matches_0__pending_r_0",
+          "4dc06d84272350eda63d12edcdcdb6b13b3fe98861c0b1d602f09d2d7e647402": "matches_0__pending_r_0",
+          "a40fb034b2d60969c6fc9265f16955ad40b69496b844932720144b60e03cf5fc": "matches_0__pending_r_1",
+          "7b564ba4ca4eb1f484b19b4120bd4d95a7f46bda82b81e9192c52306d433b374": "matches_0__pending_r_1",
+          "92320b821666e1bfe4d7e8c2cdda047b0547369819916c8ea900274f144c6aab": "matches_0__pending_r_1",
+          "8f0d598cd2b5cb2c73e0b195269ca13987b4ec04f91050589e805ef9dbc7aee2": "matches_0__pending_r_1",
+          "d77641fb5c65c6adc1a9a03214e551a0eaee79fdbfc3f3dc79475e0b0a16cb9a": "matches_0__pending_r_1",
+          "e56303ff250d1d3ab7c76e67987dca93cb17088f1da1a454b9ae957615e0fc30": "matches_0__pending_r_1",
+          "a9ac3f90b6c5aaf88bae15d3c15990fdc27a60ca976aa6e59a251c87a7a119a3": "matches_1__pending_r_0",
+          "8f668801d20eb6a582a01d8c5b18dce926f31c3a2036160cc40d9ce98cedfa67": "matches_1__pending_r_0",
+          "884d26e954bd6ebd7d734fb2f9ba24ed31eac2b1928dd4b2158f027ae38802e2": "matches_1__pending_r_0",
+          "23ecea3bd110dbc580c79d966abbc17ce144283ad7cdc1a715dcf3655e63bcee": "matches_1__pending_r_0",
+          "97357bd6decbb109b168b57aacf593bb08b9a1fcb454c8d717c6b3bc8d0a5ce4": "matches_1__pending_r_0",
+          "e6ce15b61bfd74e0ea98400a9a688164597f8e8ad2a01d1662787d1c22785780": "matches_1__pending_r_0",
+          "315fcbae27b3c2e67666bdd4c31dbd2615b73bce1394c0af2b25f7e21597c355": "matches_1__pending_r_1",
+          "dad06164e3c672153de93fdd96125a934335297d194fc639cea887229da8cb8a": "matches_1__pending_r_1",
+          "f0ce600af5f3a056a21e30f71460757d921665d818e9c2600a8f059a4e7102d2": "matches_1__pending_r_1",
+          "adb98b9b1c637495c71859cd3e7cee1a0e468ba734738a8b1e44e7c732679dbc": "matches_1__pending_r_1",
+          "8a91b486b5de5cadf03857be1bccbc25e3c0658590af90a3f57786b25c83a294": "matches_1__pending_r_1",
+          "a696cd6c699340c24f6b3baf61684a699ec5ed14c2ce724d45597d8bbedc0a01": "matches_1__pending_r_1",
+          "8c344378da66cc10f0cdb6185de1ea6fcc413ede9b8dd95f077642a2ffbc7a20": "matches_2plus__pending_r_0",
+          "e8a4f7e1f8775974d2b7fc0c77a846adb617908f45c93f738dc3281cde449113": "matches_2plus__pending_r_0",
+          "59d6e78635e497ebe4bf0df4dcfe9877f568320181d3a8e6ebc0ab6f43811af1": "matches_2plus__pending_r_0",
+          "ea39ad273d9f8bd296a4574f38ed9540de89ed05bd313185fe4fa44139d4c8b0": "matches_2plus__pending_r_0",
+          "6a9aba18afbc21e46e0e33bc4a8f0be26baaa92e426e70de2cbb93c32e65805c": "matches_2plus__pending_r_0",
+          "7e4279c17522477040ecf4b8b4b01aab9fa09c0e6e15242db8790fc306c371a8": "matches_2plus__pending_r_0",
+          "f7b4637328bb711d5f0c31bf9835a9c7cdeae29a9c8c871827c44e6c22cddf6e": "matches_2plus__pending_r_1",
+          "eb18bd2064ea79cdd24526242593ca4c6226a7e358ebce5617579d1a1e2f9ba0": "matches_2plus__pending_r_1",
+          "d738fbea3d0d4d4bd036125583f26357dfaea059c685bca2fce404cd569ed37c": "matches_2plus__pending_r_1",
+          "5e8fe9be887a2d41d53f132e0c7fb46c5122a9c95a0423d1d262fe9ca499fb2d": "matches_2plus__pending_r_1",
+          "1ae3bfd92071bb2079e5c8a1b683bc1d44de8a5f24e79ae4550a009bc08202a6": "matches_2plus__pending_r_1",
+          "dc36088affe8d5808b8ce11d916306b2234425e381d33e5c61fdfd9aff0ea685": "matches_2plus__pending_r_1"
+        },
+        "expected_classes": [
+          "matches_0__pending_r_0",
+          "matches_0__pending_r_1",
+          "matches_1__pending_r_0",
+          "matches_1__pending_r_1",
+          "matches_2plus__pending_r_0",
+          "matches_2plus__pending_r_1"
+        ]
+      },
+      "verge_prepend_rb_v1_20260908_selection_0003": {
+        "test_ids": [
+          "9a2608e8789c94c9a5bf00fb0142ac85560ddf058ce3738f63246bebd81c0180",
+          "5373901f51fcea0d01c2cfa053429d3ed6b2ae4b0576dd9926fe10c944cec702",
+          "e163eec3cc748738961be4e3f103b99342aef27ec8dbad99e91cd9b66727f2ff",
+          "576ef3f65b96edcb111342bd5b55ed17bf254143e7f0cde05bc3574cf59ec461",
+          "73ae54084326d0523583c0da96212c1df8f167cf580b894e1531a304af9cb786",
+          "9a85c9288a00216763492c7753c40dcf21014ba8dd9105c5cf7417072a7ab82f",
+          "92320b821666e1bfe4d7e8c2cdda047b0547369819916c8ea900274f144c6aab",
+          "2b8ebdd9fae73298a3036382a6490bdb82a9d9fd70dde5eaf42bcf64b1f4ead8",
+          "2cdd8b02af7038daca4efec5138df1fb1005c44ad0b0e90b188ceeb015f60f6c",
+          "a75aea1308bc07af7069c3e939e9ba980e3ec111c54c0524a7b71126d5ec717c",
+          "37b3d96ffd6c560db7783fc8f0909a8906dafef471c7891b26aba01dc99a3925",
+          "88bb9f66e0991c1866f33c483955a2b805d00bc39b307a4bcef254eeea9f66cd",
+          "0e29fea2ef3b7a162742319bc693fde82a7058645eb5dedbaf65df35b5e788b0",
+          "600cd7300dd378c0749ac42861da3f7cf2205e768d4f7567c0989caf30ce8c24",
+          "06481c3793e46229a8b5705eb09b3598cbf8f73677f5dfc3c196e56a7735024b",
+          "8f668801d20eb6a582a01d8c5b18dce926f31c3a2036160cc40d9ce98cedfa67",
+          "a9ac3f90b6c5aaf88bae15d3c15990fdc27a60ca976aa6e59a251c87a7a119a3",
+          "1700c40ffe34928275197ae84b5d5a05f4eb8377fd4d4401354e8882c381a397",
+          "8926590a0bf3c2e0be1bcbbdefc9c31e26884ccf37c313ed7f9d499b7a00639b",
+          "d3622a4dbd69c820624a5e485e5cd0d957333d0b1398435fd3a9f32cfd9ec8ab",
+          "07a0e166da12425377c53b8922737f28c341f9479751cbd89e99bc5737d01d2c",
+          "3cf893e41aa82b0f78311d56e1047ecf84ef7b8796778ac9c78daf3c6b1d4ee6",
+          "4c0e8767a397b309f453f5defe4e96b6714e59ae48339ead98e8cba719b3a9f2",
+          "a4b56250a9d01a3b1ecd55f42f4c82fba4975ca56a90524e15d89d6bc77a3a7a",
+          "25f6473454ce6c10a0220ed45fe6d07b1cb9fb39366b592c6906b76fd536c35c",
+          "b662f965b63961cd9958a4661e5253a3124c7c5fb7571678293bed28413a44fe",
+          "7e832bb36e74d94dee7900c21ef1f28352275dca4a15e4e4177edb8b45493b06",
+          "bc9d4d870fea6d4887547c150ce72aee12f02bc5b8ed2f1ce6e9e3dc60dda76c",
+          "7bbfc79c2bebc46555579129b9ab6d44d3994b240b6e54ce4bc2e4626137dc30",
+          "e542ccb0bdd45dbbf78d9c4a6b70cd769c60185453ca7ff2f04f79722f885b69",
+          "ad5e1df7951e087ac675b855d092aff7f85d8cbd58fc6d482f509c2308998d04",
+          "299cb7fd256d48a0096ed975073c33be855263b4b069dd728fd7a7dfaaf83f29",
+          "e2bf6992a4f74d6a53971298960614579a010f3acc631ecf86186e439852bc0a",
+          "b5362dc27d066bb2fbf8c41da5e204a9e906bdec38be980c4dbc8e03d315461b",
+          "476f7c2054d7c26e71c7012b4dba983ee168c77700dcb2dcc493e67d86311a23",
+          "1e914460a0a1f29ff5fe2c7ec98104efb1eecc6e321fc92ac47f14b6f0c6c9de"
+        ],
+        "class_by_test": {
+          "9a2608e8789c94c9a5bf00fb0142ac85560ddf058ce3738f63246bebd81c0180": "matches_0__pending_r_0",
+          "5373901f51fcea0d01c2cfa053429d3ed6b2ae4b0576dd9926fe10c944cec702": "matches_0__pending_r_0",
+          "e163eec3cc748738961be4e3f103b99342aef27ec8dbad99e91cd9b66727f2ff": "matches_0__pending_r_0",
+          "576ef3f65b96edcb111342bd5b55ed17bf254143e7f0cde05bc3574cf59ec461": "matches_0__pending_r_0",
+          "73ae54084326d0523583c0da96212c1df8f167cf580b894e1531a304af9cb786": "matches_0__pending_r_0",
+          "9a85c9288a00216763492c7753c40dcf21014ba8dd9105c5cf7417072a7ab82f": "matches_0__pending_r_0",
+          "92320b821666e1bfe4d7e8c2cdda047b0547369819916c8ea900274f144c6aab": "matches_0__pending_r_1",
+          "2b8ebdd9fae73298a3036382a6490bdb82a9d9fd70dde5eaf42bcf64b1f4ead8": "matches_0__pending_r_1",
+          "2cdd8b02af7038daca4efec5138df1fb1005c44ad0b0e90b188ceeb015f60f6c": "matches_0__pending_r_1",
+          "a75aea1308bc07af7069c3e939e9ba980e3ec111c54c0524a7b71126d5ec717c": "matches_0__pending_r_1",
+          "37b3d96ffd6c560db7783fc8f0909a8906dafef471c7891b26aba01dc99a3925": "matches_0__pending_r_1",
+          "88bb9f66e0991c1866f33c483955a2b805d00bc39b307a4bcef254eeea9f66cd": "matches_0__pending_r_1",
+          "0e29fea2ef3b7a162742319bc693fde82a7058645eb5dedbaf65df35b5e788b0": "matches_1__pending_r_0",
+          "600cd7300dd378c0749ac42861da3f7cf2205e768d4f7567c0989caf30ce8c24": "matches_1__pending_r_0",
+          "06481c3793e46229a8b5705eb09b3598cbf8f73677f5dfc3c196e56a7735024b": "matches_1__pending_r_0",
+          "8f668801d20eb6a582a01d8c5b18dce926f31c3a2036160cc40d9ce98cedfa67": "matches_1__pending_r_0",
+          "a9ac3f90b6c5aaf88bae15d3c15990fdc27a60ca976aa6e59a251c87a7a119a3": "matches_1__pending_r_0",
+          "1700c40ffe34928275197ae84b5d5a05f4eb8377fd4d4401354e8882c381a397": "matches_1__pending_r_0",
+          "8926590a0bf3c2e0be1bcbbdefc9c31e26884ccf37c313ed7f9d499b7a00639b": "matches_1__pending_r_1",
+          "d3622a4dbd69c820624a5e485e5cd0d957333d0b1398435fd3a9f32cfd9ec8ab": "matches_1__pending_r_1",
+          "07a0e166da12425377c53b8922737f28c341f9479751cbd89e99bc5737d01d2c": "matches_1__pending_r_1",
+          "3cf893e41aa82b0f78311d56e1047ecf84ef7b8796778ac9c78daf3c6b1d4ee6": "matches_1__pending_r_1",
+          "4c0e8767a397b309f453f5defe4e96b6714e59ae48339ead98e8cba719b3a9f2": "matches_1__pending_r_1",
+          "a4b56250a9d01a3b1ecd55f42f4c82fba4975ca56a90524e15d89d6bc77a3a7a": "matches_1__pending_r_1",
+          "25f6473454ce6c10a0220ed45fe6d07b1cb9fb39366b592c6906b76fd536c35c": "matches_2plus__pending_r_0",
+          "b662f965b63961cd9958a4661e5253a3124c7c5fb7571678293bed28413a44fe": "matches_2plus__pending_r_0",
+          "7e832bb36e74d94dee7900c21ef1f28352275dca4a15e4e4177edb8b45493b06": "matches_2plus__pending_r_0",
+          "bc9d4d870fea6d4887547c150ce72aee12f02bc5b8ed2f1ce6e9e3dc60dda76c": "matches_2plus__pending_r_0",
+          "7bbfc79c2bebc46555579129b9ab6d44d3994b240b6e54ce4bc2e4626137dc30": "matches_2plus__pending_r_0",
+          "e542ccb0bdd45dbbf78d9c4a6b70cd769c60185453ca7ff2f04f79722f885b69": "matches_2plus__pending_r_0",
+          "ad5e1df7951e087ac675b855d092aff7f85d8cbd58fc6d482f509c2308998d04": "matches_2plus__pending_r_1",
+          "299cb7fd256d48a0096ed975073c33be855263b4b069dd728fd7a7dfaaf83f29": "matches_2plus__pending_r_1",
+          "e2bf6992a4f74d6a53971298960614579a010f3acc631ecf86186e439852bc0a": "matches_2plus__pending_r_1",
+          "b5362dc27d066bb2fbf8c41da5e204a9e906bdec38be980c4dbc8e03d315461b": "matches_2plus__pending_r_1",
+          "476f7c2054d7c26e71c7012b4dba983ee168c77700dcb2dcc493e67d86311a23": "matches_2plus__pending_r_1",
+          "1e914460a0a1f29ff5fe2c7ec98104efb1eecc6e321fc92ac47f14b6f0c6c9de": "matches_2plus__pending_r_1"
+        },
+        "expected_classes": [
+          "matches_0__pending_r_0",
+          "matches_0__pending_r_1",
+          "matches_1__pending_r_0",
+          "matches_1__pending_r_1",
+          "matches_2plus__pending_r_0",
+          "matches_2plus__pending_r_1"
+        ]
+      },
+      "verge_prepend_rb_v1_20260908_selection_0004": {
+        "test_ids": [
+          "09ab8ae732db6f410e65088e37415c338321ed64421109ffe1395330b5eceb45",
+          "afbc73dfa3f172da3e1c2ffb14e925be5430a3f76a837aa6ab3f2aacd048be26",
+          "5373901f51fcea0d01c2cfa053429d3ed6b2ae4b0576dd9926fe10c944cec702",
+          "d112f437108bd514225bc3c98e30e75913129da06e33fe89576da5ca4b7c6d3a",
+          "a6ec0f287ac2ac3be61a5552e3e51eeea010cf1e49824193565754eae4b23a80",
+          "73ae54084326d0523583c0da96212c1df8f167cf580b894e1531a304af9cb786",
+          "75fef6b11b68291a2e79618edbb8c7e901c66d8d1da2a37723f25ab09ecbe2f3",
+          "9d4f4051c178b8bed086479ab0ff4d99b2ee6396c6f245763c57209e09c0e642",
+          "067217e2074d730188f423ae4634e548f20fd004d8fe1279133ce56f68c066b2",
+          "6b6c79d1089c88d3b7ef4966e6a6d7a5b81dca191b16229e0b2a1bbb559eb15d",
+          "aaf557995667de88926ecd440123d6ba7670deac41010da6006bd2c50c129bfc",
+          "62944cb5d257bc47f81960d850b5ac17da353c302bce1ae4a242baec7164773b",
+          "6d5c74719805b660dd9a4bf1d1006329f28d22569ab1cfd14eb0dbf5ef9a59d9",
+          "b2483ecdae2861f2defa1aa06437ebe856324fa808f42d6ec28384832fd6dcd6",
+          "b0151a1bcb5cddc77c614be23ea3a0ab7d9878d5671e7544a564a5fbf9f8f209",
+          "884d26e954bd6ebd7d734fb2f9ba24ed31eac2b1928dd4b2158f027ae38802e2",
+          "acf950f5c38f66af037d162321f6974fa7c0349f639b222678e0f290b89ffd1e",
+          "f6e3067b3c666b064399ba11fecc2f6681fbeedba249748365752bab91f63339",
+          "c51abf65b458e59f2fbc1d96409b13eef22ba017c65bb339e3651f8937e216c3",
+          "82d09c20254887dc64d3d6c8c3d05ed8c462e75fef47e8d837696fc0c9c6e319",
+          "7b4c93954c40649e7d22c58b7898afa5ce8c490a597ff2e24d3b04001e37e2a0",
+          "f13b06aa7bde9b2f12b20a54b54e021348fba9e09f3edf96a0b6800224289536",
+          "d4752e46329ba9c080ba23eb609654c9896e88298c79f5e434fcf732335b7641",
+          "503d371bbc13cb09dee7fca8701427dbb2141d19560079c136933adedeabecb3",
+          "ff781f29bc33edbc8417006c80dc060d506c0548aa17037752cb3f2b0871fd91",
+          "c1972631884a8a35f13397ebd62862aadd39d8a35427d7f852f65dd89ed7754b",
+          "c1a00d846109c713de7d0d27afe332dd24b9cf4eb3883ff80feac947cf5dbb92",
+          "4eb3bf3740b933c7fab1092ddf54e0991d6ad5076622951eb03e5b0942340b95",
+          "0e28d15aedc2c82ab985f17e42a91515713be03f98591731ac6dc549b85726cd",
+          "9979c388b7f6225352d58c3038a789d86cb93f0d6998571b0ecbce5f8421169e",
+          "dcaaccb7e8cad645188274b711d724f51f76aa0f473a94b5092341bbaf216c40",
+          "0990cd66601f1ea45f95fd508561ea4713cdd3a3e7ad2028a37785126847e21d",
+          "939acf18f027e62a0e2ac8b7b0df11ef0c857ab3f993eac061310c980ba0d36c",
+          "289a5c79cbbdb93e6a2ffa2b2259236479b171fe68d008ede899de93dd99a8e6",
+          "0b49c007274eccca5018e9aed123799fba83661920f57b87e7b3b3b58331d976",
+          "e75f04eb5e316642b224d06158956ca497ff74ba0be4856197c4aab11f524977"
+        ],
+        "class_by_test": {
+          "09ab8ae732db6f410e65088e37415c338321ed64421109ffe1395330b5eceb45": "matches_0__pending_r_0",
+          "afbc73dfa3f172da3e1c2ffb14e925be5430a3f76a837aa6ab3f2aacd048be26": "matches_0__pending_r_0",
+          "5373901f51fcea0d01c2cfa053429d3ed6b2ae4b0576dd9926fe10c944cec702": "matches_0__pending_r_0",
+          "d112f437108bd514225bc3c98e30e75913129da06e33fe89576da5ca4b7c6d3a": "matches_0__pending_r_0",
+          "a6ec0f287ac2ac3be61a5552e3e51eeea010cf1e49824193565754eae4b23a80": "matches_0__pending_r_0",
+          "73ae54084326d0523583c0da96212c1df8f167cf580b894e1531a304af9cb786": "matches_0__pending_r_0",
+          "75fef6b11b68291a2e79618edbb8c7e901c66d8d1da2a37723f25ab09ecbe2f3": "matches_0__pending_r_1",
+          "9d4f4051c178b8bed086479ab0ff4d99b2ee6396c6f245763c57209e09c0e642": "matches_0__pending_r_1",
+          "067217e2074d730188f423ae4634e548f20fd004d8fe1279133ce56f68c066b2": "matches_0__pending_r_1",
+          "6b6c79d1089c88d3b7ef4966e6a6d7a5b81dca191b16229e0b2a1bbb559eb15d": "matches_0__pending_r_1",
+          "aaf557995667de88926ecd440123d6ba7670deac41010da6006bd2c50c129bfc": "matches_0__pending_r_1",
+          "62944cb5d257bc47f81960d850b5ac17da353c302bce1ae4a242baec7164773b": "matches_0__pending_r_1",
+          "6d5c74719805b660dd9a4bf1d1006329f28d22569ab1cfd14eb0dbf5ef9a59d9": "matches_1__pending_r_0",
+          "b2483ecdae2861f2defa1aa06437ebe856324fa808f42d6ec28384832fd6dcd6": "matches_1__pending_r_0",
+          "b0151a1bcb5cddc77c614be23ea3a0ab7d9878d5671e7544a564a5fbf9f8f209": "matches_1__pending_r_0",
+          "884d26e954bd6ebd7d734fb2f9ba24ed31eac2b1928dd4b2158f027ae38802e2": "matches_1__pending_r_0",
+          "acf950f5c38f66af037d162321f6974fa7c0349f639b222678e0f290b89ffd1e": "matches_1__pending_r_0",
+          "f6e3067b3c666b064399ba11fecc2f6681fbeedba249748365752bab91f63339": "matches_1__pending_r_0",
+          "c51abf65b458e59f2fbc1d96409b13eef22ba017c65bb339e3651f8937e216c3": "matches_1__pending_r_1",
+          "82d09c20254887dc64d3d6c8c3d05ed8c462e75fef47e8d837696fc0c9c6e319": "matches_1__pending_r_1",
+          "7b4c93954c40649e7d22c58b7898afa5ce8c490a597ff2e24d3b04001e37e2a0": "matches_1__pending_r_1",
+          "f13b06aa7bde9b2f12b20a54b54e021348fba9e09f3edf96a0b6800224289536": "matches_1__pending_r_1",
+          "d4752e46329ba9c080ba23eb609654c9896e88298c79f5e434fcf732335b7641": "matches_1__pending_r_1",
+          "503d371bbc13cb09dee7fca8701427dbb2141d19560079c136933adedeabecb3": "matches_1__pending_r_1",
+          "ff781f29bc33edbc8417006c80dc060d506c0548aa17037752cb3f2b0871fd91": "matches_2plus__pending_r_0",
+          "c1972631884a8a35f13397ebd62862aadd39d8a35427d7f852f65dd89ed7754b": "matches_2plus__pending_r_0",
+          "c1a00d846109c713de7d0d27afe332dd24b9cf4eb3883ff80feac947cf5dbb92": "matches_2plus__pending_r_0",
+          "4eb3bf3740b933c7fab1092ddf54e0991d6ad5076622951eb03e5b0942340b95": "matches_2plus__pending_r_0",
+          "0e28d15aedc2c82ab985f17e42a91515713be03f98591731ac6dc549b85726cd": "matches_2plus__pending_r_0",
+          "9979c388b7f6225352d58c3038a789d86cb93f0d6998571b0ecbce5f8421169e": "matches_2plus__pending_r_0",
+          "dcaaccb7e8cad645188274b711d724f51f76aa0f473a94b5092341bbaf216c40": "matches_2plus__pending_r_1",
+          "0990cd66601f1ea45f95fd508561ea4713cdd3a3e7ad2028a37785126847e21d": "matches_2plus__pending_r_1",
+          "939acf18f027e62a0e2ac8b7b0df11ef0c857ab3f993eac061310c980ba0d36c": "matches_2plus__pending_r_1",
+          "289a5c79cbbdb93e6a2ffa2b2259236479b171fe68d008ede899de93dd99a8e6": "matches_2plus__pending_r_1",
+          "0b49c007274eccca5018e9aed123799fba83661920f57b87e7b3b3b58331d976": "matches_2plus__pending_r_1",
+          "e75f04eb5e316642b224d06158956ca497ff74ba0be4856197c4aab11f524977": "matches_2plus__pending_r_1"
+        },
+        "expected_classes": [
+          "matches_0__pending_r_0",
+          "matches_0__pending_r_1",
+          "matches_1__pending_r_0",
+          "matches_1__pending_r_1",
+          "matches_2plus__pending_r_0",
+          "matches_2plus__pending_r_1"
+        ]
+      },
+      "verge_prepend_rb_v1_20260908_selection_0005": {
+        "test_ids": [
+          "576ef3f65b96edcb111342bd5b55ed17bf254143e7f0cde05bc3574cf59ec461",
+          "73ae54084326d0523583c0da96212c1df8f167cf580b894e1531a304af9cb786",
+          "e163eec3cc748738961be4e3f103b99342aef27ec8dbad99e91cd9b66727f2ff",
+          "a6ec0f287ac2ac3be61a5552e3e51eeea010cf1e49824193565754eae4b23a80",
+          "09ab8ae732db6f410e65088e37415c338321ed64421109ffe1395330b5eceb45",
+          "4dc06d84272350eda63d12edcdcdb6b13b3fe98861c0b1d602f09d2d7e647402",
+          "b8a079fb48017d011a812293800bdbe13dee1051f8ce5c2f2a33f6a868159530",
+          "818d079ed408b7bd29ab1ad744c5b8e3eb67417c429c23306aa286fa6377866b",
+          "492507cce08992af3a06ef11944636522404b2af4a93d2e7cae1e95653bf5974",
+          "c623b995433c3daf0a2e1c6d1c5711cd7b19061e5ead614b9f7f412e7dc33a2b",
+          "504e1fd5a7b9a0b956d52db4b2ed343429e9bbf5fcefd7359f5896d913dfc8a8",
+          "fee22e39e541871eac8e31b47ec22b69a63feb414e4bf6a96dd09f09bf072925",
+          "4c371f0f8098f3fb97eeefb53b03c0efcc872eaf5330e277e000a90625322e10",
+          "a9ac3f90b6c5aaf88bae15d3c15990fdc27a60ca976aa6e59a251c87a7a119a3",
+          "636e6e608c4c4d504cf4fab2a904b662c2b131d52e07f4e67588475db2dca919",
+          "835cfa189a8fb3e5a3a4e6b5ca2a5a26957bd8b8f8f3fd61051ff05e2ee4bbd7",
+          "b0151a1bcb5cddc77c614be23ea3a0ab7d9878d5671e7544a564a5fbf9f8f209",
+          "97357bd6decbb109b168b57aacf593bb08b9a1fcb454c8d717c6b3bc8d0a5ce4",
+          "bfd2391cf219637320bf6ad188d50ddd2932bfb4456e84b4f6502efdc6e75744",
+          "b041b6c0f4281c108c5fc89ff1be325735e307e7022585855dcfba09ef005240",
+          "55bc20a00dc3ccf11a92b2b617d6ced66b01bfa3ff2e3124eb545b08f3037287",
+          "0f496577fb3efd1fca0939b881b007b5a783609e85b99731c35f4e6d628761de",
+          "a4b56250a9d01a3b1ecd55f42f4c82fba4975ca56a90524e15d89d6bc77a3a7a",
+          "76c5dd2fad1b87bf2a9ca31029470c45dcbf5b0b30a13a399aba732861fa39f3",
+          "a27c604d10cb046f5e52ef2514948612a639af1b41783b4699dc3a487958033c",
+          "1a920d66add5ce276f17a080009ff98c2a6613f8c77ebf75f887fc0fb71411ce",
+          "dd8ebda2c74f14caf9224a1ca8e0180293976912c0fccf2b628ef9bdf177d264",
+          "fa67328053cb4d204efca19adf1b00b974cc6eb50ec7b217fea309b2aae8df6f",
+          "84989e7d033edb4c1907123574fcbf8c6a3ed11f2864a3709695237c1f459fd0",
+          "cc418d16a7d9a67d5dbd8a8349d60694fc17803f1b7d350681c4150e7281c464",
+          "c1ba68f3832778ff374ad39b28d87df3d3ff0a477e197c1ad8f63b5eb9363eb9",
+          "dc36088affe8d5808b8ce11d916306b2234425e381d33e5c61fdfd9aff0ea685",
+          "dd704c6adfc65132e58b1d387e7527700d3c05022ef15feca53722c5dd082c57",
+          "c7046bdcb7d4f17bf113ec8b16818b3a0609a312c51841c8643cd24f27d23679",
+          "f962119e94430a62c266d56331a209b143d1bfa95e4722af37858d5a65e7370a",
+          "9a91220379b8dcc828b018098fb2ff5fbda779a4f936584535a2ea4e207b3b8f"
+        ],
+        "class_by_test": {
+          "576ef3f65b96edcb111342bd5b55ed17bf254143e7f0cde05bc3574cf59ec461": "matches_0__pending_r_0",
+          "73ae54084326d0523583c0da96212c1df8f167cf580b894e1531a304af9cb786": "matches_0__pending_r_0",
+          "e163eec3cc748738961be4e3f103b99342aef27ec8dbad99e91cd9b66727f2ff": "matches_0__pending_r_0",
+          "a6ec0f287ac2ac3be61a5552e3e51eeea010cf1e49824193565754eae4b23a80": "matches_0__pending_r_0",
+          "09ab8ae732db6f410e65088e37415c338321ed64421109ffe1395330b5eceb45": "matches_0__pending_r_0",
+          "4dc06d84272350eda63d12edcdcdb6b13b3fe98861c0b1d602f09d2d7e647402": "matches_0__pending_r_0",
+          "b8a079fb48017d011a812293800bdbe13dee1051f8ce5c2f2a33f6a868159530": "matches_0__pending_r_1",
+          "818d079ed408b7bd29ab1ad744c5b8e3eb67417c429c23306aa286fa6377866b": "matches_0__pending_r_1",
+          "492507cce08992af3a06ef11944636522404b2af4a93d2e7cae1e95653bf5974": "matches_0__pending_r_1",
+          "c623b995433c3daf0a2e1c6d1c5711cd7b19061e5ead614b9f7f412e7dc33a2b": "matches_0__pending_r_1",
+          "504e1fd5a7b9a0b956d52db4b2ed343429e9bbf5fcefd7359f5896d913dfc8a8": "matches_0__pending_r_1",
+          "fee22e39e541871eac8e31b47ec22b69a63feb414e4bf6a96dd09f09bf072925": "matches_0__pending_r_1",
+          "4c371f0f8098f3fb97eeefb53b03c0efcc872eaf5330e277e000a90625322e10": "matches_1__pending_r_0",
+          "a9ac3f90b6c5aaf88bae15d3c15990fdc27a60ca976aa6e59a251c87a7a119a3": "matches_1__pending_r_0",
+          "636e6e608c4c4d504cf4fab2a904b662c2b131d52e07f4e67588475db2dca919": "matches_1__pending_r_0",
+          "835cfa189a8fb3e5a3a4e6b5ca2a5a26957bd8b8f8f3fd61051ff05e2ee4bbd7": "matches_1__pending_r_0",
+          "b0151a1bcb5cddc77c614be23ea3a0ab7d9878d5671e7544a564a5fbf9f8f209": "matches_1__pending_r_0",
+          "97357bd6decbb109b168b57aacf593bb08b9a1fcb454c8d717c6b3bc8d0a5ce4": "matches_1__pending_r_0",
+          "bfd2391cf219637320bf6ad188d50ddd2932bfb4456e84b4f6502efdc6e75744": "matches_1__pending_r_1",
+          "b041b6c0f4281c108c5fc89ff1be325735e307e7022585855dcfba09ef005240": "matches_1__pending_r_1",
+          "55bc20a00dc3ccf11a92b2b617d6ced66b01bfa3ff2e3124eb545b08f3037287": "matches_1__pending_r_1",
+          "0f496577fb3efd1fca0939b881b007b5a783609e85b99731c35f4e6d628761de": "matches_1__pending_r_1",
+          "a4b56250a9d01a3b1ecd55f42f4c82fba4975ca56a90524e15d89d6bc77a3a7a": "matches_1__pending_r_1",
+          "76c5dd2fad1b87bf2a9ca31029470c45dcbf5b0b30a13a399aba732861fa39f3": "matches_1__pending_r_1",
+          "a27c604d10cb046f5e52ef2514948612a639af1b41783b4699dc3a487958033c": "matches_2plus__pending_r_0",
+          "1a920d66add5ce276f17a080009ff98c2a6613f8c77ebf75f887fc0fb71411ce": "matches_2plus__pending_r_0",
+          "dd8ebda2c74f14caf9224a1ca8e0180293976912c0fccf2b628ef9bdf177d264": "matches_2plus__pending_r_0",
+          "fa67328053cb4d204efca19adf1b00b974cc6eb50ec7b217fea309b2aae8df6f": "matches_2plus__pending_r_0",
+          "84989e7d033edb4c1907123574fcbf8c6a3ed11f2864a3709695237c1f459fd0": "matches_2plus__pending_r_0",
+          "cc418d16a7d9a67d5dbd8a8349d60694fc17803f1b7d350681c4150e7281c464": "matches_2plus__pending_r_0",
+          "c1ba68f3832778ff374ad39b28d87df3d3ff0a477e197c1ad8f63b5eb9363eb9": "matches_2plus__pending_r_1",
+          "dc36088affe8d5808b8ce11d916306b2234425e381d33e5c61fdfd9aff0ea685": "matches_2plus__pending_r_1",
+          "dd704c6adfc65132e58b1d387e7527700d3c05022ef15feca53722c5dd082c57": "matches_2plus__pending_r_1",
+          "c7046bdcb7d4f17bf113ec8b16818b3a0609a312c51841c8643cd24f27d23679": "matches_2plus__pending_r_1",
+          "f962119e94430a62c266d56331a209b143d1bfa95e4722af37858d5a65e7370a": "matches_2plus__pending_r_1",
+          "9a91220379b8dcc828b018098fb2ff5fbda779a4f936584535a2ea4e207b3b8f": "matches_2plus__pending_r_1"
+        },
+        "expected_classes": [
+          "matches_0__pending_r_0",
+          "matches_0__pending_r_1",
+          "matches_1__pending_r_0",
+          "matches_1__pending_r_1",
+          "matches_2plus__pending_r_0",
+          "matches_2plus__pending_r_1"
+        ]
+      },
+      "verge_prepend_rb_v1_20260908_selection_0006": {
+        "test_ids": [
+          "d112f437108bd514225bc3c98e30e75913129da06e33fe89576da5ca4b7c6d3a",
+          "73ae54084326d0523583c0da96212c1df8f167cf580b894e1531a304af9cb786",
+          "9a2608e8789c94c9a5bf00fb0142ac85560ddf058ce3738f63246bebd81c0180",
+          "9a85c9288a00216763492c7753c40dcf21014ba8dd9105c5cf7417072a7ab82f",
+          "4dc06d84272350eda63d12edcdcdb6b13b3fe98861c0b1d602f09d2d7e647402",
+          "09ab8ae732db6f410e65088e37415c338321ed64421109ffe1395330b5eceb45",
+          "adbd54f588241f9696f8c09b4867f41d88e07f9f21ff18bd539bfd37b9cff386",
+          "fa9f402c5bd43e729a10f96adbc0e59b5dec611bb764623eb2569a2567001990",
+          "2cdd8b02af7038daca4efec5138df1fb1005c44ad0b0e90b188ceeb015f60f6c",
+          "80d2940726376c52fd57ab5d98856c8f11fd14e5a30d8a68c74e1c71e090f403",
+          "889c62c0a568b04b9a23f3a191b36968c0c40bfb97c8e1606788c7820edc1563",
+          "ad080ccb0e422a6a16e7a5d5b45d87d5bb86bb2c7e508e18a961d5490f331bd4",
+          "b0151a1bcb5cddc77c614be23ea3a0ab7d9878d5671e7544a564a5fbf9f8f209",
+          "efa768621412230e00bad322022bf54e76f5237975fcb3935bfd4aa538e3f1ee",
+          "0a9eec045570ec2636e5835ff20d8950fe4daf30892775d5f0289d4228e74779",
+          "c9423d17ec622d26d1dc970cec9997d1f85e852a0357cd305169830087c53635",
+          "b9dab5233ed1f665b82dbc1788e6152e698a3ea7fc16f8a8cfad2b195b6f6b01",
+          "1700c40ffe34928275197ae84b5d5a05f4eb8377fd4d4401354e8882c381a397",
+          "09517baf565dc65de0a229974b6ad4ac03c2a556e7d52eb31d3a1e2b59168a02",
+          "4ef47aea2457efc8cfb098c09fe98500e992f451c6202ac05254c63b50bbc407",
+          "bb7feee9da8733d273f99a97c615aba7eaf14c3540f250653512c112b1361bfc",
+          "820975456b556927f365e4a48868116d2a84d0af6837657844fc45a57e8d892a",
+          "2869b7a778c8bb6fe7730223e6917afad43804fa992eed7cdec984b1da8473e2",
+          "9cae8934c2555e21da8983529c62cf064139cd7468184f07f598c250879b077f",
+          "87a324a349500437345d43c660af36e18e2a3bdc7881f39dd0f0bf2114bcbb71",
+          "a5b46e7fcdefe3a9ef8bd8fd1035d696eb3c3eee25e922988440c8ee61f9c9fc",
+          "c772f7cb01f8476bde25bef3043ca23b3874c1ddfa4b63323b1eb883fff83ed6",
+          "8733fd957f0a3518fda88df41b860ea8f34474c0af25430827cf20b47db3a6c6",
+          "fe315c2f59fc7f13a01c6d3f2f0b4f95952358a10215e91f4cc04c11b15db4cd",
+          "99db8655f8ceabde64c30abe22f5b71fbe8480ddbcd9dfad815c44ec8a15ceba",
+          "01de959bcdb67423b6093d25c5a5e095155ba3927c65e48bb9132dcba1ba4415",
+          "e95b50a378c22b26bc3f696c304b82e55beb106407691c1850e30e744fee998a",
+          "342e332f3211aa1418c667d426871bf0f8caf6d8ebb76ea7bb8654ca7fce2fb9",
+          "1a71ec6dabc6475f0bf33598957a02334462acb9fccd0b18409e20f75c109d59",
+          "5de1c9efa09d8c4b52e1d3fcceced72afd6fa328a1196b812477a3592b857f6b",
+          "8e925919f2352549639a12ccf83265e28c4befa4b1c9fd10cb508912479b3e0a"
+        ],
+        "class_by_test": {
+          "d112f437108bd514225bc3c98e30e75913129da06e33fe89576da5ca4b7c6d3a": "matches_0__pending_r_0",
+          "73ae54084326d0523583c0da96212c1df8f167cf580b894e1531a304af9cb786": "matches_0__pending_r_0",
+          "9a2608e8789c94c9a5bf00fb0142ac85560ddf058ce3738f63246bebd81c0180": "matches_0__pending_r_0",
+          "9a85c9288a00216763492c7753c40dcf21014ba8dd9105c5cf7417072a7ab82f": "matches_0__pending_r_0",
+          "4dc06d84272350eda63d12edcdcdb6b13b3fe98861c0b1d602f09d2d7e647402": "matches_0__pending_r_0",
+          "09ab8ae732db6f410e65088e37415c338321ed64421109ffe1395330b5eceb45": "matches_0__pending_r_0",
+          "adbd54f588241f9696f8c09b4867f41d88e07f9f21ff18bd539bfd37b9cff386": "matches_0__pending_r_1",
+          "fa9f402c5bd43e729a10f96adbc0e59b5dec611bb764623eb2569a2567001990": "matches_0__pending_r_1",
+          "2cdd8b02af7038daca4efec5138df1fb1005c44ad0b0e90b188ceeb015f60f6c": "matches_0__pending_r_1",
+          "80d2940726376c52fd57ab5d98856c8f11fd14e5a30d8a68c74e1c71e090f403": "matches_0__pending_r_1",
+          "889c62c0a568b04b9a23f3a191b36968c0c40bfb97c8e1606788c7820edc1563": "matches_0__pending_r_1",
+          "ad080ccb0e422a6a16e7a5d5b45d87d5bb86bb2c7e508e18a961d5490f331bd4": "matches_0__pending_r_1",
+          "b0151a1bcb5cddc77c614be23ea3a0ab7d9878d5671e7544a564a5fbf9f8f209": "matches_1__pending_r_0",
+          "efa768621412230e00bad322022bf54e76f5237975fcb3935bfd4aa538e3f1ee": "matches_1__pending_r_0",
+          "0a9eec045570ec2636e5835ff20d8950fe4daf30892775d5f0289d4228e74779": "matches_1__pending_r_0",
+          "c9423d17ec622d26d1dc970cec9997d1f85e852a0357cd305169830087c53635": "matches_1__pending_r_0",
+          "b9dab5233ed1f665b82dbc1788e6152e698a3ea7fc16f8a8cfad2b195b6f6b01": "matches_1__pending_r_0",
+          "1700c40ffe34928275197ae84b5d5a05f4eb8377fd4d4401354e8882c381a397": "matches_1__pending_r_0",
+          "09517baf565dc65de0a229974b6ad4ac03c2a556e7d52eb31d3a1e2b59168a02": "matches_1__pending_r_1",
+          "4ef47aea2457efc8cfb098c09fe98500e992f451c6202ac05254c63b50bbc407": "matches_1__pending_r_1",
+          "bb7feee9da8733d273f99a97c615aba7eaf14c3540f250653512c112b1361bfc": "matches_1__pending_r_1",
+          "820975456b556927f365e4a48868116d2a84d0af6837657844fc45a57e8d892a": "matches_1__pending_r_1",
+          "2869b7a778c8bb6fe7730223e6917afad43804fa992eed7cdec984b1da8473e2": "matches_1__pending_r_1",
+          "9cae8934c2555e21da8983529c62cf064139cd7468184f07f598c250879b077f": "matches_1__pending_r_1",
+          "87a324a349500437345d43c660af36e18e2a3bdc7881f39dd0f0bf2114bcbb71": "matches_2plus__pending_r_0",
+          "a5b46e7fcdefe3a9ef8bd8fd1035d696eb3c3eee25e922988440c8ee61f9c9fc": "matches_2plus__pending_r_0",
+          "c772f7cb01f8476bde25bef3043ca23b3874c1ddfa4b63323b1eb883fff83ed6": "matches_2plus__pending_r_0",
+          "8733fd957f0a3518fda88df41b860ea8f34474c0af25430827cf20b47db3a6c6": "matches_2plus__pending_r_0",
+          "fe315c2f59fc7f13a01c6d3f2f0b4f95952358a10215e91f4cc04c11b15db4cd": "matches_2plus__pending_r_0",
+          "99db8655f8ceabde64c30abe22f5b71fbe8480ddbcd9dfad815c44ec8a15ceba": "matches_2plus__pending_r_0",
+          "01de959bcdb67423b6093d25c5a5e095155ba3927c65e48bb9132dcba1ba4415": "matches_2plus__pending_r_1",
+          "e95b50a378c22b26bc3f696c304b82e55beb106407691c1850e30e744fee998a": "matches_2plus__pending_r_1",
+          "342e332f3211aa1418c667d426871bf0f8caf6d8ebb76ea7bb8654ca7fce2fb9": "matches_2plus__pending_r_1",
+          "1a71ec6dabc6475f0bf33598957a02334462acb9fccd0b18409e20f75c109d59": "matches_2plus__pending_r_1",
+          "5de1c9efa09d8c4b52e1d3fcceced72afd6fa328a1196b812477a3592b857f6b": "matches_2plus__pending_r_1",
+          "8e925919f2352549639a12ccf83265e28c4befa4b1c9fd10cb508912479b3e0a": "matches_2plus__pending_r_1"
+        },
+        "expected_classes": [
+          "matches_0__pending_r_0",
+          "matches_0__pending_r_1",
+          "matches_1__pending_r_0",
+          "matches_1__pending_r_1",
+          "matches_2plus__pending_r_0",
+          "matches_2plus__pending_r_1"
+        ]
+      },
+      "verge_prepend_rb_v1_20260908_selection_0007": {
+        "test_ids": [
+          "09ab8ae732db6f410e65088e37415c338321ed64421109ffe1395330b5eceb45",
+          "d112f437108bd514225bc3c98e30e75913129da06e33fe89576da5ca4b7c6d3a",
+          "576ef3f65b96edcb111342bd5b55ed17bf254143e7f0cde05bc3574cf59ec461",
+          "4dc06d84272350eda63d12edcdcdb6b13b3fe98861c0b1d602f09d2d7e647402",
+          "9a85c9288a00216763492c7753c40dcf21014ba8dd9105c5cf7417072a7ab82f",
+          "9a2608e8789c94c9a5bf00fb0142ac85560ddf058ce3738f63246bebd81c0180",
+          "f3a169317447ddd63c0baf1fcac3295ee038a4678ed8fa554bec3bcde685ef0b",
+          "b8ad80a85d42dee8654e0727104e333b6e5a3e887d2dad821b85bb4eb79fa971",
+          "6eac8582fbe8e8388e7568bc0e2c47a2b113950a4e2fa8d7d2e3938fc0492f1c",
+          "9df78a6ee7c591813d740ac8d5b37519173d548831f2ead52d5007bb4c780ed8",
+          "2ae63cc903d20aec1c9e049032e450fc1310e3378c4c2f4b98eb0ce2a5de9435",
+          "638addf9be432d7dd020f7a4a612a5c6477efba8bc12a5f5211e888a683c4b1b",
+          "5fee4435483ce8defb41902f12ebac1f7ee7c30453ae1ebae513c6b134ed3f24",
+          "acf950f5c38f66af037d162321f6974fa7c0349f639b222678e0f290b89ffd1e",
+          "eda6246448dc9c58689922c96fc5e70d2f32983417b6625f9d31381f7db25028",
+          "4f3cd4faee6064d6f8dcf9dbb5b0a450133b237932faca15be5d0918c90fc046",
+          "f540b67747de146c7702462128778f247197e4a30a36abeba55acdea3eade186",
+          "32473b766249cf931ad2343d1368d9bc3e60dec905852bf88c97b23d5741d368",
+          "d3622a4dbd69c820624a5e485e5cd0d957333d0b1398435fd3a9f32cfd9ec8ab",
+          "f0ce600af5f3a056a21e30f71460757d921665d818e9c2600a8f059a4e7102d2",
+          "ade38d7bb3688ff8d466655d4c94298b2136001b7071bc5ce46fb76cf10e11ce",
+          "8a91b486b5de5cadf03857be1bccbc25e3c0658590af90a3f57786b25c83a294",
+          "6473f6cfb52dcd07e0039302b3c81569b0c4c1effcfd8e6a35b38022d29bc3ca",
+          "1178f6c54ab905f592b4382b1ee58636010f46e5eba0eb735f6da21cb39e7202",
+          "3e59b6e2a368fbc9355381c6404b7c86279d315d517d3209ac8bb726593405fb",
+          "194a6bd8fa58e0be299bbdd3121742115fb333e91fdf14f9fa963f6a21fd4e81",
+          "8dcbc0b8666bccbfff58abf9be3ffbbb6e2f1bc75e98e75c214ab1aeac4e7f74",
+          "b443438a337af50e95452afa7d7434f8d4a77fa59461b3340332991fb6406ba2",
+          "b86d67fb8fc4a257bc9b9d992b8dda75fe302252bad36bd8b39bcb61f495493a",
+          "4e86adab95c505a261668eae224fe4d00be6d509d03e67cbf914c7c36b2f43e9",
+          "5c1f1638aa7b6b8cd773f30227e536c626d0edeacf395cbc3079879802787c9d",
+          "3e23c6f73f9740d6fb64fc509194e6b08458240bb93591db72038a96f36a31c0",
+          "a5e2528e86bc57e09d6a8c501a0a2c9cc0086e6065784a5b7e4515c61ef686d1",
+          "ac134fd006f261995900eaab16dd853ba376c021010354108f9f29036da5a85f",
+          "6ca60e80981b7f846b0e489ffb123a55528921224af035a08935f073f0ea8a62",
+          "59f9cf29e932f9ad1362325a39508c613eb04d151b43c03eb4f77b2764643291"
+        ],
+        "class_by_test": {
+          "09ab8ae732db6f410e65088e37415c338321ed64421109ffe1395330b5eceb45": "matches_0__pending_r_0",
+          "d112f437108bd514225bc3c98e30e75913129da06e33fe89576da5ca4b7c6d3a": "matches_0__pending_r_0",
+          "576ef3f65b96edcb111342bd5b55ed17bf254143e7f0cde05bc3574cf59ec461": "matches_0__pending_r_0",
+          "4dc06d84272350eda63d12edcdcdb6b13b3fe98861c0b1d602f09d2d7e647402": "matches_0__pending_r_0",
+          "9a85c9288a00216763492c7753c40dcf21014ba8dd9105c5cf7417072a7ab82f": "matches_0__pending_r_0",
+          "9a2608e8789c94c9a5bf00fb0142ac85560ddf058ce3738f63246bebd81c0180": "matches_0__pending_r_0",
+          "f3a169317447ddd63c0baf1fcac3295ee038a4678ed8fa554bec3bcde685ef0b": "matches_0__pending_r_1",
+          "b8ad80a85d42dee8654e0727104e333b6e5a3e887d2dad821b85bb4eb79fa971": "matches_0__pending_r_1",
+          "6eac8582fbe8e8388e7568bc0e2c47a2b113950a4e2fa8d7d2e3938fc0492f1c": "matches_0__pending_r_1",
+          "9df78a6ee7c591813d740ac8d5b37519173d548831f2ead52d5007bb4c780ed8": "matches_0__pending_r_1",
+          "2ae63cc903d20aec1c9e049032e450fc1310e3378c4c2f4b98eb0ce2a5de9435": "matches_0__pending_r_1",
+          "638addf9be432d7dd020f7a4a612a5c6477efba8bc12a5f5211e888a683c4b1b": "matches_0__pending_r_1",
+          "5fee4435483ce8defb41902f12ebac1f7ee7c30453ae1ebae513c6b134ed3f24": "matches_1__pending_r_0",
+          "acf950f5c38f66af037d162321f6974fa7c0349f639b222678e0f290b89ffd1e": "matches_1__pending_r_0",
+          "eda6246448dc9c58689922c96fc5e70d2f32983417b6625f9d31381f7db25028": "matches_1__pending_r_0",
+          "4f3cd4faee6064d6f8dcf9dbb5b0a450133b237932faca15be5d0918c90fc046": "matches_1__pending_r_0",
+          "f540b67747de146c7702462128778f247197e4a30a36abeba55acdea3eade186": "matches_1__pending_r_0",
+          "32473b766249cf931ad2343d1368d9bc3e60dec905852bf88c97b23d5741d368": "matches_1__pending_r_0",
+          "d3622a4dbd69c820624a5e485e5cd0d957333d0b1398435fd3a9f32cfd9ec8ab": "matches_1__pending_r_1",
+          "f0ce600af5f3a056a21e30f71460757d921665d818e9c2600a8f059a4e7102d2": "matches_1__pending_r_1",
+          "ade38d7bb3688ff8d466655d4c94298b2136001b7071bc5ce46fb76cf10e11ce": "matches_1__pending_r_1",
+          "8a91b486b5de5cadf03857be1bccbc25e3c0658590af90a3f57786b25c83a294": "matches_1__pending_r_1",
+          "6473f6cfb52dcd07e0039302b3c81569b0c4c1effcfd8e6a35b38022d29bc3ca": "matches_1__pending_r_1",
+          "1178f6c54ab905f592b4382b1ee58636010f46e5eba0eb735f6da21cb39e7202": "matches_1__pending_r_1",
+          "3e59b6e2a368fbc9355381c6404b7c86279d315d517d3209ac8bb726593405fb": "matches_2plus__pending_r_0",
+          "194a6bd8fa58e0be299bbdd3121742115fb333e91fdf14f9fa963f6a21fd4e81": "matches_2plus__pending_r_0",
+          "8dcbc0b8666bccbfff58abf9be3ffbbb6e2f1bc75e98e75c214ab1aeac4e7f74": "matches_2plus__pending_r_0",
+          "b443438a337af50e95452afa7d7434f8d4a77fa59461b3340332991fb6406ba2": "matches_2plus__pending_r_0",
+          "b86d67fb8fc4a257bc9b9d992b8dda75fe302252bad36bd8b39bcb61f495493a": "matches_2plus__pending_r_0",
+          "4e86adab95c505a261668eae224fe4d00be6d509d03e67cbf914c7c36b2f43e9": "matches_2plus__pending_r_0",
+          "5c1f1638aa7b6b8cd773f30227e536c626d0edeacf395cbc3079879802787c9d": "matches_2plus__pending_r_1",
+          "3e23c6f73f9740d6fb64fc509194e6b08458240bb93591db72038a96f36a31c0": "matches_2plus__pending_r_1",
+          "a5e2528e86bc57e09d6a8c501a0a2c9cc0086e6065784a5b7e4515c61ef686d1": "matches_2plus__pending_r_1",
+          "ac134fd006f261995900eaab16dd853ba376c021010354108f9f29036da5a85f": "matches_2plus__pending_r_1",
+          "6ca60e80981b7f846b0e489ffb123a55528921224af035a08935f073f0ea8a62": "matches_2plus__pending_r_1",
+          "59f9cf29e932f9ad1362325a39508c613eb04d151b43c03eb4f77b2764643291": "matches_2plus__pending_r_1"
+        },
+        "expected_classes": [
+          "matches_0__pending_r_0",
+          "matches_0__pending_r_1",
+          "matches_1__pending_r_0",
+          "matches_1__pending_r_1",
+          "matches_2plus__pending_r_0",
+          "matches_2plus__pending_r_1"
+        ]
+      }
+    }
+  },
+  "proposal": {
+    "base_checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+    "curricula": {
+      "g1": [
+        {
+          "stage_id": "prepend_RB",
+          "kind": "tape_transform",
+          "spec": {
+            "kind": "tape_transform",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 8,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR",
+                "RRBRBBRR",
+                "RBBBRBBR",
+                "RBBRBBRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "ff7e78db2ae681ca30467800ca47779e8fcc21abca91c923f7b4ab416f3958fc",
+                "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+              ]
+            ],
+            "expression": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "literal",
+                  "value": "RB"
+                },
+                {
+                  "op": "input"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "stage_id": "replace_RB_to_YG",
+          "kind": "registered",
+          "spec": {
+            "kind": "registered",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 8,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR",
+                "RRBRBBRR",
+                "RBBBRBBR",
+                "RBBRBBRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1",
+                "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+              ]
+            ],
+            "family": "verge_catalogue_replace_RB_to_YG",
+            "tier": 0,
+            "mutation_tier": 0
+          }
+        },
+        {
+          "stage_id": "prepend_R",
+          "kind": "tape_transform",
+          "spec": {
+            "kind": "tape_transform",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 8,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR",
+                "RRBRBBRR",
+                "RBBBRBBR",
+                "RBBRBBRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "dbc9c193aba35d835bf4114f279c236d87b2556c8fd494ca077d92ad820d4846",
+                "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+              ]
+            ],
+            "expression": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "literal",
+                  "value": "R"
+                },
+                {
+                  "op": "input"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "g2": [
+        {
+          "stage_id": "append_R",
+          "kind": "tape_transform",
+          "spec": {
+            "kind": "tape_transform",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 8,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR",
+                "RRBRBBRR",
+                "RBBBRBBR",
+                "RBBRBBRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "57b1de2dbd200bdd8fc0e3ecc91682b18d6b1aedbc7079ed6c94667aff79ab13",
+                "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+              ]
+            ],
+            "expression": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "input"
+                },
+                {
+                  "op": "literal",
+                  "value": "R"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "stage_id": "replace_RB_to_YG",
+          "kind": "registered",
+          "spec": {
+            "kind": "registered",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 8,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR",
+                "RRBRBBRR",
+                "RBBBRBBR",
+                "RBBRBBRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1",
+                "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+              ]
+            ],
+            "family": "verge_catalogue_replace_RB_to_YG",
+            "tier": 0,
+            "mutation_tier": 0
+          }
+        },
+        {
+          "stage_id": "target_small2",
+          "kind": "registered",
+          "spec": {
+            "kind": "registered",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 2,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "4123931be4048fafa2161b21e3521cfe14760279143a1db2b186326953e17280",
+                "4baf581fd2b125634a1bc04ffe69e711d1533d13d8b2eba910957d6b4155f352"
+              ]
+            ],
+            "family": "verge_catalogue_target_small2",
+            "tier": 0,
+            "mutation_tier": 0
+          }
+        }
+      ],
+      "g3": [
+        {
+          "stage_id": "target_small3",
+          "kind": "registered",
+          "spec": {
+            "kind": "registered",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 3,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "1bbe0fce7485c119f79063aa1ff1db334e12f7e287e01376ac77b7aa001f887f",
+                "3956187c4e56535e528bef5707d6f3ebf8e0f270daa9f93d1d72780e8e29ac44"
+              ]
+            ],
+            "family": "verge_catalogue_target_small3",
+            "tier": 0,
+            "mutation_tier": 0
+          }
+        },
+        {
+          "stage_id": "prepend_R",
+          "kind": "tape_transform",
+          "spec": {
+            "kind": "tape_transform",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 8,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR",
+                "RRBRBBRR",
+                "RBBBRBBR",
+                "RBBRBBRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "dbc9c193aba35d835bf4114f279c236d87b2556c8fd494ca077d92ad820d4846",
+                "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+              ]
+            ],
+            "expression": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "literal",
+                  "value": "R"
+                },
+                {
+                  "op": "input"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "stage_id": "replace_RB_to_YG",
+          "kind": "registered",
+          "spec": {
+            "kind": "registered",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 8,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR",
+                "RRBRBBRR",
+                "RBBBRBBR",
+                "RBBRBBRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1",
+                "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+              ]
+            ],
+            "family": "verge_catalogue_replace_RB_to_YG",
+            "tier": 0,
+            "mutation_tier": 0
+          }
+        }
+      ]
+    }
+  },
+  "challenger": {
+    "checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_challenger/resume_u0000",
+    "raw_output": "{\n  \"base_checkpoint\": \"/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000\",\n  \"curricula\": {\n    \"g1\": [\n      {\n        \"stage_id\": \"prepend_RB\",\n        \"kind\": \"tape_transform\",\n        \"spec\": {\n          \"kind\": \"tape_transform\",\n          \"distribution\": {\n            \"alphabet\": \"RB\",\n            \"min_length\": 0,\n            \"max_length\": 8,\n            \"corner_cases\": [\"B\", \"R\", \"BB\", \"BR\", \"RR\", \"BBB\", \"BBR\", \"BRB\", \"BRR\", \"RBB\", \"RBR\", \"RRB\", \"RRR\", \"RRBRBBRR\", \"RBBBRBBR\", \"RBBRBBRR\"]\n          },\n          \"instance_tuples\": [\n            [\n              \"ff7e78db2ae681ca30467800ca47779e8fcc21abca91c923f7b4ab416f3958fc\",\n              \"0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de\"\n            ]\n          ],\n          \"expression\": {\n            \"op\": \"concat\",\n            \"args\": [\n              {\n                \"op\": \"literal\",\n                \"value\": \"RB\"\n              },\n              {\n                \"op\": \"input\"\n              }\n            ]\n          }\n        }\n      },\n      {\n        \"stage_id\": \"replace_RB_to_YG\",\n        \"kind\": \"registered\",\n        \"spec\": {\n          \"kind\": \"registered\",\n          \"distribution\": {\n            \"alphabet\": \"RB\",\n            \"min_length\": 0,\n            \"max_length\": 8,\n            \"corner_cases\": [\"B\", \"R\", \"BB\", \"BR\", \"RR\", \"BBB\", \"BBR\", \"BRB\", \"BRR\", \"RBB\", \"RBR\", \"RRB\", \"RRR\", \"RRBRBBRR\", \"RBBBRBBR\", \"RBBRBBRR\"]\n          },\n          \"instance_tuples\": [\n            [\n              \"12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1\",\n              \"0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de\"\n            ]\n          ],\n          \"family\": \"verge_catalogue_replace_RB_to_YG\",\n          \"tier\": 0,\n          \"mutation_tier\": 0\n        }\n      },\n      {\n        \"stage_id\": \"prepend_R\",\n        \"kind\": \"tape_transform\",\n        \"spec\": {\n          \"kind\": \"tape_transform\",\n          \"distribution\": {\n            \"alphabet\": \"RB\",\n            \"min_length\": 0,\n            \"max_length\": 8,\n            \"corner_cases\": [\"B\", \"R\", \"BB\", \"BR\", \"RR\", \"BBB\", \"BBR\", \"BRB\", \"BRR\", \"RBB\", \"RBR\", \"RRB\", \"RRR\", \"RRBRBBRR\", \"RBBBRBBR\", \"RBBRBBRR\"]\n          },\n          \"instance_tuples\": [\n            [\n              \"dbc9c193aba35d835bf4114f279c236d87b2556c8fd494ca077d92ad820d4846\",\n              \"0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de\"\n            ]\n          ],\n          \"expression\": {\n            \"op\": \"concat\",\n            \"args\": [\n              {\n                \"op\": \"literal\",\n                \"value\": \"R\"\n              },\n              {\n                \"op\": \"input\"\n              }\n            ]\n          }\n        }\n      }\n    ],\n\n    \"g2\": [\n      {\n        \"stage_id\": \"append_R\",\n        \"kind\": \"tape_transform\",\n        \"spec\": {\n          \"kind\": \"tape_transform\",\n          \"distribution\": {\n            \"alphabet\": \"RB\",\n            \"min_length\": 0,\n            \"max_length\": 8,\n            \"corner_cases\": [\"B\", \"R\", \"BB\", \"BR\", \"RR\", \"BBB\", \"BBR\", \"BRB\", \"BRR\", \"RBB\", \"RBR\", \"RRB\", \"RRR\", \"RRBRBBRR\", \"RBBBRBBR\", \"RBBRBBRR\"]\n          },\n          \"instance_tuples\": [\n            [\n              \"57b1de2dbd200bdd8fc0e3ecc91682b18d6b1aedbc7079ed6c94667aff79ab13\",\n              \"0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de\"\n            ]\n          ],\n          \"expression\": {\n            \"op\": \"concat\",\n            \"args\": [\n              {\"op\": \"input\"},\n              {\"op\": \"literal\", \"value\": \"R\"}\n            ]\n          }\n        }\n      },\n      {\n        \"stage_id\": \"replace_RB_to_YG\",\n        \"kind\": \"registered\",\n        \"spec\": {\"kind\": \"registered\",       \"distribution\": {\"alphabet\": \"RB\", \"min_length\": 0, \"max_length\": 8, \"corner_cases\": [\"B\", \"R\", \"BB\", \"BR\", \"RR\", \"BBB\", \"BBR\", \"BRB\", \"BRR\", \"RBB\", \"RBR\", \"RRB\", \"RRR\", \"RRBRBBRR\", \"RBBBRBBR\", \"RBBRBBRR\"]}, \"instance_tuples\": [[ \"12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1\", \"0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de\"]], \"family\": \"verge_catalogue_replace_RB_to_YG\", \"tier\": 0, \"mutation_tier\": 0}\n      },\n      {\n        \"stage_id\": \"target_small2\",\n        \"kind\": \"registered\",\n        \"spec\": {\n          \"kind\": \"registered\",\n          \"distribution\": {\n            \"alphabet\": \"RB\",\n            \"min_length\": 0,\n            \"max_length\": 2,\n            \"corner_cases\": [\"B\", \"R\", \"BB\", \"BR\", \"RR\"]\n          },\n          \"instance_tuples\": [\n            [\"4123931be4048fafa2161b21e3521cfe14760279143a1db2b186326953e17280\", \"4baf581fd2b125634a1bc04ffe69e711d1533d13d8b2eba910957d6b4155f352\"]\n          ]\n        ,\n          \"family\": \"verge_catalogue_target_small2\",\n          \"tier\": 0,\n          \"mutation_tier\": 0\n        }\n      }\n    ],\n\n    \"g3\": [\n      {\n        \"stage_id\": \"target_small3\",\n        \"kind\": \"registered\",\n        \"spec\": {\n          \"kind\": \"registered\",\n          \"distribution\": {\n            \"alphabet\": \"RB\",\n            \"min_length\": 0,\n            \"max_length\": 3,\n            \"corner_cases\": [\"B\", \"R\", \"BB\", \"BR\", \"RR\", \"BBB\", \"BBR\", \"BRB\", \"BRR\", \"RBB\", \"RBR\", \"RRB\", \"RRR\"]\n          },\n          \"instance_tuples\": [[\n            \"1bbe0fce7485c119f79063aa1ff1db334e12f7e287e01376ac77b7aa001f887f\",\n            \"3956187c4e56535e528bef5707d6f3ebf8e0f270daa9f93d1d72780e8e29ac44\"\n          ]],\n          \"family\": \"verge_catalogue_target_small3\",\n          \"tier\": 0,\n          \"mutation_tier\": 0\n        }\n      },\n      {\n        \"stage_id\": \"prepend_R\",\n        \"kind\": \"tape_transform\",\n        \"spec\": {\n          \"kind\": \"tape_transform\",\n          \"distribution\": {\n            \"alphabet\": \"RB\",\n            \"min_length\": 0,\n            \"max_length\": 8,\n            \"corner_cases\": [\"B\", \"R\", \"BB\", \"BR\", \"RR\", \"BBB\", \"BBR\", \"BRB\", \"BRR\", \"RBB\", \"RBR\", \"RRB\", \"RRR\", \"RRBRBBRR\", \"RBBBRBBR\", \"RBBRBBRR\"]\n          },\n          \"instance_tuples\": [[\n              \"dbc9c193aba35d835bf4114f279c236d87b2556c8fd494ca077d92ad820d4846\",\n              \"0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de\"\n           ]\n          ],\n          \"expression\": {\"op\": \"concat\",\"args\": [\n            {\"op\": \"literal\", \"value\": \"R\"},\n            {\"op\": \"input\"}\n          ]}\n      }\n      },\n      {\n        \"stage_id\": \"replace_RB_to_YG\",\n        \"kind\": \"registered\",\n        \"spec\": {\n          \"kind\": \"registered\",\n          \"distribution\": {\n            \"alphabet\": \"RB\",\n            \"min_length\": 0,\n            \"max_length\": 8,\n            \"corner_cases\": [\n              \"B\", \"R\", \"BB\", \"BR\", \"RR\", \"BBB\", \"BBR\", \"BRB\", \"BRR\", \"RBB\", \"RBR\", \"RRB\", \"RRR\", \"RRBRBBRR\", \"RBBBRBBR\", \"RBBRBBRR\"\n            ]\n          },\n          \"instance_tuples\":\n          [\n              [\"12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1\", \"0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de\"]\n          ],\n          \"family\": \"verge_catalogue_replace_RB_to_YG\", \"tier\": 0, \"mutation_tier\": 0\n      }\n    }\n    ]\n  }\n}",
+    "context": {
+      "target": "Write a Manufactoria program. Output one ```manufactoria ...``` code block.\nThe tape is a FIFO sequence. A painter appends its color to the BACK of the tape.\nPULLER_RB removes the FRONT symbol only if it is R or B, then follows its [R] or [B] route.\nIts [EMPTY] route leaves the tape unchanged when empty or when the front is Y/G.\nPULLER_YG does the same for Y/G; its [EMPTY] route also leaves an R/B front unchanged.\nReaching end accepts. NONE, an undefined route, or 1000 execution steps rejects.\nAvailable painter types: PAINTER_RED, PAINTER_BLUE, PAINTER_YELLOW, PAINTER_GREEN.\nNode and route syntax (angle brackets denote placeholders, not literal code):\nSTART start:\n    NEXT <node_id>\nPULLER_RB <node_id>:\n    [R] <node_id>\n    [B] <node_id>\n    [EMPTY] <node_id>\nPULLER_YG <node_id>:\n    [Y] <node_id>\n    [G] <node_id>\n    [EMPTY] <node_id>\n<painter_type> <node_id>:\n    NEXT <node_id>\nEND end\nUse unique node ids and four-space route indentation. END has no colon.\nTask:\nThe input tape contains only R and B, with length from 0 to 64. Replace every nonoverlapping occurrence of RB with YG, then prepend RBYGRB. Keep all other symbols in order. All valid inputs must reach end with exactly the required output. The full standard R/B/Y/G DSL is available.",
+      "conditions": [
+        "parse",
+        "min-per-class exact fraction >= 1/36",
+        ">= 0.25",
+        ">= 0.5",
+        ">= 0.75",
+        "full pass"
+      ],
+      "incumbents": [
+        {
+          "base_checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+          "b": 2,
+          "s": 1,
+          "rho": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "full_pass_count": 0,
+          "samples": 256
+        }
+      ],
+      "archive": [],
+      "per_stage_delta_history": [],
+      "per_stage_delta_definition": "fixed-round-kappa difference of curriculum/direct gaps at matched token boundaries; include target-only tail and P32-minus-P8 correction",
+      "verified_program_library_index": [
+        {
+          "stage_id": "identity",
+          "variant": "concise",
+          "evidence_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/00_identity_concise.json",
+          "rollout_slot": 7,
+          "verified_on": "complete frozen train-side stage suite",
+          "hint_regret_validated": false
+        }
+      ],
+      "stage_screen": [
+        {
+          "stage_id": "identity",
+          "variant": "concise",
+          "instance_id": "verge_ignition_stage_catalogue_v1_20260908__identity__compact",
+          "parse_valid": 8,
+          "binary_successes": 1,
+          "mixed_group": true,
+          "generated_tokens": 545,
+          "sampling_seconds": 6.922886371612549,
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/00_identity_concise.json"
+        },
+        {
+          "stage_id": "append_R",
+          "variant": "concise",
+          "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_R__compact",
+          "parse_valid": 8,
+          "binary_successes": 0,
+          "mixed_group": false,
+          "generated_tokens": 1074,
+          "sampling_seconds": 11.197383642196655,
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/01_append_R_concise.json"
+        },
+        {
+          "stage_id": "append_B",
+          "variant": "concise",
+          "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_B__compact",
+          "parse_valid": 8,
+          "binary_successes": 0,
+          "mixed_group": false,
+          "generated_tokens": 1216,
+          "sampling_seconds": 12.976891279220581,
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/02_append_B_concise.json"
+        },
+        {
+          "stage_id": "replace_R_to_B",
+          "variant": "concise",
+          "instance_id": "verge_ignition_stage_catalogue_v1_20260908__replace_R_to_B__compact",
+          "parse_valid": 8,
+          "binary_successes": 0,
+          "mixed_group": false,
+          "generated_tokens": 643,
+          "sampling_seconds": 5.139854192733765,
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/03_replace_R_to_B_concise.json"
+        },
+        {
+          "stage_id": "replace_RB_to_YG",
+          "variant": "concise",
+          "instance_id": "verge_ignition_stage_catalogue_v1_20260908__replace_RB_to_YG__compact",
+          "parse_valid": 8,
+          "binary_successes": 0,
+          "mixed_group": false,
+          "generated_tokens": 218,
+          "sampling_seconds": 3.1448006629943848,
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/04_replace_RB_to_YG_concise.json"
+        },
+        {
+          "stage_id": "prepend_R",
+          "variant": "concise",
+          "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_R__compact",
+          "parse_valid": 8,
+          "binary_successes": 0,
+          "mixed_group": false,
+          "generated_tokens": 1076,
+          "sampling_seconds": 6.957237958908081,
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/05_prepend_R_concise.json"
+        },
+        {
+          "stage_id": "prepend_RB",
+          "variant": "concise",
+          "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_RB__compact",
+          "parse_valid": 8,
+          "binary_successes": 0,
+          "mixed_group": false,
+          "generated_tokens": 500,
+          "sampling_seconds": 7.340212106704712,
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/06_prepend_RB_concise.json"
+        },
+        {
+          "stage_id": "target_small2",
+          "variant": "concise",
+          "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small2__compact",
+          "parse_valid": 8,
+          "binary_successes": 0,
+          "mixed_group": false,
+          "generated_tokens": 1172,
+          "sampling_seconds": 8.896175384521484,
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/07_target_small2_concise.json"
+        },
+        {
+          "stage_id": "target_small3",
+          "variant": "concise",
+          "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small3__compact",
+          "parse_valid": 8,
+          "binary_successes": 0,
+          "mixed_group": false,
+          "generated_tokens": 1251,
+          "sampling_seconds": 15.055969953536987,
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/08_target_small3_concise.json"
+        },
+        {
+          "stage_id": "identity",
+          "variant": "official",
+          "instance_id": "verge_ignition_stage_catalogue_v1_20260908__identity__official_syntax",
+          "parse_valid": 8,
+          "binary_successes": 0,
+          "mixed_group": false,
+          "generated_tokens": 737,
+          "sampling_seconds": 10.148619651794434,
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/09_identity_official.json"
+        },
+        {
+          "stage_id": "append_R",
+          "variant": "official",
+          "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_R__official_syntax",
+          "parse_valid": 8,
+          "binary_successes": 0,
+          "mixed_group": false,
+          "generated_tokens": 1046,
+          "sampling_seconds": 12.330236673355103,
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/10_append_R_official.json"
+        },
+        {
+          "stage_id": "append_B",
+          "variant": "official",
+          "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_B__official_syntax",
+          "parse_valid": 8,
+          "binary_successes": 0,
+          "mixed_group": false,
+          "generated_tokens": 611,
+          "sampling_seconds": 6.247089862823486,
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/11_append_B_official.json"
+        }
+      ],
+      "stage_catalogue": [
+        {
+          "stage_id": "identity",
+          "kind": "tape_transform",
+          "spec": {
+            "kind": "tape_transform",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 8,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR",
+                "RRBRBBRR",
+                "RBBBRBBR",
+                "RBBRBBRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "c4cf77ad5325939a97f5adef41c45ce19dc7e3727f7d5eb7f20bc3d6f49cee2d",
+                "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+              ]
+            ],
+            "expression": {
+              "op": "input"
+            }
+          }
+        },
+        {
+          "stage_id": "append_R",
+          "kind": "tape_transform",
+          "spec": {
+            "kind": "tape_transform",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 8,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR",
+                "RRBRBBRR",
+                "RBBBRBBR",
+                "RBBRBBRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "57b1de2dbd200bdd8fc0e3ecc91682b18d6b1aedbc7079ed6c94667aff79ab13",
+                "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+              ]
+            ],
+            "expression": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "input"
+                },
+                {
+                  "op": "literal",
+                  "value": "R"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "stage_id": "append_B",
+          "kind": "tape_transform",
+          "spec": {
+            "kind": "tape_transform",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 8,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR",
+                "RRBRBBRR",
+                "RBBBRBBR",
+                "RBBRBBRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "e05c3f0e041cc0eba83191c46a36bf163bbdea79fe0dc4157bc084cb157caa21",
+                "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+              ]
+            ],
+            "expression": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "input"
+                },
+                {
+                  "op": "literal",
+                  "value": "B"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "stage_id": "replace_R_to_B",
+          "kind": "tape_transform",
+          "spec": {
+            "kind": "tape_transform",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 8,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR",
+                "RRBRBBRR",
+                "RBBBRBBR",
+                "RBBRBBRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "bc4ff1c270d28b1ab14680828692ba48adcf53a8e04d1f00ff55bd2bbc1b263a",
+                "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+              ]
+            ],
+            "expression": {
+              "op": "replace",
+              "arg": {
+                "op": "input"
+              },
+              "old": "R",
+              "new": "B"
+            }
+          }
+        },
+        {
+          "stage_id": "replace_RB_to_YG",
+          "kind": "registered",
+          "spec": {
+            "kind": "registered",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 8,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR",
+                "RRBRBBRR",
+                "RBBBRBBR",
+                "RBBRBBRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1",
+                "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+              ]
+            ],
+            "family": "verge_catalogue_replace_RB_to_YG",
+            "tier": 0,
+            "mutation_tier": 0
+          }
+        },
+        {
+          "stage_id": "prepend_R",
+          "kind": "tape_transform",
+          "spec": {
+            "kind": "tape_transform",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 8,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR",
+                "RRBRBBRR",
+                "RBBBRBBR",
+                "RBBRBBRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "dbc9c193aba35d835bf4114f279c236d87b2556c8fd494ca077d92ad820d4846",
+                "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+              ]
+            ],
+            "expression": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "literal",
+                  "value": "R"
+                },
+                {
+                  "op": "input"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "stage_id": "prepend_RB",
+          "kind": "tape_transform",
+          "spec": {
+            "kind": "tape_transform",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 8,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR",
+                "RRBRBBRR",
+                "RBBBRBBR",
+                "RBBRBBRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "ff7e78db2ae681ca30467800ca47779e8fcc21abca91c923f7b4ab416f3958fc",
+                "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+              ]
+            ],
+            "expression": {
+              "op": "concat",
+              "args": [
+                {
+                  "op": "literal",
+                  "value": "RB"
+                },
+                {
+                  "op": "input"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "stage_id": "target_small2",
+          "kind": "registered",
+          "spec": {
+            "kind": "registered",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 2,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "4123931be4048fafa2161b21e3521cfe14760279143a1db2b186326953e17280",
+                "4baf581fd2b125634a1bc04ffe69e711d1533d13d8b2eba910957d6b4155f352"
+              ]
+            ],
+            "family": "verge_catalogue_target_small2",
+            "tier": 0,
+            "mutation_tier": 0
+          }
+        },
+        {
+          "stage_id": "target_small3",
+          "kind": "registered",
+          "spec": {
+            "kind": "registered",
+            "distribution": {
+              "alphabet": "RB",
+              "min_length": 0,
+              "max_length": 3,
+              "corner_cases": [
+                "B",
+                "R",
+                "BB",
+                "BR",
+                "RR",
+                "BBB",
+                "BBR",
+                "BRB",
+                "BRR",
+                "RBB",
+                "RBR",
+                "RRB",
+                "RRR"
+              ]
+            },
+            "instance_tuples": [
+              [
+                "1bbe0fce7485c119f79063aa1ff1db334e12f7e287e01376ac77b7aa001f887f",
+                "3956187c4e56535e528bef5707d6f3ebf8e0f270daa9f93d1d72780e8e29ac44"
+              ]
+            ],
+            "family": "verge_catalogue_target_small3",
+            "tier": 0,
+            "mutation_tier": 0
+          }
+        }
+      ],
+      "pilot_search_restriction": "This development round selects from nine frozen executable task specifications. It does not establish the value of open transform synthesis.",
+      "stage_sources": {
+        "registered": "available",
+        "tape_transform": "bounded catalogue available; open expression interface retained",
+        "hinted_target": "retained, but not admissible this round because no 512-rollout hint-regret probe is complete"
+      },
+      "training": {
+        "G": 3,
+        "L": 3,
+        "B": 65536,
+        "alpha": 0.25,
+        "eta": 0.25,
+        "binary_reward_only": true
+      }
+    },
+    "evidence_id": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/challenger_sample_0.json"
+  },
+  "stage_validations": {
+    "identity": {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "nonconstant": true,
+        "no_leakage": true,
+        "hint_regret": "NA"
+      },
+      "details": {
+        "implementation": "verge-operational-20260908",
+        "delta": 0.1,
+        "canonical_kind": "tape_transform",
+        "legacy_alias_normalized": false,
+        "leakage": {
+          "protected_tuple_count": 192,
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "35e1b2fd3183353f4f0e17e004d68b39f108db3cef045df126699d5e51f538eb"
+        },
+        "protocol_id": "verge-stage-cases-v1",
+        "case_count": 34,
+        "distinct_corner_outputs": 16,
+        "cpu_reference_evidence": {
+          "path": "benchmarks/generated/cpu_oracle_verification.json",
+          "sha256": "cd36f092902c10be55098aead6629253998fcd27ded796f19b2e4e05f32c004e",
+          "stage_id": "identity",
+          "test_ids": [
+            "57eddb75dbc4692d9da5b7f398e2ed7e9f0ce6fcd8662bc7730648b6df604b3b",
+            "bc22afb23abd5c17fed94fff964125de54bf7d9ecf6286867b03607595444e97",
+            "e999c64ccad3418e572c82cc40f35d592b619bc610763a47633c927aaeabf763",
+            "3bd7f597c0d81600e22017361dc71139965fce409e4ae9da85a28b2f690aaa2c",
+            "e32c9b7ccde55f7c6fc575394d9545f112bc5a74f03dda517d44259ab185a6c3",
+            "4eeea9a457ba8b9d00ce8cbf221a8454d5c2439e5f7399dfe0da66219d53cdc3",
+            "576391f325e3aa92a2220a72b2da2d8a52654ee49853bdaeff0642ec9dbe8e60",
+            "19a54876e6d0f768e2ac9a8948fb7427820737e2e06791652ac87bb571865174",
+            "cdded4543c8e576b5fa9209d9a5c59175cd25fe56017c85ec1e83e1ff341cc86",
+            "93258dd80e9de948cb26405694a27e85f96bd1f332e821a572e77f1ad1c4d904",
+            "bfde4a06c4292f9058cc54b8b44af1eed0fbab743d050a618c92c670e2ea47a8",
+            "a0f0d661dad90f0a851b755c185ab12db2c479fbc90d20f67b7d60697cb29f99",
+            "0f1d5b6aa07bbf464253de306d0847c2fd4927c8b985f33cf8f7f0a38aec00eb",
+            "cb62bbed787f3155e3373d73758672da8db5747f5fcae55849f7b7e3f4c544d1",
+            "4c5a96acf6b28355b2fb173c77a509e1897d3d6b3d91305bc1ce239e592a2b6f",
+            "8daafab063bc1d58e0b19eae0cb108194f5de9fc5c764120a57436bcf13256ec"
+          ],
+          "all_exact_pass": true,
+          "oracle_only_not_model_training_or_transfer": true
+        },
+        "protected_actual_input_overlap": 0
+      },
+      "spec_sha256": "9241a7c091ba5ba1e0c99e0e4c4b2ea28a871c8aa3f2fa02842b1860007722ab",
+      "evidence_id": "benchmarks/generated/pilot_view_v1/stage_validation_evidence.json#identity",
+      "synthetic_fixture": false
+    },
+    "append_R": {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "nonconstant": true,
+        "no_leakage": true,
+        "hint_regret": "NA"
+      },
+      "details": {
+        "implementation": "verge-operational-20260908",
+        "delta": 0.1,
+        "canonical_kind": "tape_transform",
+        "legacy_alias_normalized": false,
+        "leakage": {
+          "protected_tuple_count": 192,
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "35e1b2fd3183353f4f0e17e004d68b39f108db3cef045df126699d5e51f538eb"
+        },
+        "protocol_id": "verge-stage-cases-v1",
+        "case_count": 34,
+        "distinct_corner_outputs": 16,
+        "cpu_reference_evidence": {
+          "path": "benchmarks/generated/cpu_oracle_verification.json",
+          "sha256": "cd36f092902c10be55098aead6629253998fcd27ded796f19b2e4e05f32c004e",
+          "stage_id": "append_R",
+          "test_ids": [
+            "2cb9fc4863262623c8ee61db9e88a9d1b4d86941f00210a70300a647dd0fbc9d",
+            "c2c6922a49bd443f6f678f574b4e232bd31c05d9815ff200d7cff1304962c300",
+            "b7d0896b62fb6f127efa5813a9581c89c4b0a9679406082bdfe51530914ea68d",
+            "3ecb938fae44cab66788ff7eb274b1803a3cc5007242d6fb7ac63eb68a029b61",
+            "3c7cb29a5054ce0662e178358ab4825189bf060b47467c97cb590dc7cd19bd87",
+            "3152e48aaa30cced82e00da9a1e2d8975a3d552327dcff877a254b803e722c70",
+            "b0b7db0731a636269ff553c3cbe81404fdf5567f1d67bfa674b0d3b263995846",
+            "7827abda97b80ab6a3d8f5abe2535fe326dcfcfea412e777959e4b931dd6eb4e",
+            "4d0d66cc7f71f4b56097f4cb58399744fc785449ea1eba14a46cbbd1ae5a5dea",
+            "67e76e8ebb30bd597c6435bfd2fca35371791eb35e7fe338354f7b4f9c9590ec",
+            "105ee12c0e33a96d32be989929f21a0b69a2eabf55f54293f72dff3bfaf04501",
+            "d11e7cd218d04c8879d7cca4f08b91655e91728802f774775213872da80dd7ef",
+            "58f9b4dc4101a51adc488147958b3fb5a7e3f5d158b26076b6112c7baa764cfb",
+            "16d924a6e49dfd57f46fa6fb88c5862127f4ae5f18c3735544f7d4f135f6c4cd",
+            "e3f8ed83f4ff31256953a51bedc20ce48162e2c240ba28e949cabca6d6785af6",
+            "49764d96228196b28d54e04350e576b5ea54f829be80a91c0b32c8bc5ddb56e4"
+          ],
+          "all_exact_pass": true,
+          "oracle_only_not_model_training_or_transfer": true
+        },
+        "protected_actual_input_overlap": 0
+      },
+      "spec_sha256": "4d223cf27e96ceab0cf4809f66e600ec801ef78df76b76605c4da91b229fe714",
+      "evidence_id": "benchmarks/generated/pilot_view_v1/stage_validation_evidence.json#append_R",
+      "synthetic_fixture": false
+    },
+    "append_B": {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "nonconstant": true,
+        "no_leakage": true,
+        "hint_regret": "NA"
+      },
+      "details": {
+        "implementation": "verge-operational-20260908",
+        "delta": 0.1,
+        "canonical_kind": "tape_transform",
+        "legacy_alias_normalized": false,
+        "leakage": {
+          "protected_tuple_count": 192,
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "35e1b2fd3183353f4f0e17e004d68b39f108db3cef045df126699d5e51f538eb"
+        },
+        "protocol_id": "verge-stage-cases-v1",
+        "case_count": 34,
+        "distinct_corner_outputs": 16,
+        "cpu_reference_evidence": {
+          "path": "benchmarks/generated/cpu_oracle_verification.json",
+          "sha256": "cd36f092902c10be55098aead6629253998fcd27ded796f19b2e4e05f32c004e",
+          "stage_id": "append_B",
+          "test_ids": [
+            "35e003ea06c60a205439549ff13136dc14e7ddecfb615af3b96dc55543dd8d7c",
+            "663030f23ef175523e870b314ad6c9e309bdfa24efe9a9d1f7427a6048841ca7",
+            "0b25cea0bf5f13ab4c3e7b758b9ce1d3633755a2246b4552005613674d47dedd",
+            "cd45bf1fe28401c64be9448a8d797fae51fe9c4295e7bb8b063068f5a392f14b",
+            "59892450d4ca9669f0c3b45f1764cbdb354d6702117de0e814eada30005b6df8",
+            "47f5dd537be259a03f40a24acb2f6eaba7111b0ebb6602a6080d32829ebd92ba",
+            "64c60c5fc1bc717c7cb566e01108c156eb44a63b21688fef93bd643706a52c76",
+            "0af36723290ea446726dc02c310e450472fdb2aa34d81a2c9120f37ca78d6e55",
+            "2269e2bc97bc5de261d5130b5f6d2d6d9c6fe78243c6600b3bca0728ce1b4cea",
+            "255da246e759bc1787a496bb1f55b462a5433c0fb4321c7f4e97b800d2e67368",
+            "9dfc07441838f2d5bc3b0f8ca04af9c66cafdaabcebf30cc227ca70be197f9b2",
+            "c8ae0ea8f10b08d61f98868c82eb1f46b609a56f8f1132497d2b6e5582c416d6",
+            "43db77af40b5b6836ba071f488ab1b0314a40432e474efb518416dcaa347d3c6",
+            "48d04f3caf50962ff9273514c3a20a283faf71cc8fe4b7ef5fa031771de80323",
+            "8d4c6b6f846269cc54d6e40baffbbfdd903f207360d775f3b0f334244887fd35",
+            "f957a1a8f37f6c8a510757b29d59a1d5d1114d815158e34de5e1aaeac76c5f22"
+          ],
+          "all_exact_pass": true,
+          "oracle_only_not_model_training_or_transfer": true
+        },
+        "protected_actual_input_overlap": 0
+      },
+      "spec_sha256": "b1466923f061de8eed375ff95e6a319e79b3ce6dd988dd1630390004e90ab679",
+      "evidence_id": "benchmarks/generated/pilot_view_v1/stage_validation_evidence.json#append_B",
+      "synthetic_fixture": false
+    },
+    "replace_R_to_B": {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "nonconstant": true,
+        "no_leakage": true,
+        "hint_regret": "NA"
+      },
+      "details": {
+        "implementation": "verge-operational-20260908",
+        "delta": 0.1,
+        "canonical_kind": "tape_transform",
+        "legacy_alias_normalized": false,
+        "leakage": {
+          "protected_tuple_count": 192,
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "35e1b2fd3183353f4f0e17e004d68b39f108db3cef045df126699d5e51f538eb"
+        },
+        "protocol_id": "verge-stage-cases-v1",
+        "case_count": 34,
+        "distinct_corner_outputs": 4,
+        "cpu_reference_evidence": {
+          "path": "benchmarks/generated/cpu_oracle_verification.json",
+          "sha256": "cd36f092902c10be55098aead6629253998fcd27ded796f19b2e4e05f32c004e",
+          "stage_id": "replace_R_to_B",
+          "test_ids": [
+            "918061c83a70e7b54980a55d8a35266bc13afdb05dbce70713a3ee429b77c6e5",
+            "3be04550d6125d916c242bc18ddfe9da5c64b346bef49558d2c357b04e6dc43f",
+            "e0481d84dbd69b554b8d1c22e3614f58c0e3f922ca252f5536dedf2485412426",
+            "5d4df6e53513eb207de08658577e4fa68abc59bcee5fd6a590c71c4d7fab2f45",
+            "0905a04c0f964b020cae3e51b5514ea7b917ffd8eda3ef567cde38c09d082aeb",
+            "68749cb2ca43e3a29cde0a895f6835059ad854e4334a8172f57077769614bec7",
+            "5d5474c98904110ced5c577a7015c10606f478c1b182488a29d72628e667e480",
+            "783427aa6e6396ebeadacb4aeac59d21916285526d01df2211d4c8699f934f0d",
+            "8e68d04cbfe581f1533a26f8453e0dbfc6846599155e76704cd0b647437fd282",
+            "2fdb0a6dcf1a6571c73807a883af2f025b83366e9915196aa2856cd7dc545a1b",
+            "41b655cbe92c2008e9fc82de1f6221e1e143911e793f61eac83ef4339f7cc736",
+            "550447d6e5e9fe2cbae0016ac126b15f45e4b847c8523951366deb65b8674c4b",
+            "f1b61bff484ba1ad107a666204d711479f0c2c25232d287042c1c9191aed65f4",
+            "706c1ad07efbd66b655045ae7ce9c551ea90b7f5e7d0b386664f64edf328ee8d",
+            "9ab634ed0d4d4fd6144af8bb929ce6e455a4e82b12c4fe91d26809d7fd7d87d2",
+            "9fe87cbbaaa38781e9b98ff45e930c4dbd4b00acc5297d38bb0103ab09b5c9fa"
+          ],
+          "all_exact_pass": true,
+          "oracle_only_not_model_training_or_transfer": true
+        },
+        "protected_actual_input_overlap": 0
+      },
+      "spec_sha256": "f96f4e0d9e7c564f8b92da2d66250dd34f8fd1fb96172c9fa440009d2860e76f",
+      "evidence_id": "benchmarks/generated/pilot_view_v1/stage_validation_evidence.json#replace_R_to_B",
+      "synthetic_fixture": false
+    },
+    "replace_RB_to_YG": {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "nonconstant": true,
+        "no_leakage": true,
+        "hint_regret": "NA"
+      },
+      "details": {
+        "implementation": "verge-operational-20260908",
+        "delta": 0.1,
+        "canonical_kind": "registered",
+        "legacy_alias_normalized": false,
+        "leakage": {
+          "protected_tuple_count": 192,
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "35e1b2fd3183353f4f0e17e004d68b39f108db3cef045df126699d5e51f538eb"
+        },
+        "protocol_id": "verge_ignition_stage_catalogue_v1_20260908:replace_RB_to_YG",
+        "case_count": 34,
+        "distinct_corner_outputs": 16,
+        "cpu_reference_evidence": {
+          "path": "benchmarks/generated/cpu_oracle_verification.json",
+          "sha256": "cd36f092902c10be55098aead6629253998fcd27ded796f19b2e4e05f32c004e",
+          "stage_id": "replace_RB_to_YG",
+          "test_ids": [
+            "caa3e3597fea5c872b713be872fa9a5ba57a7285e35aa617a8d9969dc7e32967",
+            "969223237727e13504bde0f51b558cc1fe332b8fada184c52a1e3fcf82ba962f",
+            "eaae365adff6133ddf5045b8912a670369ccb3690187b341df7af76913cc3e96",
+            "16e0d923463c15d9a46348b9a3956ea1f24b85fc70c54c84a238db87c562003a",
+            "1f9ec560409514a77e90d4d6deac0e6a10b4381ec57a30ceec9583578ea1e85d",
+            "306b6ccd5113b26342f12acf06f9942a17c6cd12c205c25c8610482b71dc396e",
+            "9d03ab22e318338c88eb8c32ab94105ab36745e340e214632da4052e4d5b0035",
+            "e5af41f74be3c96ffe311a6c59f2073b7d076fabcff5703a0f4b5fa0e5048426",
+            "cd8388a7050406b9ac4d65c4ebc1d2ed3f4b0da3760bdf00578f74b596be9888",
+            "df49e273d14989173c9e365426a71be017670d963b5b42fe17d3c5a32e741e55",
+            "348b58bd78f18d80e1577f33cf1b3944d40f09206269b1bd587448f8d0c251c8",
+            "c589dce5279fb3508d85b2121503cfd1dcac9d9666a5e9d75d6450e8e21b6335",
+            "d39eeb96bbbe7e153dc19991e202d700add98ce396dc89c08fa99e79f06c5804",
+            "ae38fe9483accbdfb96973c3215aa6a19c27eeb4364d7568830149bf8c97a18d",
+            "bfe3260eded06fb643fa96096c018f88647673916d4f297e57b4209d32054392",
+            "aee9fb4443e96e7fce6ccbbe0b4a015e88e68e3a85ecde887a2c7229a36bf8d9"
+          ],
+          "all_exact_pass": true,
+          "oracle_only_not_model_training_or_transfer": true
+        },
+        "protected_actual_input_overlap": 0
+      },
+      "spec_sha256": "d55973e64b61b1e4a63b26b63b395746d39a37dbcff4daeafa32f79e1e94392e",
+      "evidence_id": "benchmarks/generated/pilot_view_v1/stage_validation_evidence.json#replace_RB_to_YG",
+      "synthetic_fixture": false
+    },
+    "prepend_R": {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "nonconstant": true,
+        "no_leakage": true,
+        "hint_regret": "NA"
+      },
+      "details": {
+        "implementation": "verge-operational-20260908",
+        "delta": 0.1,
+        "canonical_kind": "tape_transform",
+        "legacy_alias_normalized": false,
+        "leakage": {
+          "protected_tuple_count": 192,
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "35e1b2fd3183353f4f0e17e004d68b39f108db3cef045df126699d5e51f538eb"
+        },
+        "protocol_id": "verge-stage-cases-v1",
+        "case_count": 34,
+        "distinct_corner_outputs": 16,
+        "cpu_reference_evidence": {
+          "path": "benchmarks/generated/cpu_oracle_verification.json",
+          "sha256": "cd36f092902c10be55098aead6629253998fcd27ded796f19b2e4e05f32c004e",
+          "stage_id": "prepend_R",
+          "test_ids": [
+            "7fdb55ef9559512225dfa9ca9b168bce298e8558f865d1ca72aca3d3930edff5",
+            "e85c00d5fe3c8ab8ad79de5eb5f5926d8da16b8a799f7a3eaaaa585d30fd20a0",
+            "616fb02b219826124472f6ad8ad3b3a5c9056e6d7baeca31d899e59df56a258d",
+            "f8efdea4a2fafff1385ae1b0c32e180d4d3095fc79a1acbcd10775ca2089a9ba",
+            "6c600140c4cf3c372a23e8860d4d7e77fae503361fe87f4d33b874be45bb9e79",
+            "6e8dbecdbd262e01b9b705da33e20c2fb5d126e1fa9f0ab6b59859a1cfefe3f1",
+            "61695f5f0d4d85158a005003005c12aab5637da3a345e39d805739871352719a",
+            "910ea9ce75fd190fa75343aad676118051e3ca31aa6ecee3fc8dea9a30fabc7d",
+            "a1a11dad3827b7c84832f58c5d7d347053a984abfa179663f6a7d30f92eb1336",
+            "528fc50a9f9a202f2b268236f662a53c3c093cfaaf8c4f1bfaab0751db64d7b1",
+            "9da176f3a5e10cd5b6d49d1ce5e437450c0fb9a1724bb367d2371e73cdbdfba6",
+            "647c53b9c754e0bd233378bb0ca865a8abca2fc8381b1d02d5c63e5f7bf58ac9",
+            "7b4f0496d12450a17f166a90d726b7c05c7ee0cde00cf6654372a48f3feac709",
+            "e46e8c085240e86c6dabae61e3ab3224e9d6a82bc0266df1e32656b4275240b4",
+            "d632c08f2578e44d55f4c2634633e0b5fd103ef4f4b747f556d71f6650ce3a52",
+            "d70ec6ef827b8d9b9c27a37b4594dbf0ac7a2b987f08188cdb09d0d5e598f6b5"
+          ],
+          "all_exact_pass": true,
+          "oracle_only_not_model_training_or_transfer": true
+        },
+        "protected_actual_input_overlap": 0
+      },
+      "spec_sha256": "c10ffb89dcc66d6ac5f4aba1eea14ab5d2b13b1fef674cafedc43e355815423a",
+      "evidence_id": "benchmarks/generated/pilot_view_v1/stage_validation_evidence.json#prepend_R",
+      "synthetic_fixture": false
+    },
+    "prepend_RB": {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "nonconstant": true,
+        "no_leakage": true,
+        "hint_regret": "NA"
+      },
+      "details": {
+        "implementation": "verge-operational-20260908",
+        "delta": 0.1,
+        "canonical_kind": "tape_transform",
+        "legacy_alias_normalized": false,
+        "leakage": {
+          "protected_tuple_count": 192,
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "35e1b2fd3183353f4f0e17e004d68b39f108db3cef045df126699d5e51f538eb"
+        },
+        "protocol_id": "verge-stage-cases-v1",
+        "case_count": 34,
+        "distinct_corner_outputs": 16,
+        "cpu_reference_evidence": {
+          "path": "benchmarks/generated/cpu_oracle_verification.json",
+          "sha256": "cd36f092902c10be55098aead6629253998fcd27ded796f19b2e4e05f32c004e",
+          "stage_id": "prepend_RB",
+          "test_ids": [
+            "89b3178042aa645f8245191d156a121b772eb015bdd3223e6d355b34428c1fe4",
+            "c3c8bf43420a5fdccf3ca5368411583b8b408747c2cfaa217d5ba95a4fad7a21",
+            "2c938fefe20047c695496b0006a5c29b8f6ca854fbf7c06bf69cf8e0e7f02f27",
+            "457ef6af48a510f16366d3826be907ad1ba8fd2f708c121444d5d399f28f2a58",
+            "e65240566d8ff0382134bebfdd36393702073b8492d51903ed31c32990f945b9",
+            "35b7476479b716047dc0e354c9e7d357095a32c79c36417acfb489378bc134ed",
+            "4c6d61fba4d9e1f1a2c9c6cd753739dea0719b5299add540e013386b23ff00a8",
+            "f04340a5355833bea41af7880c6d8c67f5e5577a42ecbf138d9788dbaed40447",
+            "305b7f28b08225eb6965c28bf4de2712032d0b61803b10a392cb9986d506cc8a",
+            "75d2cbb679cebdd01b9c7651df8aced720877c636c76e6cf1958f15fbd1542e3",
+            "c74855029aa60f0366cec1ee58a295ff2f231d949c0e12a909d2db3e38fab61e",
+            "1721cb21be49d6afc9d82ab880877c97db502289343509b2cc2b7db90ef88341",
+            "3314febd3af1ad81308a4dbb284e6b9fbfa87d23e9f25cdf06b16aac6450cf56",
+            "f27ff5cb337602318a38b5f364046d9456c1ea245f08af04d3cf032ee1293038",
+            "6e660f94df2add9a6d05db058d53ed118775ce18d0f4f73d304362b8857e99c6",
+            "03af0fddcc774bbfa86138fc03df29d207600d539718a735d20b1c59d88b8fda"
+          ],
+          "all_exact_pass": true,
+          "oracle_only_not_model_training_or_transfer": true
+        },
+        "protected_actual_input_overlap": 0
+      },
+      "spec_sha256": "e96415fdbb41d0d9b62efce3c45deb7cd9872f8575427c26011f5a74dad24be8",
+      "evidence_id": "benchmarks/generated/pilot_view_v1/stage_validation_evidence.json#prepend_RB",
+      "synthetic_fixture": false
+    },
+    "target_small2": {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "nonconstant": true,
+        "no_leakage": true,
+        "hint_regret": "NA"
+      },
+      "details": {
+        "implementation": "verge-operational-20260908",
+        "delta": 0.1,
+        "canonical_kind": "registered",
+        "legacy_alias_normalized": false,
+        "leakage": {
+          "protected_tuple_count": 192,
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "35e1b2fd3183353f4f0e17e004d68b39f108db3cef045df126699d5e51f538eb"
+        },
+        "protocol_id": "verge_ignition_stage_catalogue_v1_20260908:target_small2",
+        "case_count": 7,
+        "distinct_corner_outputs": 5,
+        "cpu_reference_evidence": {
+          "path": "benchmarks/generated/cpu_oracle_verification.json",
+          "sha256": "cd36f092902c10be55098aead6629253998fcd27ded796f19b2e4e05f32c004e",
+          "stage_id": "target_small2",
+          "test_ids": [
+            "565906dd49e5adff6f08eb91d82e1a8af5b5f8419de2a2b49ae95fe1dc1a21db",
+            "a4ea1a437266763e6a37ec0b82587c73ea40a1f50f1b999d9975729e4b94760e",
+            "51d331eb87a68be08e0320707ec9579bba2dc49582cecce70870db9769baf2d1",
+            "664bbf3324bf06eda4154a5a97cf96629021f9c84617867826afe818bbec2332",
+            "5a89dc32a99abce5921cb112ff21f67d0dd7220c5515889a7e62f06baeb4a286"
+          ],
+          "all_exact_pass": true,
+          "oracle_only_not_model_training_or_transfer": true
+        },
+        "protected_actual_input_overlap": 0
+      },
+      "spec_sha256": "a81677dbc90c1c3f1e8060bab595b507b52b8b7d4c351c6181adb433a18908c6",
+      "evidence_id": "benchmarks/generated/pilot_view_v1/stage_validation_evidence.json#target_small2",
+      "synthetic_fixture": false
+    },
+    "target_small3": {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "nonconstant": true,
+        "no_leakage": true,
+        "hint_regret": "NA"
+      },
+      "details": {
+        "implementation": "verge-operational-20260908",
+        "delta": 0.1,
+        "canonical_kind": "registered",
+        "legacy_alias_normalized": false,
+        "leakage": {
+          "protected_tuple_count": 192,
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "35e1b2fd3183353f4f0e17e004d68b39f108db3cef045df126699d5e51f538eb"
+        },
+        "protocol_id": "verge_ignition_stage_catalogue_v1_20260908:target_small3",
+        "case_count": 15,
+        "distinct_corner_outputs": 13,
+        "cpu_reference_evidence": {
+          "path": "benchmarks/generated/cpu_oracle_verification.json",
+          "sha256": "cd36f092902c10be55098aead6629253998fcd27ded796f19b2e4e05f32c004e",
+          "stage_id": "target_small3",
+          "test_ids": [
+            "c9b8e65f59f955025d6b3efd759eecf63cc7e3947fd575276e59a779632f2ad3",
+            "015add8400b96ffb7c29791ec95e4b8b1cb66b6cd50ad1009af770fdd033a68e",
+            "a3d17d6aa044fba57e4b7beb07a378cf9039b0774bfbbbc703f58019065b9240",
+            "81be868eb0988fcaf814a993b8b7dbe381b591f4ccd9eea59827b29e58b77f0e",
+            "126d7b1207bc9843fb70dcffa55bd5eda19d4711b7552b3a7ac9be0e36981c32",
+            "32851b906d8d97b50912eb8485243ea8b56a66c9cff8d13f1092745ab10bd923",
+            "d2af835fea6d60f99332566d3499acf9e856d17660af41520bb776dad4ad8d5b",
+            "25c7c73cac73787f95dff59cb818cd31777b99b6df49809045ebe72c499638d7",
+            "c89789342abde1cb466e2f2e35188d07999f5ebb736ddf387ea6baac8cbaaef8",
+            "509ca29cfd59ca1ff239b3cb02f2c74eda30d79bddc99f9efaeaa91172d3d390",
+            "a528efdce86c063e69b27c2285cb810de6c4a881f721bb6c9c00499d18bc0cc3",
+            "6fc1415513c352116d163933dda58e9d13038ce1e2bc5eff0e8d7f6cbaa151fb",
+            "b8c85cd5d7df6e1399fa87d2dd84307f85df2717270076fb7b798067ffa17bb7"
+          ],
+          "all_exact_pass": true,
+          "oracle_only_not_model_training_or_transfer": true
+        },
+        "protected_actual_input_overlap": 0
+      },
+      "spec_sha256": "c3a9fd2c0dda749f1f93460fae53aca2cfb09ca8e192515776c4c56826c15975",
+      "evidence_id": "benchmarks/generated/pilot_view_v1/stage_validation_evidence.json#target_small3",
+      "synthetic_fixture": false
+    }
+  },
+  "B": 65536,
+  "alpha": 0.25,
+  "eta": 0.25,
+  "q": 4,
+  "n_min": 8,
+  "bootstrap_resamples": 2000,
+  "stage_source_status": {
+    "registered": "available",
+    "tape_transform": "bounded catalogue available; open expression interface retained",
+    "hinted_target": "retained, but not admissible this round because no 512-rollout hint-regret probe is complete"
+  }
+}

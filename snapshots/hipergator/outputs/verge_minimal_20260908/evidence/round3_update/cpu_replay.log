@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "totals": {
+    "diagnostic_reason_aliases": 96,
+    "programs": 16,
+    "test_case_executions": 416,
+    "binary_successes": 1,
+    "parse_valid": 15,
+    "per_test_passes": 16
+  },
+  "mixed_tokens": 924,
+  "constant_tokens": 2078,
+  "weights": {
+    "full_model_constructed": false,
+    "adapter_tensors_read_on_CPU": true,
+    "gpu_used": false,
+    "base_file_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321",
+    "updated_file_sha256": "b5278b1fed5e784945b6770b9abfd3b8d0cede946d2d98ffd771871f2fc86090",
+    "tensor_count": 364,
+    "changed_tensor_count": 182,
+    "changed_element_count": 12779520,
+    "max_abs_difference": 9.99999338091584e-06
+  }
+}

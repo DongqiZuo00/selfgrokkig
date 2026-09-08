@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "totals": {
+    "diagnostic_reason_aliases": 363,
+    "CPU_replayed_programs": 40,
+    "CPU_replayed_case_executions": 528,
+    "groups": 5,
+    "programs": 40,
+    "generated_tokens": 6974,
+    "parse_valid": 40,
+    "binary_successes": 0,
+    "test_passes": 3,
+    "test_cases": 528
+  },
+  "groups": [
+    {
+      "branch": "g1",
+      "stage_id": "prepend_RB",
+      "n": 8,
+      "cap": 2048,
+      "generated_tokens": 995,
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "per_test_passes": 0,
+      "per_test_total": 128
+    },
+    {
+      "branch": "g1",
+      "stage_id": "target_small3",
+      "n": 8,
+      "cap": 1141,
+      "generated_tokens": 1302,
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "per_test_passes": 0,
+      "per_test_total": 104
+    },
+    {
+      "branch": "g1",
+      "stage_id": "prepend_R",
+      "n": 8,
+      "cap": 2048,
+      "generated_tokens": 1788,
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "per_test_passes": 0,
+      "per_test_total": 128
+    },
+    {
+      "branch": "g2",
+      "stage_id": "replace_RB_to_YG",
+      "n": 8,
+      "cap": 1910,
+      "generated_tokens": 1183,
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "per_test_passes": 3,
+      "per_test_total": 128
+    },
+    {
+      "branch": "g2",
+      "stage_id": "target_small2",
+      "n": 8,
+      "cap": 2048,
+      "generated_tokens": 1706,
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "per_test_passes": 0,
+      "per_test_total": 40
+    }
+  ]
+}

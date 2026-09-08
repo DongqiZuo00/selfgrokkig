@@ -1,0 +1,10 @@
+{
+  "status": "frozen",
+  "output": "C:\\Users\\ddong\\Documents\\Codex\\2026-09-06\\hipergator-x20\\outputs\\selfgrok\\verge_minimal_20260908\\benchmarks\\generated\\pilot_view_v1",
+  "train_count": 128,
+  "selection_count": 8,
+  "prompt_view_sha256": "6b1f0506a1ec26cd0e9fabe27ac3826b660b1701ab1b61c90941caee88d298f6",
+  "manifest_id": "verge_prepend_rb_v1_20260908:selection_first8:de03eceec552de11",
+  "stage_validation_count": 9,
+  "model_results_read": false
+}

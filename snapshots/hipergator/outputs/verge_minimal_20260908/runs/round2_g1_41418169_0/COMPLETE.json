@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "branch": "g1",
+  "plan_sha256": "6bda7e01b4fbeed9a737bfe979a4903baecdee60d8c554be88f17f4006f86113",
+  "fragment": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round2_g1_41418169_0/fragment.json",
+  "fragment_sha256": "367fb85ab026134c722cdd2f6611ea2ec1b0cd3007c1d90f5d5a795261eff9e9",
+  "elapsed_seconds": 446.3220121860504,
+  "execution": {
+    "grammar_enabled": true,
+    "actual_optimizer_steps": 0,
+    "training_generated_tokens": 65536,
+    "backend_tokens_all_generation_calls": 65536,
+    "initial_parameter_fingerprint": "50db3691d59bbef2b970c529567b2e4859f2bb31f2cc21c5685dc6230481d8a2",
+    "final_parameter_fingerprint": "50db3691d59bbef2b970c529567b2e4859f2bb31f2cc21c5685dc6230481d8a2",
+    "sampling_seed_policy": "batch8_chunk_v1",
+    "global_cross_job_rollout_order_claimed": false
+  }
+}

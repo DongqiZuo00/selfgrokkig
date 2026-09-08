@@ -1,0 +1,10 @@
+test_current_prepare_ready_without_future_optional_hashes_is_compatible (test_run_branch_job.BranchWrapperTests.test_current_prepare_ready_without_future_optional_hashes_is_compatible) ... ok
+test_explicit_environment_selects_one_branch_and_failure_preserves_launch (test_run_branch_job.BranchWrapperTests.test_explicit_environment_selects_one_branch_and_failure_preserves_launch) ... ok
+test_frozen_runtime_contract_checks_every_file_and_is_copied_to_job (test_run_branch_job.BranchWrapperTests.test_frozen_runtime_contract_checks_every_file_and_is_copied_to_job) ... ok
+test_optional_frozen_catalogue_hash_rejects_changed_wording_before_executor (test_run_branch_job.BranchWrapperTests.test_optional_frozen_catalogue_hash_rejects_changed_wording_before_executor) ... ok
+test_ready_requires_completed_actual_preparation_and_matching_q (test_run_branch_job.BranchWrapperTests.test_ready_requires_completed_actual_preparation_and_matching_q) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.514s
+
+OK

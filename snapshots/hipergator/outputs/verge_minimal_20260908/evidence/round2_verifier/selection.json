@@ -1,0 +1,168 @@
+{
+  "mode": "CPU_training_verifier_audit_selection",
+  "snapshot_scope": "g1/g2 training journals only; running jobs may progress afterward",
+  "selection_rule": "Prioritize positive full 8-sample stage groups, then first full group of each distinct stage ID; at most five groups.",
+  "snapshots": {
+    "g1": {
+      "journal_sha256": "edf216fccbe94dedddd2704e619d919581e5b32789d4e5826ae6fda6a121a62c",
+      "record_count": 167,
+      "last_sequence": 166,
+      "last_record_sha256": "69c36bc8e32be41df7e9de403a1e1aebcaf94a93fee69eca4b5cc65fb74bd2b5",
+      "complete_generation_groups": 39,
+      "positive_groups": 0,
+      "actual_model_update_events": 0
+    },
+    "g2": {
+      "journal_sha256": "6e9e213ecd5ba48dff5de38a1af148ba3952ccdc021097c05c5260d51096e74a",
+      "record_count": 164,
+      "last_sequence": 163,
+      "last_record_sha256": "fef7f542634b3298934f3c2191c6e6cb70657e1f91aa8d70643f348d758ff193",
+      "complete_generation_groups": 39,
+      "positive_groups": 0,
+      "actual_model_update_events": 0
+    }
+  },
+  "selected": [
+    {
+      "branch": "g1",
+      "source": {
+        "run_id": "verge_minimal_naming_round2_20260908:g1",
+        "sequence": 2,
+        "previous_sha256": "86a067a437f32ef7aa2797949fc231a816bf5f511db6f0cc0fd9289133b0f568",
+        "kind": "generation_source",
+        "payload": {
+          "phase": "g1_segment_1",
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round2_g1_41418169_0/execution/raw_training/000000_g1_segment_1.json",
+          "raw_sha256": "15624abf6b97d504e58d85528d6a4bdef8808e8c8a18a4ea7a8528bf8405585e",
+          "actual_batch_seed": 630906298231539922,
+          "sample_count": 8,
+          "optimizer_steps_before": 0,
+          "target": false,
+          "native_tokens_include_eos_and_exclude_post_eos_padding": true
+        },
+        "sha256": "75246b81e204aa1d011f12c3abf22e142a9ea1f14462775663e4d4764ed4dede"
+      },
+      "rollouts_sequence": 3,
+      "filename": "000000_g1_segment_1.json",
+      "phase": "g1_segment_1",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_RB__compact",
+      "n": 8,
+      "reward_sum": 0,
+      "target": false,
+      "drain": false
+    },
+    {
+      "branch": "g1",
+      "source": {
+        "run_id": "verge_minimal_naming_round2_20260908:g1",
+        "sequence": 73,
+        "previous_sha256": "f13f191ff0732e915d1af226b1d733dbb7f34ce2fe7345ccaccdf46d346d71a2",
+        "kind": "generation_source",
+        "payload": {
+          "phase": "g1_segment_2",
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round2_g1_41418169_0/execution/raw_training/000017_g1_segment_2.json",
+          "raw_sha256": "c2452f40bbd76fc2e03b4a2dfcba84a4166d0528b6123a6fe36b58e87d098ff8",
+          "actual_batch_seed": 661162883876818739,
+          "sample_count": 8,
+          "optimizer_steps_before": 0,
+          "target": false,
+          "native_tokens_include_eos_and_exclude_post_eos_padding": true
+        },
+        "sha256": "42946996186fb739f47b92969d78250e7a1633d9251a36ede92bffdfdc7396d8"
+      },
+      "rollouts_sequence": 74,
+      "filename": "000017_g1_segment_2.json",
+      "phase": "g1_segment_2",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small3__compact",
+      "n": 8,
+      "reward_sum": 0,
+      "target": false,
+      "drain": false
+    },
+    {
+      "branch": "g1",
+      "source": {
+        "run_id": "verge_minimal_naming_round2_20260908:g1",
+        "sequence": 104,
+        "previous_sha256": "13277618f03a42d25f990479e0235434cf073922eceefc62b89fb6c19ac9ee4c",
+        "kind": "generation_source",
+        "payload": {
+          "phase": "g1_segment_3",
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round2_g1_41418169_0/execution/raw_training/000024_g1_segment_3.json",
+          "raw_sha256": "d4cfcc1bbd567cf1c910a57be9b23b1f474273199d10413b55c91d23e2c2d691",
+          "actual_batch_seed": 908864963780404285,
+          "sample_count": 8,
+          "optimizer_steps_before": 0,
+          "target": false,
+          "native_tokens_include_eos_and_exclude_post_eos_padding": true
+        },
+        "sha256": "01b8bfb1b261080016500a56b57375f2695f086720f98e04730d7a0fae764226"
+      },
+      "rollouts_sequence": 105,
+      "filename": "000024_g1_segment_3.json",
+      "phase": "g1_segment_3",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_R__compact",
+      "n": 8,
+      "reward_sum": 0,
+      "target": false,
+      "drain": false
+    },
+    {
+      "branch": "g2",
+      "source": {
+        "run_id": "verge_minimal_naming_round2_20260908:g2",
+        "sequence": 6,
+        "previous_sha256": "4c6c807604a45c5963909763b81a0939e2942177e1756438a80c43b831c98d2c",
+        "kind": "generation_source",
+        "payload": {
+          "phase": "g2_segment_1",
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round2_g2_41418169_1/execution/raw_training/000001_g2_segment_1.json",
+          "raw_sha256": "272857533c0474fb9d307f2483dd1c99e2791b71b8604d0dab3e3e30c6539592",
+          "actual_batch_seed": 982060269141714976,
+          "sample_count": 8,
+          "optimizer_steps_before": 0,
+          "target": false,
+          "native_tokens_include_eos_and_exclude_post_eos_padding": true
+        },
+        "sha256": "691ab6a4966ff1af29fd8d4031bff4b2a1ff52be89d7ca8b7eb1a3a8248ae9b3"
+      },
+      "rollouts_sequence": 7,
+      "filename": "000001_g2_segment_1.json",
+      "phase": "g2_segment_1",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__replace_RB_to_YG__compact",
+      "n": 8,
+      "reward_sum": 0,
+      "target": false,
+      "drain": false
+    },
+    {
+      "branch": "g2",
+      "source": {
+        "run_id": "verge_minimal_naming_round2_20260908:g2",
+        "sequence": 116,
+        "previous_sha256": "77103888a0d804ea29cd4c9d00d00dd8f614b9edb6d70de9105ee2c6bae332df",
+        "kind": "generation_source",
+        "payload": {
+          "phase": "g2_segment_3",
+          "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round2_g2_41418169_1/execution/raw_training/000027_g2_segment_3.json",
+          "raw_sha256": "52ab5925db4799cafc88e165e925657b8e4dae02ae6ec9129f90cdbd23296d64",
+          "actual_batch_seed": 412997723684720280,
+          "sample_count": 8,
+          "optimizer_steps_before": 0,
+          "target": false,
+          "native_tokens_include_eos_and_exclude_post_eos_padding": true
+        },
+        "sha256": "938d6e83fa2905cfcdd82e0a33bd30ee352d939cb73b8056a6e2105fcbec114f"
+      },
+      "rollouts_sequence": 117,
+      "filename": "000027_g2_segment_3.json",
+      "phase": "g2_segment_3",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small2__compact",
+      "n": 8,
+      "reward_sum": 0,
+      "target": false,
+      "drain": false
+    }
+  ],
+  "heldout_test_results_read": false
+}

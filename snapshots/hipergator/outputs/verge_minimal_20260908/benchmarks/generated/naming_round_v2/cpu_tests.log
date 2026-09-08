@@ -1,0 +1,9 @@
+test_all_target_fields_tests_classes_and_ids_preserved (__main__.NamingRoundViewTests.test_all_target_fields_tests_classes_and_ids_preserved) ... ok
+test_catalogue_and_reused_real_validation_preserved (__main__.NamingRoundViewTests.test_catalogue_and_reused_real_validation_preserved) ... ok
+test_immutable_freeze_and_v1_source_preservation (__main__.NamingRoundViewTests.test_immutable_freeze_and_v1_source_preservation) ... ok
+test_new_hashes_and_execute_round_real_input_loader (__main__.NamingRoundViewTests.test_new_hashes_and_execute_round_real_input_loader) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.785s
+
+OK

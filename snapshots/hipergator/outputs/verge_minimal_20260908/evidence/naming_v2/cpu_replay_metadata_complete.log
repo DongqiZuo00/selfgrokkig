@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "mode": "CPU_replay_saved_names_only_paired_stage_screen",
+  "v1_totals": {
+    "CPU_replayed_programs": 96,
+    "CPU_replayed_test_cases": 1424,
+    "at_cap": 0,
+    "test_cases": 1424,
+    "per_test_passes": 16,
+    "rollouts": 96,
+    "generated_tokens": 10089,
+    "parse_valid": 96,
+    "binary_successes": 1,
+    "mixed_groups": 1,
+    "diagnostic_reason_aliases": 125
+  },
+  "v2_totals": {
+    "CPU_replayed_programs": 96,
+    "CPU_replayed_cases": 1424,
+    "test_cases": 1424,
+    "per_test_passes": 44,
+    "at_cap": 0,
+    "diagnostic_reason_aliases": 867,
+    "rollouts": 96,
+    "generated_tokens": 17031,
+    "parse_valid": 96,
+    "binary_successes": 2,
+    "mixed_groups": 2
+  },
+  "v1_first_route_counts": {
+    "NONE": 21,
+    "start": 63,
+    "end": 9,
+    "n1": 2,
+    "n0": 1
+  },
+  "v2_first_route_counts": {
+    "n0": 94,
+    "start": 2
+  },
+  "v2_failed_case_reason_counts": {
+    "Maximum iterations exceeded (possible infinite loop)": 391,
+    "exact_output_mismatch": 867,
+    "Routed to NONE": 122
+  }
+}

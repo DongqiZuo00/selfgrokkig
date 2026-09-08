@@ -1,0 +1,731 @@
+{
+  "status": "PASS",
+  "mode": "actual_training_group_raw_audit",
+  "scope": "five completed training groups from fixed g1/g2 journal snapshots, not complete round results",
+  "new_GPU_jobs": 0,
+  "new_model_samples": 0,
+  "new_optimizer_steps": 0,
+  "heldout_test_model_results_read": false,
+  "snapshots": {
+    "g1": {
+      "journal_sha256": "edf216fccbe94dedddd2704e619d919581e5b32789d4e5826ae6fda6a121a62c",
+      "record_count": 167,
+      "last_sequence": 166,
+      "last_record_sha256": "69c36bc8e32be41df7e9de403a1e1aebcaf94a93fee69eca4b5cc65fb74bd2b5",
+      "complete_generation_groups": 39,
+      "positive_groups": 0,
+      "actual_model_update_events": 0
+    },
+    "g2": {
+      "journal_sha256": "6e9e213ecd5ba48dff5de38a1af148ba3952ccdc021097c05c5260d51096e74a",
+      "record_count": 164,
+      "last_sequence": 163,
+      "last_record_sha256": "fef7f542634b3298934f3c2191c6e6cb70657e1f91aa8d70643f348d758ff193",
+      "complete_generation_groups": 39,
+      "positive_groups": 0,
+      "actual_model_update_events": 0
+    }
+  },
+  "launch_contract_checks": {
+    "g1": {
+      "catalogue_sha256": "4fbe279cfed264dc14f9a4fca8072d8c9adaf841bff33fda38587d5d6d2649d7",
+      "target_rows_sha256": "1e1407c3f529cd60da01ebf9888dc1635dae9da405c40a0d050139d77ade9420",
+      "all_runtime_contract_file_hashes_match": true,
+      "contract_files_checked": 16,
+      "launch_sha256": "752036ed977badbdc44a9049724203b377de8af4ce3593cf5ca3a3074111dacd",
+      "plan_file_sha256": "c6bae12f21c724db985666fb6b41139cfbd4309a6008fed1ef27d66197c6c46f",
+      "slurm_job_id_reported_by_launch": "41418185",
+      "source_runtime_contract_sha256": "a4ae49768225eb106474e008acdddce65ff25b888ba8481356e1f688b3d8bf4d",
+      "serialized_contract_copy_sha256": "6935fac2f59372cb152de0f024cd0c9adb45f33a6d128796ae05e932cc971d52",
+      "serialized_contract_content_identical": true
+    },
+    "g2": {
+      "catalogue_sha256": "4fbe279cfed264dc14f9a4fca8072d8c9adaf841bff33fda38587d5d6d2649d7",
+      "target_rows_sha256": "1e1407c3f529cd60da01ebf9888dc1635dae9da405c40a0d050139d77ade9420",
+      "all_runtime_contract_file_hashes_match": true,
+      "contract_files_checked": 16,
+      "launch_sha256": "139a345867ba85a368c7244574227ea0d243faea3a4a361a687b467425d4d67b",
+      "plan_file_sha256": "c6bae12f21c724db985666fb6b41139cfbd4309a6008fed1ef27d66197c6c46f",
+      "slurm_job_id_reported_by_launch": "41418186",
+      "source_runtime_contract_sha256": "a4ae49768225eb106474e008acdddce65ff25b888ba8481356e1f688b3d8bf4d",
+      "serialized_contract_copy_sha256": "6935fac2f59372cb152de0f024cd0c9adb45f33a6d128796ae05e932cc971d52",
+      "serialized_contract_content_identical": true
+    }
+  },
+  "totals": {
+    "groups": 5,
+    "programs": 40,
+    "generated_tokens": 6974,
+    "parse_valid": 40,
+    "binary_successes": 0,
+    "test_passes": 3,
+    "test_cases": 528
+  },
+  "groups": [
+    {
+      "branch": "g1",
+      "phase": "g1_segment_1",
+      "file": "000000_g1_segment_1.json",
+      "stage_id": "prepend_RB",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_RB__compact",
+      "n": 8,
+      "cap": 2048,
+      "generated_tokens": 995,
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "per_test_passes": 0,
+      "per_test_total": 128,
+      "failure_reasons": {
+        "exact_output_mismatch": 77,
+        "Maximum iterations exceeded (possible infinite loop)": 51
+      },
+      "actual_prompt_exactly_matches_frozen_concise_naming_probe": true,
+      "official_prompt_used": false,
+      "message_sha256": "41610d22bc9ab64c95a8c45a7b339e834bca7c138abd390f7addf007aa90febc",
+      "ground_truth_sha256": "c95634eb9c43a2312751737fd0c6fbd6ebae47cb883045687de1c80d53fce75d",
+      "raw_sha256": "15624abf6b97d504e58d85528d6a4bdef8808e8c8a18a4ea7a8528bf8405585e",
+      "journal_generation_source_sha256": "75246b81e204aa1d011f12c3abf22e142a9ea1f14462775663e4d4764ed4dede",
+      "journal_rollouts_sha256": "970ee92a34a19c028ab4b2987646079cdea1906b51b6f550c5f4323ab819038c"
+    },
+    {
+      "branch": "g1",
+      "phase": "g1_segment_2",
+      "file": "000017_g1_segment_2.json",
+      "stage_id": "target_small3",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small3__compact",
+      "n": 8,
+      "cap": 1141,
+      "generated_tokens": 1302,
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "per_test_passes": 0,
+      "per_test_total": 104,
+      "failure_reasons": {
+        "exact_output_mismatch": 74,
+        "Maximum iterations exceeded (possible infinite loop)": 24,
+        "Routed to NONE": 6
+      },
+      "actual_prompt_exactly_matches_frozen_concise_naming_probe": true,
+      "official_prompt_used": false,
+      "message_sha256": "a28f418226f8d80c2e0d509c47472bb9aad83201dee093a4c808fa0addb7608e",
+      "ground_truth_sha256": "aa695019cd1bc49458c32e06c3f0567aa6a550fe6aa6094e48d70ff525bbe185",
+      "raw_sha256": "c2452f40bbd76fc2e03b4a2dfcba84a4166d0528b6123a6fe36b58e87d098ff8",
+      "journal_generation_source_sha256": "42946996186fb739f47b92969d78250e7a1633d9251a36ede92bffdfdc7396d8",
+      "journal_rollouts_sha256": "c139260811f556386418583de89e61510bd6373b3dcb5424eac11e05ffee336f"
+    },
+    {
+      "branch": "g1",
+      "phase": "g1_segment_3",
+      "file": "000024_g1_segment_3.json",
+      "stage_id": "prepend_R",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_R__compact",
+      "n": 8,
+      "cap": 2048,
+      "generated_tokens": 1788,
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "per_test_passes": 0,
+      "per_test_total": 128,
+      "failure_reasons": {
+        "exact_output_mismatch": 101,
+        "Maximum iterations exceeded (possible infinite loop)": 27
+      },
+      "actual_prompt_exactly_matches_frozen_concise_naming_probe": true,
+      "official_prompt_used": false,
+      "message_sha256": "6c1126a8cc897d0f46dfd50499be2befb4b02c7bb0f995f75b0eb1f08f523098",
+      "ground_truth_sha256": "b98189984c19777356085f0c239cec9803d4638ff71b4fd7808774d94ff85f77",
+      "raw_sha256": "d4cfcc1bbd567cf1c910a57be9b23b1f474273199d10413b55c91d23e2c2d691",
+      "journal_generation_source_sha256": "01b8bfb1b261080016500a56b57375f2695f086720f98e04730d7a0fae764226",
+      "journal_rollouts_sha256": "79a7558b923e2cf2462c83f925e18eedee1604f41ab04ec13266f459e5e891d4"
+    },
+    {
+      "branch": "g2",
+      "phase": "g2_segment_1",
+      "file": "000001_g2_segment_1.json",
+      "stage_id": "replace_RB_to_YG",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__replace_RB_to_YG__compact",
+      "n": 8,
+      "cap": 1910,
+      "generated_tokens": 1183,
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "per_test_passes": 3,
+      "per_test_total": 128,
+      "failure_reasons": {
+        "exact_output_mismatch": 90,
+        "Maximum iterations exceeded (possible infinite loop)": 35
+      },
+      "actual_prompt_exactly_matches_frozen_concise_naming_probe": true,
+      "official_prompt_used": false,
+      "message_sha256": "4547b2c033a830fbadc7516e8b6df7d184aa2ffd8fb84a22c710f82bff8205aa",
+      "ground_truth_sha256": "fa3756cfdb185ef1a648fdfb69618ce993f86ed56ca9f44a2eefed181f45eedc",
+      "raw_sha256": "272857533c0474fb9d307f2483dd1c99e2791b71b8604d0dab3e3e30c6539592",
+      "journal_generation_source_sha256": "691ab6a4966ff1af29fd8d4031bff4b2a1ff52be89d7ca8b7eb1a3a8248ae9b3",
+      "journal_rollouts_sha256": "f3c72982ce926e7f73b7cc3430d20f1a614841b9417aac55bb1ffab2d5764db3"
+    },
+    {
+      "branch": "g2",
+      "phase": "g2_segment_3",
+      "file": "000027_g2_segment_3.json",
+      "stage_id": "target_small2",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small2__compact",
+      "n": 8,
+      "cap": 2048,
+      "generated_tokens": 1706,
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "per_test_passes": 0,
+      "per_test_total": 40,
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 9,
+        "exact_output_mismatch": 21,
+        "Routed to NONE": 10
+      },
+      "actual_prompt_exactly_matches_frozen_concise_naming_probe": true,
+      "official_prompt_used": false,
+      "message_sha256": "643234254c6202233ebc9f4c222ada8887accd35eb2d4e9e6ce55b263eb47550",
+      "ground_truth_sha256": "9848574637cc5149df26f156fd38972e2b395940cf9e3d6af137e03f167204ed",
+      "raw_sha256": "52ab5925db4799cafc88e165e925657b8e4dae02ae6ec9129f90cdbd23296d64",
+      "journal_generation_source_sha256": "938d6e83fa2905cfcdd82e0a33bd30ee352d939cb73b8056a6e2105fcbec114f",
+      "journal_rollouts_sha256": "fc6fa164dac900ecddde27ce9fc7e6c9f4f35308585ff079b9b9bd5ade6e0f3e"
+    }
+  ],
+  "program_diagnostics": [
+    {
+      "branch": "g1",
+      "file": "000000_g1_segment_1.json",
+      "stage_id": "prepend_RB",
+      "sample_index": 0,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 16
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n3\n    [EMPTY] n4\nPULLER_YG n1:\n    [Y] n2\n    [G] n5\n    [EMPTY] end\nPULLER_RB n2:\n    [R] end\n    [B] end\n    [EMPTY] NONE\nPAINTER_RED n3:\n    NEXT n6\nPULLER_RB n4:\n    [R] end\n    [B] n7\n    [EMPTY] NONE\nPAINTER_BLUE n5:\n    NEXT n8\nPULLER_RB n6:\n    [R] end\n    [B] end\n    [EMPTY] NONE\nPULLER_YG n7:\n    [Y] n9\n    [G] NONE\n    [EMPTY] end\nPAINTER_RED n8:\n    NEXT n10\nPULLER_YG n9:\n    [Y] end\n    [G] end\n    [EMPTY] NONE\nPULLER_RB n10:\n    [R] end\n    [B] end\n    [EMPTY] NONE\nEND end",
+      "generated_tokens": 279
+    },
+    {
+      "branch": "g1",
+      "file": "000000_g1_segment_1.json",
+      "stage_id": "prepend_RB",
+      "sample_index": 1,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 16
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n7\n    [B] n6\n    [EMPTY] n1\nPULLER_YG n1:\n    [Y] n4\n    [G] NONE\n    [EMPTY] end\nPAINTER_RED n2:\n    NEXT n3\nPAINTER_BLUE n3:\n    NEXT n4\nPULLER_YG n4:\n    [Y] n7\n    [G] NONE\n    [EMPTY] end\nPAINTER_RED n5:\n    NEXT n6\nPAINTER_BLUE n6:\n    NEXT n7\nPULLER_YG n7:\n    [Y] NONE\n    [G] NONE\n    [EMPTY] end\nEND end",
+      "generated_tokens": 179
+    },
+    {
+      "branch": "g1",
+      "file": "000000_g1_segment_1.json",
+      "stage_id": "prepend_RB",
+      "sample_index": 2,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 16
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n1\n    [EMPTY] start\nPULLER_YG n1:\n    [Y] n2\n    [G] n2\n    [EMPTY] start\nPAINTER_RED n2:\n    NEXT n3\nPAINTER_BLUE n3:\n    NEXT n4\nPAINTER_YELLOW n4:\n    NEXT n5\nPAINTER_GREEN n5:\n    NEXT end\nEND end",
+      "generated_tokens": 118
+    },
+    {
+      "branch": "g1",
+      "file": "000000_g1_segment_1.json",
+      "stage_id": "prepend_RB",
+      "sample_index": 3,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 16
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n3\n    [B] n2\n    [EMPTY] start\nPULLER_RB n1:\n    [R] n4\n    [B] n3\n    [EMPTY] n0\nPAINTER_RED n2:\n    NEXT n1\nPAINTER_RED n3:\n    NEXT n0\nPULLER_YG n4:\n    [Y] n7\n    [G] n6\n    [EMPTY] n1\nPAINTER_BLUE n5:\n    NEXT n0\nPAINTER_YELLOW n6:\n    NEXT n7\nPAINTER_GREEN n7:\n    NEXT end\nEND end",
+      "generated_tokens": 163
+    },
+    {
+      "branch": "g1",
+      "file": "000000_g1_segment_1.json",
+      "stage_id": "prepend_RB",
+      "sample_index": 4,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 16
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] n0\nPAINTER_RED n1:\n    NEXT end\nPAINTER_BLUE n2:\n    NEXT end\nEND end",
+      "generated_tokens": 64
+    },
+    {
+      "branch": "g1",
+      "file": "000000_g1_segment_1.json",
+      "stage_id": "prepend_RB",
+      "sample_index": 5,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 13,
+        "Maximum iterations exceeded (possible infinite loop)": 3
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] start\nPULLER_YG n1:\n    [Y] n3\n    [G] end\n    [EMPTY] n0\nPAINTER_YELLOW n2:\n    NEXT end\nPAINTER_GREEN n3:\n    NEXT end\nEND end",
+      "generated_tokens": 90
+    },
+    {
+      "branch": "g1",
+      "file": "000000_g1_segment_1.json",
+      "stage_id": "prepend_RB",
+      "sample_index": 6,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 16
+      },
+      "program": "START start:\n    NEXT start\nEND end",
+      "generated_tokens": 7
+    },
+    {
+      "branch": "g1",
+      "file": "000000_g1_segment_1.json",
+      "stage_id": "prepend_RB",
+      "sample_index": 7,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 16
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n1\n    [EMPTY] n2\nPULLER_YG n1:\n    [Y] end\n    [G] end\n    [EMPTY] end\nPULLER_RB n2:\n    [R] n0\n    [B] n0\n    [EMPTY] n0\nEND end",
+      "generated_tokens": 95
+    },
+    {
+      "branch": "g1",
+      "file": "000017_g1_segment_2.json",
+      "stage_id": "target_small3",
+      "sample_index": 0,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 13
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n1\n    [EMPTY] n2\nPULLER_YG n1:\n    [Y] end\n    [G] end\n    [EMPTY] n2\nPAINTER_RED n2:\n    NEXT n3\nPAINTER_BLUE n3:\n    NEXT n4\nPAINTER_GREEN n4:\n    NEXT n5\nPAINTER_YELLOW n5:\n    NEXT n6\nPULLER_RB n6:\n    [R] n7\n    [B] n7\n    [EMPTY] n6\nPAINTER_RED n7:\n    NEXT end\nPULLER_RB n8:\n    [R] n9\n    [B] n0\n    [EMPTY] end\nPULLER_YG n9:\n    [Y] end\n    [G] end\n    [EMPTY] n9\nEND end",
+      "generated_tokens": 218
+    },
+    {
+      "branch": "g1",
+      "file": "000017_g1_segment_2.json",
+      "stage_id": "target_small3",
+      "sample_index": 1,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 2,
+        "exact_output_mismatch": 11
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n1\n    [EMPTY] n0\nPULLER_YG n1:\n    [Y] n2\n    [G] n2\n    [EMPTY] n3\nPAINTER_BLUE n2:\n    NEXT n4\nPAINTER_YELLOW n3:\n    NEXT n4\nPAINTER_RED n4:\n    NEXT n5\nPULLER_RB n5:\n    [R] end\n    [B] end\n    [EMPTY] n6\nPAINTER_BLUE n6:\n    NEXT n6\nPAINTER_GREEN n7:\n    NEXT n8\nPULLER_YG n8:\n    [Y] n4\n    [G] n4\n    [EMPTY] n8\nEND end",
+      "generated_tokens": 193
+    },
+    {
+      "branch": "g1",
+      "file": "000017_g1_segment_2.json",
+      "stage_id": "target_small3",
+      "sample_index": 2,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 7,
+        "Maximum iterations exceeded (possible infinite loop)": 6
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] end\nPULLER_YG n1:\n    [Y] end\n    [G] n2\n    [EMPTY] n1\nPULLER_RB n2:\n    [R] end\n    [B] end\n    [EMPTY] end\nPAINTER_RED n3:\n    NEXT n0\nPAINTER_BLUE n4:\n    NEXT n0\nPAINTER_YELLOW n5:\n    NEXT n3\nPAINTER_GREEN n6:\n    NEXT n4\nEND end",
+      "generated_tokens": 146
+    },
+    {
+      "branch": "g1",
+      "file": "000017_g1_segment_2.json",
+      "stage_id": "target_small3",
+      "sample_index": 3,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 13
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_YG n0:\n    [Y] n1\n    [G] n2\n    [EMPTY] end\nPULLER_RB n1:\n    [R] n3\n    [B] end\n    [EMPTY] n0\nPULLER_RB n2:\n    [R] n3\n    [B] end\n    [EMPTY] n0\nPAINTER_YELLOW n3:\n    NEXT n4\nPAINTER_BLUE n4:\n    NEXT n5\nPAINTER_GREEN n5:\n    NEXT n6\nPAINTER_RED n6:\n    NEXT end\nPULLER_YG n7:\n    [Y] n1\n    [G] n2\n    [EMPTY] n3\nPULLER_RB n8:\n    [R] n9\n    [B] end\n    [EMPTY] start\nPAINTER_RED n9:\n    NEXT n8\nEND end",
+      "generated_tokens": 218
+    },
+    {
+      "branch": "g1",
+      "file": "000017_g1_segment_2.json",
+      "stage_id": "target_small3",
+      "sample_index": 4,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 13
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] end\nPULLER_YG n1:\n    [Y] end\n    [G] end\n    [EMPTY] end\nPAINTER_RED n2:\n    NEXT end\nPAINTER_BLUE n3:\n    NEXT end\nPULLER_RB n4:\n    [R] n5\n    [B] n6\n    [EMPTY] end\nPULLER_YG n5:\n    [Y] end\n    [G] end\n    [EMPTY] end\nPAINTER_RED n6:\n    NEXT end\nEND end",
+      "generated_tokens": 158
+    },
+    {
+      "branch": "g1",
+      "file": "000017_g1_segment_2.json",
+      "stage_id": "target_small3",
+      "sample_index": 5,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 13
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] start\nPULLER_YG n1:\n    [Y] end\n    [G] end\n    [EMPTY] n1\nPAINTER_RED n2:\n    NEXT n3\nPULLER_RB n3:\n    [R] n2\n    [B] n0\n    [EMPTY] end\nPAINTER_YELLOW n4:\n    NEXT n4\nPAINTER_GREEN n5:\n    NEXT n5\nEND end",
+      "generated_tokens": 133
+    },
+    {
+      "branch": "g1",
+      "file": "000017_g1_segment_2.json",
+      "stage_id": "target_small3",
+      "sample_index": 6,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 7,
+        "Routed to NONE": 6
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] n0\nPULLER_YG n1:\n    [Y] end\n    [G] n3\n    [EMPTY] NONE\nPAINTER_YELLOW n2:\n    NEXT end\nPAINTER_GREEN n3:\n    NEXT end\nEND end",
+      "generated_tokens": 91
+    },
+    {
+      "branch": "g1",
+      "file": "000017_g1_segment_2.json",
+      "stage_id": "target_small3",
+      "sample_index": 7,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 10,
+        "Maximum iterations exceeded (possible infinite loop)": 3
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] end\nPULLER_YG n1:\n    [Y] end\n    [G] end\n    [EMPTY] n3\nPULLER_YG n2:\n    [Y] end\n    [G] n3\n    [EMPTY] end\nPAINTER_RED n3:\n    NEXT n0\nPAINTER_BLUE n4:\n    NEXT start\nPAINTER_YELLOW n5:\n    NEXT n1\nPAINTER_GREEN n6:\n    NEXT n1\nEND end",
+      "generated_tokens": 145
+    },
+    {
+      "branch": "g1",
+      "file": "000024_g1_segment_3.json",
+      "stage_id": "prepend_R",
+      "sample_index": 0,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 13,
+        "Maximum iterations exceeded (possible infinite loop)": 3
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] end\nPAINTER_RED n1:\n    NEXT n0\nPAINTER_BLUE n2:\n    NEXT n3\nPULLER_RB n3:\n    [R] n2\n    [B] end\n    [EMPTY] n4\nPAINTER_BLUE n4:\n    NEXT n4\nPULLER_YG n5:\n    [Y] n1\n    [G] end\n    [EMPTY] n7\nPULLER_RB n6:\n    [R] n5\n    [B] n5\n    [EMPTY] end\nPAINTER_BLUE n7:\n    NEXT n2\nPAINTER_GREEN n8:\n    NEXT end\nPULLER_YG n9:\n    [Y] end\n    [G] n8\n    [EMPTY] end\nEND end",
+      "generated_tokens": 220
+    },
+    {
+      "branch": "g1",
+      "file": "000024_g1_segment_3.json",
+      "stage_id": "prepend_R",
+      "sample_index": 1,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 1,
+        "exact_output_mismatch": 15
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] start\nPAINTER_RED n1:\n    NEXT end\nPULLER_RB n2:\n    [R] n3\n    [B] end\n    [EMPTY] start\nPULLER_YG n3:\n    [Y] end\n    [G] end\n    [EMPTY] n4\nPAINTER_YELLOW n4:\n    NEXT end\nPAINTER_GREEN n5:\n    NEXT end\nEND end",
+      "generated_tokens": 129
+    },
+    {
+      "branch": "g1",
+      "file": "000024_g1_segment_3.json",
+      "stage_id": "prepend_R",
+      "sample_index": 2,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 1,
+        "exact_output_mismatch": 15
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] end\n    [B] n1\n    [EMPTY] n2\nPULLER_RB n1:\n    [R] end\n    [B] n3\n    [EMPTY] n0\nPULLER_YG n2:\n    [Y] NONE\n    [G] NONE\n    [EMPTY] n1\nPAINTER_RED n3:\n    NEXT end\nPULLER_RB n4:\n    [R] n5\n    [B] end\n    [EMPTY] n1\nPAINTER_RED n5:\n    NEXT end\nPAINTER_RED n6:\n    NEXT end\nPULLER_RB n7:\n    [R] n0\n    [B] n8\n    [EMPTY] n0\nPAINTER_RED n8:\n    NEXT n7\nPULLER_RB n9:\n    [R] end\n    [B] end\n    [EMPTY] n3\nPULLER_YG n10:\n    [Y] NONE\n    [G] NONE\n    [EMPTY] n7\nPULLER_RB n11:\n    [R] n2\n    [B] n12\n    [EMPTY] n1\nPAINTER_BLUE n12:\n    NEXT end\nPAINTER_RED n13:\n    NEXT n9\nPULLER_YG n14:\n    [Y] NONE\n    [G] NONE\n    [EMPTY] n10\nPULLER_YG n15:\n    [Y] end\n    [G] end\n    [EMPTY] n15\nPULLER_RB n16:\n    [R] n1\n    [B] n17\n    [EMPTY] n2\nPAINTER_BLUE n17:\n    NEXT n16\nPAINTER_BLUE n18:\n    NEXT n16\nPAINTER_RED n19:\n    NEXT n16\nPAINTER_RED n20:\n    NEXT n13\nPULLER_RB n21:\n    [R] n6\n    [B] NONE\n    [EMPTY] n16\nPAINTER_BLUE n22:\n    NEXT n14\nPULLER_YG n23:\n    [Y] end\n    [G] end\n    [EMPTY] NONE\nPAINTER_YELLOW n24:\n    NEXT n20\nPULLER_RB n25:\n    [R] end\n    [B] NONE\n    [EMPTY] n0\nPULLER_RB n26:\n    [R] n9\n    [B] end\n    [EMPTY] n5\nPAINTER_BLUE n27:\n    NEXT n19\nPULLER_YG n28:\n    [Y] n25\n    [G] NONE\n    [EMPTY] n9\nPAINTER_YELLOW n29:\n    NEXT n7\nEND end",
+      "generated_tokens": 705
+    },
+    {
+      "branch": "g1",
+      "file": "000024_g1_segment_3.json",
+      "stage_id": "prepend_R",
+      "sample_index": 3,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 3,
+        "exact_output_mismatch": 13
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n2\n    [B] n3\n    [EMPTY] start\nPULLER_RB n1:\n    [R] n5\n    [B] n6\n    [EMPTY] n10\nPAINTER_RED n2:\n    NEXT n1\nPULLER_YG n3:\n    [Y] n4\n    [G] end\n    [EMPTY] start\nPAINTER_BLUE n4:\n    NEXT end\nPULLER_YG n5:\n    [Y] n7\n    [G] n8\n    [EMPTY] n9\nPAINTER_RED n6:\n    NEXT end\nPULLER_YG n7:\n    [Y] n10\n    [G] n10\n    [EMPTY] end\nPULLER_YG n8:\n    [Y] end\n    [G] end\n    [EMPTY] n10\nPULLER_RB n9:\n    [R] end\n    [B] end\n    [EMPTY] n10\nPAINTER_BLUE n10:\n    NEXT end\nEND end",
+      "generated_tokens": 270
+    },
+    {
+      "branch": "g1",
+      "file": "000024_g1_segment_3.json",
+      "stage_id": "prepend_R",
+      "sample_index": 4,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 13,
+        "Maximum iterations exceeded (possible infinite loop)": 3
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] end\n    [EMPTY] end\nPAINTER_RED n1:\n    NEXT n0\nPULLER_YG n2:\n    [Y] end\n    [G] end\n    [EMPTY] end\nEND end",
+      "generated_tokens": 76
+    },
+    {
+      "branch": "g1",
+      "file": "000024_g1_segment_3.json",
+      "stage_id": "prepend_R",
+      "sample_index": 5,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 16
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n2\n    [B] n1\n    [EMPTY] end\nPAINTER_RED n1:\n    NEXT n2\nPULLER_YG n2:\n    [Y] end\n    [G] n4\n    [EMPTY] n5\nPAINTER_BLUE n3:\n    NEXT n4\nPULLER_RB n4:\n    [R] n6\n    [B] n5\n    [EMPTY] end\nPAINTER_GREEN n5:\n    NEXT n6\nPAINTER_YELLOW n6:\n    NEXT end\nEND end",
+      "generated_tokens": 147
+    },
+    {
+      "branch": "g1",
+      "file": "000024_g1_segment_3.json",
+      "stage_id": "prepend_R",
+      "sample_index": 6,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 16
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n1\n    [EMPTY] end\nPAINTER_RED n1:\n    NEXT n0\nPULLER_RB n2:\n    [R] end\n    [B] n3\n    [EMPTY] end\nPAINTER_BLUE n3:\n    NEXT n1\nEND end",
+      "generated_tokens": 92
+    },
+    {
+      "branch": "g1",
+      "file": "000024_g1_segment_3.json",
+      "stage_id": "prepend_R",
+      "sample_index": 7,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 16
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] n3\nPAINTER_RED n1:\n    NEXT end\nPULLER_YG n2:\n    [Y] end\n    [G] end\n    [EMPTY] n3\nPAINTER_BLUE n3:\n    NEXT n4\nPULLER_RB n4:\n    [R] n1\n    [B] end\n    [EMPTY] end\nPULLER_YG n5:\n    [Y] end\n    [G] end\n    [EMPTY] end\nEND end",
+      "generated_tokens": 149
+    },
+    {
+      "branch": "g2",
+      "file": "000001_g2_segment_1.json",
+      "stage_id": "replace_RB_to_YG",
+      "sample_index": 0,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 16
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n1\n    [EMPTY] end\nPULLER_YG n1:\n    [Y] n2\n    [G] n2\n    [EMPTY] end\nPAINTER_RED n2:\n    NEXT end\nPAINTER_BLUE n3:\n    NEXT end\nPAINTER_YELLOW n4:\n    NEXT end\nPAINTER_GREEN n5:\n    NEXT end\nEND end",
+      "generated_tokens": 116
+    },
+    {
+      "branch": "g2",
+      "file": "000001_g2_segment_1.json",
+      "stage_id": "replace_RB_to_YG",
+      "sample_index": 1,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 13,
+        "Maximum iterations exceeded (possible infinite loop)": 3
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n3\n    [B] n1\n    [EMPTY] n2\nPULLER_YG n1:\n    [Y] end\n    [G] n3\n    [EMPTY] n2\nPULLER_YG n2:\n    [Y] n4\n    [G] n5\n    [EMPTY] end\nPAINTER_RED n3:\n    NEXT n0\nPAINTER_RED n4:\n    NEXT end\nPAINTER_BLUE n5:\n    NEXT end\nPAINTER_YELLOW n6:\n    NEXT n0\nPAINTER_GREEN n7:\n    NEXT n0\nEND end",
+      "generated_tokens": 161
+    },
+    {
+      "branch": "g2",
+      "file": "000001_g2_segment_1.json",
+      "stage_id": "replace_RB_to_YG",
+      "sample_index": 2,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 16
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] end\n    [B] n1\n    [EMPTY] end\nPULLER_YG n1:\n    [Y] end\n    [G] end\n    [EMPTY] n2\nPAINTER_RED n2:\n    NEXT n3\nPAINTER_BLUE n3:\n    NEXT end\nEND end",
+      "generated_tokens": 91
+    },
+    {
+      "branch": "g2",
+      "file": "000001_g2_segment_1.json",
+      "stage_id": "replace_RB_to_YG",
+      "sample_index": 3,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 13
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] n3\nPULLER_YG n1:\n    [Y] end\n    [G] end\n    [EMPTY] n4\nPULLER_YG n2:\n    [Y] end\n    [G] end\n    [EMPTY] n4\nPAINTER_RED n3:\n    NEXT end\nPAINTER_RED n4:\n    NEXT n5\nPULLER_RB n5:\n    [R] n6\n    [B] n6\n    [EMPTY] end\nPAINTER_RED n6:\n    NEXT end\nPAINTER_YELLOW n7:\n    NEXT end\nPAINTER_GREEN n8:\n    NEXT end\nPULLER_YG n9:\n    [Y] end\n    [G] end\n    [EMPTY] n7\nEND end",
+      "generated_tokens": 214
+    },
+    {
+      "branch": "g2",
+      "file": "000001_g2_segment_1.json",
+      "stage_id": "replace_RB_to_YG",
+      "sample_index": 4,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 16
+      },
+      "program": "START start:\n    NEXT start\nPULLER_RB n0:\n    [R] end\n    [B] n0\n    [EMPTY] end\nPULLER_YG n1:\n    [Y] n1\n    [G] n1\n    [EMPTY] n2\nPAINTER_RED n2:\n    NEXT n0\nPAINTER_BLUE n3:\n    NEXT n2\nEND end",
+      "generated_tokens": 92
+    },
+    {
+      "branch": "g2",
+      "file": "000001_g2_segment_1.json",
+      "stage_id": "replace_RB_to_YG",
+      "sample_index": 5,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 16
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] end\nPULLER_YG n1:\n    [Y] n2\n    [G] n5\n    [EMPTY] n0\nPULLER_YG n2:\n    [Y] n5\n    [G] n3\n    [EMPTY] n0\nPAINTER_RED n3:\n    NEXT end\nPAINTER_BLUE n4:\n    NEXT end\nPAINTER_YELLOW n5:\n    NEXT n4\nPAINTER_GREEN n6:\n    NEXT end\nEND end",
+      "generated_tokens": 147
+    },
+    {
+      "branch": "g2",
+      "file": "000001_g2_segment_1.json",
+      "stage_id": "replace_RB_to_YG",
+      "sample_index": 6,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 16
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_YG n0:\n    [Y] end\n    [G] end\n    [EMPTY] n2\nPULLER_RB n1:\n    [R] n3\n    [B] n4\n    [EMPTY] n1\nPAINTER_RED n2:\n    NEXT n0\nPAINTER_RED n3:\n    NEXT n0\nPAINTER_RED n4:\n    NEXT n5\nPAINTER_YELLOW n5:\n    NEXT n6\nPULLER_YG n6:\n    [Y] end\n    [G] end\n    [EMPTY] n5\nEND end",
+      "generated_tokens": 146
+    },
+    {
+      "branch": "g2",
+      "file": "000001_g2_segment_1.json",
+      "stage_id": "replace_RB_to_YG",
+      "sample_index": 7,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 16
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n1\n    [EMPTY] n2\nPULLER_YG n1:\n    [Y] end\n    [G] end\n    [EMPTY] n3\nPAINTER_RED n2:\n    NEXT n5\nPAINTER_YELLOW n3:\n    NEXT n6\nPAINTER_GREEN n4:\n    NEXT n6\nPULLER_RB n5:\n    [R] end\n    [B] n7\n    [EMPTY] n4\nPULLER_YG n6:\n    [Y] end\n    [G] end\n    [EMPTY] n5\nPAINTER_RED n7:\n    NEXT n9\nPAINTER_BLUE n8:\n    NEXT n8\nPULLER_YG n9:\n    [Y] end\n    [G] end\n    [EMPTY] end\nEND end",
+      "generated_tokens": 216
+    },
+    {
+      "branch": "g2",
+      "file": "000027_g2_segment_3.json",
+      "stage_id": "target_small2",
+      "sample_index": 0,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 2,
+        "exact_output_mismatch": 3
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] end\n    [B] n0\n    [EMPTY] n0\nPULLER_YG n1:\n    [Y] end\n    [G] n1\n    [EMPTY] end\nPAINTER_RED n2:\n    NEXT n2\nPAINTER_BLUE n3:\n    NEXT n2\nPULLER_RB n4:\n    [R] n1\n    [B] n4\n    [EMPTY] n3\nPAINTER_YELLOW n5:\n    NEXT n1\nPAINTER_GREEN n6:\n    NEXT n8\nPULLER_YG n7:\n    [Y] end\n    [G] end\n    [EMPTY] n7\nPAINTER_RED n8:\n    NEXT n5\nPAINTER_BLUE n9:\n    NEXT n5\nPULLER_RB n10:\n    [R] n7\n    [B] n10\n    [EMPTY] n3\nPULLER_YG n11:\n    [Y] end\n    [G] end\n    [EMPTY] n11\nPAINTER_YELLOW n12:\n    NEXT n0\nEND end",
+      "generated_tokens": 279
+    },
+    {
+      "branch": "g2",
+      "file": "000027_g2_segment_3.json",
+      "stage_id": "target_small2",
+      "sample_index": 1,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 5
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n2\n    [B] n3\n    [EMPTY] n6\nPULLER_YG n1:\n    [Y] n4\n    [G] n5\n    [EMPTY] n6\nPAINTER_RED n2:\n    NEXT n0\nPAINTER_BLUE n3:\n    NEXT n1\nPAINTER_YELLOW n4:\n    NEXT n1\nPAINTER_GREEN n5:\n    NEXT n1\nPULLER_RB n6:\n    [R] n6\n    [B] n6\n    [EMPTY] n6\nPAINTER_RED n7:\n    NEXT n0\nPAINTER_BLUE n8:\n    NEXT start\nPAINTER_YELLOW n9:\n    NEXT end\nPAINTER_GREEN n10:\n    NEXT end\nEND end",
+      "generated_tokens": 202
+    },
+    {
+      "branch": "g2",
+      "file": "000027_g2_segment_3.json",
+      "stage_id": "target_small2",
+      "sample_index": 2,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Routed to NONE": 5
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n0\n    [B] n0\n    [EMPTY] n1\nPULLER_YG n1:\n    [Y] n2\n    [G] n2\n    [EMPTY] NONE\nPAINTER_BLUE n2:\n    NEXT n3\nPAINTER_RED n3:\n    NEXT n4\nPULLER_RB n4:\n    [R] end\n    [B] end\n    [EMPTY] end\nPAINTER_GREEN n5:\n    NEXT n6\nPULLER_YG n6:\n    [Y] n7\n    [G] NONE\n    [EMPTY] end\nPAINTER_YELLOW n7:\n    NEXT n8\nPULLER_RB n8:\n    [R] end\n    [B] end\n    [EMPTY] end\nPAINTER_BLUE n9:\n    NEXT end\nEND end",
+      "generated_tokens": 219
+    },
+    {
+      "branch": "g2",
+      "file": "000027_g2_segment_3.json",
+      "stage_id": "target_small2",
+      "sample_index": 3,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 5
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n1\n    [EMPTY] n2\nPULLER_YG n1:\n    [Y] end\n    [G] end\n    [EMPTY] n3\nPAINTER_RED n2:\n    NEXT n0\nPAINTER_BLUE n3:\n    NEXT end\nPAINTER_YELLOW n4:\n    NEXT n4\nPAINTER_GREEN n5:\n    NEXT n5\nEND end",
+      "generated_tokens": 118
+    },
+    {
+      "branch": "g2",
+      "file": "000027_g2_segment_3.json",
+      "stage_id": "target_small2",
+      "sample_index": 4,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 5
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] end\nPULLER_YG n1:\n    [Y] end\n    [G] n3\n    [EMPTY] end\nPULLER_YG n2:\n    [Y] n4\n    [G] end\n    [EMPTY] n4\nPAINTER_RED n3:\n    NEXT n4\nPAINTER_RED n4:\n    NEXT end\nPULLER_RB n5:\n    [R] n6\n    [B] n6\n    [EMPTY] end\nPAINTER_YELLOW n6:\n    NEXT end\nPAINTER_GREEN n7:\n    NEXT end\nEND end",
+      "generated_tokens": 172
+    },
+    {
+      "branch": "g2",
+      "file": "000027_g2_segment_3.json",
+      "stage_id": "target_small2",
+      "sample_index": 5,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 5
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n1\n    [EMPTY] end\nPULLER_YG n1:\n    [Y] end\n    [G] end\n    [EMPTY] n2\nPULLER_RB n2:\n    [R] n3\n    [B] end\n    [EMPTY] n3\nPULLER_YG n3:\n    [Y] end\n    [G] end\n    [EMPTY] end\nPAINTER_RED n4:\n    NEXT n5\nPULLER_RB n5:\n    [R] n5\n    [B] n6\n    [EMPTY] n6\nPULLER_YG n6:\n    [Y] end\n    [G] n7\n    [EMPTY] n7\nPAINTER_BLUE n7:\n    NEXT n8\nPULLER_RB n8:\n    [R] n9\n    [B] n9\n    [EMPTY] n9\nPULLER_YG n9:\n    [Y] end\n    [G] end\n    [EMPTY] n10\nPAINTER_YELLOW n10:\n    NEXT n11\nPULLER_RB n11:\n    [R] n12\n    [B] n13\n    [EMPTY] n13\nPULLER_YG n12:\n    [Y] end\n    [G] n12\n    [EMPTY] n12\nPAINTER_GREEN n13:\n    NEXT n14\nPULLER_YG n14:\n    [Y] n15\n    [G] end\n    [EMPTY] end\nPULLER_RB n15:\n    [R] n15\n    [B] end\n    [EMPTY] end\nEND end",
+      "generated_tokens": 422
+    },
+    {
+      "branch": "g2",
+      "file": "000027_g2_segment_3.json",
+      "stage_id": "target_small2",
+      "sample_index": 6,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "exact_output_mismatch": 3,
+        "Maximum iterations exceeded (possible infinite loop)": 2
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] n0\nPULLER_YG n1:\n    [Y] end\n    [G] end\n    [EMPTY] n0\nPAINTER_RED n2:\n    NEXT n3\nPULLER_RB n3:\n    [R] end\n    [B] n4\n    [EMPTY] n0\nPULLER_YG n4:\n    [Y] end\n    [G] end\n    [EMPTY] n5\nPAINTER_GREEN n5:\n    NEXT end\nEND end",
+      "generated_tokens": 148
+    },
+    {
+      "branch": "g2",
+      "file": "000027_g2_segment_3.json",
+      "stage_id": "target_small2",
+      "sample_index": 7,
+      "parse_valid": true,
+      "reward": 0,
+      "failure_reasons": {
+        "Routed to NONE": 5
+      },
+      "program": "START start:\n    NEXT n0\nPULLER_RB n0:\n    [R] n1\n    [B] n2\n    [EMPTY] start\nPULLER_YG n1:\n    [Y] end\n    [G] end\n    [EMPTY] NONE\nPULLER_YG n2:\n    [Y] end\n    [G] n3\n    [EMPTY] n3\nPAINTER_RED n3:\n    NEXT n0\nPAINTER_BLUE n4:\n    NEXT n0\nPAINTER_YELLOW n5:\n    NEXT n0\nPAINTER_GREEN n6:\n    NEXT end\nEND end",
+      "generated_tokens": 146
+    }
+  ],
+  "parser_path": null,
+  "parser_sha256": null,
+  "selection_sha256": "534580adb5663f6b5c8985cfb85533d9fbdc67d0b35bd280cd5f61916fcb037e"
+}

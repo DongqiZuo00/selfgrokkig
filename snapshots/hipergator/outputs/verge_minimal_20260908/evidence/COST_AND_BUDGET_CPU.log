@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "actual_saved_native_generated_tokens": 713920,
+  "generation_totals": {
+    "solver_training": 524288,
+    "solver_evaluation": 94005,
+    "challenger": 5530,
+    "stage_probe": 90097
+  },
+  "unique_generation_source_files": 647,
+  "issues": []
+}
+{
+  "all_named_jobs_terminal": true,
+  "allocated_b200_hours": 1.8583333333333334
+}

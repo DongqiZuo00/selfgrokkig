@@ -1,0 +1,8 @@
+{"utc":"2026-09-08T23:54:24.524689+00:00","event":"start","phase":"stream_remote_tar_into_scoped_local_snapshot","expected_files":1576,"expected_bytes":640360368,"remote_manifest_sha256":"62f2e5ed6989c913cb70891e9c5b65ab3bb93be6f6263c2d8b37acecdade83a0","remote_bundle_sha256":"500a1e4ebe536e99e9b37af8d64c2ad272cd04c9ed4f9acf22cacf5f4c7c7f1c"}
+{"utc":"2026-09-08T23:54:29.712772+00:00","event":"progress","files_verified":250,"bytes_verified":210257419}
+{"utc":"2026-09-08T23:54:33.793087+00:00","event":"progress","files_verified":500,"bytes_verified":335940492}
+{"utc":"2026-09-08T23:54:35.424027+00:00","event":"progress","files_verified":750,"bytes_verified":353511321}
+{"utc":"2026-09-08T23:54:36.980892+00:00","event":"progress","files_verified":1000,"bytes_verified":373621077}
+{"utc":"2026-09-08T23:54:40.728398+00:00","event":"progress","files_verified":1250,"bytes_verified":503347910}
+{"utc":"2026-09-08T23:54:42.354385+00:00","event":"progress","files_verified":1500,"bytes_verified":538400558}
+{"utc":"2026-09-08T23:54:45.132719+00:00","event":"complete","status":"PASS","physical_files":1576,"physical_bytes":640360368,"max_file_bytes":98882136,"directories":151,"manifest_sha256":"a38c33a0eff5a778b33bce12bea211a84229fd52fa263c81e59610c48702bf1a","compressed_bundle_bytes":247501247,"all_source_destination_sha256_and_size_match":true}

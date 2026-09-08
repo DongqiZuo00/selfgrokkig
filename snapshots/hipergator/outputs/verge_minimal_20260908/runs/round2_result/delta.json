@@ -1,0 +1,134 @@
+{
+  "g1": {
+    "milestones": [
+      0,
+      16384,
+      32768,
+      49152,
+      65536
+    ],
+    "kappa": 2,
+    "deltas": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sampling_correction": 0.0,
+    "gamma": 0.0,
+    "initial_gap": 0.0,
+    "final_probe_gap": 0.0,
+    "telescoping_residual": 0.0,
+    "segments": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "target_only_tail"
+    ],
+    "final_probe_is_identical_raw_first8": true,
+    "checkpoint_endpoints": {
+      "course": [
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+      ],
+      "direct": [
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+      ]
+    }
+  },
+  "g2": {
+    "milestones": [
+      0,
+      16384,
+      32768,
+      49152,
+      65536
+    ],
+    "kappa": 2,
+    "deltas": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sampling_correction": 0.0,
+    "gamma": 0.0,
+    "initial_gap": 0.0,
+    "final_probe_gap": 0.0,
+    "telescoping_residual": 0.0,
+    "segments": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "target_only_tail"
+    ],
+    "final_probe_is_identical_raw_first8": true,
+    "checkpoint_endpoints": {
+      "course": [
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+      ],
+      "direct": [
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+      ]
+    }
+  },
+  "g3": {
+    "milestones": [
+      0,
+      16384,
+      32768,
+      49152,
+      65536
+    ],
+    "kappa": 2,
+    "deltas": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sampling_correction": 0.0,
+    "gamma": 0.0,
+    "initial_gap": 0.0,
+    "final_probe_gap": 0.0,
+    "telescoping_residual": 0.0,
+    "segments": [
+      "stage_1",
+      "stage_2",
+      "stage_3",
+      "target_only_tail"
+    ],
+    "final_probe_is_identical_raw_first8": true,
+    "checkpoint_endpoints": {
+      "course": [
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+      ],
+      "direct": [
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+        "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+      ]
+    }
+  }
+}

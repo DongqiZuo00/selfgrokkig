@@ -1,0 +1,693 @@
+diff --git a/manifests/mistral_model_snapshot.json b/manifests/mistral_model_snapshot.json
+index 474d849..72de912 100644
+--- a/manifests/mistral_model_snapshot.json
++++ b/manifests/mistral_model_snapshot.json
+@@ -3,6 +3,7 @@
+   "local_path": "/blue/du.j/jinjiaguo/self grok/models/Ministral-3-3B-Instruct-2512-BF16",
+   "qwen_prohibited": true,
+   "safetensor_files": [
++    "consolidated.safetensors",
+     "model-00001-of-00002.safetensors",
+     "model-00002-of-00002.safetensors"
+   ]
+diff --git a/manifests/self_grok_soar_mistral_v1.json b/manifests/self_grok_soar_mistral_v1.json
+index b0286f8..49a76ce 100755
+--- a/manifests/self_grok_soar_mistral_v1.json
++++ b/manifests/self_grok_soar_mistral_v1.json
+@@ -18,7 +18,7 @@
+     "initialization": "same Ministral-3-3B-Instruct-2512-BF16 language backbone with a fresh LoRA adapter",
+     "target_visibility": "no target examples or target description",
+     "candidates_per_outer_step": 4,
+-    "maximum_outer_steps": 12,
++    "maximum_outer_steps": 7,
+     "maximum_components_per_curriculum": 3,
+     "maximum_generation_attempts": 6,
+     "completion_tokens": 384,
+diff --git a/scripts/recipe_env.sh b/scripts/recipe_env.sh
+index 0953d1d..30f6f45 100755
+--- a/scripts/recipe_env.sh
++++ b/scripts/recipe_env.sh
+@@ -5,6 +5,11 @@ WORK_ROOT="/blue/du.j/jinjiaguo/self grok"
+ EXP_ROOT="$WORK_ROOT/experiments/has_transfer_witness"
+ 
+ cd "$WORK_ROOT"
++# Set cache policy before Lmod runs. This installed Lmod uses HOME/.cache/lmod
++# directly; its documented one-day threshold prevents task-local module loads
++# from writing that shared home cache. Scientific module versions stay fixed.
++export XDG_CACHE_HOME="$WORK_ROOT/caches/xdg"
++export LMOD_SHORT_TIME=86400
+ module purge
+ module load python/3.11
+ module load cuda/12.8.1
+@@ -15,7 +20,6 @@ export HF_HUB_CACHE="$WORK_ROOT/caches/huggingface/hub"
+ export HF_DATASETS_CACHE="$WORK_ROOT/caches/huggingface/datasets"
+ export TORCH_HOME="$WORK_ROOT/caches/torch"
+ export TRITON_CACHE_DIR="$WORK_ROOT/caches/triton"
+-export XDG_CACHE_HOME="$WORK_ROOT/caches/xdg"
+ export MPLCONFIGDIR="$WORK_ROOT/caches/matplotlib"
+ export VLLM_CACHE_ROOT="$WORK_ROOT/caches/vllm"
+ export FLASHINFER_WORKSPACE_BASE="$WORK_ROOT/caches/flashinfer_workspace"
+diff --git a/src/prepare_data.py b/src/prepare_data.py
+index 26b610a..6f081c7 100644
+--- a/src/prepare_data.py
++++ b/src/prepare_data.py
+@@ -11,7 +11,6 @@ from typing import Any
+ 
+ import numpy as np
+ from datasets import Dataset, load_from_disk
+-from transformers import AutoTokenizer
+ 
+ from common import (
+     DATA_ROOT,
+@@ -27,6 +26,7 @@ from common import (
+     stable_int,
+     write_jsonl,
+ )
++from modeling import load_tokenizer
+ 
+ 
+ MANU_ROOT = VENDOR_ROOT / "rl-grok-recipe" / "manufactoria"
+@@ -59,7 +59,9 @@ def generator_overrides(family: str, config: dict[str, Any]):
+     if family in SEQUENCE_ATTRIBUTES:
+         updates[SEQUENCE_ATTRIBUTES[family]] = tuple(config["sequence_lengths"])
+     if family == "prepend_sequence":
+-        updates["PREPEND_ENABLE_MUTATIONS"] = True
++        updates["PREPEND_ENABLE_MUTATIONS"] = bool(
++            config.get("prepend_enable_mutations", True)
++        )
+         updates["PREPEND_PATTERN_MUTATIONS"] = bool(config.get("prepend_pattern_mutations", True))
+     old: dict[str, Any] = {}
+     try:
+@@ -239,7 +241,7 @@ def prepare_candidate_audits(config: dict[str, Any]) -> dict[str, Any]:
+ 
+ 
+ def check_prompt_lengths(config: dict[str, Any], candidate_manifest: dict[str, Any]) -> None:
+-    tokenizer = AutoTokenizer.from_pretrained(str(MODEL_ROOT), padding_side="left")
++    tokenizer = load_tokenizer("left")
+     max_allowed = int(config["sampling"]["max_prompt_tokens"])
+     summaries: list[dict[str, Any]] = []
+     paths = [
+diff --git a/src/recipe_train_branch.py b/src/recipe_train_branch.py
+old mode 100644
+new mode 100755
+index 1f7fdd4..97f4951
+--- a/src/recipe_train_branch.py
++++ b/src/recipe_train_branch.py
+@@ -1,6 +1,8 @@
+ from __future__ import annotations
+ 
+ import argparse
++import copy
++import itertools
+ import json
+ import math
+ import random
+@@ -48,6 +50,23 @@ RAW_ROOT = EXP_ROOT / "raw_results" / "recipe_v1" / "branches"
+ 
+ def get_branch(branch_id: str) -> dict[str, Any]:
+     paths = [
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v5_6_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v5_5_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v5_4_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v5_3_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v5_2_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v5_1_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v5_0_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v4_9_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v4_8_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v4_7_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v4_6_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v4_5_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v4_4_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v4_3_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v4_2_bootstrap.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_v4_2_runtime_branches.json",
++        EXP_ROOT / "manifests" / "self_grok_decisive_mistral_runtime_branches.json",
+         EXP_ROOT / "manifests" / "self_grok_soar_mistral_runtime_branches.json",
+         EXP_ROOT / "manifests" / "self_grok_soar_runtime_branches.json",
+         EXP_ROOT / "manifests" / "self_grok_strict_handoff_round4.json",
+@@ -116,6 +135,19 @@ def build_recipe_model(seed: int, adapter: Path | None):
+     return tokenizer, model
+ 
+ 
++def build_reference_model(seed: int, adapter: Path):
++    """Load an immutable reference policy, including the starting Solver LoRA."""
++    seed_everything(seed)
++    assert_adapter_backbone(adapter)
++    base = load_text_model()
++    model = PeftModel.from_pretrained(base, str(adapter), is_trainable=False)
++    model.eval()
++    model.config.use_cache = False
++    for parameter in model.parameters():
++        parameter.requires_grad_(False)
++    return model
++
++
+ def cycle_rows(
+     dataset,
+     update: int,
+@@ -232,6 +264,44 @@ def rows_for_update(
+                 )
+             stage_start = 1 if stage_index == 0 else int(branch["stages"][stage_index - 1]["through_update"]) + 1
+             stage_update = update - stage_start + 1
++            target_fraction = float(stage.get("target_mix_fraction", 0.0))
++            if target_fraction > 0.0:
++                target_count = int(round(prompts_per_update * target_fraction))
++                target_count = min(prompts_per_update - 1, max(1, target_count))
++                bridge_count = prompts_per_update - target_count
++                target_rows = cycle_rows(
++                    target,
++                    update + int(branch.get("target_update_offset", 0)),
++                    target_count,
++                    int(branch["seed"]),
++                    f"target_mix_stage_{stage_index + 1}",
++                )
++                bridge_rows = cycle_rows(
++                    source[str(stage_index)],
++                    stage_update,
++                    bridge_count,
++                    int(branch["seed"]),
++                    str(stage["name"]),
++                )
++                if stage.get("verification_case_counts") is not None:
++                    bridge_rows = [
++                        {**row, "_coverage_bridge_verifier": True}
++                        for row in bridge_rows
++                    ]
++                # Preserve fixed group sizes while avoiding a systematic position
++                # effect between target and bridge prompts.
++                rows = target_rows + bridge_rows
++                random.Random(
++                    stable_int(
++                        "bridge_target_mix",
++                        branch["seed"],
++                        branch.get("randomness_branch_id", branch["branch_id"]),
++                        update,
++                    )
++                ).shuffle(rows)
++                return rows, (
++                    f"{stage['name']}__target_mix_{target_fraction:g}"
++                )
+             return (
+                 cycle_rows(
+                     source[str(stage_index)],
+@@ -273,12 +343,104 @@ def ladder_test_count(branch: dict[str, Any], update: int) -> int | None:
+     raise RuntimeError(f"strict ladder has no stage for update {update}")
+ 
+ 
++def bridge_verification_case_sets(
++    branch: dict[str, Any],
++    stage_index: int,
++    stage: dict[str, Any],
++    update: int,
++    rows: list[dict[str, Any]],
++    rollouts_per_prompt: int,
++) -> list[list[list[dict[str, Any]]]] | None:
++    """Assign strict verifier subsets per rollout for an annealed coverage bridge."""
++    raw_counts = stage.get("verification_case_counts")
++    if raw_counts is None:
++        return None
++    counts = [int(value) for value in raw_counts]
++    if len(counts) != rollouts_per_prompt:
++        raise RuntimeError(
++            "verification_case_counts must contain exactly one entry per rollout"
++        )
++    result: list[list[list[dict[str, Any]]]] = []
++    for instance_index, row in enumerate(rows):
++        cases = list(row["ground_truth"])
++        if not bool(row.get("_coverage_bridge_verifier", False)):
++            result.append([cases for _ in counts])
++            continue
++        assigned = counts.copy()
++        random.Random(
++            int(branch["seed"]) * 1_000_003
++            + update * 10_007
++            + stage_index * 1_009
++            + instance_index * 257
++        ).shuffle(assigned)
++        instance_sets: list[list[dict[str, Any]]] = []
++        occurrences: dict[int, int] = {}
++        subset_mode = str(stage.get("verification_subset_mode", "prefix"))
++        for count in assigned:
++            if count < 1 or count > len(cases):
++                raise RuntimeError(
++                    f"invalid verifier case count {count} for {len(cases)} cases"
++                )
++            if subset_mode == "prefix" or count == len(cases):
++                indices = tuple(range(count))
++            elif subset_mode == "rotating_combinations":
++                choices = list(itertools.combinations(range(len(cases)), count))
++                occurrence = occurrences.get(count, 0)
++                offset = (
++                    int(branch["seed"])
++                    + update * 101
++                    + stage_index * 17
++                    + instance_index
++                ) % len(choices)
++                indices = choices[(offset + occurrence) % len(choices)]
++                occurrences[count] = occurrence + 1
++            elif subset_mode == "required_anchor_combinations":
++                required = int(stage["verification_required_case_index"])
++                if required < 0 or required >= len(cases):
++                    raise RuntimeError(
++                        f"invalid required verifier case index {required} for "
++                        f"{len(cases)} cases"
++                    )
++                other_indices = [index for index in range(len(cases)) if index != required]
++                choices = [
++                    tuple(sorted((required, *others)))
++                    for others in itertools.combinations(other_indices, count - 1)
++                ]
++                occurrence = occurrences.get(count, 0)
++                offset = (
++                    int(branch["seed"])
++                    + update * 101
++                    + stage_index * 17
++                    + instance_index
++                ) % len(choices)
++                indices = choices[(offset + occurrence) % len(choices)]
++                occurrences[count] = occurrence + 1
++            else:
++                raise RuntimeError(f"unknown verification_subset_mode: {subset_mode}")
++            instance_sets.append([cases[index] for index in indices])
++        result.append(instance_sets)
++    return result
++
++
+ def rollout_verification_cases(
+     branch: dict[str, Any],
+     update: int,
+     rows: list[dict[str, Any]],
+     rollouts_per_prompt: int,
+ ) -> list[list[list[dict[str, Any]]]] | None:
++    if branch["kind"] == "bridge_chain":
++        stage_info = bridge_stage_at_update(branch, update)
++        if stage_info is None:
++            return None
++        stage_index, stage = stage_info
++        return bridge_verification_case_sets(
++            branch,
++            stage_index,
++            stage,
++            update,
++            rows,
++            rollouts_per_prompt,
++        )
+     if branch["kind"] != "stochastic_target_ladder":
+         return None
+     test_count = ladder_test_count(branch, update)
+@@ -331,9 +493,9 @@ def annealed_partial_weight(branch: dict[str, Any], update: int) -> float:
+ 
+ def bootstrap_success_replay(
+     source_branch_id: str,
+-    target,
++    replay_dataset,
+ ) -> list[dict[str, Any]]:
+-    by_id = {str(row["id"]): dict(row) for row in target}
++    by_id = {str(row["id"]): dict(row) for row in replay_dataset}
+     replay: list[dict[str, Any]] = []
+     seen: set[str] = set()
+     train_root = RAW_ROOT / source_branch_id / "train"
+@@ -366,6 +528,7 @@ def recipe_loss(
+     completion_ids: list[int],
+     advantage: float,
+     kl_beta: float,
++    reference_model=None,
+ ) -> tuple[torch.Tensor, float]:
+     device = next(model.parameters()).device
+     input_ids = torch.tensor(
+@@ -386,14 +549,15 @@ def recipe_loss(
+     policy_loss = -float(advantage) * current_logp.mean()
+     if kl_beta == 0.0:
+         return policy_loss, 0.0
++    if reference_model is None:
++        raise RuntimeError("positive KL beta requires an immutable reference policy")
+     with torch.no_grad():
+-        with model.disable_adapter():
+-            reference_logits = model(
+-                input_ids=input_ids,
+-                attention_mask=attention_mask,
+-                use_cache=False,
+-            ).logits[:, :-1, :]
+-            reference_logp = chosen_log_probs(reference_logits, targets)[:, start:]
++        reference_logits = reference_model(
++            input_ids=input_ids,
++            attention_mask=attention_mask,
++            use_cache=False,
++        ).logits[:, :-1, :]
++        reference_logp = chosen_log_probs(reference_logits, targets)[:, start:]
+         del reference_logits
+     ref_delta = reference_logp - current_logp
+     kl = (torch.exp(ref_delta) - ref_delta - 1.0).mean()
+@@ -417,7 +581,7 @@ def evaluate(
+             branch["seed"],
+             branch.get("evaluation_rng_key", branch.get("candidate_id")),
+             split,
+-            update,
++            0 if branch.get("align_evaluation_across_updates") else update,
+         ),
+         output,
+         sampling_seed_key=str(
+@@ -447,6 +611,87 @@ def evaluate(
+     return summary
+ 
+ 
++def bridge_stage_at_update(branch: dict[str, Any], update: int):
++    if branch.get("kind") != "bridge_chain":
++        return None
++    for index, stage in enumerate(branch["stages"]):
++        if update <= int(stage["through_update"]):
++            return (index, stage)
++    return None
++
++
++def run_stage_learnability_gate(
++    client: VLLMRolloutClient,
++    branch: dict[str, Any],
++    stage_index: int,
++    stage: dict[str, Any],
++    dataset,
++    update: int,
++) -> dict[str, Any]:
++    """Reject a bridge stage before training when its GRPO reward is degenerate."""
++    gate = dict(branch["stage_learnability_gate"])
++    instances = min(int(gate["instances"]), len(dataset))
++    rollouts = int(gate["rollouts_per_instance"])
++    rows = [dict(dataset[index]) for index in range(instances)]
++    if stage.get("verification_case_counts") is not None:
++        rows = [{**row, "_coverage_bridge_verifier": True} for row in rows]
++    output = (
++        RAW_ROOT
++        / branch["branch_id"]
++        / "stage_gates"
++        / f"stage_{stage_index:02d}_before_update_{update:04d}.jsonl"
++    )
++    gate_seed_branch_id = str(stage.get("gate_seed_branch_id", branch["branch_id"]))
++    gate_seed_stage_index = int(stage.get("gate_seed_stage_index", stage_index))
++    scored = client.score_rows(
++        rows,
++        rollouts,
++        stable_int(
++            "recipe_stage_gate",
++            branch["seed"],
++            gate_seed_branch_id,
++            gate_seed_stage_index,
++        ),
++        output,
++        verification_case_sets=bridge_verification_case_sets(
++            branch,
++            stage_index,
++            stage,
++            update,
++            rows,
++            rollouts,
++        ),
++        sampling_seed_key=f"{gate_seed_branch_id}__stage_gate_{gate_seed_stage_index}",
++    )
++    successes = sum(int(item["reward"]) for item in scored)
++    rate = successes / len(scored)
++    by_instance: dict[int, list[int]] = {}
++    for item in scored:
++        by_instance.setdefault(int(item["instance_index"]), []).append(int(item["reward"]))
++    mixed_groups = sum(len(set(values)) > 1 for values in by_instance.values())
++    trainable = (
++        rate >= float(gate["minimum_success_rate"])
++        and rate <= float(gate["maximum_success_rate"])
++        and mixed_groups >= int(gate["minimum_mixed_groups"])
++    )
++    mastered = rate >= float(gate.get("mastered_success_rate", 0.95))
++    accepted = trainable or mastered
++    decision = {
++        "stage_index": stage_index,
++        "stage": stage,
++        "before_update": update,
++        "rollouts": len(scored),
++        "successes": successes,
++        "success_rate": rate,
++        "mixed_groups": mixed_groups,
++        "classification": "trainable" if trainable else ("mastered" if mastered else "too_hard"),
++        "accepted": accepted,
++        "thresholds": gate,
++    }
++    atomic_json(output.with_suffix(".decision.json"), decision)
++    return decision
++
++
+ def main() -> None:
+     parser = argparse.ArgumentParser()
+     parser.add_argument("--branch-id", required=True)
+@@ -466,7 +711,22 @@ def main() -> None:
+         initial_adapter = root_checkpoint(branch, config)
+ 
+     tokenizer, model = build_recipe_model(int(branch["seed"]), initial_adapter)
+-    optimizer, scheduler = build_optimizer(model, config)
++    optimizer_config = copy.deepcopy(config)
++    if "learning_rate" in branch:
++        optimizer_config["training"]["learning_rate"] = float(branch["learning_rate"])
++    if "warmup_updates" in branch:
++        optimizer_config["training"]["initial_total_updates"] = int(branch["warmup_updates"])
++        optimizer_config["training"]["warmup_ratio"] = 1.0
++    optimizer, scheduler = build_optimizer(model, optimizer_config)
++    kl_beta = float(branch.get("kl_beta", config["training"]["kl_beta"]))
++    reference_model = None
++    if kl_beta > 0.0:
++        reference_path = EXP_ROOT / str(
++            branch.get("reference_checkpoint", branch.get("parent_checkpoint"))
++        )
++        if not (reference_path / "adapter_config.json").exists():
++            raise RuntimeError(f"immutable reference checkpoint is not ready: {reference_path}")
++        reference_model = build_reference_model(int(branch["seed"]), reference_path)
+     optimizer_parent_loaded = False
+     cumulative = {
+         "training_rollouts": 0,
+@@ -511,16 +771,22 @@ def main() -> None:
+ 
+     target = None
+     if branch["kind"] != "root":
+-        target = load_from_disk(str(DATA_ROOT / "target_splits" / "target_train"))
++        target_path = branch.get("target_training_path", "data/target_splits/target_train")
++        target = load_from_disk(str(EXP_ROOT / str(target_path)))
+     target_ids = {str(row["id"]) for row in target} if target is not None else set()
+     if (
+         start_update == 0
+         and not success_replay
+         and branch.get("bootstrap_replay_from_branch")
+     ):
++        replay_dataset = target
++        if branch.get("bootstrap_replay_data_path"):
++            replay_dataset = load_from_disk(
++                str(EXP_ROOT / str(branch["bootstrap_replay_data_path"]))
++            )
+         success_replay = bootstrap_success_replay(
+             str(branch["bootstrap_replay_from_branch"]),
+-            target,
++            replay_dataset,
+         )
+     source = None
+     if branch["kind"] in {
+@@ -565,6 +831,9 @@ def main() -> None:
+         ]
+ 
+     client = VLLMRolloutClient(args.server_url, args.gpu)
++    online_guard = branch.get("online_scope_guard")
++    online_scope_reference = None
++    last_safe_update = start_update
+     science_updates = (
+         {0, goal}
+         if branch["kind"] == "root"
+@@ -615,9 +884,25 @@ def main() -> None:
+                 int(branch.get("grounded_reward_rollouts_per_instance", 4)),
+                 split="grounded_reward",
+             )
++        if online_guard and scope_probe is not None:
++            online_scope_reference = evaluate(
++                client,
++                branch,
++                0,
++                scope_probe,
++                int(branch.get("scope_probe_rollouts_per_instance", 8)),
++                split="online_scope_probe",
++            )
+     else:
+         _, sync_seconds = sync_adapter(model, client, args.branch_id, start_update)
+         cumulative["lora_sync_wall_seconds"] += sync_seconds
++        if online_guard and scope_probe is not None:
++            online_scope_reference = read_json(
++                RAW_ROOT
++                / branch["branch_id"]
++                / "online_scope_probe"
++                / "update_0000_summary.json"
++            )
+ 
+     prompts_per_update = int(
+         branch.get("prompts_per_update", config["training"]["prompts_per_update"])
+@@ -626,8 +911,34 @@ def main() -> None:
+         branch.get("rollouts_per_prompt", config["training"]["rollouts_per_prompt"])
+     )
+     train_root = RAW_ROOT / args.branch_id / "train"
++    stop_event = None
++    completed_update = start_update
+     try:
+         for update in range(start_update + 1, goal + 1):
++            stage_info = bridge_stage_at_update(branch, update)
++            if stage_info is not None:
++                stage_index, stage = stage_info
++                previous_end = 0 if stage_index == 0 else int(branch["stages"][stage_index - 1]["through_update"])
++                if (
++                    stage["kind"] == "bridge"
++                    and update == previous_end + 1
++                    and branch.get("stage_learnability_gate")
++                ):
++                    decision = run_stage_learnability_gate(
++                        client,
++                        branch,
++                        stage_index,
++                        stage,
++                        source[str(stage_index)],
++                        update,
++                    )
++                    if not decision["accepted"]:
++                        stop_event = {
++                            "type": "stage_learnability_gate_rejected",
++                            "last_safe_update": last_safe_update,
++                            "decision": decision,
++                        }
++                        break
+             rows, phase = rows_for_update(
+                 branch,
+                 update,
+@@ -746,7 +1057,8 @@ def main() -> None:
+                     prompt_ids,
+                     [int(value) for value in item["completion_token_ids"]],
+                     advantage,
+-                    float(config["training"]["kl_beta"]),
++                    kl_beta,
++                    reference_model,
+                 )
+                 (loss / max(1, active)).backward()
+                 losses.append(float(loss.detach().cpu()))
+@@ -757,7 +1069,10 @@ def main() -> None:
+             replay_weight = float(branch.get("success_replay_loss_weight", 0.0))
+             if success_replay and replay_cap > 0 and replay_weight > 0.0:
+                 replay_rng = random.Random(
+-                    stable_int("success_replay", branch["seed"], args.branch_id, update)
++                    stable_int(
++                        "success_replay", branch["seed"],
++                        branch.get("randomness_branch_id", args.branch_id), update
++                    )
+                 )
+                 replay_examples = replay_rng.sample(
+                     success_replay,
+@@ -793,6 +1108,7 @@ def main() -> None:
+ 
+             _, sync_wall = sync_adapter(model, client, args.branch_id, update)
+             cumulative["lora_sync_wall_seconds"] += sync_wall
++            completed_update = update
+             dev_summary = None
+             if development is not None and update in science_updates:
+                 dev_summary = evaluate(
+@@ -821,6 +1137,52 @@ def main() -> None:
+                     split="grounded_reward",
+                 )
+ 
++            online_scope_summary = None
++            if (
++                online_guard
++                and scope_probe is not None
++                and update % int(online_guard["interval_updates"]) == 0
++            ):
++                online_scope_summary = evaluate(
++                    client,
++                    branch,
++                    update,
++                    scope_probe,
++                    int(branch.get("scope_probe_rollouts_per_instance", 8)),
++                    split="online_scope_probe",
++                )
++                strict_drop = float(online_scope_summary["full_pass_rate"]) - float(
++                    online_scope_reference["full_pass_rate"]
++                )
++                soft_drop = float(online_scope_summary["mean_case_fraction"]) - float(
++                    online_scope_reference["mean_case_fraction"]
++                )
++                safe = (
++                    strict_drop >= -float(online_guard["maximum_strict_drop"])
++                    and soft_drop >= -float(online_guard["maximum_case_fraction_drop"])
++                )
++                guard_decision = {
++                    "update": update,
++                    "strict_gain_vs_start": strict_drop,
++                    "case_fraction_gain_vs_start": soft_drop,
++                    "safe": safe,
++                }
++                atomic_json(
++                    RAW_ROOT
++                    / branch["branch_id"]
++                    / "online_scope_guard"
++                    / f"update_{update:04d}.json",
++                    guard_decision,
++                )
++                if safe:
++                    last_safe_update = update
++                else:
++                    stop_event = {
++                        "type": "online_scope_guard_rejected",
++                        "last_safe_update": last_safe_update,
++                        "decision": guard_decision,
++                    }
++
+             metric = {
+                 "branch_id": args.branch_id,
+                 "kind": branch["kind"],
+@@ -861,6 +1223,7 @@ def main() -> None:
+                 "learner_wall_seconds_update": learner_wall,
+                 "lora_sync_wall_seconds_update": sync_wall,
+                 "development": dev_summary,
++                "online_scope": online_scope_summary,
+                 **cumulative,
+             }
+             atomic_json(train_root / f"update_{update:04d}_summary.json", metric)
+@@ -868,6 +1231,10 @@ def main() -> None:
+                 update % int(config["training"]["resume_interval"]) == 0
+                 or update in science_updates
+                 or update == goal
++                or (
++                    online_guard
++                    and update % int(online_guard["interval_updates"]) == 0
++                )
+             ):
+                 save_checkpoint(
+                     model,
+@@ -879,6 +1246,8 @@ def main() -> None:
+                 )
+                 prune_checkpoints(args.branch_id, science_updates)
+             print(json.dumps(metric), flush=True)
++            if stop_event is not None:
++                break
+ 
+         atomic_json(
+             RAW_ROOT / args.branch_id / "status.json",
+@@ -886,14 +1255,20 @@ def main() -> None:
+                 "branch_id": args.branch_id,
+                 "kind": branch["kind"],
+                 "candidate_id": branch.get("candidate_id"),
+-                "completed_updates": goal,
+-                "fixed_budget": True,
++                "completed_updates": completed_update,
++                "fixed_budget": completed_update == goal,
+                 "optimizer_inherited_from_parent": bool(
+                     branch.get("inherit_optimizer_state")
+                 ),
+                 "optimizer_parent_loaded_at_fresh_start": optimizer_parent_loaded,
+                 "parent_checkpoint": branch.get("parent_checkpoint"),
+-                "status": "complete",
++                "status": "complete" if completed_update == goal else str(stop_event["type"]),
++                "stop_event": stop_event,
++                "last_safe_update": last_safe_update,
++                "kl_beta": kl_beta,
++                "learning_rate": float(
++                    optimizer_config["training"]["learning_rate"]
++                ),
+                 **cumulative,
+             },
+         )

@@ -1,0 +1,146 @@
+{
+  "status": "completed",
+  "mode": "real_model_initial_stage_screen",
+  "summaries": [
+    {
+      "stage_id": "identity",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__identity__compact",
+      "parse_valid": 0,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 3522,
+      "sampling_seconds": 21.92579412460327,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_screen_retry1_41410864/samples/00_identity_concise.json"
+    },
+    {
+      "stage_id": "append_R",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_R__compact",
+      "parse_valid": 0,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 3792,
+      "sampling_seconds": 18.374338150024414,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_screen_retry1_41410864/samples/01_append_R_concise.json"
+    },
+    {
+      "stage_id": "append_B",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_B__compact",
+      "parse_valid": 0,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 4720,
+      "sampling_seconds": 18.33345913887024,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_screen_retry1_41410864/samples/02_append_B_concise.json"
+    },
+    {
+      "stage_id": "replace_R_to_B",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__replace_R_to_B__compact",
+      "parse_valid": 0,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 4236,
+      "sampling_seconds": 18.348732471466064,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_screen_retry1_41410864/samples/03_replace_R_to_B_concise.json"
+    },
+    {
+      "stage_id": "replace_RB_to_YG",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__replace_RB_to_YG__compact",
+      "parse_valid": 0,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 3123,
+      "sampling_seconds": 18.381064414978027,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_screen_retry1_41410864/samples/04_replace_RB_to_YG_concise.json"
+    },
+    {
+      "stage_id": "prepend_R",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_R__compact",
+      "parse_valid": 0,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 3595,
+      "sampling_seconds": 18.380285024642944,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_screen_retry1_41410864/samples/05_prepend_R_concise.json"
+    },
+    {
+      "stage_id": "prepend_RB",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_RB__compact",
+      "parse_valid": 0,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 5595,
+      "sampling_seconds": 18.320464849472046,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_screen_retry1_41410864/samples/06_prepend_RB_concise.json"
+    },
+    {
+      "stage_id": "target_small2",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small2__compact",
+      "parse_valid": 0,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 6468,
+      "sampling_seconds": 34.37923288345337,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_screen_retry1_41410864/samples/07_target_small2_concise.json"
+    },
+    {
+      "stage_id": "target_small3",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small3__compact",
+      "parse_valid": 0,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 12360,
+      "sampling_seconds": 53.07392358779907,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_screen_retry1_41410864/samples/08_target_small3_concise.json"
+    },
+    {
+      "stage_id": "identity",
+      "variant": "official",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__identity__official_syntax",
+      "parse_valid": 1,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 6108,
+      "sampling_seconds": 18.031930446624756,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_screen_retry1_41410864/samples/09_identity_official.json"
+    },
+    {
+      "stage_id": "append_R",
+      "variant": "official",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_R__official_syntax",
+      "parse_valid": 0,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 5111,
+      "sampling_seconds": 19.11324191093445,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_screen_retry1_41410864/samples/10_append_R_official.json"
+    },
+    {
+      "stage_id": "append_B",
+      "variant": "official",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_B__official_syntax",
+      "parse_valid": 0,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 4347,
+      "sampling_seconds": 18.48113226890564,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_screen_retry1_41410864/samples/11_append_B_official.json"
+    }
+  ],
+  "rollouts": 96,
+  "generated_tokens": 62977,
+  "mixed_stage_groups": 0,
+  "total_stage_successes": 0,
+  "actual_optimizer_steps": 0,
+  "update_proof": null,
+  "source_adapter_unchanged": true,
+  "target_transfer_or_VERGE_gain_established": false
+}

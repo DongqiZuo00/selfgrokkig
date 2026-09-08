@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "mode": "CPU_replay_saved_train_stage_outputs",
+  "jobs": [
+    {
+      "job_id": "41410864",
+      "totals": {
+        "CPU_replayed_programs": 96,
+        "CPU_replayed_test_cases": 1424,
+        "at_cap": 33,
+        "test_cases": 1424,
+        "rollouts": 96,
+        "generated_tokens": 62977,
+        "parse_valid": 1,
+        "binary_successes": 0,
+        "mixed_groups": 0
+      },
+      "optimizer_steps": 0
+    },
+    {
+      "job_id": "41412533",
+      "totals": {
+        "CPU_replayed_programs": 96,
+        "CPU_replayed_test_cases": 1424,
+        "at_cap": 0,
+        "test_cases": 1424,
+        "per_test_passes": 16,
+        "rollouts": 96,
+        "generated_tokens": 10089,
+        "parse_valid": 96,
+        "binary_successes": 1,
+        "mixed_groups": 1,
+        "diagnostic_reason_aliases": 125
+      },
+      "optimizer_steps": 1
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321  /blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors
+56d7f53ba26b053e5c778a3d61343f08b5488adeea48b5fe5e7dc6c57de75e98  /blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/one_binary_update_proof/adapter_model.safetensors

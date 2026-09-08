@@ -1,0 +1,179 @@
+{
+  "version": "verge_stage_naming_prompt_v2_20260908",
+  "status": "frozen_unmeasured_prompt_treatment",
+  "source_sha256": {
+    "generated/catalogue.json": "1a001941752a5402835668f3825c007bb2a3772e12e9cb19e8bff84a9d598891",
+    "evidence/stage_ignition/job_41412533/frozen_screen.json": "56438f7732df74ad8de0b7448ce0bbf307b7703d18633307a0dc59eb0a76065b",
+    "freeze_naming_prompt_v2.py": "5ebbc73258c5ce77874c3acbe53a73c2a8d1f48e47b4c1ace1d277c85303b7f4"
+  },
+  "screen_tasks_sha256": "2ebd7ec29d2acd5e54df066f05ed8854df4366554a7692f5ae500f86505abeba",
+  "prompt_delta_sha256": "54eb7d2a5e898c80c8b1712083170f689eee41dad23cadf58fce6e1393d2ee1c",
+  "task_count": 12,
+  "samples_per_task": 8,
+  "checks": [
+    {
+      "stage_id": "identity",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__identity__compact",
+      "original_messages_sha256": "35dd669786bdead2a5eb723135ebf561d8a9e1ec5b0a8604d1e6688d7811e922",
+      "messages_sha256": "f373e95588712fdaec0c980f5640f9dab00d91c135dd60fe5dd1a152b52f46fd",
+      "ground_truth_sha256": "e0874d0c062367532849299fcfd4d8ad02735a17f2458df92a376299e45c0ea3",
+      "instance_tuple": [
+        "c4cf77ad5325939a97f5adef41c45ce19dc7e3727f7d5eb7f20bc3d6f49cee2d",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "all_non_message_fields_identical": true
+    },
+    {
+      "stage_id": "append_R",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_R__compact",
+      "original_messages_sha256": "10ed0049decd8ffe4b7962550befe835fe4809f148941835f0b66e96c4f20bb2",
+      "messages_sha256": "891689443ca34b62497d2fdd1abf0724afcb332d78b94e7b4ac401f76400f522",
+      "ground_truth_sha256": "0d6925423f38ddd890179f3eafceef9dcae967b738b8a6b1722133a2bf4fd980",
+      "instance_tuple": [
+        "57b1de2dbd200bdd8fc0e3ecc91682b18d6b1aedbc7079ed6c94667aff79ab13",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "all_non_message_fields_identical": true
+    },
+    {
+      "stage_id": "append_B",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_B__compact",
+      "original_messages_sha256": "f5755a3bdf0818373883c1df97f9c066fb74efc96cc228aa1561175397fcec92",
+      "messages_sha256": "99262b8a8193da3c42dc30a9b74ceaea005f82336f593e8763263bd193d03314",
+      "ground_truth_sha256": "fe69af7f80d8c879459f555f10d5b73adf6f09afcd03867d4a620e0ec9d55529",
+      "instance_tuple": [
+        "e05c3f0e041cc0eba83191c46a36bf163bbdea79fe0dc4157bc084cb157caa21",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "all_non_message_fields_identical": true
+    },
+    {
+      "stage_id": "replace_R_to_B",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__replace_R_to_B__compact",
+      "original_messages_sha256": "993e0bb931c28c71a0a0d51031c9b56085bc4173f6c62ed3f886625a6587410e",
+      "messages_sha256": "6c38bd6e756ad76773d3233a42a9c6e60868a92e1459ab96bff4377cc6d0b124",
+      "ground_truth_sha256": "7283de0edc8ba6f6c0722333112a7c071277cece2f7ae230637381bb7e7b8cac",
+      "instance_tuple": [
+        "bc4ff1c270d28b1ab14680828692ba48adcf53a8e04d1f00ff55bd2bbc1b263a",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "all_non_message_fields_identical": true
+    },
+    {
+      "stage_id": "replace_RB_to_YG",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__replace_RB_to_YG__compact",
+      "original_messages_sha256": "3a7874053de89dff31a1870753bed0fb7a85ebd27105e20452fb00f85471be7c",
+      "messages_sha256": "4547b2c033a830fbadc7516e8b6df7d184aa2ffd8fb84a22c710f82bff8205aa",
+      "ground_truth_sha256": "fa3756cfdb185ef1a648fdfb69618ce993f86ed56ca9f44a2eefed181f45eedc",
+      "instance_tuple": [
+        "12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "all_non_message_fields_identical": true
+    },
+    {
+      "stage_id": "prepend_R",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_R__compact",
+      "original_messages_sha256": "e57bf009f533182a43158076ae7b7a9ddbbe1f58e830e005da462099a89f561e",
+      "messages_sha256": "6c1126a8cc897d0f46dfd50499be2befb4b02c7bb0f995f75b0eb1f08f523098",
+      "ground_truth_sha256": "b98189984c19777356085f0c239cec9803d4638ff71b4fd7808774d94ff85f77",
+      "instance_tuple": [
+        "dbc9c193aba35d835bf4114f279c236d87b2556c8fd494ca077d92ad820d4846",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "all_non_message_fields_identical": true
+    },
+    {
+      "stage_id": "prepend_RB",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_RB__compact",
+      "original_messages_sha256": "d6ac93f7f78199d4affc931f0eac77db7634dfdcd50bafcc8e5fa07f6104ae2f",
+      "messages_sha256": "41610d22bc9ab64c95a8c45a7b339e834bca7c138abd390f7addf007aa90febc",
+      "ground_truth_sha256": "c95634eb9c43a2312751737fd0c6fbd6ebae47cb883045687de1c80d53fce75d",
+      "instance_tuple": [
+        "ff7e78db2ae681ca30467800ca47779e8fcc21abca91c923f7b4ab416f3958fc",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "all_non_message_fields_identical": true
+    },
+    {
+      "stage_id": "target_small2",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small2__compact",
+      "original_messages_sha256": "743f431dbfc7d3157f649c68e27468c46c87857511e5cacc97807303ac36ba0c",
+      "messages_sha256": "643234254c6202233ebc9f4c222ada8887accd35eb2d4e9e6ce55b263eb47550",
+      "ground_truth_sha256": "9848574637cc5149df26f156fd38972e2b395940cf9e3d6af137e03f167204ed",
+      "instance_tuple": [
+        "4123931be4048fafa2161b21e3521cfe14760279143a1db2b186326953e17280",
+        "4baf581fd2b125634a1bc04ffe69e711d1533d13d8b2eba910957d6b4155f352"
+      ],
+      "all_non_message_fields_identical": true
+    },
+    {
+      "stage_id": "target_small3",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small3__compact",
+      "original_messages_sha256": "f94fdc94dbd5f200ab2f8319b7f713e6afcf308e3dd4fb6af524356e2614a144",
+      "messages_sha256": "a28f418226f8d80c2e0d509c47472bb9aad83201dee093a4c808fa0addb7608e",
+      "ground_truth_sha256": "aa695019cd1bc49458c32e06c3f0567aa6a550fe6aa6094e48d70ff525bbe185",
+      "instance_tuple": [
+        "1bbe0fce7485c119f79063aa1ff1db334e12f7e287e01376ac77b7aa001f887f",
+        "3956187c4e56535e528bef5707d6f3ebf8e0f270daa9f93d1d72780e8e29ac44"
+      ],
+      "all_non_message_fields_identical": true
+    },
+    {
+      "stage_id": "identity",
+      "variant": "official",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__identity__official_syntax",
+      "original_messages_sha256": "45f72a7415a81799d896c1e6918c2324c5f3939099550f596ea1bcefeb5acd12",
+      "messages_sha256": "700e939b12efe97f1db0833b7a802bf7cb5813e0f05774cfc9679b303da467b8",
+      "ground_truth_sha256": "e0874d0c062367532849299fcfd4d8ad02735a17f2458df92a376299e45c0ea3",
+      "instance_tuple": [
+        "c4cf77ad5325939a97f5adef41c45ce19dc7e3727f7d5eb7f20bc3d6f49cee2d",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "all_non_message_fields_identical": true
+    },
+    {
+      "stage_id": "append_R",
+      "variant": "official",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_R__official_syntax",
+      "original_messages_sha256": "fa2407b36e2b8b26b2106645dc108a2694e1acc92b80db071410f24cacbdddaf",
+      "messages_sha256": "fb3bf50fac2e70ba7c8fa8650f4d4a341da5cb5bbe0bad06fb46281fde37f0c4",
+      "ground_truth_sha256": "0d6925423f38ddd890179f3eafceef9dcae967b738b8a6b1722133a2bf4fd980",
+      "instance_tuple": [
+        "57b1de2dbd200bdd8fc0e3ecc91682b18d6b1aedbc7079ed6c94667aff79ab13",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "all_non_message_fields_identical": true
+    },
+    {
+      "stage_id": "append_B",
+      "variant": "official",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_B__official_syntax",
+      "original_messages_sha256": "02e56207b0e72244bd04b714e4e2de7c03420140ee5d404e4fe1e9e419e1c054",
+      "messages_sha256": "7de968793968289efb0b859e6126e009383fba5dde6a67535cf19a2a6d6b176e",
+      "ground_truth_sha256": "fe69af7f80d8c879459f555f10d5b73adf6f09afcd03867d4a620e0ec9d55529",
+      "instance_tuple": [
+        "e05c3f0e041cc0eba83191c46a36bf163bbdea79fe0dc4157bc084cb157caa21",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "all_non_message_fields_identical": true
+    }
+  ],
+  "only_messages_changed": true,
+  "task_semantics_changed": false,
+  "test_inputs_or_outputs_changed": false,
+  "references_or_solution_supplied": false,
+  "prescribes_start_route_or_task_topology": false,
+  "heldout_or_test_model_results_read": false,
+  "v1_target_view_modified": false,
+  "target_view_followup": "The same task-independent naming paragraph is the candidate for a future target view; no target rows are generated or modified by this file. Freeze that view only after the bounded stage-probe decision."
+}

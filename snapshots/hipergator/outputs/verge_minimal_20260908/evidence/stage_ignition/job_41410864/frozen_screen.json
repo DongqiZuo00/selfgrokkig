@@ -1,0 +1,63 @@
+{
+  "tasks": [
+    [
+      "identity",
+      "concise"
+    ],
+    [
+      "append_R",
+      "concise"
+    ],
+    [
+      "append_B",
+      "concise"
+    ],
+    [
+      "replace_R_to_B",
+      "concise"
+    ],
+    [
+      "replace_RB_to_YG",
+      "concise"
+    ],
+    [
+      "prepend_R",
+      "concise"
+    ],
+    [
+      "prepend_RB",
+      "concise"
+    ],
+    [
+      "target_small2",
+      "concise"
+    ],
+    [
+      "target_small3",
+      "concise"
+    ],
+    [
+      "identity",
+      "official"
+    ],
+    [
+      "append_R",
+      "official"
+    ],
+    [
+      "append_B",
+      "official"
+    ]
+  ],
+  "samples_per_task": 8,
+  "caps": {
+    "target_small2": 2048,
+    "target_small3": 2048,
+    "default": 768
+  },
+  "source_solver": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+  "source_adapter_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321",
+  "selection_by": "binary stage successes and mixed reward groups; no heldout/test results",
+  "reference_programs_used_as_model_input": false,
+  "all_screen_samples_use_unchanged_initial_solver": true
+}

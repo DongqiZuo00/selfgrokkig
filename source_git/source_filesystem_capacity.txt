@@ -1,0 +1,2 @@
+Filesystem                                                                             1B-blocks          Used     Available Use% Mounted on
+10.13.130.14@o2ib,10.13.130.30@o2ib:10.13.130.15@o2ib,10.13.130.31@o2ib:/blue2/hpg 7696581394432 4979273474048 2717307920384  65% /blue/du.j

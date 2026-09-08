@@ -1,0 +1,39 @@
+{
+  "status": "validated_ready_before_model_load",
+  "branch": "direct",
+  "preparation_root": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994",
+  "plan_sha256": "7233ae26ce4e07e7dd1263fd5c6e3f68d9ff992d184ada70f35e105bd6da2de9",
+  "plan_file_sha256": "30ec2b2206934c46fad19e9f44682bd03826eebc8a58b104558eaeed26fb8cb5",
+  "ready_file_sha256": "788b7e0755d03964343f419e4fa8edc99ff5e8ebc6b97b13558bef75c8e11958",
+  "base_fragment": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/fragment.json",
+  "base_fragment_sha256": "b4637e138b55f372e54728163eee9710c749304fd2b403a699749a5ebbdbbc3e",
+  "challenger_evidence": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/challenger_sample_0.json",
+  "challenger_evidence_sha256": "e452617ccb9c9b7f18230a46db19c9d3c743dee6f5f50970585bbd143142705e",
+  "target_rows": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/benchmarks/generated/pilot_view_v1/target_rows.json",
+  "target_rows_sha256": "a15c1a7a6919ba4b79dac244f8bb09f98e2abb94fc3982c175d963e6a2dfe3b1",
+  "catalogue": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/benchmarks/generated/catalogue.json",
+  "catalogue_sha256": "1a001941752a5402835668f3825c007bb2a3772e12e9cb19e8bff84a9d598891",
+  "executor_sha256": "54ab5e4d4ed153b6c7683412bd884c3478186a740195a1cd0505a477d4dae72c",
+  "runtime_contract": {
+    "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/configs/round1_runtime_contract.json",
+    "sha256": "07082ec003ea0f4a0d76059e2c802ba2eeb5e0067129798c50653d66939d1de4",
+    "version": "verge_minimal_round1_source_contract_v1",
+    "verified_files": {
+      "benchmarks/generated/catalogue.json": "1a001941752a5402835668f3825c007bb2a3772e12e9cb19e8bff84a9d598891",
+      "benchmarks/generated/pilot_view_v1/stage_validation_evidence.json": "828524dbdc536a837c41e0130558ff260e985cacafdcf697604594bad97230cf",
+      "benchmarks/generated/pilot_view_v1/target_rows.json": "a15c1a7a6919ba4b79dac244f8bb09f98e2abb94fc3982c175d963e6a2dfe3b1",
+      "benchmarks/generated/pilot_view_v1/target_view_metadata.json": "29edeff3bfc7463b1936eaff7a52c9678a7725090103d23d07e04bfc9fb069f3",
+      "decoding/dsl_grammar.py": "379f0f4d56c12df45ee369b30a1d5d00995be381dd3c05d2e04605678f500bd0",
+      "decoding/grammar_service.py": "19fcb6b311f41d3b095a23263310bec991e6273706507438b9d248d7746a8ba0",
+      "decoding/hf_grammar_bridge.py": "ffb91164527cd62eb3c7b96265575722ff4b8d4890c7779368d5b1fcd4540863",
+      "round/round_cli.py": "64d2b3774642827e29eccef67b9995fa3bcfcdcfa09edf53cec5d714ee74ab65",
+      "runtime/execute_round.py": "54ab5e4d4ed153b6c7683412bd884c3478186a740195a1cd0505a477d4dae72c",
+      "runtime/hf_backend.py": "443699d84c7ed9f626cb2ed0535cb1f308b98cfe1288718a654bfb3334318623"
+    }
+  },
+  "branch_generated_token_budget": 65536,
+  "device_index_within_allocation": 0,
+  "slurm_job_id": "41414619",
+  "started_unix": 1788891447.019029,
+  "synthetic_fixture": false
+}

@@ -1,0 +1,28 @@
+{
+  "selected_stage": {
+    "stage_id": "identity",
+    "variant": "concise",
+    "instance_id": "verge_ignition_stage_catalogue_v1_20260908__identity__compact",
+    "parse_valid": 8,
+    "binary_successes": 1,
+    "mixed_group": true,
+    "generated_tokens": 545,
+    "sampling_seconds": 6.922886371612549,
+    "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/00_identity_concise.json"
+  },
+  "update": {
+    "tokens_used": 545,
+    "nonzero_advantage_tokens": 545,
+    "optimizer_step": true,
+    "loss": -0.06098948728053941,
+    "loss_policy": "same_dsl_grammar_masked_native_suffix",
+    "parameters_changed": true,
+    "optimizer_steps": 1,
+    "beta": 0,
+    "weight_decay": 0,
+    "binary_reward_only": true
+  },
+  "source_adapter": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+  "round_base_changed": false,
+  "checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/one_binary_update_proof"
+}

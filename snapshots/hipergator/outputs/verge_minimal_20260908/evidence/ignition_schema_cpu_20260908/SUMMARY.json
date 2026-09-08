@@ -1,0 +1,72 @@
+{
+  "status": "pass",
+  "mode": "cpu_schema_fixture_and_readonly_real_baseline_check",
+  "cuda_visible_devices": "",
+  "model_weights_loaded": false,
+  "new_model_samples": 0,
+  "new_training_updates": 0,
+  "schema_source": {
+    "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/evidence/ignition_schema_cpu_20260908/proposal_schema.json",
+    "file_sha256": "393b8cdea8d73a0aaa56df0c2929f3f04e36a4c5441d67a6061fe5422d9f991b"
+  },
+  "entry_source": {
+    "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runtime/prepare_ignition_round.py",
+    "file_sha256": "bc43ac032c88f2005e9a506c7258b99c9cffd6c02cf6d91283c99fa644bb78fb"
+  },
+  "grammar_metadata": {
+    "status": "ready",
+    "xgrammar_version": "0.2.4",
+    "transformers_version": "4.57.6",
+    "vocab_size": 131072,
+    "eos_token_ids": [
+      2
+    ],
+    "grammar_sha256": "57d745b9364042c60b5882eb69b8a976451bb98e8a0567e1855243135edbe455",
+    "max_nodes": null,
+    "mode": "json_schema",
+    "consumed_prefix": "",
+    "json_schema_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/evidence/ignition_schema_cpu_20260908/proposal_schema.json",
+    "structured_const_expansions": 38,
+    "tokenizer_json_sha256": "d5f6046775b112f0e2d456ee9dba450684ab964fe5c4e231599bdc6773028135",
+    "hf_vocab_sha256": "aa7cc25c58691ff3909e3bbea9f5d4c93d92e13a40ed0f50eaee15666702543a",
+    "startup_seconds": 1.3990147127769887,
+    "cpu_only": true,
+    "client_worker_startup_seconds": 18.556042172946036
+  },
+  "legal_fixture_replays": [
+    {
+      "fixture": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/evidence/ignition_schema_cpu_20260908/schema_fixtures/SYNTHETIC_GRAMMAR_ONLY_identity.json",
+      "native_tokenized_fixture_length": 2163,
+      "all_tokens_allowed_by_actual_masks": true,
+      "terminated_on_eos": true
+    },
+    {
+      "fixture": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/evidence/ignition_schema_cpu_20260908/schema_fixtures/SYNTHETIC_GRAMMAR_ONLY_append_R.json",
+      "native_tokenized_fixture_length": 2183,
+      "all_tokens_allowed_by_actual_masks": true,
+      "terminated_on_eos": true
+    }
+  ],
+  "disallowed_first_stage_rejected": true,
+  "observed_start_candidates": [
+    {
+      "stage_id": "identity",
+      "variant": "concise",
+      "successes": 1,
+      "n": 8,
+      "source": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/00_identity_concise.json"
+    },
+    {
+      "stage_id": "append_R",
+      "variant": "concise",
+      "successes": 1,
+      "n": 8,
+      "source": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/01_append_R_concise.json"
+    }
+  ],
+  "actual_base_reused_records": 256,
+  "new_base_rollouts": 0,
+  "new_base_generated_tokens": 0,
+  "fixture_is_challenger_output": false,
+  "fixture_is_experiment_result": false
+}

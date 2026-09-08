@@ -1,0 +1,2231 @@
+{
+  "type": "object",
+  "properties": {
+    "base_checkpoint": {
+      "const": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+    },
+    "curricula": {
+      "type": "object",
+      "properties": {
+        "g1": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "identity"
+                    },
+                    "kind": {
+                      "const": "tape_transform"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "tape_transform",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "c4cf77ad5325939a97f5adef41c45ce19dc7e3727f7d5eb7f20bc3d6f49cee2d",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "expression": {
+                          "op": "input"
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "append_R"
+                    },
+                    "kind": {
+                      "const": "tape_transform"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "tape_transform",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "57b1de2dbd200bdd8fc0e3ecc91682b18d6b1aedbc7079ed6c94667aff79ab13",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "expression": {
+                          "op": "concat",
+                          "args": [
+                            {
+                              "op": "input"
+                            },
+                            {
+                              "op": "literal",
+                              "value": "R"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
+            },
+            {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "identity"
+                    },
+                    "kind": {
+                      "const": "tape_transform"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "tape_transform",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "c4cf77ad5325939a97f5adef41c45ce19dc7e3727f7d5eb7f20bc3d6f49cee2d",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "expression": {
+                          "op": "input"
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "append_R"
+                    },
+                    "kind": {
+                      "const": "tape_transform"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "tape_transform",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "57b1de2dbd200bdd8fc0e3ecc91682b18d6b1aedbc7079ed6c94667aff79ab13",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "expression": {
+                          "op": "concat",
+                          "args": [
+                            {
+                              "op": "input"
+                            },
+                            {
+                              "op": "literal",
+                              "value": "R"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "append_B"
+                    },
+                    "kind": {
+                      "const": "tape_transform"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "tape_transform",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "e05c3f0e041cc0eba83191c46a36bf163bbdea79fe0dc4157bc084cb157caa21",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "expression": {
+                          "op": "concat",
+                          "args": [
+                            {
+                              "op": "input"
+                            },
+                            {
+                              "op": "literal",
+                              "value": "B"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "replace_R_to_B"
+                    },
+                    "kind": {
+                      "const": "tape_transform"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "tape_transform",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "bc4ff1c270d28b1ab14680828692ba48adcf53a8e04d1f00ff55bd2bbc1b263a",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "expression": {
+                          "op": "replace",
+                          "arg": {
+                            "op": "input"
+                          },
+                          "old": "R",
+                          "new": "B"
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "replace_RB_to_YG"
+                    },
+                    "kind": {
+                      "const": "registered"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "registered",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "family": "verge_catalogue_replace_RB_to_YG",
+                        "tier": 0,
+                        "mutation_tier": 0
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "prepend_R"
+                    },
+                    "kind": {
+                      "const": "tape_transform"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "tape_transform",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "dbc9c193aba35d835bf4114f279c236d87b2556c8fd494ca077d92ad820d4846",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "expression": {
+                          "op": "concat",
+                          "args": [
+                            {
+                              "op": "literal",
+                              "value": "R"
+                            },
+                            {
+                              "op": "input"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "prepend_RB"
+                    },
+                    "kind": {
+                      "const": "tape_transform"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "tape_transform",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "ff7e78db2ae681ca30467800ca47779e8fcc21abca91c923f7b4ab416f3958fc",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "expression": {
+                          "op": "concat",
+                          "args": [
+                            {
+                              "op": "literal",
+                              "value": "RB"
+                            },
+                            {
+                              "op": "input"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "target_small2"
+                    },
+                    "kind": {
+                      "const": "registered"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "registered",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 2,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "4123931be4048fafa2161b21e3521cfe14760279143a1db2b186326953e17280",
+                            "4baf581fd2b125634a1bc04ffe69e711d1533d13d8b2eba910957d6b4155f352"
+                          ]
+                        ],
+                        "family": "verge_catalogue_target_small2",
+                        "tier": 0,
+                        "mutation_tier": 0
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "target_small3"
+                    },
+                    "kind": {
+                      "const": "registered"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "registered",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 3,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "1bbe0fce7485c119f79063aa1ff1db334e12f7e287e01376ac77b7aa001f887f",
+                            "3956187c4e56535e528bef5707d6f3ebf8e0f270daa9f93d1d72780e8e29ac44"
+                          ]
+                        ],
+                        "family": "verge_catalogue_target_small3",
+                        "tier": 0,
+                        "mutation_tier": 0
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
+            },
+            {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "identity"
+                    },
+                    "kind": {
+                      "const": "tape_transform"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "tape_transform",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "c4cf77ad5325939a97f5adef41c45ce19dc7e3727f7d5eb7f20bc3d6f49cee2d",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "expression": {
+                          "op": "input"
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "append_R"
+                    },
+                    "kind": {
+                      "const": "tape_transform"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "tape_transform",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "57b1de2dbd200bdd8fc0e3ecc91682b18d6b1aedbc7079ed6c94667aff79ab13",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "expression": {
+                          "op": "concat",
+                          "args": [
+                            {
+                              "op": "input"
+                            },
+                            {
+                              "op": "literal",
+                              "value": "R"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "append_B"
+                    },
+                    "kind": {
+                      "const": "tape_transform"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "tape_transform",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "e05c3f0e041cc0eba83191c46a36bf163bbdea79fe0dc4157bc084cb157caa21",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "expression": {
+                          "op": "concat",
+                          "args": [
+                            {
+                              "op": "input"
+                            },
+                            {
+                              "op": "literal",
+                              "value": "B"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "replace_R_to_B"
+                    },
+                    "kind": {
+                      "const": "tape_transform"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "tape_transform",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "bc4ff1c270d28b1ab14680828692ba48adcf53a8e04d1f00ff55bd2bbc1b263a",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "expression": {
+                          "op": "replace",
+                          "arg": {
+                            "op": "input"
+                          },
+                          "old": "R",
+                          "new": "B"
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "replace_RB_to_YG"
+                    },
+                    "kind": {
+                      "const": "registered"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "registered",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "family": "verge_catalogue_replace_RB_to_YG",
+                        "tier": 0,
+                        "mutation_tier": 0
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "prepend_R"
+                    },
+                    "kind": {
+                      "const": "tape_transform"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "tape_transform",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "dbc9c193aba35d835bf4114f279c236d87b2556c8fd494ca077d92ad820d4846",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "expression": {
+                          "op": "concat",
+                          "args": [
+                            {
+                              "op": "literal",
+                              "value": "R"
+                            },
+                            {
+                              "op": "input"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "prepend_RB"
+                    },
+                    "kind": {
+                      "const": "tape_transform"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "tape_transform",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 8,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR",
+                            "RRBRBBRR",
+                            "RBBBRBBR",
+                            "RBBRBBRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "ff7e78db2ae681ca30467800ca47779e8fcc21abca91c923f7b4ab416f3958fc",
+                            "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                          ]
+                        ],
+                        "expression": {
+                          "op": "concat",
+                          "args": [
+                            {
+                              "op": "literal",
+                              "value": "RB"
+                            },
+                            {
+                              "op": "input"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "target_small2"
+                    },
+                    "kind": {
+                      "const": "registered"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "registered",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 2,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "4123931be4048fafa2161b21e3521cfe14760279143a1db2b186326953e17280",
+                            "4baf581fd2b125634a1bc04ffe69e711d1533d13d8b2eba910957d6b4155f352"
+                          ]
+                        ],
+                        "family": "verge_catalogue_target_small2",
+                        "tier": 0,
+                        "mutation_tier": 0
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "stage_id": {
+                      "const": "target_small3"
+                    },
+                    "kind": {
+                      "const": "registered"
+                    },
+                    "spec": {
+                      "const": {
+                        "kind": "registered",
+                        "distribution": {
+                          "alphabet": "RB",
+                          "min_length": 0,
+                          "max_length": 3,
+                          "corner_cases": [
+                            "B",
+                            "R",
+                            "BB",
+                            "BR",
+                            "RR",
+                            "BBB",
+                            "BBR",
+                            "BRB",
+                            "BRR",
+                            "RBB",
+                            "RBR",
+                            "RRB",
+                            "RRR"
+                          ]
+                        },
+                        "instance_tuples": [
+                          [
+                            "1bbe0fce7485c119f79063aa1ff1db334e12f7e287e01376ac77b7aa001f887f",
+                            "3956187c4e56535e528bef5707d6f3ebf8e0f270daa9f93d1d72780e8e29ac44"
+                          ]
+                        ],
+                        "family": "verge_catalogue_target_small3",
+                        "tier": 0,
+                        "mutation_tier": 0
+                      }
+                    }
+                  },
+                  "required": [
+                    "stage_id",
+                    "kind",
+                    "spec"
+                  ],
+                  "additionalProperties": false
+                }
+              ]
+            }
+          ],
+          "items": false,
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "g2": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "identity"
+                  },
+                  "kind": {
+                    "const": "tape_transform"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "tape_transform",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 8,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR",
+                          "RRBRBBRR",
+                          "RBBBRBBR",
+                          "RBBRBBRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "c4cf77ad5325939a97f5adef41c45ce19dc7e3727f7d5eb7f20bc3d6f49cee2d",
+                          "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                        ]
+                      ],
+                      "expression": {
+                        "op": "input"
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "append_R"
+                  },
+                  "kind": {
+                    "const": "tape_transform"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "tape_transform",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 8,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR",
+                          "RRBRBBRR",
+                          "RBBBRBBR",
+                          "RBBRBBRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "57b1de2dbd200bdd8fc0e3ecc91682b18d6b1aedbc7079ed6c94667aff79ab13",
+                          "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                        ]
+                      ],
+                      "expression": {
+                        "op": "concat",
+                        "args": [
+                          {
+                            "op": "input"
+                          },
+                          {
+                            "op": "literal",
+                            "value": "R"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "append_B"
+                  },
+                  "kind": {
+                    "const": "tape_transform"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "tape_transform",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 8,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR",
+                          "RRBRBBRR",
+                          "RBBBRBBR",
+                          "RBBRBBRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "e05c3f0e041cc0eba83191c46a36bf163bbdea79fe0dc4157bc084cb157caa21",
+                          "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                        ]
+                      ],
+                      "expression": {
+                        "op": "concat",
+                        "args": [
+                          {
+                            "op": "input"
+                          },
+                          {
+                            "op": "literal",
+                            "value": "B"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "replace_R_to_B"
+                  },
+                  "kind": {
+                    "const": "tape_transform"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "tape_transform",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 8,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR",
+                          "RRBRBBRR",
+                          "RBBBRBBR",
+                          "RBBRBBRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "bc4ff1c270d28b1ab14680828692ba48adcf53a8e04d1f00ff55bd2bbc1b263a",
+                          "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                        ]
+                      ],
+                      "expression": {
+                        "op": "replace",
+                        "arg": {
+                          "op": "input"
+                        },
+                        "old": "R",
+                        "new": "B"
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "replace_RB_to_YG"
+                  },
+                  "kind": {
+                    "const": "registered"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "registered",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 8,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR",
+                          "RRBRBBRR",
+                          "RBBBRBBR",
+                          "RBBRBBRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1",
+                          "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                        ]
+                      ],
+                      "family": "verge_catalogue_replace_RB_to_YG",
+                      "tier": 0,
+                      "mutation_tier": 0
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "prepend_R"
+                  },
+                  "kind": {
+                    "const": "tape_transform"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "tape_transform",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 8,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR",
+                          "RRBRBBRR",
+                          "RBBBRBBR",
+                          "RBBRBBRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "dbc9c193aba35d835bf4114f279c236d87b2556c8fd494ca077d92ad820d4846",
+                          "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                        ]
+                      ],
+                      "expression": {
+                        "op": "concat",
+                        "args": [
+                          {
+                            "op": "literal",
+                            "value": "R"
+                          },
+                          {
+                            "op": "input"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "prepend_RB"
+                  },
+                  "kind": {
+                    "const": "tape_transform"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "tape_transform",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 8,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR",
+                          "RRBRBBRR",
+                          "RBBBRBBR",
+                          "RBBRBBRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "ff7e78db2ae681ca30467800ca47779e8fcc21abca91c923f7b4ab416f3958fc",
+                          "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                        ]
+                      ],
+                      "expression": {
+                        "op": "concat",
+                        "args": [
+                          {
+                            "op": "literal",
+                            "value": "RB"
+                          },
+                          {
+                            "op": "input"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "target_small2"
+                  },
+                  "kind": {
+                    "const": "registered"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "registered",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 2,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "4123931be4048fafa2161b21e3521cfe14760279143a1db2b186326953e17280",
+                          "4baf581fd2b125634a1bc04ffe69e711d1533d13d8b2eba910957d6b4155f352"
+                        ]
+                      ],
+                      "family": "verge_catalogue_target_small2",
+                      "tier": 0,
+                      "mutation_tier": 0
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "target_small3"
+                  },
+                  "kind": {
+                    "const": "registered"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "registered",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 3,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "1bbe0fce7485c119f79063aa1ff1db334e12f7e287e01376ac77b7aa001f887f",
+                          "3956187c4e56535e528bef5707d6f3ebf8e0f270daa9f93d1d72780e8e29ac44"
+                        ]
+                      ],
+                      "family": "verge_catalogue_target_small3",
+                      "tier": 0,
+                      "mutation_tier": 0
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              }
+            ]
+          }
+        },
+        "g3": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "identity"
+                  },
+                  "kind": {
+                    "const": "tape_transform"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "tape_transform",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 8,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR",
+                          "RRBRBBRR",
+                          "RBBBRBBR",
+                          "RBBRBBRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "c4cf77ad5325939a97f5adef41c45ce19dc7e3727f7d5eb7f20bc3d6f49cee2d",
+                          "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                        ]
+                      ],
+                      "expression": {
+                        "op": "input"
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "append_R"
+                  },
+                  "kind": {
+                    "const": "tape_transform"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "tape_transform",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 8,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR",
+                          "RRBRBBRR",
+                          "RBBBRBBR",
+                          "RBBRBBRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "57b1de2dbd200bdd8fc0e3ecc91682b18d6b1aedbc7079ed6c94667aff79ab13",
+                          "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                        ]
+                      ],
+                      "expression": {
+                        "op": "concat",
+                        "args": [
+                          {
+                            "op": "input"
+                          },
+                          {
+                            "op": "literal",
+                            "value": "R"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "append_B"
+                  },
+                  "kind": {
+                    "const": "tape_transform"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "tape_transform",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 8,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR",
+                          "RRBRBBRR",
+                          "RBBBRBBR",
+                          "RBBRBBRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "e05c3f0e041cc0eba83191c46a36bf163bbdea79fe0dc4157bc084cb157caa21",
+                          "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                        ]
+                      ],
+                      "expression": {
+                        "op": "concat",
+                        "args": [
+                          {
+                            "op": "input"
+                          },
+                          {
+                            "op": "literal",
+                            "value": "B"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "replace_R_to_B"
+                  },
+                  "kind": {
+                    "const": "tape_transform"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "tape_transform",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 8,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR",
+                          "RRBRBBRR",
+                          "RBBBRBBR",
+                          "RBBRBBRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "bc4ff1c270d28b1ab14680828692ba48adcf53a8e04d1f00ff55bd2bbc1b263a",
+                          "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                        ]
+                      ],
+                      "expression": {
+                        "op": "replace",
+                        "arg": {
+                          "op": "input"
+                        },
+                        "old": "R",
+                        "new": "B"
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "replace_RB_to_YG"
+                  },
+                  "kind": {
+                    "const": "registered"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "registered",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 8,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR",
+                          "RRBRBBRR",
+                          "RBBBRBBR",
+                          "RBBRBBRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1",
+                          "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                        ]
+                      ],
+                      "family": "verge_catalogue_replace_RB_to_YG",
+                      "tier": 0,
+                      "mutation_tier": 0
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "prepend_R"
+                  },
+                  "kind": {
+                    "const": "tape_transform"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "tape_transform",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 8,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR",
+                          "RRBRBBRR",
+                          "RBBBRBBR",
+                          "RBBRBBRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "dbc9c193aba35d835bf4114f279c236d87b2556c8fd494ca077d92ad820d4846",
+                          "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                        ]
+                      ],
+                      "expression": {
+                        "op": "concat",
+                        "args": [
+                          {
+                            "op": "literal",
+                            "value": "R"
+                          },
+                          {
+                            "op": "input"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "prepend_RB"
+                  },
+                  "kind": {
+                    "const": "tape_transform"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "tape_transform",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 8,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR",
+                          "RRBRBBRR",
+                          "RBBBRBBR",
+                          "RBBRBBRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "ff7e78db2ae681ca30467800ca47779e8fcc21abca91c923f7b4ab416f3958fc",
+                          "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                        ]
+                      ],
+                      "expression": {
+                        "op": "concat",
+                        "args": [
+                          {
+                            "op": "literal",
+                            "value": "RB"
+                          },
+                          {
+                            "op": "input"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "target_small2"
+                  },
+                  "kind": {
+                    "const": "registered"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "registered",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 2,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "4123931be4048fafa2161b21e3521cfe14760279143a1db2b186326953e17280",
+                          "4baf581fd2b125634a1bc04ffe69e711d1533d13d8b2eba910957d6b4155f352"
+                        ]
+                      ],
+                      "family": "verge_catalogue_target_small2",
+                      "tier": 0,
+                      "mutation_tier": 0
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "stage_id": {
+                    "const": "target_small3"
+                  },
+                  "kind": {
+                    "const": "registered"
+                  },
+                  "spec": {
+                    "const": {
+                      "kind": "registered",
+                      "distribution": {
+                        "alphabet": "RB",
+                        "min_length": 0,
+                        "max_length": 3,
+                        "corner_cases": [
+                          "B",
+                          "R",
+                          "BB",
+                          "BR",
+                          "RR",
+                          "BBB",
+                          "BBR",
+                          "BRB",
+                          "BRR",
+                          "RBB",
+                          "RBR",
+                          "RRB",
+                          "RRR"
+                        ]
+                      },
+                      "instance_tuples": [
+                        [
+                          "1bbe0fce7485c119f79063aa1ff1db334e12f7e287e01376ac77b7aa001f887f",
+                          "3956187c4e56535e528bef5707d6f3ebf8e0f270daa9f93d1d72780e8e29ac44"
+                        ]
+                      ],
+                      "family": "verge_catalogue_target_small3",
+                      "tier": 0,
+                      "mutation_tier": 0
+                    }
+                  }
+                },
+                "required": [
+                  "stage_id",
+                  "kind",
+                  "spec"
+                ],
+                "additionalProperties": false
+              }
+            ]
+          }
+        }
+      },
+      "required": [
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "base_checkpoint",
+    "curricula"
+  ],
+  "additionalProperties": false
+}

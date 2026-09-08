@@ -1,0 +1,28 @@
+test_challenger_actual_json_must_match_selected_proposal (test_round_cli.MiniRoundTests.test_challenger_actual_json_must_match_selected_proposal) ... ok
+test_common_sampling_seed_excludes_checkpoint_identity (test_round_cli.MiniRoundTests.test_common_sampling_seed_excludes_checkpoint_identity) ... ok
+test_complete_raw_exchange_scores_gamma_delta_archive_buffer (test_round_cli.MiniRoundTests.test_complete_raw_exchange_scores_gamma_delta_archive_buffer) ... ok
+test_default_api_cannot_promote_unit_fixture_evidence (test_round_cli.MiniRoundTests.test_default_api_cannot_promote_unit_fixture_evidence) ... FAIL
+test_final_raw_condition_must_match_per_class_test_results (test_round_cli.MiniRoundTests.test_final_raw_condition_must_match_per_class_test_results) ... ok
+test_hint_contamination_wrong_base_or_optimizer_state_rejected (test_round_cli.MiniRoundTests.test_hint_contamination_wrong_base_or_optimizer_state_rejected) ... ok
+test_hint_without_actual_probe_fails_and_nonhint_stays_na (test_round_cli.MiniRoundTests.test_hint_without_actual_probe_fails_and_nonhint_stays_na) ... ok
+test_missing_raw_rollout_is_not_dropped_from_denominator (test_round_cli.MiniRoundTests.test_missing_raw_rollout_is_not_dropped_from_denominator) ... ok
+test_plan_has_three_courses_direct_four_segments_and_17_eval_requests (test_round_cli.MiniRoundTests.test_plan_has_three_courses_direct_four_segments_and_17_eval_requests) ... ok
+test_raw_token_ledger_and_plan_digest_are_binding (test_round_cli.MiniRoundTests.test_raw_token_ledger_and_plan_digest_are_binding) ... ok
+
+======================================================================
+FAIL: test_default_api_cannot_promote_unit_fixture_evidence (test_round_cli.MiniRoundTests.test_default_api_cannot_promote_unit_fixture_evidence)
+----------------------------------------------------------------------
+ValueError: fixture stage outcomes cannot authorize a live stage
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ddong\Documents\Codex\2026-09-06\hipergator-x20\outputs\selfgrok\verge_minimal_20260908\round\test_round_cli.py", line 93, in test_default_api_cannot_promote_unit_fixture_evidence
+    with self.assertRaisesRegex(ValueError, "mini B"):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "mini B" does not match "fixture stage outcomes cannot authorize a live stage"
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.292s
+
+FAILED (failures=1)

@@ -1,0 +1,189 @@
+[
+  {
+    "alias": "base",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": null,
+    "branch": "base",
+    "generated_tokens_from_base": 0
+  },
+  {
+    "alias": "g1_m1",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "base",
+    "branch": "g1",
+    "generated_tokens_from_base": 16384
+  },
+  {
+    "alias": "g1_m2",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "g1_m1",
+    "branch": "g1",
+    "generated_tokens_from_base": 32768
+  },
+  {
+    "alias": "g1_m3",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "g1_m2",
+    "branch": "g1",
+    "generated_tokens_from_base": 49152
+  },
+  {
+    "alias": "g1_m4",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "g1_m3",
+    "branch": "g1",
+    "generated_tokens_from_base": 65536
+  },
+  {
+    "alias": "g2_m1",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "base",
+    "branch": "g2",
+    "generated_tokens_from_base": 16384
+  },
+  {
+    "alias": "g2_m2",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "g2_m1",
+    "branch": "g2",
+    "generated_tokens_from_base": 32768
+  },
+  {
+    "alias": "g2_m3",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "g2_m2",
+    "branch": "g2",
+    "generated_tokens_from_base": 49152
+  },
+  {
+    "alias": "g2_m4",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "g2_m3",
+    "branch": "g2",
+    "generated_tokens_from_base": 65536
+  },
+  {
+    "alias": "g3_m1",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "base",
+    "branch": "g3",
+    "generated_tokens_from_base": 16384
+  },
+  {
+    "alias": "g3_m2",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "g3_m1",
+    "branch": "g3",
+    "generated_tokens_from_base": 32768
+  },
+  {
+    "alias": "g3_m3",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "g3_m2",
+    "branch": "g3",
+    "generated_tokens_from_base": 49152
+  },
+  {
+    "alias": "g3_m4",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "g3_m3",
+    "branch": "g3",
+    "generated_tokens_from_base": 65536
+  },
+  {
+    "alias": "direct_m1",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "base",
+    "branch": "direct",
+    "generated_tokens_from_base": 16384
+  },
+  {
+    "alias": "direct_m2",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "direct_m1",
+    "branch": "direct",
+    "generated_tokens_from_base": 32768
+  },
+  {
+    "alias": "direct_m3",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "direct_m2",
+    "branch": "direct",
+    "generated_tokens_from_base": 49152
+  },
+  {
+    "alias": "direct_m4",
+    "checkpoint": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "parent_alias": "direct_m3",
+    "branch": "direct",
+    "generated_tokens_from_base": 65536
+  }
+]

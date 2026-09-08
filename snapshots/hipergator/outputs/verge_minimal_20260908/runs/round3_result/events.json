@@ -1,0 +1,41 @@
+{
+  "first_success_in_ordered_evaluation_stream": null,
+  "first_success_order_observable": false,
+  "training_target_successes_by_branch": {
+    "g1": [],
+    "g2": [],
+    "g3": [],
+    "direct": []
+  },
+  "reward_switch": {
+    "occurred_this_round": false,
+    "kappa": 2,
+    "q": 4
+  },
+  "learning_onset": {
+    "observed_on_lead": false,
+    "first_crossing_in_this_round": false,
+    "lead_target_rate": {
+      "estimate": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "confidence": 0.95,
+      "unit": "selection_instances",
+      "n_instances": 8
+    }
+  },
+  "first_cell_occupations": [
+    {
+      "key": [
+        2,
+        1
+      ],
+      "first_occupied_round": 0,
+      "checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+    }
+  ],
+  "detour": {
+    "occurred_this_round": false,
+    "meaning": "this first-round archive starts from the sole initial base"
+  }
+}

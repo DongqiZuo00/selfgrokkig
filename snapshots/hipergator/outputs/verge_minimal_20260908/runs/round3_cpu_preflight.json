@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "preparation": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_ignition_41419999",
+  "plan_sha256": "c1a4b2834ff2c510978c87097c72222be37a1ca2d0df9e367e688337e1569f42",
+  "contract": {
+    "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/configs/round3_runtime_contract.json",
+    "sha256": "cd7a922f0effbfa49e4bea1ac77c7bf2aa0151e1318953530f4295ac9e3b85b8",
+    "version": "verge_minimal_round3_ignition_source_contract_v1",
+    "verified_files": {
+      "RUN_IGNITION_BRANCH_ARRAY.sbatch": "cd93630206ded5b2d1d493ea002c8f1490cd6627b5af18be55ea400237d4d16e",
+      "SUBMIT_ROUND3.sh": "8d50a618258e25eb1956b3e4731342c106b0683f1a0633be5167404e84d2741f",
+      "benchmarks/generated/catalogue.json": "1a001941752a5402835668f3825c007bb2a3772e12e9cb19e8bff84a9d598891",
+      "benchmarks/generated/naming_round_v2/catalogue.json": "4fbe279cfed264dc14f9a4fca8072d8c9adaf841bff33fda38587d5d6d2649d7",
+      "benchmarks/generated/naming_round_v2/stage_validation_evidence.json": "0c527eb7fa01fc3f58ffe4a3ba8628ba4da765a9792480c264807e752ce1581a",
+      "benchmarks/generated/naming_round_v2/target_rows.json": "1e1407c3f529cd60da01ebf9888dc1635dae9da405c40a0d050139d77ade9420",
+      "benchmarks/generated/naming_round_v2/target_view_metadata.json": "cb3c3f1e8ccce71333a3c673cb391fde6e0f5476ec7336f1db31c8595a39b0fd",
+      "benchmarks/generated/pilot_view_v1/stage_validation_evidence.json": "828524dbdc536a837c41e0130558ff260e985cacafdcf697604594bad97230cf",
+      "benchmarks/generated/pilot_view_v1/target_rows.json": "a15c1a7a6919ba4b79dac244f8bb09f98e2abb94fc3982c175d963e6a2dfe3b1",
+      "benchmarks/generated/pilot_view_v1/target_view_metadata.json": "29edeff3bfc7463b1936eaff7a52c9678a7725090103d23d07e04bfc9fb069f3",
+      "decoding/dsl_grammar.py": "379f0f4d56c12df45ee369b30a1d5d00995be381dd3c05d2e04605678f500bd0",
+      "decoding/grammar_service.py": "19fcb6b311f41d3b095a23263310bec991e6273706507438b9d248d7746a8ba0",
+      "decoding/hf_grammar_bridge.py": "ffb91164527cd62eb3c7b96265575722ff4b8d4890c7779368d5b1fcd4540863",
+      "round/round_cli.py": "64d2b3774642827e29eccef67b9995fa3bcfcdcfa09edf53cec5d714ee74ab65",
+      "runtime/execute_round.py": "54ab5e4d4ed153b6c7683412bd884c3478186a740195a1cd0505a477d4dae72c",
+      "runtime/hf_backend.py": "443699d84c7ed9f626cb2ed0535cb1f308b98cfe1288718a654bfb3334318623",
+      "runtime/preflight_ignition.py": "7619e528833a87087225d26faa60a2d52890ffd3c99047ca8dcbfae839d80c99",
+      "runtime/prepare_ignition_round.py": "bc43ac032c88f2005e9a506c7258b99c9cffd6c02cf6d91283c99fa644bb78fb",
+      "runtime/prepare_named_round.py": "f5232be361ba319dab2b89a18946f1ccddc09648197b8a7aac378a4337570890",
+      "runtime/run_branch_job.py": "cbc0da7784049d2eceff75b14ef2bbc395661debed40af16d64da406959917e9"
+    }
+  },
+  "actual_challenger_source": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_ignition_41419999/challenger_sample_0.json",
+  "train_rows": 128,
+  "selection_rows": 8,
+  "catalogue_stages": 9,
+  "new_baseline_tokens": 0,
+  "B_per_branch": 65536,
+  "model_loaded": false
+}

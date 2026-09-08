@@ -1,17 +1,26 @@
 {
   "destination": "https://github.com/DongqiZuo00/selfgrokkig",
-  "status": "local_snapshot_ready_remote_snapshot_pending",
+  "status": "local_uploaded_verified_current_remote_ready_for_upload_historical_archive_in_progress",
   "all_requested_data_uploaded": false,
   "local_snapshot": {
     "files": 2752,
     "bytes": 266937717,
     "sha256_verified": true,
-    "manifest": "manifests/local_snapshot_manifest.json"
+    "manifest": "manifests/local_snapshot_manifest.json",
+    "github_commit": "0633974243bf3e1d2c16d9785d360a85cfadeb53",
+    "github_upload_verified": true
   },
   "remote_snapshot": {
     "status": "inventory_and_archive_preparation",
     "historical_checkpoint_upload_verified": false,
-    "live_jobs_will_not_be_interrupted": true
+    "live_jobs_will_not_be_interrupted": true,
+    "current_minimal_snapshot": {
+      "github_upload_verified": false,
+      "files": 1576,
+      "sha256_verified": true,
+      "bytes": 640360368,
+      "manifest": "manifests/current_remote_snapshot_manifest.json"
+    }
   },
   "new_gpu_jobs": 0
 }

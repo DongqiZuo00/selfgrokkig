@@ -1,0 +1,22 @@
+Initial local delivery-summary formatter referenced a nonexistent aggregate allocated_b200_seconds field; no report content changed. Recheck below sums the already validated per-allocation field.
+{
+  "status": "complete",
+  "tokens": 1039681,
+  "categories": {
+    "solver_training": 786432,
+    "solver_evaluation": 155060,
+    "challenger": 8092,
+    "stage_probe": 90097
+  },
+  "third_round_increment_tokens": 325761,
+  "third_round_increment_b200_seconds": 2463,
+  "total_b200_seconds": 9153,
+  "total_b200_hours": 2.5425,
+  "raw_sources": 876,
+  "evaluation_origins_checked": 96,
+  "peak_gpus": 2,
+  "peak_memory_gib": 128.0,
+  "old_two_round_artifact_and_sources_unchanged": true,
+  "cpu_tests_audit_only": 18,
+  "delivery_check_is_not_a_training_test": true
+}

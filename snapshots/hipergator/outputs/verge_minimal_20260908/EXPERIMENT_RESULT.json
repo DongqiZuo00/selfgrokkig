@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "minimal_real_process_experiment_complete": true,
+  "target_solved": false,
+  "method_effectiveness_established": false,
+  "training_generated_tokens_per_branch": 65536,
+  "third_round_curriculum_updates": 1,
+  "third_round_distinct_target_evaluation_samples_referenced": 512,
+  "third_round_new_target_evaluation_samples": 256,
+  "third_round_new_target_evaluation_tokens": 61055,
+  "third_round_target_successes_all_evaluation_records": 0,
+  "target_training_success_event_observed": false,
+  "global_cross_job_first_success_order_claimed": false,
+  "third_round_gains": {
+    "kappa": 2,
+    "reward_switched": false,
+    "gains": {
+      "g1": {
+        "estimate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_instances": 8,
+        "confidence": 0.95
+      },
+      "g2": {
+        "estimate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_instances": 8,
+        "confidence": 0.95
+      },
+      "g3": {
+        "estimate": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.0,
+        "n_instances": 8,
+        "confidence": 0.95
+      }
+    },
+    "j_plus": []
+  },
+  "third_round_archive_cells": 1,
+  "third_round_lead": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+  "local_changed_checkpoint": "C:\\Users\\ddong\\Documents\\Codex\\2026-09-06\\hipergator-x20\\outputs\\selfgrok\\verge_minimal_20260908\\runs\\round3_g1_41420288_0\\execution\\checkpoints\\g1_m1\\adapter_model.safetensors",
+  "local_changed_checkpoint_sha256": "b5278b1fed5e784945b6770b9abfd3b8d0cede946d2d98ffd771871f2fc86090",
+  "formal_predictions_verified": [],
+  "persistent_multi_round_archive_rft_production_complete": false,
+  "source_sha256": {
+    "runs\\round1_result\\summary.json": "d1b13121cb4722cf24e767b7024e00d363092718494c171bb0fd99f32e7368e9",
+    "runs\\round2_result\\summary.json": "ee7d2787b1fc506f73d1b4f63fdeb80fdb4a61e17420d6e2d29594b014cc02cf",
+    "runs\\round3_result\\summary.json": "e39f6bd6f85a42b7cb7b98c05286c2b6fb2fb9de1206532dc9f8b58956a158f7",
+    "evidence\\COST_THREE_ROUNDS.json": "d3f0cd4ae382547f6b8967234118499265f447af787724a30acbf588ea5fdbe0",
+    "evidence\\round3_independent_score_audit.json": "fc14e3a1207edde46548d6814b92a7722fcaa7eb6851aa14e302961fc701e1b8"
+  }
+}

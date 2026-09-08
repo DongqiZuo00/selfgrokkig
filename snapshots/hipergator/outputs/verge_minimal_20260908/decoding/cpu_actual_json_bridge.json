@@ -1,0 +1,29 @@
+{
+  "mode": "json_schema",
+  "status": "ready",
+  "xgrammar_version": "0.2.4",
+  "transformers_version": "4.57.6",
+  "vocab_size": 131072,
+  "eos_token_ids": [
+    2
+  ],
+  "grammar_sha256": "41762f58f74419b737a8c83734020651880f479699fb3e112bcc5268598b2605",
+  "max_nodes": null,
+  "consumed_prefix": "",
+  "json_schema_path": "cpu_catalogue_schema_fixture.json",
+  "structured_const_expansions": 27,
+  "tokenizer_json_sha256": "d5f6046775b112f0e2d456ee9dba450684ab964fe5c4e231599bdc6773028135",
+  "hf_vocab_sha256": "aa7cc25c58691ff3909e3bbea9f5d4c93d92e13a40ed0f50eaee15666702543a",
+  "startup_seconds": 1.3895084918476641,
+  "cpu_only": true,
+  "client_worker_startup_seconds": 14.042586202267557,
+  "fixture_json_sha256": "0a8e818ee1e750075c84010902174c28bdec4be3eafc1b474353e66d142aa461",
+  "fixture_native_tokens_including_eos": 2064,
+  "json_fixture_characters": 4215,
+  "all_native_actions_accepted": true,
+  "grammar_terminated": true,
+  "replay_seconds": 1.3615800766274333,
+  "mask_bytes": 33816576,
+  "proposal_written_or_submitted": false,
+  "gpu_or_model_weights_loaded": false
+}

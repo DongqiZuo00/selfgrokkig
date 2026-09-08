@@ -1,0 +1,8 @@
+{
+  "mode": "numeric_variant_CPU_backup_frozen_source_guards",
+  "frozen_sha256": {
+    "dsl_grammar.py": "379f0f4d56c12df45ee369b30a1d5d00995be381dd3c05d2e04605678f500bd0",
+    "grammar_service.py": "19fcb6b311f41d3b095a23263310bec991e6273706507438b9d248d7746a8ba0",
+    "hf_grammar_bridge.py": "ffb91164527cd62eb3c7b96265575722ff4b8d4890c7779368d5b1fcd4540863"
+  }
+}

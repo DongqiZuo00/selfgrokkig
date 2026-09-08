@@ -1,0 +1,16 @@
+{
+  "checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round3_g1_41420288_0/execution/checkpoints/g1_m1",
+  "weights_sha256": "b5278b1fed5e784945b6770b9abfd3b8d0cede946d2d98ffd771871f2fc86090",
+  "evaluation_cache_hit": true,
+  "source_evidence_id": "g1_m1",
+  "sample_ids": [
+    "rollout_00",
+    "rollout_01",
+    "rollout_02",
+    "rollout_03",
+    "rollout_04",
+    "rollout_05",
+    "rollout_06",
+    "rollout_07"
+  ]
+}

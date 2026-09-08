@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/evidence/stage_ignition/analyze_screens.py", line 161, in <module>
+    main()
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/evidence/stage_ignition/analyze_screens.py", line 144, in main
+    a, b = analyze("41410864", args.run_a, factory), analyze("41412533", args.run_b, factory)
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/evidence/stage_ignition/analyze_screens.py", line 72, in analyze
+    assert replay["per_test"] == saved["per_test"], (job, stage, index)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('41412533', 'append_B', 0)

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "repository": "https://github.com/DongqiZuo00/selfgrokkig",
+  "observed_remote_commit": "0633974243bf3e1d2c16d9785d360a85cfadeb53",
+  "snapshot_files_verified": 2752,
+  "snapshot_bytes_verified": 266937717,
+  "verification": "Every committed Git blob SHA256 matches source manifest; commit ID equals independently observed GitHub main ref.",
+  "scope": "local snapshot only; remote project archive tracked separately"
+}

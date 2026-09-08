@@ -1,0 +1,23 @@
+test_frozen_files_match_in_memory_and_round_sha (__main__.PilotViewTests.test_frozen_files_match_in_memory_and_round_sha) ... ERROR
+test_hash_payload_and_round_request_contract_match (__main__.PilotViewTests.test_hash_payload_and_round_request_contract_match) ... ok
+test_one_unhinted_prompt_no_program_oracle (__main__.PilotViewTests.test_one_unhinted_prompt_no_program_oracle) ... ok
+test_original_ids_fields_and_ground_truth_exactly_preserved (__main__.PilotViewTests.test_original_ids_fields_and_ground_truth_exactly_preserved) ... ok
+test_six_classes_and_36_tests_remain_on_every_instance (__main__.PilotViewTests.test_six_classes_and_36_tests_remain_on_every_instance) ... ok
+test_stage_evidence_binds_actual_cpu_tests_and_exact_specs (__main__.PilotViewTests.test_stage_evidence_binds_actual_cpu_tests_and_exact_specs) ... ok
+test_tampered_test_class_or_target_is_rejected (__main__.PilotViewTests.test_tampered_test_class_or_target_is_rejected) ... ok
+
+======================================================================
+ERROR: test_frozen_files_match_in_memory_and_round_sha (__main__.PilotViewTests.test_frozen_files_match_in_memory_and_round_sha)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/benchmarks/test_freeze_pilot.py", line 90, in test_frozen_files_match_in_memory_and_round_sha
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/round/round_cli.py'
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.314s
+
+FAILED (errors=1)

@@ -1,0 +1,173 @@
+{
+  "status": "completed",
+  "mode": "real_model_initial_stage_screen",
+  "summaries": [
+    {
+      "stage_id": "identity",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__identity__compact",
+      "parse_valid": 8,
+      "binary_successes": 1,
+      "mixed_group": true,
+      "generated_tokens": 545,
+      "sampling_seconds": 6.922886371612549,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/00_identity_concise.json"
+    },
+    {
+      "stage_id": "append_R",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_R__compact",
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 1074,
+      "sampling_seconds": 11.197383642196655,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/01_append_R_concise.json"
+    },
+    {
+      "stage_id": "append_B",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_B__compact",
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 1216,
+      "sampling_seconds": 12.976891279220581,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/02_append_B_concise.json"
+    },
+    {
+      "stage_id": "replace_R_to_B",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__replace_R_to_B__compact",
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 643,
+      "sampling_seconds": 5.139854192733765,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/03_replace_R_to_B_concise.json"
+    },
+    {
+      "stage_id": "replace_RB_to_YG",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__replace_RB_to_YG__compact",
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 218,
+      "sampling_seconds": 3.1448006629943848,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/04_replace_RB_to_YG_concise.json"
+    },
+    {
+      "stage_id": "prepend_R",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_R__compact",
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 1076,
+      "sampling_seconds": 6.957237958908081,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/05_prepend_R_concise.json"
+    },
+    {
+      "stage_id": "prepend_RB",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_RB__compact",
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 500,
+      "sampling_seconds": 7.340212106704712,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/06_prepend_RB_concise.json"
+    },
+    {
+      "stage_id": "target_small2",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small2__compact",
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 1172,
+      "sampling_seconds": 8.896175384521484,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/07_target_small2_concise.json"
+    },
+    {
+      "stage_id": "target_small3",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small3__compact",
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 1251,
+      "sampling_seconds": 15.055969953536987,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/08_target_small3_concise.json"
+    },
+    {
+      "stage_id": "identity",
+      "variant": "official",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__identity__official_syntax",
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 737,
+      "sampling_seconds": 10.148619651794434,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/09_identity_official.json"
+    },
+    {
+      "stage_id": "append_R",
+      "variant": "official",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_R__official_syntax",
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 1046,
+      "sampling_seconds": 12.330236673355103,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/10_append_R_official.json"
+    },
+    {
+      "stage_id": "append_B",
+      "variant": "official",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_B__official_syntax",
+      "parse_valid": 8,
+      "binary_successes": 0,
+      "mixed_group": false,
+      "generated_tokens": 611,
+      "sampling_seconds": 6.247089862823486,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/11_append_B_official.json"
+    }
+  ],
+  "rollouts": 96,
+  "generated_tokens": 10089,
+  "mixed_stage_groups": 1,
+  "total_stage_successes": 1,
+  "actual_optimizer_steps": 1,
+  "update_proof": {
+    "selected_stage": {
+      "stage_id": "identity",
+      "variant": "concise",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__identity__compact",
+      "parse_valid": 8,
+      "binary_successes": 1,
+      "mixed_group": true,
+      "generated_tokens": 545,
+      "sampling_seconds": 6.922886371612549,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/00_identity_concise.json"
+    },
+    "update": {
+      "tokens_used": 545,
+      "nonzero_advantage_tokens": 545,
+      "optimizer_step": true,
+      "loss": -0.06098948728053941,
+      "loss_policy": "same_dsl_grammar_masked_native_suffix",
+      "parameters_changed": true,
+      "optimizer_steps": 1,
+      "beta": 0,
+      "weight_decay": 0,
+      "binary_reward_only": true
+    },
+    "source_adapter": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+    "round_base_changed": false,
+    "checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/one_binary_update_proof"
+  },
+  "source_adapter_unchanged": true,
+  "target_transfer_or_VERGE_gain_established": false
+}
