@@ -1,0 +1,120 @@
+{
+  "mode": "read_only_cpu_preflight",
+  "started_unix": 1788850369.5833313,
+  "cuda_visible_devices": "",
+  "backbone_weights_loaded": false,
+  "gpu_used": false,
+  "checkpoint_or_queued_script_modified": false,
+  "heldout_or_test_model_results_read": false,
+  "checks": {
+    "required_model_and_adapter_classes_import": true,
+    "cuda_devices_hidden": true,
+    "queued_source_contains_expected_guards": true,
+    "queued_source_uses_audited_paths": true,
+    "model_type_mistral3": true,
+    "adapter_rank_and_alpha": true,
+    "adapter_backbone_source": true,
+    "initial_solver_update_zero": true,
+    "initial_solver_role": true,
+    "initial_solver_trained_tokens_zero": true,
+    "train_manifest_sha256_matches": true,
+    "tokenizer_has_padding_token": true,
+    "four_unhinted_train_rows": true,
+    "four_eight_sample_prompts_tokenize": true,
+    "read_only_inputs_unchanged": true,
+    "queued_live_smoke_unchanged": true
+  },
+  "versions": {
+    "python": "3.11.4 | packaged by conda-forge | (main, Jun 10 2023, 18:08:17) [GCC 12.2.0]",
+    "torch": "2.8.0+cu128",
+    "transformers": "5.16.1",
+    "peft": "0.20.0"
+  },
+  "imports": {
+    "Mistral3ForConditionalGeneration": "Mistral3ForConditionalGeneration",
+    "PeftModel": "PeftModel"
+  },
+  "live_smoke_sha256": "50144de8dccfc8cd9fb631561f135486b1bbb4faccb790e64c1e593f6c4b6fe1",
+  "queued_source_constants": {
+    "WORK": "Path('/blue/du.j/jinjiaguo/self grok')",
+    "MODEL": "WORK / 'models/Ministral-3-3B-Instruct-2512-BF16'",
+    "ADAPTER": "WORK / 'experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000'"
+  },
+  "inputs": {
+    "/blue/du.j/jinjiaguo/self grok/models/Ministral-3-3B-Instruct-2512-BF16/config.json": {
+      "sha256": "c89d1a0b4f237d2892ce911d1fe03e9e5a4834579f7149ebc715a4c3fa564214",
+      "size_bytes": 1579
+    },
+    "/blue/du.j/jinjiaguo/self grok/models/Ministral-3-3B-Instruct-2512-BF16/tokenizer_config.json": {
+      "sha256": "f59f7294e4f26383d0ea93840fe21cf197784be0842a8301a0343e8c34ed0d6d",
+      "size_bytes": 198094
+    },
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_config.json": {
+      "sha256": "6992ed706d7b32e90c2ec7777580add9023b1fbb0d555ac845fd478c44c84c5d",
+      "size_bytes": 1222
+    },
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/state.pt": {
+      "sha256": "64ca9de674cda0c60aa649e5e739dd0e6e362815657901ce492fcd668738f156",
+      "size_bytes": 2785
+    },
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_operational_20260908/benchmark/generated/manifest.json": {
+      "sha256": "e81af53883ff38670b0b1abfa26119be88d0057934e50e1b81e6a84801003a62",
+      "size_bytes": 3571
+    },
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_operational_20260908/benchmark/generated/target_train.jsonl": {
+      "sha256": "89f79a4df80a5871db61a02cc4f36319e46300626fdcf6431e697923c13be585",
+      "size_bytes": 1822908
+    }
+  },
+  "adapter_weights_metadata_only": {
+    "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+    "size_bytes": 98882136,
+    "weights_loaded": false
+  },
+  "model_config": {
+    "model_type": "mistral3",
+    "architectures": [
+      "Mistral3ForConditionalGeneration"
+    ],
+    "text_model_type": "ministral3"
+  },
+  "adapter_config": {
+    "base_model_name_or_path": "/blue/du.j/jinjiaguo/self grok/models/Ministral-3-3B-Instruct-2512-BF16",
+    "r": 16,
+    "lora_alpha": 32,
+    "peft_type": "LORA",
+    "task_type": "CAUSAL_LM",
+    "inference_mode": true
+  },
+  "initial_solver_state": {
+    "top_level_keys": [
+      "optimizer",
+      "runtime_state",
+      "scheduler",
+      "update"
+    ],
+    "update": 0,
+    "runtime_state": {
+      "role": "solver",
+      "trained_tokens": 0,
+      "source": null,
+      "initial_checkpoint": null,
+      "base_checkpoint": null
+    }
+  },
+  "tokenizer": {
+    "class": "TokenizersBackend",
+    "padding_side": "left",
+    "pad_token_id": 11,
+    "eos_token_id": 2,
+    "has_chat_template": true,
+    "four_prompt_token_lengths": [
+      1498,
+      1498,
+      1498,
+      1498
+    ]
+  },
+  "status": "passed",
+  "elapsed_seconds": 13.307949542999268
+}

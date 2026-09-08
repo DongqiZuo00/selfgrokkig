@@ -1,0 +1,19 @@
+test_cache_requires_actual_source_path_and_original_records (test_round_cli.MiniRoundTests.test_cache_requires_actual_source_path_and_original_records) ... ok
+test_cache_source_can_follow_alias_in_plan_order (test_round_cli.MiniRoundTests.test_cache_source_can_follow_alias_in_plan_order) ... ok
+test_challenger_actual_json_must_match_selected_proposal (test_round_cli.MiniRoundTests.test_challenger_actual_json_must_match_selected_proposal) ... ok
+test_common_sampling_seed_excludes_checkpoint_identity (test_round_cli.MiniRoundTests.test_common_sampling_seed_excludes_checkpoint_identity) ... ok
+test_complete_raw_exchange_scores_gamma_delta_archive_buffer (test_round_cli.MiniRoundTests.test_complete_raw_exchange_scores_gamma_delta_archive_buffer) ... ok
+test_default_api_cannot_promote_unit_fixture_evidence (test_round_cli.MiniRoundTests.test_default_api_cannot_promote_unit_fixture_evidence) ... ok
+test_final_raw_condition_must_match_per_class_test_results (test_round_cli.MiniRoundTests.test_final_raw_condition_must_match_per_class_test_results) ... ok
+test_hint_contamination_wrong_base_or_optimizer_state_rejected (test_round_cli.MiniRoundTests.test_hint_contamination_wrong_base_or_optimizer_state_rejected) ... ok
+test_hint_without_actual_probe_fails_and_nonhint_stays_na (test_round_cli.MiniRoundTests.test_hint_without_actual_probe_fails_and_nonhint_stays_na) ... ok
+test_missing_raw_rollout_is_not_dropped_from_denominator (test_round_cli.MiniRoundTests.test_missing_raw_rollout_is_not_dropped_from_denominator) ... ok
+test_partial_cache_reuses_p8_then_generates_only_new_24_slots (test_round_cli.MiniRoundTests.test_partial_cache_reuses_p8_then_generates_only_new_24_slots) ... ok
+test_plan_has_three_courses_direct_four_segments_and_17_eval_requests (test_round_cli.MiniRoundTests.test_plan_has_three_courses_direct_four_segments_and_17_eval_requests) ... ok
+test_raw_token_ledger_and_plan_digest_are_binding (test_round_cli.MiniRoundTests.test_raw_token_ledger_and_plan_digest_are_binding) ... ok
+test_unchanged_direct_reuses_actual_base_raw_without_new_samples (test_round_cli.MiniRoundTests.test_unchanged_direct_reuses_actual_base_raw_without_new_samples) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.633s
+
+OK

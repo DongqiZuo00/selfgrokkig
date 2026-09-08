@@ -1,0 +1,125 @@
+{
+  "status": "PASS",
+  "round_id": "verge_minimal_round1_20260908",
+  "checks": "raw SHA/native tokens/full 36 tests/six nonempty classes/min-f conditions/checkpoint weights/cache identity/Gamma/tail Delta/P32-P8",
+  "logical_slots_checked": 2048,
+  "distinct_raw_batches_checked": 32,
+  "base_rates": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "terminal_rates": {
+    "g1": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "g2": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "g3": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "direct": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "terminal_success_counts": {
+    "g1": 0,
+    "g2": 0,
+    "g3": 0,
+    "direct": 0
+  },
+  "kappa": 2,
+  "gains": {
+    "g1": {
+      "gamma": 0.0,
+      "stage_deltas_including_tail": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sampling_correction": 0.0
+    },
+    "g2": {
+      "gamma": 0.0,
+      "stage_deltas_including_tail": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sampling_correction": 0.0
+    },
+    "g3": {
+      "gamma": 0.0,
+      "stage_deltas_including_tail": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sampling_correction": 0.0
+    }
+  },
+  "source_sha256": {
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__3821019a320b__chunk0.json": "af04f8072cc5abbaea94e7e9e4b7ff09f4750c7676a084f9231b69691a8188e6",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__3821019a320b__chunk1.json": "eaf94aa892769516d2f2761bb3c9c850ad46d1b1fa80d01abc4f5ad9b54338c5",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__3821019a320b__chunk2.json": "75a3881abe44dfb578b22c8a006ad3c6618a487f5d9cb712a63bb37a7f1f68cf",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__3821019a320b__chunk3.json": "6a0d6d75d73a8a3c6cf83a5e30005a4fa0f892da0b6dc0b22fde281a8747e6ae",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__9432cf80a77d__chunk0.json": "11cc3d603ca11994a4d6958bb3df39a31fd3ce5a052aff6f49f2d7f48aa2e730",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__9432cf80a77d__chunk1.json": "659bcd7121bf5d87117a29656e0be2816f0d9165e963351775209134be1ae3c5",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__9432cf80a77d__chunk2.json": "32ba35dd7dfbe6146ae718a4898c47221f592f897ca4efb7a1f644112470a8ff",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__9432cf80a77d__chunk3.json": "a7660168984ae1316dea8b2ac116edccc06a087dda6163f49fc572256f06914a",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__4d8fbf8bb752__chunk0.json": "de2e3871afcf575dc86acab753630bf6aae10a761fc5aad85aaabdf1c8350a6a",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__4d8fbf8bb752__chunk1.json": "49a387c9a99a7a0074c4a2ced19dccaf193bb444d358876acbae04a905cc00e7",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__4d8fbf8bb752__chunk2.json": "a4c6f4fda1229add7f276177fe9fff09cb2fa82abbe76b96927473641e1aea5b",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__4d8fbf8bb752__chunk3.json": "a2df0ea81866ea7eedb28ad28059aa5c000ea162472dcadebc2e9d85e1cc36f0",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__e0d6e1cbcfb1__chunk0.json": "8046e568bb37c7dc2c54b6b5b07e7c89b4023149c2a5d0940eb01a279da9494a",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__e0d6e1cbcfb1__chunk1.json": "a176aac5a1408aceda954baf89eae36ad52c30f35679e76d5949b0c483e31e9f",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__e0d6e1cbcfb1__chunk2.json": "c9b1bf31ad3bff0454c346e71ad32b9839b1403c1b61225c3e4d7bcec5faffa7",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__e0d6e1cbcfb1__chunk3.json": "9e95f8ed556b29f6b1d2136a57ee65309e43ff0c76237626728d929ffc87bf84",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__9ac327c0a182__chunk0.json": "c8ac8a0de4d116d47883700fec17fe44c696245f5bcbd2793c5c0a593ffe8f9e",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__9ac327c0a182__chunk1.json": "b20d036008995e430ed99c9ecf45a53378f372af59d7bad237b27f6c3eb19213",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__9ac327c0a182__chunk2.json": "c495ec36c5e4168d4266c735a7a01248921ececbff5a65d572042509faa61890",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__9ac327c0a182__chunk3.json": "a6603e5583d8307817765ea5db41e2e55ea1fdb1013f5a7b0eb3bebc0c794248",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__7887f047e70c__chunk0.json": "3c1ae4fb96edc858a292467a333e3e2dae3f8c52cd6c5392c1939944faf275ff",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__7887f047e70c__chunk1.json": "d01ea28d65a1f9c6ca55952fd06789a7a2b6c6067ada0a3929898dd31d30bf99",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__7887f047e70c__chunk2.json": "77d5398ed2d2e9796059a4d770023d5f1c5e1e59c394f75e3eeba21511135688",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__7887f047e70c__chunk3.json": "9ccb41ec83294f4212457836946cfbbf341fb0eddbd4fa118caff20a131f3c20",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__222f9ba43fbc__chunk0.json": "dfb374b61bdb15bc73b942192522a8e4280460d4937f1bd481db14ac9a2e2c13",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__222f9ba43fbc__chunk1.json": "cfafd0350c809b2a045a19c5ae6ba6013f50f06392fe83698bef6309f3f6e4fc",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__222f9ba43fbc__chunk2.json": "001da65acf5ff0777c7713ee7f1bd9aa2eaa0896fb5ea07be9cad9c1e4187a2a",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__222f9ba43fbc__chunk3.json": "afe1576d00212f8a60f16485c513ae7aa278400b4ebd5955d192663c1ccee442",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__ee1c409e4a1d__chunk0.json": "0c41d08ae4c1bb9352f97758c5c250b9c5a0f51331257397bc010feb837848b3",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__ee1c409e4a1d__chunk1.json": "46e0f96fed96904c398c2b999061450b34c17393bf0276b44969bd02b9c757bb",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__ee1c409e4a1d__chunk2.json": "86389b0b321e807870631ce45784f46690ea7290e8ee61e3768ad7f3cdaaa0a8",
+    "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/raw_evaluation/base__ee1c409e4a1d__chunk3.json": "6bdea0e61f48f0b8de926ba19a4369fd2098e9737d0853b265ffba965cd2e657"
+  },
+  "new_gpu_work": false,
+  "limitations": "Recomputes aggregation from recorded vendor outcomes, not a fresh parser replay or independent sampling; bootstrap CI separately covered by protocol tests."
+}

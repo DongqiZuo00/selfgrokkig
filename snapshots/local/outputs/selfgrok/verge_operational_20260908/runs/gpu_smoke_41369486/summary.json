@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "mode": "real_backbone_pipeline_smoke",
+  "groups": 4,
+  "rollouts": 32,
+  "generated_tokens": 16384,
+  "binary_successes": 0,
+  "optimizer_steps": 0,
+  "elapsed_seconds": 83.77415132522583,
+  "constant_groups_exact_skip_checked": 4,
+  "mixed_binary_update_exercised": false,
+  "b200_hours": 0.023270597789022657,
+  "max_gpu_memory_bytes": 10861607936,
+  "source_adapter_unchanged": true,
+  "benchmark_regime_established": false,
+  "formal_verge_round": false,
+  "original_sources_changed": false
+}

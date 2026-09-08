@@ -1,0 +1,66 @@
+{
+  "array": "41420288",
+  "mode": "actual_disk_evidence",
+  "branches": [
+    {
+      "branch": "g1",
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round3_g1_41420288_0",
+      "status": "running",
+      "training_generated_tokens": 35480,
+      "stage_successes": 1,
+      "target_successes": 0,
+      "actual_updates": 1,
+      "last_accounting": {
+        "name": "g1_segment_3",
+        "quota": 16384,
+        "generated_tokens": 2712,
+        "loss_eligible_tokens": 2712,
+        "nonzero_advantage_tokens": 0,
+        "boundary_drain_tokens": 0,
+        "rollouts": 16,
+        "optimizer_steps": 0,
+        "constant_groups": 2
+      }
+    },
+    {
+      "branch": "g2",
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round3_g2_41420288_1",
+      "status": "running",
+      "training_generated_tokens": 44090,
+      "stage_successes": 0,
+      "target_successes": 0,
+      "actual_updates": 0,
+      "last_accounting": {
+        "name": "g2_segment_3",
+        "quota": 16384,
+        "generated_tokens": 11322,
+        "loss_eligible_tokens": 11322,
+        "nonzero_advantage_tokens": 0,
+        "boundary_drain_tokens": 0,
+        "rollouts": 64,
+        "optimizer_steps": 0,
+        "constant_groups": 8
+      }
+    },
+    {
+      "branch": "g3",
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round3_g3_41420288_2",
+      "status": "not_started",
+      "training_generated_tokens": 0,
+      "stage_successes": 0,
+      "target_successes": 0,
+      "actual_updates": 0,
+      "last_accounting": null
+    },
+    {
+      "branch": "direct",
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round3_direct_41420288_3",
+      "status": "not_started",
+      "training_generated_tokens": 0,
+      "stage_successes": 0,
+      "target_successes": 0,
+      "actual_updates": 0,
+      "last_accounting": null
+    }
+  ]
+}

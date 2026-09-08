@@ -1,0 +1,330 @@
+{
+  "g1": [
+    {
+      "phase_id": "g1_segment_1",
+      "generated_tokens": 16384,
+      "rollouts": 113,
+      "optimizer_steps": 1,
+      "constant_groups": 13,
+      "boundary_drain_tokens": 1,
+      "loss_eligible_tokens": 16383,
+      "nonzero_advantage_tokens": 924,
+      "tokens_by_task": {
+        "target": 8114,
+        "stage": 8270
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 1
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": true
+    },
+    {
+      "phase_id": "g1_segment_2",
+      "generated_tokens": 16384,
+      "rollouts": 89,
+      "optimizer_steps": 0,
+      "constant_groups": 11,
+      "boundary_drain_tokens": 6,
+      "loss_eligible_tokens": 16378,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 4272,
+        "stage": 12112
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    },
+    {
+      "phase_id": "g1_segment_3",
+      "generated_tokens": 16384,
+      "rollouts": 89,
+      "optimizer_steps": 0,
+      "constant_groups": 11,
+      "boundary_drain_tokens": 7,
+      "loss_eligible_tokens": 16377,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 3725,
+        "stage": 12659
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    },
+    {
+      "phase_id": "g1_segment_4",
+      "generated_tokens": 16384,
+      "rollouts": 81,
+      "optimizer_steps": 0,
+      "constant_groups": 10,
+      "boundary_drain_tokens": 2,
+      "loss_eligible_tokens": 16382,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 16384,
+        "stage": 0
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    }
+  ],
+  "g2": [
+    {
+      "phase_id": "g2_segment_1",
+      "generated_tokens": 16384,
+      "rollouts": 105,
+      "optimizer_steps": 0,
+      "constant_groups": 13,
+      "boundary_drain_tokens": 4,
+      "loss_eligible_tokens": 16380,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 5703,
+        "stage": 10681
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    },
+    {
+      "phase_id": "g2_segment_2",
+      "generated_tokens": 16384,
+      "rollouts": 113,
+      "optimizer_steps": 0,
+      "constant_groups": 14,
+      "boundary_drain_tokens": 2,
+      "loss_eligible_tokens": 16382,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 2027,
+        "stage": 14357
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    },
+    {
+      "phase_id": "g2_segment_3",
+      "generated_tokens": 16384,
+      "rollouts": 97,
+      "optimizer_steps": 0,
+      "constant_groups": 12,
+      "boundary_drain_tokens": 5,
+      "loss_eligible_tokens": 16379,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 3500,
+        "stage": 12884
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    },
+    {
+      "phase_id": "g2_segment_4",
+      "generated_tokens": 16384,
+      "rollouts": 81,
+      "optimizer_steps": 0,
+      "constant_groups": 10,
+      "boundary_drain_tokens": 2,
+      "loss_eligible_tokens": 16382,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 16384,
+        "stage": 0
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    }
+  ],
+  "g3": [
+    {
+      "phase_id": "g3_segment_1",
+      "generated_tokens": 16384,
+      "rollouts": 105,
+      "optimizer_steps": 0,
+      "constant_groups": 13,
+      "boundary_drain_tokens": 3,
+      "loss_eligible_tokens": 16381,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 5958,
+        "stage": 10426
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    },
+    {
+      "phase_id": "g3_segment_2",
+      "generated_tokens": 16384,
+      "rollouts": 88,
+      "optimizer_steps": 0,
+      "constant_groups": 11,
+      "boundary_drain_tokens": 0,
+      "loss_eligible_tokens": 16384,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 5895,
+        "stage": 10489
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    },
+    {
+      "phase_id": "g3_segment_3",
+      "generated_tokens": 16384,
+      "rollouts": 97,
+      "optimizer_steps": 0,
+      "constant_groups": 12,
+      "boundary_drain_tokens": 1,
+      "loss_eligible_tokens": 16383,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 4401,
+        "stage": 11983
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    },
+    {
+      "phase_id": "g3_segment_4",
+      "generated_tokens": 16384,
+      "rollouts": 81,
+      "optimizer_steps": 0,
+      "constant_groups": 10,
+      "boundary_drain_tokens": 5,
+      "loss_eligible_tokens": 16379,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 16384,
+        "stage": 0
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    }
+  ],
+  "direct": [
+    {
+      "phase_id": "direct_segment_1",
+      "generated_tokens": 16384,
+      "rollouts": 73,
+      "optimizer_steps": 0,
+      "constant_groups": 9,
+      "boundary_drain_tokens": 5,
+      "loss_eligible_tokens": 16379,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 16384,
+        "stage": 0
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    },
+    {
+      "phase_id": "direct_segment_2",
+      "generated_tokens": 16384,
+      "rollouts": 81,
+      "optimizer_steps": 0,
+      "constant_groups": 10,
+      "boundary_drain_tokens": 4,
+      "loss_eligible_tokens": 16380,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 16384,
+        "stage": 0
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    },
+    {
+      "phase_id": "direct_segment_3",
+      "generated_tokens": 16384,
+      "rollouts": 81,
+      "optimizer_steps": 0,
+      "constant_groups": 10,
+      "boundary_drain_tokens": 1,
+      "loss_eligible_tokens": 16383,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 16384,
+        "stage": 0
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    },
+    {
+      "phase_id": "direct_segment_4",
+      "generated_tokens": 16384,
+      "rollouts": 89,
+      "optimizer_steps": 0,
+      "constant_groups": 11,
+      "boundary_drain_tokens": 6,
+      "loss_eligible_tokens": 16378,
+      "nonzero_advantage_tokens": 0,
+      "tokens_by_task": {
+        "target": 16384,
+        "stage": 0
+      },
+      "full_pass_by_task": {
+        "target": 0,
+        "stage": 0
+      },
+      "first_observed_target_success": null,
+      "checkpoint_weights_changed": false
+    }
+  ]
+}

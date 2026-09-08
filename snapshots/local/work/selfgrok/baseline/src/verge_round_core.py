@@ -1,0 +1,197 @@
+"""Frozen single-round VERGE pilot: shared configuration and pure protocol helpers."""
+from __future__ import annotations
+
+import json
+import math
+import os
+import re
+from pathlib import Path
+
+VERSION = os.environ.get("VERGE_VERSION", "verge_mistral_round1")
+if (VERSION not in ("verge_mistral_round1", "verge_mistral_repair_v2", "verge_mistral_repair_acceptance")
+        and not re.fullmatch(r"verge_book_v[12]_(verge|frozen|uncertainty|outcome)_r0[0-5]", VERSION)
+        and not re.fullmatch(r"verge_control_v1_(binary|dense|dense_then_binary)_r0[0-5]", VERSION)
+        and not re.fullmatch(r"verge_followon_v1_(verge|frozen|uncertainty|outcome)_r0[0-5]_c[1-3]", VERSION)
+        and not re.fullmatch(r"verge_search_v1_r0[0-5](?:_b[0-3])?", VERSION)):
+    raise ValueError("Unknown isolated VERGE version")
+EXP = Path(__file__).resolve().parents[1]
+ROOT = EXP / "raw_results" / VERSION
+if re.fullmatch(r"verge_search_v1_r0[0-5]", VERSION):
+    ROOT = EXP / "raw_results/verge_search_v1/rounds" / VERSION
+DATA = EXP / "data" / VERSION
+CFG_PATH = EXP / "manifests" / f"{VERSION}.json"
+
+
+def config():
+    if VERSION == "verge_mistral_round1":
+        return json.loads(CFG_PATH.read_text(encoding="utf-8"))
+    if CFG_PATH.exists():
+        cfg = json.loads(CFG_PATH.read_text(encoding="utf-8"))
+        if VERSION.startswith("verge_search_v1_"):
+            if (os.environ.get("VERGE_SEARCH_SUITE") != "verge_search_v1"
+                    or os.environ.get("VERGE_BOOK_SUITE") != "verge_book_v2"
+                    or cfg.get("protocol_version") != VERSION):
+                raise RuntimeError("Search requires its own explicitly enabled namespace and source suite")
+            from verge_search_worker_protocol import validate_round_launch, validate_launch
+            if re.fullmatch(r"verge_search_v1_r0[0-5]", VERSION):
+                validate_round_launch(EXP, cfg)
+            else:
+                validate_launch(EXP, cfg)
+        if VERSION.startswith("verge_followon_v1_"):
+            if (os.environ.get("VERGE_FOLLOWON_SUITE") != "verge_followon_v1"
+                    or cfg.get("protocol_version") != VERSION):
+                raise RuntimeError("Follow-on requires its own explicitly enabled namespace")
+            from verge_followon_protocol import validate_launch
+            validate_launch(EXP, cfg)
+        if VERSION.startswith("verge_control_v1_"):
+            if (os.environ.get("VERGE_CONTROL_SUITE") != "verge_control_v1"
+                    or cfg.get("protocol_version") != VERSION):
+                raise RuntimeError("Control requires its own explicitly enabled namespace")
+            from verge_control_block import validate_launch
+            validate_launch(EXP, cfg)
+        if VERSION.startswith("verge_book_v2_"):
+            if (cfg.get("book_suite") != "verge_book_v2"
+                    or os.environ.get("VERGE_BOOK_SUITE") != "verge_book_v2"
+                    or cfg.get("independent_prompt_streams") is not True):
+                raise RuntimeError("Corrected round requires the explicit v2 suite and sampling backend")
+        return cfg
+    if VERSION.startswith(("verge_book_v1_", "verge_book_v2_", "verge_control_v1_", "verge_followon_v1_", "verge_search_v1_")):
+        raise RuntimeError("Book/control/follow-on/search round must have a frozen configuration before execution")
+    from verge_repair_config import repair_config
+    return repair_config(VERSION, EXP)
+
+
+def parse_proposal(text, cfg):
+    raw = text.strip()
+    match = re.fullmatch(r"```(?:json)?\s*(.*?)\s*```", raw, re.DOTALL)
+    if match:
+        raw = match[1]
+    try:
+        result = json.loads(raw)
+    except (ValueError, TypeError):
+        return None
+    if not isinstance(result, dict) or set(result) != {"stages"}:
+        return None
+    stages = result["stages"]
+    if not isinstance(stages, list) or not 1 <= len(stages) <= 4:
+        return None
+    required = {"family", "colors", "length", "mutation"}
+    for s in stages:
+        if not isinstance(s, dict) or set(s) != required:
+            return None
+        if not isinstance(s["family"], str) or s["family"] not in cfg["families"]:
+            return None
+        if type(s["colors"]) is not int or s["colors"] not in (2, 4):
+            return None
+        if type(s["length"]) is not int or not 1 <= s["length"] <= 6:
+            return None
+        if s["mutation"] not in ("none", "simple", "pattern"):
+            return None
+        if s["family"] != "prepend_sequence" and s["mutation"] != "none":
+            return None
+        if s["family"].startswith("numerical_") and s["colors"] != 2:
+            return None
+        if s["family"] == "regex_same_num" and s["colors"] != 4:
+            return None
+    return result
+
+
+def stage_tokens(total, count):
+    curriculum = total * 3 // 4
+    parts = [curriculum // count + int(i < curriculum % count) for i in range(count)]
+    return parts + [total - curriculum]
+
+
+def allocate_tokens(lengths, remaining):
+    """Mask final-batch completion prefixes to an exact update-token quota.
+
+    All rewards and group advantages use full verified completions. Sampling costs
+    beyond this quota are counted separately; zero-advantage masked tokens count too.
+    """
+    used = []
+    for length in lengths:
+        n = min(int(length), remaining)
+        used.append(n)
+        remaining -= n
+    return used
+
+
+def centered_advantages(rewards):
+    mean = sum(rewards) / len(rewards)
+    std = math.sqrt(sum((r - mean) ** 2 for r in rewards) / len(rewards))
+    return [0.0] * len(rewards) if std < 1e-6 else [(r - mean) / (std + 1e-6) for r in rewards]
+
+
+def generator_config(s):
+    return {
+        "name": f"{s['family']}_c{s['colors']}_l{s['length']}_{s['mutation']}",
+        "color_mode": "two_color" if s["colors"] == 2 else "four_color",
+        "sequence_lengths": [s["length"], s["length"]],
+        "count_thresholds": [1, max(2, s["length"] * 2)],
+        "numerical_thresholds": [1, max(4, 2 ** s["length"])],
+        "regex_max_pattern_length": [1, min(3, s["length"])],
+        "prepend_enable_mutations": s["mutation"] != "none",
+        "prepend_pattern_mutations": s["mutation"] == "pattern",
+    }
+
+
+def thresholds(test_count):
+    # A fixed four-slot sequence retains redundant checks if a row has few tests.
+    return sorted([1 / max(1, test_count), 0.25, 0.5, 0.75])
+
+
+def condition_names():
+    return ["parse", "parse_and_execute_all"] + [
+        f"cumulative_{score}_threshold_{i + 1}"
+        for score in ("mean_normalized_lcp", "exact_test_fraction") for i in range(4)
+    ] + ["full_pass"]
+
+
+def condition_vector(completion, row):
+    from common import CREATE_ROBOT_FACTORY, extract_program, verify_full
+    try:
+        factory = CREATE_ROBOT_FACTORY(extract_program(completion))
+    except Exception:
+        return [0] * 11
+    finished, lcp_scores, passes = [], [], []
+    cases = row["ground_truth"]
+    if not cases or any(not c.get("expected_accepted", True) or not c.get("check_output", True) for c in cases):
+        raise ValueError("VERGE primary target must have exact all-accepting tape outputs")
+    for case in cases:
+        try:
+            execution = factory.process_robot(case.get("input", ""))
+            actual, expected = str(execution.final_tape), str(case["expected_output"])
+            n = 0
+            for a, b in zip(actual, expected):
+                if a != b:
+                    break
+                n += 1
+            lcp_scores.append(n / len(expected) if expected else float(actual == ""))
+            finished.append(bool(execution.finished))
+            passes.append(bool(execution.finished) and actual == expected)
+        except Exception:
+            finished.append(False)
+            lcp_scores.append(0.0)
+            passes.append(False)
+    vector = [1, int(all(finished))]
+    for score in (sum(lcp_scores) / len(cases), sum(passes) / len(cases)):
+        for theta in thresholds(len(cases)):
+            vector.append(int(vector[-1] and score >= theta))
+    full = int(verify_full(completion, cases).reward)
+    vector.append(full)
+    assert all(b <= a for a, b in zip(vector, vector[1:])), vector
+    return vector
+
+
+def profile(scored, rows):
+    by_id = {str(r["id"]): r for r in rows}
+    keyed = {}
+    for item in scored:
+        vector = condition_vector(item["completion"], by_id[str(item["instance_id"])])
+        assert vector[-1] == int(item["reward"])
+        keyed[f"{item['instance_id']}::{item['rollout_index']}"] = vector
+    counts = [sum(v[i] for v in keyed.values()) for i in range(11)]
+    rates = [n / len(keyed) for n in counts]
+    return {"rollouts": len(keyed), "counts": counts, "rates": rates,
+            "condition_names": condition_names(), "keyed_vectors": keyed,
+            "bottleneck_index": next((i for i, p in enumerate(rates) if p < .9), 10)}

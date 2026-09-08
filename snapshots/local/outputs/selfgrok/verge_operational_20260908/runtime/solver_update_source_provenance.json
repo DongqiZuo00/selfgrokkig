@@ -1,0 +1,15 @@
+{
+  "source": "outputs\\selfgrok\\verge_review_20260908\\review_copy\\src\\verge_repair_training.py",
+  "source_sha256": "32990c1e8d5d0543eaad0fa96d5c1f9296a78f8e772e7f4e865b206ca5ad5494",
+  "copied_function_AST_equal": {
+    "phase_boundary_masks": true,
+    "disable_training_dropout": true,
+    "chosen_masked_logp": true,
+    "token_loss": true,
+    "train_step": true
+  },
+  "new_strict_entry_points": [
+    "make_fresh_solver_branch",
+    "binary_solver_train_step"
+  ]
+}

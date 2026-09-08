@@ -1,0 +1,25 @@
+{
+  "actual_GPU_used": false,
+  "actual_model_optimizer_steps": 0,
+  "actual_model_rollouts": 0,
+  "actual_reference_verifier_cases": 76,
+  "all_telescoping_residuals_zero": true,
+  "all_three_stage_validators_accepted_synthetic_fixture": true,
+  "archive_cells": 2,
+  "branches": 4,
+  "challenger_RFT": "plan_only_not_executed",
+  "delta_includes_target_only_tail": true,
+  "direct_synthetic_callback_state_unchanged": true,
+  "j_plus": [
+    "g1",
+    "g2"
+  ],
+  "mode": "synthetic_CPU_integration_not_model_training",
+  "raw_final_first8_identity_checked": true,
+  "run_directory": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_operational_20260908/runs/cpu_20260908T065151_3085828/integration",
+  "score_kappa": 6,
+  "shared_base": "SYNTHETIC_SHARED_BASE",
+  "status": "PASS",
+  "synthetic_generated_tokens_per_branch": 131,
+  "synthetic_generated_tokens_total": 524
+}

@@ -1,0 +1,85 @@
+test_constant_reward_preserves_warm_optimizer_and_scheduler (test_verge_fresh_review.FreshReview.test_constant_reward_preserves_warm_optimizer_and_scheduler) ... ok
+test_fresh_constant_reward_preserves_empty_optimizer (test_verge_fresh_review.FreshReview.test_fresh_constant_reward_preserves_empty_optimizer) ... ok
+test_legacy_nonzero_kl_still_explicitly_steps (test_verge_fresh_review.FreshReview.test_legacy_nonzero_kl_still_explicitly_steps) ... ok
+test_profile_preserves_valid_counts (test_verge_fresh_review.FreshReview.test_profile_preserves_valid_counts) ... ok
+test_profile_rejects_duplicate_instance_identity (test_verge_fresh_review.FreshReview.test_profile_rejects_duplicate_instance_identity) ... ok
+test_profile_rejects_duplicate_rollout_identity (test_verge_fresh_review.FreshReview.test_profile_rejects_duplicate_rollout_identity) ... ok
+test_profile_rejects_empty_samples (test_verge_fresh_review.FreshReview.test_profile_rejects_empty_samples) ... ok
+test_profile_rejects_missing_instances_and_unbalanced_draws (test_verge_fresh_review.FreshReview.test_profile_rejects_missing_instances_and_unbalanced_draws) ... ok
+test_budget (test_verge_round.ProtocolTest.test_budget) ... ok
+test_centering (test_verge_round.ProtocolTest.test_centering) ... ok
+test_schema (test_verge_round.ProtocolTest.test_schema) ... ok
+test_budget (test_verge_round.ProtocolTest.test_budget) ... ok
+test_centering (test_verge_round.ProtocolTest.test_centering) ... ok
+test_schema (test_verge_round.ProtocolTest.test_schema) ... ok
+test_all_zero_keeps_start (test_verge_runtime.RuntimeTest.test_all_zero_keeps_start) ... ok
+test_paired_interval (test_verge_runtime.RuntimeTest.test_paired_interval) ... ok
+test_reward_switch_and_scope_filter (test_verge_runtime.RuntimeTest.test_reward_switch_and_scope_filter) ... ok
+test_verifier_ladder (test_verge_runtime.RuntimeTest.test_verifier_ladder) ... Matplotlib is building the font cache; this may take a moment.
+ERROR
+test_budget_guarantees_training_opportunities (test_verge_repair.RepairTests.test_budget_guarantees_training_opportunities) ... ok
+test_complete_groups_no_prefix_loss_of_successes (test_verge_repair.RepairTests.test_complete_groups_no_prefix_loss_of_successes) ... ok
+test_existing_space_kept (test_verge_repair.RepairTests.test_existing_space_kept) ... ok
+test_finite_bad_outputs_rejected (test_verge_repair.RepairTests.test_finite_bad_outputs_rejected) ... ok
+test_finite_space_expresses_previous_success_without_template (test_verge_repair.RepairTests.test_finite_space_expresses_previous_success_without_template) ... ok
+test_no_false_masked_grpo_claim (test_verge_repair.RepairTests.test_no_false_masked_grpo_claim) ... ok
+test_prefix_is_generic_not_a_solution (test_verge_repair.RepairTests.test_prefix_is_generic_not_a_solution) ... ok
+test_schema_disallows_prior_errors (test_verge_repair.RepairTests.test_schema_disallows_prior_errors) ... ok
+test_target_mix_and_validity (test_verge_repair.RepairTests.test_target_mix_and_validity) ... ok
+test_bit31_and_full_support (test_verge_repair_integration.IntegrationTests.test_bit31_and_full_support) ... ok
+test_complete_fixed_cap_budget_simulation (test_verge_repair_integration.IntegrationTests.test_complete_fixed_cap_budget_simulation) ... ok
+test_full_groups_and_only_terminal_mask (test_verge_repair_integration.IntegrationTests.test_full_groups_and_only_terminal_mask) ... ok
+test_grammar_normalizer_and_gradient (test_verge_repair_integration.IntegrationTests.test_grammar_normalizer_and_gradient) ... ok
+test_isolated_config_and_compact_history (test_verge_repair_integration.IntegrationTests.test_isolated_config_and_compact_history) ... ok
+test_native_actions_and_prompt_identity (test_verge_repair_integration.IntegrationTests.test_native_actions_and_prompt_identity) ... ok
+test_real_gradient_accumulation_and_zero_stall (test_verge_repair_integration.IntegrationTests.test_real_gradient_accumulation_and_zero_stall) ... ok
+test_zero_update_identity_not_monte_carlo_credit (test_verge_repair_integration.IntegrationTests.test_zero_update_identity_not_monte_carlo_credit) ... ok
+test_all_zero_steps_identity_keeps_start_despite_sampling_difference (test_verge_search_protocol.TargetOnlySearchTests.test_all_zero_steps_identity_keeps_start_despite_sampling_difference) ... ok
+test_exact_previous_selection_required (test_verge_search_protocol.TargetOnlySearchTests.test_exact_previous_selection_required) ... ok
+test_fixed_scope_and_budget (test_verge_search_protocol.TargetOnlySearchTests.test_fixed_scope_and_budget) ... ok
+test_four_unique_training_streams_shared_endpoint_stream (test_verge_search_protocol.TargetOnlySearchTests.test_four_unique_training_streams_shared_endpoint_stream) ... ok
+test_incomplete_foreign_or_overbudget_branch_rejected (test_verge_search_protocol.TargetOnlySearchTests.test_incomplete_foreign_or_overbudget_branch_rejected) ... ok
+test_no_generated_proposals_and_immutable_selection_draw (test_verge_search_protocol.TargetOnlySearchTests.test_no_generated_proposals_and_immutable_selection_draw) ... ok
+test_retained_root_may_persist_but_future_checkpoint_rejected (test_verge_search_protocol.TargetOnlySearchTests.test_retained_root_may_persist_but_future_checkpoint_rejected) ... ok
+test_round_and_branch_bounds (test_verge_search_protocol.TargetOnlySearchTests.test_round_and_branch_bounds) ... ok
+test_same_selector_positive_branch_and_scope_guard (test_verge_search_protocol.TargetOnlySearchTests.test_same_selector_positive_branch_and_scope_guard) ... ok
+test_selector_refuses_changed_optimizer_or_sampling_contract (test_verge_search_protocol.TargetOnlySearchTests.test_selector_refuses_changed_optimizer_or_sampling_contract) ... ok
+test_trajectory_success_cannot_substitute_for_fixed_endpoint (test_verge_search_protocol.TargetOnlySearchTests.test_trajectory_success_cannot_substitute_for_fixed_endpoint) ... ok
+test_bounded_round_major_schedule (test_verge_book.BookContractTests.test_bounded_round_major_schedule) ... ok
+test_fresh_root_all_arms (test_verge_book.BookContractTests.test_fresh_root_all_arms) ... ok
+test_frozen_teacher_does_not_update (test_verge_book.BookContractTests.test_frozen_teacher_does_not_update) ... ok
+test_no_human_history_in_initial_prompt (test_verge_book.BookContractTests.test_no_human_history_in_initial_prompt) ... ok
+test_outcome_stationary_noise_is_not_credit (test_verge_book.BookContractTests.test_outcome_stationary_noise_is_not_credit) ... ok
+test_paired_randomness_changes_across_rounds_not_arms (test_verge_book.BookContractTests.test_paired_randomness_changes_across_rounds_not_arms) ... ok
+test_prior_pair_and_archive (test_verge_book.BookContractTests.test_prior_pair_and_archive) ... ok
+test_reward_ablation_cannot_change_selector (test_verge_book.BookContractTests.test_reward_ablation_cannot_change_selector) ... ok
+test_v2_recovery_is_explicit_and_does_not_inherit_legacy_trajectory (test_verge_book.BookContractTests.test_v2_recovery_is_explicit_and_does_not_inherit_legacy_trajectory) ... ok
+test_512_distinct_child_streams_for_identical_prompts (test_verge_independent_sampling.IndependentSamplingTests.test_512_distinct_child_streams_for_identical_prompts) ... ok
+test_completed_parts_are_reused_without_more_sampling (test_verge_independent_sampling.IndependentSamplingTests.test_completed_parts_are_reused_without_more_sampling) ... ok
+test_incomplete_response_is_not_cached_as_complete (test_verge_independent_sampling.IndependentSamplingTests.test_incomplete_response_is_not_cached_as_complete) ... ok
+test_legacy_response_and_misassigned_streams_fail_closed (test_verge_independent_sampling.IndependentSamplingTests.test_legacy_response_and_misassigned_streams_fail_closed) ... ok
+test_merge_has_exact_order_native_ids_and_usage (test_verge_independent_sampling.IndependentSamplingTests.test_merge_has_exact_order_native_ids_and_usage) ... ok
+test_missing_seed_rejected (test_verge_independent_sampling.IndependentSamplingTests.test_missing_seed_rejected) ... ok
+test_partial_recovery_samples_only_missing_prompts (test_verge_independent_sampling.IndependentSamplingTests.test_partial_recovery_samples_only_missing_prompts) ... ok
+test_request_concurrency_is_bounded (test_verge_independent_sampling.IndependentSamplingTests.test_request_concurrency_is_bounded) ... ok
+test_single_prompt_training_group_is_unchanged (test_verge_independent_sampling.IndependentSamplingTests.test_single_prompt_training_group_is_unchanged) ... ok
+test_stopping_distribution_and_pairing_are_preserved (test_verge_independent_sampling.IndependentSamplingTests.test_stopping_distribution_and_pairing_are_preserved) ... ok
+
+======================================================================
+ERROR: test_verifier_ladder (test_verge_runtime.RuntimeTest.test_verifier_ladder)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_review_20260908/review_copy/src/test_verge_runtime.py", line 19, in test_verifier_ladder
+    from validate_v5_3_conditional_route import PROGRAMS
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_review_20260908/review_copy/src/validate_v5_3_conditional_route.py", line 6, in <module>
+    from self_grok_decisive_v4_3_prepare import apply_prepend_curriculum
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_review_20260908/review_copy/src/self_grok_decisive_v4_3_prepare.py", line 17, in <module>
+    from prepare_data import generate_distribution
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_review_20260908/review_copy/src/prepare_data.py", line 36, in <module>
+    from hf_file_wrapper import TrainingFileWrapper
+ModuleNotFoundError: No module named 'hf_file_wrapper'
+
+----------------------------------------------------------------------
+Ran 65 tests in 23.149s
+
+FAILED (errors=1)

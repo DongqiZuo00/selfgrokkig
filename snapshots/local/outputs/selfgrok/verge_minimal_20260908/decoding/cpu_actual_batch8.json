@@ -1,0 +1,39 @@
+{
+  "mode": "CPU_fixed_fixtures_not_model_samples",
+  "status": "ready",
+  "xgrammar_version": "0.2.4",
+  "transformers_version": "4.57.6",
+  "vocab_size": 131072,
+  "eos_token_ids": [
+    2
+  ],
+  "grammar_sha256": "46ee784f8dad729fccfe290dd80560a5f14f7b822acffee2df1467f752ef9e5e",
+  "max_nodes": 32,
+  "tokenizer_json_sha256": "d5f6046775b112f0e2d456ee9dba450684ab964fe5c4e231599bdc6773028135",
+  "hf_vocab_sha256": "aa7cc25c58691ff3909e3bbea9f5d4c93d92e13a40ed0f50eaee15666702543a",
+  "startup_seconds": 1.8096833410672843,
+  "cpu_only": true,
+  "client_worker_startup_seconds": 19.531523872166872,
+  "batch_size": 8,
+  "suffix_tokens_per_row_including_eos": [
+    7,
+    21,
+    35,
+    48,
+    61,
+    91,
+    121,
+    629
+  ],
+  "max_decode_steps": 629,
+  "total_native_tokens": 1013,
+  "different_eos_and_post_eos_padding_checked": true,
+  "all_generation_masks_equal_training_replay": true,
+  "training_worker_vocab_maps_identical": true,
+  "actual_vendor_parser_all_fixtures_valid": true,
+  "actual_vendor_parser_path": "/blue/du.j/jinjiaguo/self grok/vendor/rl-grok-recipe/manufactoria/verifier/manufactoria_parser.py",
+  "batch_rpc_mask_seconds": 8.66692361002788,
+  "all_replays_seconds": 0.14480645023286343,
+  "packed_mask_bytes": 16596992,
+  "gpu_or_model_weights_loaded": false
+}

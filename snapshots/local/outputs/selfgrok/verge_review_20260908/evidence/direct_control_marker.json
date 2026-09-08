@@ -1,0 +1,13 @@
+{
+  "csv_tables_verified": 5,
+  "source_values_unchanged": true,
+  "protocol": "verge_control_v1_artifact_validation",
+  "control_block_complete": true,
+  "suite_complete": false,
+  "scope": "Only binary, dense and dense-to-binary direct controls",
+  "segments": 18,
+  "official_test_opened": false,
+  "checkpoint_hash_scans": 0,
+  "new_model_samples": 0,
+  "required_matrix_remaining": true
+}

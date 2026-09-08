@@ -1,0 +1,15 @@
+START start:
+    NEXT marker
+PAINTER_YELLOW marker:
+    NEXT scan
+PULLER_RB scan:
+    [R] emit_b
+    [B] emit_b
+    [EMPTY] finish
+PAINTER_BLUE emit_b:
+    NEXT scan
+PULLER_YG finish:
+    [Y] end
+    [G] NONE
+    [EMPTY] NONE
+END end

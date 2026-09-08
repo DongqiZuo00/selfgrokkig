@@ -1,0 +1,11 @@
+test_bounds_every_standard_type_and_self_loops (test_numeric_cpu.RealNumericGrammar.test_bounds_every_standard_type_and_self_loops) ... ok
+test_first_mask_accepts_numeric_names_and_keeps_terminals (test_numeric_cpu.RealNumericGrammar.test_first_mask_accepts_numeric_names_and_keeps_terminals) ... ok
+test_forward_backward_start_end_and_none_references_remain (test_numeric_cpu.RealNumericGrammar.test_forward_backward_start_end_and_none_references_remain) ... ok
+test_undeclared_duplicate_wrong_spelling_and_bad_types_reject (test_numeric_cpu.RealNumericGrammar.test_undeclared_duplicate_wrong_spelling_and_bad_types_reject) ... ok
+test_frozen_sources_remain_unchanged (test_numeric_cpu.SourceAndLimits.test_frozen_sources_remain_unchanged) ... ok
+test_limits_preserve_two_through_thirty_two_nodes (test_numeric_cpu.SourceAndLimits.test_limits_preserve_two_through_thirty_two_nodes) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 14.911s
+
+OK

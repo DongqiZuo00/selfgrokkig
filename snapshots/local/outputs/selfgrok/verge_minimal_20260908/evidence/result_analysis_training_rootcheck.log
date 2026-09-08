@@ -1,0 +1,180 @@
+{
+  "totals": {
+    "generation_batches": 741,
+    "native_tokens": 786432,
+    "rollouts_including_drains": 5620,
+    "positive_rollouts_including_drains": 1,
+    "full_groups": 697,
+    "all_zero_groups": 696,
+    "full_group_rollouts": 5576,
+    "positive_full_group_rollouts": 1,
+    "non_drain_native_tokens": 786260,
+    "drain_batches": 44,
+    "drain_tokens": 172,
+    "drain_rollouts": 44,
+    "mixed_groups": 1,
+    "nonzero_advantage_native_tokens": 924,
+    "all_one_groups": 0,
+    "nonzero_advantage_native_fraction": 0.0011749267578125,
+    "positive_full_group_rollout_fraction": 0.0001793400286944046,
+    "optimizer_updates": 1
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "generation_batches": 355,
+      "native_tokens": 262144,
+      "rollouts_including_drains": 2742,
+      "positive_rollouts_including_drains": 0,
+      "full_groups": 341,
+      "all_zero_groups": 341,
+      "full_group_rollouts": 2728,
+      "positive_full_group_rollouts": 0,
+      "non_drain_native_tokens": 262105,
+      "drain_batches": 14,
+      "drain_tokens": 39,
+      "drain_rollouts": 14,
+      "all_one_groups": 0,
+      "mixed_groups": 0,
+      "nonzero_advantage_native_tokens": 0,
+      "nonzero_advantage_native_fraction": 0.0,
+      "positive_full_group_rollout_fraction": 0.0,
+      "optimizer_updates": 0,
+      "plan_path": "runs/round_prepare_41413994/plan.json",
+      "plan_sha256": "7233ae26ce4e07e7dd1263fd5c6e3f68d9ff992d184ada70f35e105bd6da2de9",
+      "base_checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "training_seed": 20260908,
+      "archive_cells": [
+        [
+          2,
+          1
+        ]
+      ],
+      "archive_lead_checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "j_plus": [],
+      "rft_status": "not_eligible_no_new_update"
+    },
+    {
+      "round": 2,
+      "generation_batches": 190,
+      "native_tokens": 262144,
+      "rollouts_including_drains": 1415,
+      "positive_rollouts_including_drains": 0,
+      "full_groups": 175,
+      "all_zero_groups": 175,
+      "full_group_rollouts": 1400,
+      "positive_full_group_rollouts": 0,
+      "non_drain_native_tokens": 262065,
+      "drain_batches": 15,
+      "drain_tokens": 79,
+      "drain_rollouts": 15,
+      "all_one_groups": 0,
+      "mixed_groups": 0,
+      "nonzero_advantage_native_tokens": 0,
+      "nonzero_advantage_native_fraction": 0.0,
+      "positive_full_group_rollout_fraction": 0.0,
+      "optimizer_updates": 0,
+      "plan_path": "runs/round_prepare_named_41417194/plan.json",
+      "plan_sha256": "6bda7e01b4fbeed9a737bfe979a4903baecdee60d8c554be88f17f4006f86113",
+      "base_checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "training_seed": 20260908,
+      "archive_cells": [
+        [
+          2,
+          1
+        ]
+      ],
+      "archive_lead_checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "j_plus": [],
+      "rft_status": "not_eligible_no_new_update"
+    },
+    {
+      "round": 3,
+      "generation_batches": 196,
+      "native_tokens": 262144,
+      "rollouts_including_drains": 1463,
+      "positive_rollouts_including_drains": 1,
+      "full_groups": 181,
+      "all_zero_groups": 180,
+      "full_group_rollouts": 1448,
+      "positive_full_group_rollouts": 1,
+      "non_drain_native_tokens": 262090,
+      "mixed_groups": 1,
+      "nonzero_advantage_native_tokens": 924,
+      "drain_batches": 15,
+      "drain_tokens": 54,
+      "drain_rollouts": 15,
+      "all_one_groups": 0,
+      "nonzero_advantage_native_fraction": 0.0035247802734375,
+      "positive_full_group_rollout_fraction": 0.0006906077348066298,
+      "optimizer_updates": 1,
+      "plan_path": "runs/round_prepare_ignition_41419999/plan.json",
+      "plan_sha256": "c1a4b2834ff2c510978c87097c72222be37a1ca2d0df9e367e688337e1569f42",
+      "base_checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "training_seed": 20260908,
+      "archive_cells": [
+        [
+          2,
+          1
+        ]
+      ],
+      "archive_lead_checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "j_plus": [],
+      "rft_status": "not_eligible_no_new_update"
+    }
+  ],
+  "by_task_kind": {
+    "stage": {
+      "generation_batches": 333,
+      "native_tokens": 317156,
+      "rollouts_including_drains": 2531,
+      "positive_rollouts_including_drains": 1,
+      "full_groups": 314,
+      "all_zero_groups": 313,
+      "full_group_rollouts": 2512,
+      "positive_full_group_rollouts": 1,
+      "non_drain_native_tokens": 317079,
+      "drain_batches": 19,
+      "drain_tokens": 77,
+      "drain_rollouts": 19,
+      "mixed_groups": 1,
+      "nonzero_advantage_native_tokens": 924,
+      "all_one_groups": 0,
+      "nonzero_advantage_native_fraction": 0.002913392778317295,
+      "positive_full_group_rollout_fraction": 0.0003980891719745223
+    },
+    "target": {
+      "generation_batches": 408,
+      "native_tokens": 469276,
+      "rollouts_including_drains": 3089,
+      "positive_rollouts_including_drains": 0,
+      "full_groups": 383,
+      "all_zero_groups": 383,
+      "full_group_rollouts": 3064,
+      "positive_full_group_rollouts": 0,
+      "non_drain_native_tokens": 469181,
+      "drain_batches": 25,
+      "drain_tokens": 95,
+      "drain_rollouts": 25,
+      "all_one_groups": 0,
+      "mixed_groups": 0,
+      "nonzero_advantage_native_tokens": 0,
+      "nonzero_advantage_native_fraction": 0.0,
+      "positive_full_group_rollout_fraction": 0.0
+    }
+  },
+  "positive_rollouts": [
+    {
+      "run": "round3_g1",
+      "phase": "g1_segment_1",
+      "prompt_id": "verge_ignition_stage_catalogue_v1_20260908__identity__compact",
+      "task_kind": "stage",
+      "journal_line": 44,
+      "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round3_g1_41420288_0/execution/raw_training/000010_g1_segment_1.json",
+      "raw_sha256": "432e8a3b78ca34ef24c2fd4e50f5c96361e01328707944985199596f2ce9c620",
+      "sample": 2,
+      "native_tokens": 7,
+      "completion": "```manufactoria\nSTART start:\n    NEXT end\nEND end\n```"
+    }
+  ]
+}

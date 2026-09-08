@@ -1,0 +1,235 @@
+{
+  "baseline_reuse": {
+    "baseline_contract_sha256": "58dc2e952655ea7de589c2298a161d327e1f8fac9df92fdae425a95adb4b2ba6",
+    "cache_scope": "unchanged_checkpoint_and_complete_baseline_contract_across_preparations",
+    "evaluation_cache_hit": true,
+    "new_evaluation_generated_tokens": 0,
+    "new_evaluation_rollouts": 0,
+    "original_evaluation_generated_tokens": 60151,
+    "raw_sources": [
+      {
+        "file_sha256": "f1d56c3957dc82e0fbd32167374f28ae12e11f2b0fb0d3047338a84a20f55c74",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__3821019a320b__chunk0.json"
+      },
+      {
+        "file_sha256": "d95f92bc399805aee4f5879c5e8f533c80d5d6c694374d8ff8457150732aeb90",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__3821019a320b__chunk1.json"
+      },
+      {
+        "file_sha256": "90c6cd203562e555db30b7c5dc39ebe0685172886c1e350faed11e499c92a65c",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__3821019a320b__chunk2.json"
+      },
+      {
+        "file_sha256": "c7dece2f9d048ca9f967cf7e947961852acf4c7e82607219142ead64ebebf653",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__3821019a320b__chunk3.json"
+      },
+      {
+        "file_sha256": "0158d551751e97c707df6fdcd328e23fcd777bb1f38c139f9dac5fb0a4521cb5",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__9432cf80a77d__chunk0.json"
+      },
+      {
+        "file_sha256": "06e21dfeb9ba6aa80b7845c72969b28c08bb8b166c7abe929de29205dce83b82",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__9432cf80a77d__chunk1.json"
+      },
+      {
+        "file_sha256": "7c228d7dc5c3994f1a2d3ac54c616c96876971f00a668487cd4e149fe731417d",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__9432cf80a77d__chunk2.json"
+      },
+      {
+        "file_sha256": "1ee011f832b61f52b43c84f0e05b6106d5d68035288046a78d6a841c915d485e",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__9432cf80a77d__chunk3.json"
+      },
+      {
+        "file_sha256": "5c296111524f010a72652510b6b2b40bedb8857e928be302bea3282b87924289",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__4d8fbf8bb752__chunk0.json"
+      },
+      {
+        "file_sha256": "e573d4338328ff7d1f0b9ee49240b34cedc0a3ada6ccd181832737b9b0dd2e7a",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__4d8fbf8bb752__chunk1.json"
+      },
+      {
+        "file_sha256": "fd157dff4ee0a57293e0c7d0df70ce71f20f0ca050fef50d2182d31c79253377",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__4d8fbf8bb752__chunk2.json"
+      },
+      {
+        "file_sha256": "de98f08bd926c066d15576f7f6652563c5b81a132a6a3686ab5320114c1940f4",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__4d8fbf8bb752__chunk3.json"
+      },
+      {
+        "file_sha256": "d047b63fc35929e99b9a7b5b71ea9934c7aec0e9baba861dcade04774e2b1452",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__e0d6e1cbcfb1__chunk0.json"
+      },
+      {
+        "file_sha256": "2004754ef8fcef8cdf76e9d1a503896f288b65dabd52e2bf2a7bfcd160067539",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__e0d6e1cbcfb1__chunk1.json"
+      },
+      {
+        "file_sha256": "378f72cb0b79270922a9c74f0136f193aabac62203febca0e3dd9cc474f92906",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__e0d6e1cbcfb1__chunk2.json"
+      },
+      {
+        "file_sha256": "fa0c66bf15e961919b16d5fc52b8cf7e0480dab5fdfb8995bd4479ce68b92048",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__e0d6e1cbcfb1__chunk3.json"
+      },
+      {
+        "file_sha256": "3707eac22cdf26c21610e13e8010fb9c963c9e3c2b4d7ec7f498bb0c7cadd1a9",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__9ac327c0a182__chunk0.json"
+      },
+      {
+        "file_sha256": "3a7198dddde884c81ca5735749551b6d0b0f718200bbdb3aaeab7d193926e428",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__9ac327c0a182__chunk1.json"
+      },
+      {
+        "file_sha256": "1de67a7f10e3f3cab4d9934a0cd53cc6fc12a26fc1eb54ee838ecd1233465b40",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__9ac327c0a182__chunk2.json"
+      },
+      {
+        "file_sha256": "1157f10a23d149bdf468979eae00c6c1c3446eb0e77c9178976cc9395943d572",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__9ac327c0a182__chunk3.json"
+      },
+      {
+        "file_sha256": "2f7af9964e324c7170cea94ad4f8a79315cc1751a6d0ac141429bd0b251f886a",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__7887f047e70c__chunk0.json"
+      },
+      {
+        "file_sha256": "295be5eb442a055f348bbb9b6f0ab3f9e8ac7bec32c4c8564e86215b36d67751",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__7887f047e70c__chunk1.json"
+      },
+      {
+        "file_sha256": "8caab65469dca3b366532bc44b0b3fefd83a56f2a1cca257f7059c5b8ec77c91",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__7887f047e70c__chunk2.json"
+      },
+      {
+        "file_sha256": "d8c6d77c6c9cc074705b0abd23f65b5fab6382d5a402d2a559e92f5aac1c7d57",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__7887f047e70c__chunk3.json"
+      },
+      {
+        "file_sha256": "ee96dbfe929e218c0c9a2525019963f5700611c64f2f9e31018255a4d4a4096b",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__222f9ba43fbc__chunk0.json"
+      },
+      {
+        "file_sha256": "31f72c3eeb612fa353fb972add5574981b0deef731926e58dbe9954a5109aea4",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__222f9ba43fbc__chunk1.json"
+      },
+      {
+        "file_sha256": "a83449a8dae5c9ca53b8c2834cf23ca114627c51e435a98df37fcfa910289dc2",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__222f9ba43fbc__chunk2.json"
+      },
+      {
+        "file_sha256": "b805ed1708ebd0308cd0eb2ab0f5249fa562494f01adfe061338d6a508f36d48",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__222f9ba43fbc__chunk3.json"
+      },
+      {
+        "file_sha256": "4a3a2f424a56194850e80c67d6139d7cf491eb71055a41af1fb1bbd0c57b902b",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__ee1c409e4a1d__chunk0.json"
+      },
+      {
+        "file_sha256": "79ed9a7d209db81714d8b34f979565545220e4df1935f410461e3cde92fa0db5",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__ee1c409e4a1d__chunk1.json"
+      },
+      {
+        "file_sha256": "09ebcd5dc29fd691acb9ac07c36e049b0522d5cad31b0843da092103457fa372",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__ee1c409e4a1d__chunk2.json"
+      },
+      {
+        "file_sha256": "8a0c3755facf93bc1166b5ee48a4fdba72b7d14ef2e2c4e19013cf5b8c2a1296",
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/raw_evaluation/base__ee1c409e4a1d__chunk3.json"
+      }
+    ],
+    "records_copied_without_any_change": true,
+    "reused_rollout_slots": 256,
+    "scorer_accounting": "Frozen scorer counts referenced baseline evidence; subtract this cross-round reuse only when reporting newly generated work.",
+    "source_fragment": {
+      "file_sha256": "b8848b0f97e9d14849568f5a146869e9fc0f9e7ae453308bbe076b775fd252c1",
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/fragment.json"
+    },
+    "source_plan": {
+      "file_sha256": "c6bae12f21c724db985666fb6b41139cfbd4309a6008fed1ef27d66197c6c46f",
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/plan.json"
+    },
+    "source_preparation": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194",
+    "source_ready": {
+      "file_sha256": "bee8749ab7dfbf9df240be9d544a2e516ddcfd870f677009a8811b72893b1d27",
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/READY.json"
+    }
+  },
+  "changes": [
+    "g1 first stage constrained to two observed mixed stages; actual Q chooses all positions",
+    "same-view base P32 reused with original raw paths and zero new evaluation tokens",
+    "completed real second-round history in Challenger context"
+  ],
+  "decoding_policy_unchanged": "dsl_grammar_v1",
+  "files": {
+    "RUN_IGNITION_BRANCH_ARRAY.sbatch": "cd93630206ded5b2d1d493ea002c8f1490cd6627b5af18be55ea400237d4d16e",
+    "SUBMIT_ROUND3.sh": "8d50a618258e25eb1956b3e4731342c106b0683f1a0633be5167404e84d2741f",
+    "benchmarks/generated/catalogue.json": "1a001941752a5402835668f3825c007bb2a3772e12e9cb19e8bff84a9d598891",
+    "benchmarks/generated/naming_round_v2/catalogue.json": "4fbe279cfed264dc14f9a4fca8072d8c9adaf841bff33fda38587d5d6d2649d7",
+    "benchmarks/generated/naming_round_v2/stage_validation_evidence.json": "0c527eb7fa01fc3f58ffe4a3ba8628ba4da765a9792480c264807e752ce1581a",
+    "benchmarks/generated/naming_round_v2/target_rows.json": "1e1407c3f529cd60da01ebf9888dc1635dae9da405c40a0d050139d77ade9420",
+    "benchmarks/generated/naming_round_v2/target_view_metadata.json": "cb3c3f1e8ccce71333a3c673cb391fde6e0f5476ec7336f1db31c8595a39b0fd",
+    "benchmarks/generated/pilot_view_v1/stage_validation_evidence.json": "828524dbdc536a837c41e0130558ff260e985cacafdcf697604594bad97230cf",
+    "benchmarks/generated/pilot_view_v1/target_rows.json": "a15c1a7a6919ba4b79dac244f8bb09f98e2abb94fc3982c175d963e6a2dfe3b1",
+    "benchmarks/generated/pilot_view_v1/target_view_metadata.json": "29edeff3bfc7463b1936eaff7a52c9678a7725090103d23d07e04bfc9fb069f3",
+    "decoding/dsl_grammar.py": "379f0f4d56c12df45ee369b30a1d5d00995be381dd3c05d2e04605678f500bd0",
+    "decoding/grammar_service.py": "19fcb6b311f41d3b095a23263310bec991e6273706507438b9d248d7746a8ba0",
+    "decoding/hf_grammar_bridge.py": "ffb91164527cd62eb3c7b96265575722ff4b8d4890c7779368d5b1fcd4540863",
+    "round/round_cli.py": "64d2b3774642827e29eccef67b9995fa3bcfcdcfa09edf53cec5d714ee74ab65",
+    "runtime/execute_round.py": "54ab5e4d4ed153b6c7683412bd884c3478186a740195a1cd0505a477d4dae72c",
+    "runtime/hf_backend.py": "443699d84c7ed9f626cb2ed0535cb1f308b98cfe1288718a654bfb3334318623",
+    "runtime/preflight_ignition.py": "7619e528833a87087225d26faa60a2d52890ffd3c99047ca8dcbfae839d80c99",
+    "runtime/prepare_ignition_round.py": "bc43ac032c88f2005e9a506c7258b99c9cffd6c02cf6d91283c99fa644bb78fb",
+    "runtime/prepare_named_round.py": "f5232be361ba319dab2b89a18946f1ccddc09648197b8a7aac378a4337570890",
+    "runtime/run_branch_job.py": "cbc0da7784049d2eceff75b14ef2bbc395661debed40af16d64da406959917e9"
+  },
+  "numeric_name_grammar_adopted": false,
+  "prepare_root": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_ignition_41419999",
+  "preserve_original_checkpoint_and_other_jobs": true,
+  "prior_contract_sha256": "a4ae49768225eb106474e008acdddce65ff25b888ba8481356e1f688b3d8bf4d",
+  "proposal_policy": {
+    "constraint": "Only curricula.g1[0] must be selected by the Challenger from eligible_first_stage_ids; all other eight positions retain the full nine-stage menu.",
+    "eligible_first_stage_ids": [
+      "identity",
+      "append_R"
+    ],
+    "gradient_fact": "Only groups with both binary successes and failures can update the Solver. All-zero and all-one groups are skipped exactly.",
+    "human_set_development_prior": true,
+    "ignition_or_positive_gamma_guaranteed": false,
+    "observations": [
+      {
+        "n": 8,
+        "source": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/00_identity_concise.json",
+        "stage_id": "identity",
+        "successes": 1,
+        "variant": "concise"
+      },
+      {
+        "n": 8,
+        "source": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/01_append_R_concise.json",
+        "stage_id": "append_R",
+        "successes": 1,
+        "variant": "concise"
+      }
+    ],
+    "scope": "One declared bounded development intervention; research target, all tests/classes, stage-source interfaces and formal prediction scope remain unchanged.",
+    "stage_validator_changed": false,
+    "stage_validator_count": 4,
+    "unconstrained_proposal_advantage_established": false,
+    "version": "verge_pilot_g1_first_stage_observed_mixed_prior_v1"
+  },
+  "resources": {
+    "maximum_concurrent_new_jobs": 2,
+    "per_job": {
+      "b200": 1,
+      "memory_gib": 64,
+      "time_limit_minutes": 60
+    },
+    "user_ceiling_b200": 4,
+    "user_ceiling_memory_gib": 192
+  },
+  "source_bundle": "work/selfgrok/verge_ignition_round_bundle.tar.gz",
+  "training_generated_token_budget": {
+    "four_branch_total": 262144,
+    "per_branch": 65536
+  },
+  "version": "verge_minimal_round3_ignition_source_contract_v1"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "audit_and_minimal_isolated_repairs_complete",
+  "production_migration_complete": false,
+  "cpu_unittest_executions": 68,
+  "cpu_suite_note": "Includes legacy suites' reused imported tests; no claim of 68 distinct scientific validations.",
+  "synthetic_spec_tests": 10,
+  "synthetic_spec_is_production_implementation": false,
+  "raw_saved_completions_replayed": 64,
+  "replay_mismatches": 0,
+  "saved_endpoint_count_recomputations": 96,
+  "all_saved_counts_match": true,
+  "new_gpu_jobs": 0,
+  "new_model_samples": 0,
+  "production_source_hashes_unchanged": true,
+  "patch_check": "git apply --check passed against local baseline",
+  "runner": "RUN_CPU_TESTS.sh executed successfully on HiPerGator CPU",
+  "unclosed_dependencies_confirmed_by_user": [
+    "actual test-to-class mapping",
+    "per-stage Delta and telescoping"
+  ],
+  "formal_closed_loop_training": "not submitted",
+  "changed_production_files_in_review_copy": [
+    "common.py",
+    "verge_round_core.py",
+    "verge_repair_training.py"
+  ]
+}

@@ -1,0 +1,16 @@
+test_all_candidate_specs_pass_four_applicable_validator_checks (__main__.CatalogueTests.test_all_candidate_specs_pass_four_applicable_validator_checks) ... ok
+test_all_inputs_train_partition_and_no_protected_input_overlap (__main__.CatalogueTests.test_all_inputs_train_partition_and_no_protected_input_overlap) ... ok
+test_every_stage_nonconstant_binary_full_pass_and_fixed_expectations (__main__.CatalogueTests.test_every_stage_nonconstant_binary_full_pass_and_fixed_expectations) ... ok
+test_instance_identity_is_two_sha_and_not_split_or_prompt_label (__main__.CatalogueTests.test_instance_identity_is_two_sha_and_not_split_or_prompt_label) ... ok
+test_model_rows_and_prompt_do_not_contain_reference_solution (__main__.CatalogueTests.test_model_rows_and_prompt_do_not_contain_reference_solution) ... ok
+test_nine_candidates_two_prompt_variants_share_identical_tasks (__main__.CatalogueTests.test_nine_candidates_two_prompt_variants_share_identical_tasks) ... ok
+test_real_parser_all_references_and_wrong_constant_negative_control (__main__.CatalogueTests.test_real_parser_all_references_and_wrong_constant_negative_control) ... ok
+test_small2_omission_is_explicit_and_small3_covers_mutation (__main__.CatalogueTests.test_small2_omission_is_explicit_and_small3_covers_mutation) ... ok
+test_stage_verifier_counts_exception_as_single_failure_and_preserves_raw (__main__.CatalogueTests.test_stage_verifier_counts_exception_as_single_failure_and_preserves_raw) ... ok
+test_tampered_expected_output_or_identity_is_rejected (__main__.CatalogueTests.test_tampered_expected_output_or_identity_is_rejected) ... ok
+test_target_function_and_four_symbol_dsl_are_preserved (__main__.CatalogueTests.test_target_function_and_four_symbol_dsl_are_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.118s
+
+OK

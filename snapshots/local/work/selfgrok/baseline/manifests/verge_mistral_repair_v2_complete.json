@@ -1,0 +1,24 @@
+{
+  "rounds_completed": 1,
+  "completed_at": 1788675871.1391904,
+  "solver_checkpoint": "checkpoints/verge_mistral_repair_v2_candidate_1/resume_u0029",
+  "challenger_checkpoint": "checkpoints/verge_mistral_repair_v2_challenger/resume_u0001",
+  "scope_safe_continuation": true,
+  "artifacts": [
+    "raw_results/verge_mistral_repair_v2/round_frozen.json",
+    "raw_results/verge_mistral_repair_v2/decision.json",
+    "raw_results/verge_mistral_repair_v2/challenger_update.json",
+    "raw_results/verge_mistral_repair_v2/completion_profile.json",
+    "raw_results/verge_mistral_repair_v2/compute_ledger.json",
+    "raw_results/verge_mistral_repair_v2/archive.json",
+    "raw_results/verge_mistral_repair_v2/RESULTS.md",
+    "raw_results/verge_mistral_repair_v2/branch_results.csv",
+    "raw_results/verge_mistral_repair_v2/condition_profiles.csv",
+    "raw_results/verge_mistral_repair_v2/result_table.tex",
+    "raw_results/verge_mistral_repair_v2/main_figure.png",
+    "raw_results/verge_mistral_repair_v2/analysis_metadata.json"
+  ],
+  "official_test_opened": false,
+  "acceptance_only": false,
+  "claim_limit": "One warm-start outer round, not the completed paper experiment"
+}

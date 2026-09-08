@@ -1,0 +1,10 @@
+test_both_prompt_routes_append_format_prefix_once (test_live_smoke_prefill.PrefillInterfaceTests.test_both_prompt_routes_append_format_prefix_once) ... ok
+test_budget_sampling_loss_interface_and_sbatch_match (test_live_smoke_prefill.PrefillInterfaceTests.test_budget_sampling_loss_interface_and_sbatch_match) ... ok
+test_generated_tokens_keep_eos_and_only_remove_post_eos_padding (test_live_smoke_prefill.PrefillInterfaceTests.test_generated_tokens_keep_eos_and_only_remove_post_eos_padding) ... ok
+test_production_prefix_is_checked_without_executing_source (test_live_smoke_prefill.PrefillInterfaceTests.test_production_prefix_is_checked_without_executing_source) ... ok
+test_verifier_receives_prefix_plus_native_suffix (test_live_smoke_prefill.PrefillInterfaceTests.test_verifier_receives_prefix_plus_native_suffix) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+OK

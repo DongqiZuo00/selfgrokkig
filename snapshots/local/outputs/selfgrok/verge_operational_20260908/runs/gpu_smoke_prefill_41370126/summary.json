@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "mode": "failure_driven_format_prefill_pipeline_smoke",
+  "groups": 1,
+  "rollouts": 8,
+  "generated_tokens": 12483,
+  "binary_successes": 0,
+  "parse_valid": 0,
+  "max_generated_tokens": 16384,
+  "max_new_tokens": 2048,
+  "gpu_minutes_ceiling": 17,
+  "failure_source_job_id": "41369486",
+  "format_prefix": "```manufactoria\nSTART start:\n    NEXT ",
+  "prefix_in_prompt_only": true,
+  "loss_uses_generated_suffix_only": true,
+  "sampling": {
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "stop_strings": null
+  },
+  "optimizer_steps": 0,
+  "elapsed_seconds": 83.74331665039062,
+  "constant_groups_exact_skip_checked": 1,
+  "mixed_binary_update_exercised": false,
+  "script_section_gpu_hours": 0.023262032601568432,
+  "allocation_cost_source": "Slurm sacct Elapsed times allocated GPU count; script timing excludes allocation startup",
+  "max_gpu_memory_bytes": 10909184000,
+  "source_adapter_unchanged": true,
+  "benchmark_regime_established": false,
+  "formal_verge_round": false,
+  "original_sources_changed": false
+}

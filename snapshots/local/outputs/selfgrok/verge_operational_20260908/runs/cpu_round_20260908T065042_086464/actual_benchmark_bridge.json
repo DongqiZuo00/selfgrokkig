@@ -1,0 +1,582 @@
+[
+  {
+    "benchmark": {
+      "class_rates": {
+        "matches_0__pending_r_0": 1.0,
+        "matches_0__pending_r_1": 1.0,
+        "matches_1__pending_r_0": 1.0,
+        "matches_1__pending_r_1": 1.0,
+        "matches_2plus__pending_r_0": 1.0,
+        "matches_2plus__pending_r_1": 1.0
+      },
+      "f": 1.0,
+      "parse_valid": true,
+      "per_test": [
+        {
+          "input": "BBBBBBBBBBBBBBBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 49,
+          "test_class": "matches_0__pending_r_0"
+        },
+        {
+          "input": "BBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 65,
+          "test_class": "matches_0__pending_r_0"
+        },
+        {
+          "input": "BBBBBBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 31,
+          "test_class": "matches_0__pending_r_0"
+        },
+        {
+          "input": "",
+          "pass": 1,
+          "reason": null,
+          "steps": 11,
+          "test_class": "matches_0__pending_r_0"
+        },
+        {
+          "input": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 75,
+          "test_class": "matches_0__pending_r_0"
+        },
+        {
+          "input": "BBBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 25,
+          "test_class": "matches_0__pending_r_0"
+        },
+        {
+          "input": "BBBBBBBBBBBBBBRRRRRRRRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 61,
+          "test_class": "matches_0__pending_r_1"
+        },
+        {
+          "input": "BBBBBBBBRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 85,
+          "test_class": "matches_0__pending_r_1"
+        },
+        {
+          "input": "BBBRRRRRRRRRRRRRRRRRRRRRRRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 69,
+          "test_class": "matches_0__pending_r_1"
+        },
+        {
+          "input": "BBBBBBBRRRRRRRRRRRRRRRRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 63,
+          "test_class": "matches_0__pending_r_1"
+        },
+        {
+          "input": "BBBBBBBBBBBBBBBBBBBBRRRRRRRRRRRRRRRRRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 91,
+          "test_class": "matches_0__pending_r_1"
+        },
+        {
+          "input": "BBBBBBBBRRRRRRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 45,
+          "test_class": "matches_0__pending_r_1"
+        },
+        {
+          "input": "RB",
+          "pass": 1,
+          "reason": null,
+          "steps": 15,
+          "test_class": "matches_1__pending_r_0"
+        },
+        {
+          "input": "BBRRRRRBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 35,
+          "test_class": "matches_1__pending_r_0"
+        },
+        {
+          "input": "BBBBRRRRBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 31,
+          "test_class": "matches_1__pending_r_0"
+        },
+        {
+          "input": "BRRRRRBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 31,
+          "test_class": "matches_1__pending_r_0"
+        },
+        {
+          "input": "RRRRRRRRBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 35,
+          "test_class": "matches_1__pending_r_0"
+        },
+        {
+          "input": "BRBBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 27,
+          "test_class": "matches_1__pending_r_0"
+        },
+        {
+          "input": "BBRBBBRRRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 35,
+          "test_class": "matches_1__pending_r_1"
+        },
+        {
+          "input": "RRRRRRRRBR",
+          "pass": 1,
+          "reason": null,
+          "steps": 31,
+          "test_class": "matches_1__pending_r_1"
+        },
+        {
+          "input": "RRRBR",
+          "pass": 1,
+          "reason": null,
+          "steps": 21,
+          "test_class": "matches_1__pending_r_1"
+        },
+        {
+          "input": "BBBBBRRBRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 33,
+          "test_class": "matches_1__pending_r_1"
+        },
+        {
+          "input": "BRRRRBBBR",
+          "pass": 1,
+          "reason": null,
+          "steps": 29,
+          "test_class": "matches_1__pending_r_1"
+        },
+        {
+          "input": "BRRBBBBRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 29,
+          "test_class": "matches_1__pending_r_1"
+        },
+        {
+          "input": "RRBRBRRBRBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 33,
+          "test_class": "matches_2plus__pending_r_0"
+        },
+        {
+          "input": "BRRRBRBBRBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 33,
+          "test_class": "matches_2plus__pending_r_0"
+        },
+        {
+          "input": "RRRRBBBRRRRRBBBBBRRRRBBRB",
+          "pass": 1,
+          "reason": null,
+          "steps": 61,
+          "test_class": "matches_2plus__pending_r_0"
+        },
+        {
+          "input": "RRRRRRRBBRRBBBRRBBBRBBBBRRBRRRBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 75,
+          "test_class": "matches_2plus__pending_r_0"
+        },
+        {
+          "input": "RRBBBRBRRRRRBBRRRBRRRBBRRBBRRBRRBRRBRBBBRRRBRBBBRBRRBRRBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 127,
+          "test_class": "matches_2plus__pending_r_0"
+        },
+        {
+          "input": "RBBRRBBRBRRRRBBRBBBRRBRRBRRRBBRBRBRBRBRBBBRBBRBRBBBBBRBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 123,
+          "test_class": "matches_2plus__pending_r_0"
+        },
+        {
+          "input": "RBRBBBRBRRBR",
+          "pass": 1,
+          "reason": null,
+          "steps": 35,
+          "test_class": "matches_2plus__pending_r_1"
+        },
+        {
+          "input": "BBBRBRRBRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 35,
+          "test_class": "matches_2plus__pending_r_1"
+        },
+        {
+          "input": "BBBRRRRRRBRRRRBBBRBRRBBRBRRRBR",
+          "pass": 1,
+          "reason": null,
+          "steps": 71,
+          "test_class": "matches_2plus__pending_r_1"
+        },
+        {
+          "input": "RRBRBBBRBBRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 35,
+          "test_class": "matches_2plus__pending_r_1"
+        },
+        {
+          "input": "BRRRRBRBBBBRRRRBBRBBBRBRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 63,
+          "test_class": "matches_2plus__pending_r_1"
+        },
+        {
+          "input": "RRRRBRRRBRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 35,
+          "test_class": "matches_2plus__pending_r_1"
+        }
+      ],
+      "reward": 1
+    },
+    "instance": "verge_prepend_rb_v1_20260908_selection_0000",
+    "kind": "handwritten_CPU_oracle_not_model_completion",
+    "protocol": {
+      "class_rates": {
+        "matches_0__pending_r_0": 1.0,
+        "matches_0__pending_r_1": 1.0,
+        "matches_1__pending_r_0": 1.0,
+        "matches_1__pending_r_1": 1.0,
+        "matches_2plus__pending_r_0": 1.0,
+        "matches_2plus__pending_r_1": 1.0
+      },
+      "conditions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "weakest_class_rate": 1.0
+    }
+  },
+  {
+    "benchmark": {
+      "class_rates": {
+        "matches_0__pending_r_0": 1.0,
+        "matches_0__pending_r_1": 1.0,
+        "matches_1__pending_r_0": 1.0,
+        "matches_1__pending_r_1": 1.0,
+        "matches_2plus__pending_r_0": 1.0,
+        "matches_2plus__pending_r_1": 1.0
+      },
+      "f": 1.0,
+      "parse_valid": true,
+      "per_test": [
+        {
+          "input": "BBBBBBBBBBBBBBBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 49,
+          "test_class": "matches_0__pending_r_0"
+        },
+        {
+          "input": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 87,
+          "test_class": "matches_0__pending_r_0"
+        },
+        {
+          "input": "BBBBBBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 31,
+          "test_class": "matches_0__pending_r_0"
+        },
+        {
+          "input": "",
+          "pass": 1,
+          "reason": null,
+          "steps": 11,
+          "test_class": "matches_0__pending_r_0"
+        },
+        {
+          "input": "BBBBBBBBBBBBBBBBBBBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 57,
+          "test_class": "matches_0__pending_r_0"
+        },
+        {
+          "input": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 75,
+          "test_class": "matches_0__pending_r_0"
+        },
+        {
+          "input": "BBBBBBBBBBBBBBBBBBBBRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 109,
+          "test_class": "matches_0__pending_r_1"
+        },
+        {
+          "input": "RRRRRRRRRRRRRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 43,
+          "test_class": "matches_0__pending_r_1"
+        },
+        {
+          "input": "BBBBBBBBBBBBBBBBBBBBBBBBBRRRRRRRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 81,
+          "test_class": "matches_0__pending_r_1"
+        },
+        {
+          "input": "BBBBBBBRRRRRRRRRRRRRRRRRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 65,
+          "test_class": "matches_0__pending_r_1"
+        },
+        {
+          "input": "BBBBBBBBBBBBBBBBRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 121,
+          "test_class": "matches_0__pending_r_1"
+        },
+        {
+          "input": "BBRRRRRRRRRRRRRRRRRRRRRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 63,
+          "test_class": "matches_0__pending_r_1"
+        },
+        {
+          "input": "BBBRRBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 31,
+          "test_class": "matches_1__pending_r_0"
+        },
+        {
+          "input": "BRBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 19,
+          "test_class": "matches_1__pending_r_0"
+        },
+        {
+          "input": "BBRRRBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 29,
+          "test_class": "matches_1__pending_r_0"
+        },
+        {
+          "input": "BBRRRRBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 29,
+          "test_class": "matches_1__pending_r_0"
+        },
+        {
+          "input": "BRRRRRRRRB",
+          "pass": 1,
+          "reason": null,
+          "steps": 31,
+          "test_class": "matches_1__pending_r_0"
+        },
+        {
+          "input": "BBRRRRRRRBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 33,
+          "test_class": "matches_1__pending_r_0"
+        },
+        {
+          "input": "RBBBBBBRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 31,
+          "test_class": "matches_1__pending_r_1"
+        },
+        {
+          "input": "BRRBRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 27,
+          "test_class": "matches_1__pending_r_1"
+        },
+        {
+          "input": "RRRBR",
+          "pass": 1,
+          "reason": null,
+          "steps": 21,
+          "test_class": "matches_1__pending_r_1"
+        },
+        {
+          "input": "BBBRRRRRBBR",
+          "pass": 1,
+          "reason": null,
+          "steps": 33,
+          "test_class": "matches_1__pending_r_1"
+        },
+        {
+          "input": "BRRBBBBRRRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 35,
+          "test_class": "matches_1__pending_r_1"
+        },
+        {
+          "input": "BBRRRRRBRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 31,
+          "test_class": "matches_1__pending_r_1"
+        },
+        {
+          "input": "RRRBBRBBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 35,
+          "test_class": "matches_2plus__pending_r_0"
+        },
+        {
+          "input": "RBBRBRBRRRBRRBBRRRRBBBRBBRRBRRBBBBBRBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 91,
+          "test_class": "matches_2plus__pending_r_0"
+        },
+        {
+          "input": "RBBRBBRRBRB",
+          "pass": 1,
+          "reason": null,
+          "steps": 33,
+          "test_class": "matches_2plus__pending_r_0"
+        },
+        {
+          "input": "RRBBBRBRRRRRBBRRRBRRRBBRRBBRRBRRBRRBRBBBRRRBRBBBRBRRBRRBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 127,
+          "test_class": "matches_2plus__pending_r_0"
+        },
+        {
+          "input": "RBRBBBBBBBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 33,
+          "test_class": "matches_2plus__pending_r_0"
+        },
+        {
+          "input": "RRRRBBRRRBB",
+          "pass": 1,
+          "reason": null,
+          "steps": 33,
+          "test_class": "matches_2plus__pending_r_0"
+        },
+        {
+          "input": "RRRBBRRRRBR",
+          "pass": 1,
+          "reason": null,
+          "steps": 33,
+          "test_class": "matches_2plus__pending_r_1"
+        },
+        {
+          "input": "RBBRRBRRBRRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 35,
+          "test_class": "matches_2plus__pending_r_1"
+        },
+        {
+          "input": "BRBBBRBBRR",
+          "pass": 1,
+          "reason": null,
+          "steps": 31,
+          "test_class": "matches_2plus__pending_r_1"
+        },
+        {
+          "input": "RBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBRBR",
+          "pass": 1,
+          "reason": null,
+          "steps": 121,
+          "test_class": "matches_2plus__pending_r_1"
+        },
+        {
+          "input": "BBRBRRBBRRBR",
+          "pass": 1,
+          "reason": null,
+          "steps": 35,
+          "test_class": "matches_2plus__pending_r_1"
+        },
+        {
+          "input": "RBRBBBBR",
+          "pass": 1,
+          "reason": null,
+          "steps": 27,
+          "test_class": "matches_2plus__pending_r_1"
+        }
+      ],
+      "reward": 1
+    },
+    "instance": "verge_prepend_rb_v1_20260908_selection_0001",
+    "kind": "handwritten_CPU_oracle_not_model_completion",
+    "protocol": {
+      "class_rates": {
+        "matches_0__pending_r_0": 1.0,
+        "matches_0__pending_r_1": 1.0,
+        "matches_1__pending_r_0": 1.0,
+        "matches_1__pending_r_1": 1.0,
+        "matches_2plus__pending_r_0": 1.0,
+        "matches_2plus__pending_r_1": 1.0
+      },
+      "conditions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "weakest_class_rate": 1.0
+    }
+  }
+]

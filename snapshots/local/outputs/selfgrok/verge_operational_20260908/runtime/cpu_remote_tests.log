@@ -1,0 +1,19 @@
+test_actual_generation_exact_with_early_eos_and_boundary_drain (test_generated_budget.GeneratedBudgetTests.test_actual_generation_exact_with_early_eos_and_boundary_drain) ... ok
+test_all_zero_and_all_one_do_not_call_update (test_generated_budget.GeneratedBudgetTests.test_all_zero_and_all_one_do_not_call_update) ... ok
+test_backends_cannot_overrun_cap_or_mix_prompts (test_generated_budget.GeneratedBudgetTests.test_backends_cannot_overrun_cap_or_mix_prompts) ... ok
+test_binary_group_contract (test_generated_budget.GeneratedBudgetTests.test_binary_group_contract) ... ok
+test_equal_direct_and_curriculum_generated_budget (test_generated_budget.GeneratedBudgetTests.test_equal_direct_and_curriculum_generated_budget) ... ok
+test_fresh_actual_optimizer_settings (test_generated_budget.GeneratedBudgetTests.test_fresh_actual_optimizer_settings) ... ok
+test_log_tampering_and_existing_run_rejected (test_generated_budget.GeneratedBudgetTests.test_log_tampering_and_existing_run_rejected) ... ok
+test_partial_ledger_requires_explicit_resume_reconciliation (test_generated_budget.GeneratedBudgetTests.test_partial_ledger_requires_explicit_resume_reconciliation) ... ok
+test_binary_advantages_constants_exact_zero_mixed_normalized (test_torch_solver.TorchSolverTests.test_binary_advantages_constants_exact_zero_mixed_normalized) ... ok
+test_direct_branch_before_success_exactly_equals_base (test_torch_solver.TorchSolverTests.test_direct_branch_before_success_exactly_equals_base) ... ok
+test_each_branch_clones_current_base_weights_but_fresh_optimizer (test_torch_solver.TorchSolverTests.test_each_branch_clones_current_base_weights_but_fresh_optimizer) ... ok
+test_mixed_group_moves_parameters_and_scheduler (test_torch_solver.TorchSolverTests.test_mixed_group_moves_parameters_and_scheduler) ... ok
+test_operational_entry_forbids_beta_weight_decay_and_partial_groups (test_torch_solver.TorchSolverTests.test_operational_entry_forbids_beta_weight_decay_and_partial_groups) ... ok
+test_real_review_train_step_skips_warm_adamw_all_zero_and_one (test_torch_solver.TorchSolverTests.test_real_review_train_step_skips_warm_adamw_all_zero_and_one) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 3.457s
+
+OK

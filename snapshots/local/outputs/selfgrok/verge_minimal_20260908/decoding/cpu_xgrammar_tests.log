@@ -1,0 +1,14 @@
+test_complete_node_count_range_and_only_standard_intermediate_types (test_decoding_cpu.GrammarSpecificationTests.test_complete_node_count_range_and_only_standard_intermediate_types) ... ok
+test_invalid_node_limits_rejected (test_decoding_cpu.GrammarSpecificationTests.test_invalid_node_limits_rejected) ... ok
+test_disallowed_actions_and_uncovered_padded_vocab_reject (test_decoding_cpu.MaskedPolicyTests.test_disallowed_actions_and_uncovered_padded_vocab_reject) ... ok
+test_masked_logp_differs_from_unmasked_and_backprop_respects_mask (test_decoding_cpu.MaskedPolicyTests.test_masked_logp_differs_from_unmasked_and_backprop_respects_mask) ... ok
+test_start_end_and_none_routes_are_available (test_decoding_cpu.RealXGrammarTests.test_start_end_and_none_routes_are_available) ... ok
+test_static_self_loop_is_allowed (test_decoding_cpu.RealXGrammarTests.test_static_self_loop_is_allowed) ... ok
+test_token_masks_replay_same_actions_and_reject_early_eos (test_decoding_cpu.RealXGrammarTests.test_token_masks_replay_same_actions_and_reject_early_eos) ... ok
+test_two_and_thirty_two_nodes_and_every_type_accept (test_decoding_cpu.RealXGrammarTests.test_two_and_thirty_two_nodes_and_every_type_accept) ... ok
+test_undeclared_routes_duplicate_nodes_and_bad_types_reject (test_decoding_cpu.RealXGrammarTests.test_undeclared_routes_duplicate_nodes_and_bad_types_reject) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 15.366s
+
+OK

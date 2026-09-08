@@ -1,0 +1,19 @@
+test_complete_node_count_range_and_only_standard_intermediate_types (test_decoding_cpu.GrammarSpecificationTests.test_complete_node_count_range_and_only_standard_intermediate_types) ... ok
+test_invalid_node_limits_rejected (test_decoding_cpu.GrammarSpecificationTests.test_invalid_node_limits_rejected) ... ok
+test_disallowed_actions_and_uncovered_padded_vocab_reject (test_decoding_cpu.MaskedPolicyTests.test_disallowed_actions_and_uncovered_padded_vocab_reject) ... ok
+test_masked_logp_differs_from_unmasked_and_backprop_respects_mask (test_decoding_cpu.MaskedPolicyTests.test_masked_logp_differs_from_unmasked_and_backprop_respects_mask) ... ok
+test_start_end_and_none_routes_are_available (test_decoding_cpu.RealXGrammarTests.test_start_end_and_none_routes_are_available) ... ok
+test_static_self_loop_is_allowed (test_decoding_cpu.RealXGrammarTests.test_static_self_loop_is_allowed) ... ok
+test_token_masks_replay_same_actions_and_reject_early_eos (test_decoding_cpu.RealXGrammarTests.test_token_masks_replay_same_actions_and_reject_early_eos) ... ok
+test_two_and_thirty_two_nodes_and_every_type_accept (test_decoding_cpu.RealXGrammarTests.test_two_and_thirty_two_nodes_and_every_type_accept) ... ok
+test_undeclared_routes_duplicate_nodes_and_bad_types_reject (test_decoding_cpu.RealXGrammarTests.test_undeclared_routes_duplicate_nodes_and_bad_types_reject) ... ok
+test_full_proposal_shape_and_empty_or_open_brace_prefix (test_json_schema_cpu.ActualXGrammarJsonTests.test_full_proposal_shape_and_empty_or_open_brace_prefix) ... ok
+test_wrong_base_kind_spec_or_course_length_are_rejected (test_json_schema_cpu.ActualXGrammarJsonTests.test_wrong_base_kind_spec_or_course_length_are_rejected) ... ok
+test_conflicting_or_unhandled_structured_const_constraints_fail (test_json_schema_cpu.ConstExpansionTests.test_conflicting_or_unhandled_structured_const_constraints_fail) ... ok
+test_literal_enum_and_property_named_const_are_not_treated_as_keywords (test_json_schema_cpu.ConstExpansionTests.test_literal_enum_and_property_named_const_are_not_treated_as_keywords) ... ok
+test_nested_structured_constants_are_explicit_and_input_unchanged (test_json_schema_cpu.ConstExpansionTests.test_nested_structured_constants_are_explicit_and_input_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 15.347s
+
+OK

@@ -1,0 +1,20 @@
+test_actual_vendor_parser_reference_and_timeout (__main__.BenchmarkTests.test_actual_vendor_parser_reference_and_timeout) ... skipped 'real vendor parser only supplied on remote CPU run'
+test_bad_parse_preserves_all_denominators (__main__.BenchmarkTests.test_bad_parse_preserves_all_denominators) ... ok
+test_binary_reward_and_class_minimum_synthetic (__main__.BenchmarkTests.test_binary_reward_and_class_minimum_synthetic) ... ok
+test_class_rules_and_empty (__main__.BenchmarkTests.test_class_rules_and_empty) ... ok
+test_complete_fenced_and_prose_reference_extract_without_raw_mutation (__main__.BenchmarkTests.test_complete_fenced_and_prose_reference_extract_without_raw_mutation) ... ok
+test_every_suite_has_fixed_complete_disjoint_classes (__main__.BenchmarkTests.test_every_suite_has_fixed_complete_disjoint_classes) ... ok
+test_extraction_function_matches_original_project_ast (__main__.BenchmarkTests.test_extraction_function_matches_original_project_ast) ... ok
+test_extraction_keeps_first_invalid_complete_block (__main__.BenchmarkTests.test_extraction_keeps_first_invalid_complete_block) ... ok
+test_missing_duplicate_and_changed_metadata_rejected (__main__.BenchmarkTests.test_missing_duplicate_and_changed_metadata_rejected) ... ok
+test_original_four_fraction_thresholds_are_distinct_events (__main__.BenchmarkTests.test_original_four_fraction_thresholds_are_distinct_events) ... ok
+test_real_parser_completion_extraction_and_no_reward_selection (__main__.BenchmarkTests.test_real_parser_completion_extraction_and_no_reward_selection) ... skipped 'real vendor parser supplied on remote CPU run'
+test_reference_not_present_in_target_prompts (__main__.BenchmarkTests.test_reference_not_present_in_target_prompts) ... ok
+test_split_tapes_are_disjoint_and_empty_is_covered (__main__.BenchmarkTests.test_split_tapes_are_disjoint_and_empty_is_covered) ... ok
+test_timeout_and_exception_do_not_erase_other_tests (__main__.BenchmarkTests.test_timeout_and_exception_do_not_erase_other_tests) ... ok
+test_truncated_block_and_complete_unclosed_fence_follow_original_fallback (__main__.BenchmarkTests.test_truncated_block_and_complete_unclosed_fence_follow_original_fallback) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.043s
+
+OK (skipped=2)

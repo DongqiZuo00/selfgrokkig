@@ -1,0 +1,25 @@
+// Synthetic exporter checks. Input must be the separately marked test fixture.
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import {tableSpecifications,exportTables} from './verge_followon_csv.mjs';
+import {columnLetter} from './verge_control_csv.mjs';
+const [input,output]=process.argv.slice(2);
+if (!input || !output) throw new Error('Supply synthetic fixture and output directory');
+const bundle=JSON.parse(await fs.readFile(input,'utf8'));
+assert.equal(bundle.synthetic,true);
+const specs=tableSpecifications(bundle);
+assert.equal(specs.length,7);
+assert.equal(specs.find(s=>s[0]==='trajectory_events')[1].length,33);
+assert.equal(columnLetter(33),'AG');
+const missing=structuredClone(bundle);missing.analysis.endpoint_rows.pop();
+assert.throws(()=>tableSpecifications(missing),/Incomplete/);
+const nan=structuredClone(bundle);nan.analysis.endpoint_rows[0].observed_rate=NaN;
+assert.throws(()=>tableSpecifications(nan),/non-scalar/);
+const formula=structuredClone(bundle);formula.analysis.endpoint_rows[0].checkpoint='=BAD()';
+assert.throws(()=>tableSpecifications(formula),/Formula-like/);
+assert.ok(specs.find(s=>s[0]==='cohort_rankings')[2].every(r=>r.concordance===null));
+const receipt=await exportTables(bundle,output);
+assert.equal(receipt.synthetic,true);assert.equal(receipt.followon_block_complete,false);
+assert.equal(receipt.suite_complete,false);
+assert.ok(receipt.tables.every(r=>r.typed_values_unchanged && r.preview_rendered && r.preview_columns===8));
+console.log(JSON.stringify({synthetic_only:true,checks_passed:12,tables:receipt.tables,suite_complete:false}));

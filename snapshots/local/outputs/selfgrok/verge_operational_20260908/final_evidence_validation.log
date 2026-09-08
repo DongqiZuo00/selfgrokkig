@@ -1,0 +1,19 @@
+{
+  "status": "saved_evidence_verified",
+  "cpu_tests": {
+    "protocol": 36,
+    "stages": 18,
+    "runtime": 14,
+    "benchmark": 15
+  },
+  "gpu_runs": {
+    "gpu_smoke_41369486": {
+      "parse_valid": 0,
+      "successes": 0
+    },
+    "gpu_smoke_prefill_41370126": {
+      "parse_valid": 0,
+      "successes": 0
+    }
+  }
+}

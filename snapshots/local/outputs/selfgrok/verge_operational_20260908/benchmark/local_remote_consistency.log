@@ -1,0 +1,53 @@
+All local/remote manifest fields and dataset hashes agree.
+{
+  "train": {
+    "count": 128,
+    "sha256": "89f79a4df80a5871db61a02cc4f36319e46300626fdcf6431e697923c13be585",
+    "distinct_input_tapes": 2396
+  },
+  "selection": {
+    "count": 64,
+    "sha256": "b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+    "distinct_input_tapes": 1087
+  },
+  "heldout": {
+    "count": 64,
+    "sha256": "de781c7b05b44daa5e538222d5652efc4cce3236e4495fc1786d237a414e3964",
+    "distinct_input_tapes": 987
+  },
+  "test": {
+    "count": 64,
+    "sha256": "4b488db1565a61772e55fb93db4e528636919fafe24d5dd2125ddfea0ee8d240",
+    "distinct_input_tapes": 1016
+  }
+}
+{
+  "train": {
+    "rows": 128,
+    "reference_exact_passes": 4608,
+    "tests": 4608,
+    "max_execution_steps": 139,
+    "unique_input_tapes": 2396
+  },
+  "selection": {
+    "rows": 64,
+    "reference_exact_passes": 2304,
+    "tests": 2304,
+    "max_execution_steps": 139,
+    "unique_input_tapes": 1087
+  },
+  "heldout": {
+    "rows": 64,
+    "reference_exact_passes": 2304,
+    "tests": 2304,
+    "max_execution_steps": 139,
+    "unique_input_tapes": 987
+  },
+  "test": {
+    "rows": 64,
+    "reference_exact_passes": 2304,
+    "tests": 2304,
+    "max_execution_steps": 139,
+    "unique_input_tapes": 1016
+  }
+}

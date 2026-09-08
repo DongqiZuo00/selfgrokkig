@@ -1,0 +1,22 @@
+{
+  "scope": "final reports, evidence, contracts and trained checkpoint mirror",
+  "files": {
+    "METHOD_REVIEW.md": "948ceffaded9a840f02ec9f4e47debc6e95ea559d7cfd3890a1b7b23342bddda",
+    "IMPLEMENTATION_AUDIT.md": "3836e2dcc4594e172d0292bd43fd1f6a30dff027f086eb75e38483e2624323f4",
+    "NEXT_ACTION.md": "8b18436d4db2d371af0901358480202120a2c6486f45dae55bf485fa0b9857ce",
+    "EXPERIMENT_RESULT.json": "8e3da877fcfa00c3635d0aadac453efc7621e9f94bb05dbb3d87fc4d3bb63351",
+    "evidence/COMMANDS.md": "198d4d8ba53dcad36cf05850cf598eef8f85f34c13aa51918c9d244e89140af0",
+    "evidence/FINAL_ACCEPTANCE.log": "e448a203a21cb385f60a33a294342cd4682094faa69f6c5c5fe6c4ef7658b833",
+    "evidence/COST_THREE_ROUNDS.json": "d3f0cd4ae382547f6b8967234118499265f447af787724a30acbf588ea5fdbe0",
+    "evidence/COST_THREE_ROUNDS.md": "aacdd390337dc5a1c5f38eecca700f8ffa3ff2cb9485ba9c9b835d9fd65ff77a",
+    "evidence/ROUND3_UPDATE_REPLAY.md": "c17dfe608d91090208ef53b8ec32a68ac91c439aaf2dbf4c08892fe9b14ec2c9",
+    "evidence/MINIMAL_COMPLETION_CRITERIA.md": "684570506dcbb938a9ca89d73da12dfa3e14bdffd6c88a0c56927e9e93b77285",
+    "evidence/round1_independent_score_audit.json": "b2c0f51e125c3004b94a8730a9a1424d2b7fb5a6d8e14e4b2c1de623e0e9f353",
+    "evidence/round2_independent_score_audit.json": "5aa94f557d5e21f4f65470d4a7d6606e4e44b4ddb6d5477a59345835e8e2145b",
+    "evidence/round3_independent_score_audit.json": "fc14e3a1207edde46548d6814b92a7722fcaa7eb6851aa14e302961fc701e1b8",
+    "configs/round1_runtime_contract.json": "07082ec003ea0f4a0d76059e2c802ba2eeb5e0067129798c50653d66939d1de4",
+    "configs/round2_runtime_contract.json": "a4ae49768225eb106474e008acdddce65ff25b888ba8481356e1f688b3d8bf4d",
+    "configs/round3_runtime_contract.json": "cd7a922f0effbfa49e4bea1ac77c7bf2aa0151e1318953530f4295ac9e3b85b8",
+    "runs/round3_g1_41420288_0/execution/checkpoints/g1_m1/adapter_model.safetensors": "b5278b1fed5e784945b6770b9abfd3b8d0cede946d2d98ffd771871f2fc86090"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": "verge-mini-round-exchange-v1",
+  "mode": "real_model_round",
+  "plan_sha256": "c1a4b2834ff2c510978c87097c72222be37a1ca2d0df9e367e688337e1569f42",
+  "fragment_role": "g3",
+  "checkpoints": {
+    "base": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "g3_m1": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "g3_m2": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "g3_m3": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    },
+    "g3_m4": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+    }
+  },
+  "evaluations": {
+    "g3_m1": {
+      "checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321",
+      "evaluation_cache_hit": true,
+      "source_evidence_id": "base",
+      "sample_ids": [
+        "rollout_00",
+        "rollout_01",
+        "rollout_02",
+        "rollout_03",
+        "rollout_04",
+        "rollout_05",
+        "rollout_06",
+        "rollout_07"
+      ]
+    },
+    "g3_m2": {
+      "checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321",
+      "evaluation_cache_hit": true,
+      "source_evidence_id": "base",
+      "sample_ids": [
+        "rollout_00",
+        "rollout_01",
+        "rollout_02",
+        "rollout_03",
+        "rollout_04",
+        "rollout_05",
+        "rollout_06",
+        "rollout_07"
+      ]
+    },
+    "g3_m3": {
+      "checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321",
+      "evaluation_cache_hit": true,
+      "source_evidence_id": "base",
+      "sample_ids": [
+        "rollout_00",
+        "rollout_01",
+        "rollout_02",
+        "rollout_03",
+        "rollout_04",
+        "rollout_05",
+        "rollout_06",
+        "rollout_07"
+      ]
+    },
+    "g3_final": {
+      "checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321",
+      "evaluation_cache_hit": true,
+      "source_evidence_id": "base",
+      "sample_ids": [
+        "rollout_00",
+        "rollout_01",
+        "rollout_02",
+        "rollout_03",
+        "rollout_04",
+        "rollout_05",
+        "rollout_06",
+        "rollout_07",
+        "rollout_08",
+        "rollout_09",
+        "rollout_10",
+        "rollout_11",
+        "rollout_12",
+        "rollout_13",
+        "rollout_14",
+        "rollout_15",
+        "rollout_16",
+        "rollout_17",
+        "rollout_18",
+        "rollout_19",
+        "rollout_20",
+        "rollout_21",
+        "rollout_22",
+        "rollout_23",
+        "rollout_24",
+        "rollout_25",
+        "rollout_26",
+        "rollout_27",
+        "rollout_28",
+        "rollout_29",
+        "rollout_30",
+        "rollout_31"
+      ]
+    }
+  },
+  "branches": {
+    "g3": {
+      "base_checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "fresh_optimizer": true,
+      "optimizer_initial_state_entries": 0,
+      "beta": 0,
+      "weight_decay": 0,
+      "phases": [
+        {
+          "name": "g3_segment_1",
+          "quota": 16384,
+          "generated_tokens": 16384,
+          "loss_eligible_tokens": 16381,
+          "nonzero_advantage_tokens": 0,
+          "boundary_drain_tokens": 3,
+          "rollouts": 105,
+          "optimizer_steps": 0,
+          "constant_groups": 13
+        },
+        {
+          "name": "g3_segment_2",
+          "quota": 16384,
+          "generated_tokens": 16384,
+          "loss_eligible_tokens": 16384,
+          "nonzero_advantage_tokens": 0,
+          "boundary_drain_tokens": 0,
+          "rollouts": 88,
+          "optimizer_steps": 0,
+          "constant_groups": 11
+        },
+        {
+          "name": "g3_segment_3",
+          "quota": 16384,
+          "generated_tokens": 16384,
+          "loss_eligible_tokens": 16383,
+          "nonzero_advantage_tokens": 0,
+          "boundary_drain_tokens": 1,
+          "rollouts": 97,
+          "optimizer_steps": 0,
+          "constant_groups": 12
+        },
+        {
+          "name": "g3_segment_4",
+          "quota": 16384,
+          "generated_tokens": 16384,
+          "loss_eligible_tokens": 16379,
+          "nonzero_advantage_tokens": 0,
+          "boundary_drain_tokens": 5,
+          "rollouts": 81,
+          "optimizer_steps": 0,
+          "constant_groups": 10
+        }
+      ],
+      "journal_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round3_g3_41420288_2/execution/training_journal.jsonl",
+      "journal_sha256": "d8e19ce800dcc6fe8a623e084895dd17e915307153c0d5d3b95369f0daa5d86c",
+      "actual_model_updates": []
+    }
+  },
+  "execution": {
+    "grammar_enabled": true,
+    "actual_optimizer_steps": 0,
+    "training_generated_tokens": 65536,
+    "backend_tokens_all_generation_calls": 65536,
+    "initial_parameter_fingerprint": "50db3691d59bbef2b970c529567b2e4859f2bb31f2cc21c5685dc6230481d8a2",
+    "final_parameter_fingerprint": "50db3691d59bbef2b970c529567b2e4859f2bb31f2cc21c5685dc6230481d8a2",
+    "sampling_seed_policy": "batch8_chunk_v1",
+    "global_cross_job_rollout_order_claimed": false
+  }
+}

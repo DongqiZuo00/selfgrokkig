@@ -1,0 +1,22 @@
+{
+  "suite": "verge_book_v2",
+  "authorized_on": "2026-09-06",
+  "user_reply": "同意",
+  "restart_authorized": true,
+  "approved_action": "Separately versioned corrected full primary-block restart from the same untrained initial policies, with additional total compute cost disclosed and accepted",
+  "reason": "manifests/verge_book_v1_sampling_incident.json",
+  "legacy_suite_remains_blocked": true,
+  "legacy_results_preserved": true,
+  "copy_only_original_untrained_roots": true,
+  "inherit_legacy_learned_weights_or_optimizer_or_curriculum_history": false,
+  "scientific_scope_reduced": false,
+  "training_seeds": [42],
+  "paired_base_stream_ids_preserved": true,
+  "only_sampling_change": "One native completion request per prompt with parent seed base+i*n, giving disjoint vLLM child seeds across the ordinary endpoint batch; bounded concurrency8 and exact-request recoverable caches",
+  "extra_diagnostic_model_samples": 0,
+  "maximum_gpus": 2,
+  "maximum_total_cpu_memory_gb": 64,
+  "primary_block_loss_tokens": 50331648,
+  "maximum_updates_per_branch": 100,
+  "full_experiment_book_completion_still_required": true
+}

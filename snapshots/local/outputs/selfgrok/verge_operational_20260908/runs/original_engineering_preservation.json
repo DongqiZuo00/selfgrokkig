@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-09-08 06:51",
+  "repository": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness",
+  "head": "b3298a61360f659b2a336decbd392252eb429e7c",
+  "tracked_modifications_observed": [
+    "manifests/mistral_model_snapshot.json",
+    "manifests/self_grok_soar_mistral_v1.json",
+    "scripts/recipe_env.sh",
+    "src/prepare_data.py",
+    "src/recipe_train_branch.py"
+  ],
+  "note": "recipe_env.sh is an additional observed modification relative to the earlier audit. This operational task did not edit it; attribution is not inferred. The independent GPU script does not source it.",
+  "original_source_sha256": {
+    "src/common.py": "bf5ec94a586dee95aa1842f9c01d0e58361e82ce6e90b380bdc50bce9f30ff44",
+    "src/verge_round_core.py": "e05a87d35578318abd9b07072090e8babc28826ba8bea5c80d9addfbd7ad0ba9",
+    "src/verge_repair_training.py": "892ba4b3e6f7060ec0e2df892954b26570e153f7a9058f29a2c3d5cbbe3a5dfb"
+  },
+  "these_three_source_hashes_match_prior_audit": true,
+  "old_jobs_cancelled": 0,
+  "original_checkpoints_or_logs_deleted": 0
+}

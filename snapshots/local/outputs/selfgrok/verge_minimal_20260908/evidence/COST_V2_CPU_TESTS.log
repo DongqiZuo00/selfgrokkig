@@ -1,0 +1,41 @@
+test_adjacent_allocations_do_not_overlap_and_failed_time_counts (test_account_round_cost_v2.Arithmetic.test_adjacent_allocations_do_not_overlap_and_failed_time_counts) ... ok
+test_array_steps_and_generic_typed_gpu_counts_not_double_counted (test_account_round_cost_v2.Arithmetic.test_array_steps_and_generic_typed_gpu_counts_not_double_counted) ... ok
+test_duplicate_scheduler_rows_require_reconciliation (test_account_round_cost_v2.Arithmetic.test_duplicate_scheduler_rows_require_reconciliation) ... ok
+test_invalid_native_ids_and_cap_count_errors (test_account_round_cost_v2.Arithmetic.test_invalid_native_ids_and_cap_count_errors) ... ok
+test_native_solver_and_challenger_shapes_include_eos (test_account_round_cost_v2.Arithmetic.test_native_solver_and_challenger_shapes_include_eos) ... ok
+test_post_eos_padding_is_excluded_and_record_mismatch_exposed (test_account_round_cost_v2.Arithmetic.test_post_eos_padding_is_excluded_and_record_mismatch_exposed) ... ok
+test_scheduler_missing_pending_and_empty_never_mean_complete (test_account_round_cost_v2.Arithmetic.test_scheduler_missing_pending_and_empty_never_mean_complete) ... ok
+test_atomic_rewrite_is_one_source_and_orphan_valid_temporary_remains_visible (test_account_round_cost_v2.SourceAccounting.test_atomic_rewrite_is_one_source_and_orphan_valid_temporary_remains_visible) ... ok
+test_bad_reported_count_keeps_actual_count_and_exposes_problem (test_account_round_cost_v2.SourceAccounting.test_bad_reported_count_keeps_actual_count_and_exposes_problem) ... ok
+test_completed_branch_separates_training_budget_probe_cost_and_drain (test_account_round_cost_v2.SourceAccounting.test_completed_branch_separates_training_budget_probe_cost_and_drain) ... FAIL
+test_identical_independent_sources_count_twice_fragment_copy_adds_zero (test_account_round_cost_v2.SourceAccounting.test_identical_independent_sources_count_twice_fragment_copy_adds_zero) ... FAIL
+test_proof_reuses_counted_sample_and_does_not_add_generation (test_account_round_cost_v2.SourceAccounting.test_proof_reuses_counted_sample_and_does_not_add_generation) ... FAIL
+
+======================================================================
+FAIL: test_completed_branch_separates_training_budget_probe_cost_and_drain (test_account_round_cost_v2.SourceAccounting.test_completed_branch_separates_training_budget_probe_cost_and_drain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runtime/test_account_round_cost_v2.py", line 146, in test_completed_branch_separates_training_budget_probe_cost_and_drain
+    self.assertFalse(result['issues'])
+AssertionError: ['fixture: saved training generation lacks a journal source: /blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/evidence/cost_cpu_fixtures/explicit_fixture_bm0wp3rt/runs/branch/execution/raw_training/0.json', 'fixture: saved training generation lacks a journal source: /blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/evidence/cost_cpu_fixtures/explicit_fixture_bm0wp3rt/runs/branch/execution/raw_training/1.json'] is not false
+
+======================================================================
+FAIL: test_identical_independent_sources_count_twice_fragment_copy_adds_zero (test_account_round_cost_v2.SourceAccounting.test_identical_independent_sources_count_twice_fragment_copy_adds_zero)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runtime/test_account_round_cost_v2.py", line 98, in test_identical_independent_sources_count_twice_fragment_copy_adds_zero
+    self.assertFalse(result['issues'])
+AssertionError: ['evaluation references an uncounted origin; explicitly classify it before a final total: /blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/evidence/cost_cpu_fixtures/explicit_fixture_ii3e435k/evidence/cost_cpu_fixtures/explicit_fixture_ii3e435k/runs/stage/samples/a.json'] is not false
+
+======================================================================
+FAIL: test_proof_reuses_counted_sample_and_does_not_add_generation (test_account_round_cost_v2.SourceAccounting.test_proof_reuses_counted_sample_and_does_not_add_generation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runtime/test_account_round_cost_v2.py", line 118, in test_proof_reuses_counted_sample_and_does_not_add_generation
+    self.assertTrue(result['proof_updates'][0]['source_count_verified'])
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.262s
+
+FAILED (failures=3)

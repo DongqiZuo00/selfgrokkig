@@ -1,0 +1,54 @@
+{
+  "snapshots": {
+    "g1": {
+      "journal_sha256": "edf216fccbe94dedddd2704e619d919581e5b32789d4e5826ae6fda6a121a62c",
+      "record_count": 167,
+      "last_sequence": 166,
+      "last_record_sha256": "69c36bc8e32be41df7e9de403a1e1aebcaf94a93fee69eca4b5cc65fb74bd2b5",
+      "complete_generation_groups": 39,
+      "positive_groups": 0,
+      "actual_model_update_events": 0
+    },
+    "g2": {
+      "journal_sha256": "6e9e213ecd5ba48dff5de38a1af148ba3952ccdc021097c05c5260d51096e74a",
+      "record_count": 164,
+      "last_sequence": 163,
+      "last_record_sha256": "fef7f542634b3298934f3c2191c6e6cb70657e1f91aa8d70643f348d758ff193",
+      "complete_generation_groups": 39,
+      "positive_groups": 0,
+      "actual_model_update_events": 0
+    }
+  },
+  "selected": [
+    {
+      "branch": "g1",
+      "filename": "000000_g1_segment_1.json",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_RB__compact",
+      "reward_sum": 0
+    },
+    {
+      "branch": "g1",
+      "filename": "000017_g1_segment_2.json",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small3__compact",
+      "reward_sum": 0
+    },
+    {
+      "branch": "g1",
+      "filename": "000024_g1_segment_3.json",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_R__compact",
+      "reward_sum": 0
+    },
+    {
+      "branch": "g2",
+      "filename": "000001_g2_segment_1.json",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__replace_RB_to_YG__compact",
+      "reward_sum": 0
+    },
+    {
+      "branch": "g2",
+      "filename": "000027_g2_segment_3.json",
+      "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small2__compact",
+      "reward_sum": 0
+    }
+  ]
+}

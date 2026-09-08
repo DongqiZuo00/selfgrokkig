@@ -1,0 +1,77 @@
+{
+  "parser_path": "/blue/du.j/jinjiaguo/self grok/vendor/rl-grok-recipe/manufactoria/verifier/manufactoria_parser.py",
+  "parser_sha256": "fa8bb2a00447c0c0f73f5bec34759d60fea08c5c67e99ff0a06850e421acdb72",
+  "python": "3.11.4 | packaged by conda-forge | (main, Jun 10 2023, 18:08:17) [GCC 12.2.0]",
+  "mode": "CPU_reference_program_only_no_model_outputs",
+  "reference_nodes": 18,
+  "reference_sha256": "8fbc237b2745455a7f380964e08506d3386d0c584e5962e54745fb8e8a9a4216",
+  "split_checks": {
+    "train": {
+      "rows": 128,
+      "reference_exact_passes": 4608,
+      "tests": 4608,
+      "max_execution_steps": 139,
+      "unique_input_tapes": 2396
+    },
+    "selection": {
+      "rows": 64,
+      "reference_exact_passes": 2304,
+      "tests": 2304,
+      "max_execution_steps": 139,
+      "unique_input_tapes": 1087
+    },
+    "heldout": {
+      "rows": 64,
+      "reference_exact_passes": 2304,
+      "tests": 2304,
+      "max_execution_steps": 139,
+      "unique_input_tapes": 987
+    },
+    "test": {
+      "rows": 64,
+      "reference_exact_passes": 2304,
+      "tests": 2304,
+      "max_execution_steps": 139,
+      "unique_input_tapes": 1016
+    }
+  },
+  "pairwise_input_intersection_sizes": {
+    "train/selection": 0,
+    "train/heldout": 0,
+    "train/test": 0,
+    "selection/heldout": 0,
+    "selection/test": 0,
+    "heldout/test": 0
+  },
+  "all_pass": true,
+  "exhaustive_reference_check": {
+    "lengths": [
+      0,
+      14
+    ],
+    "cases": 32767,
+    "all_pass": true
+  },
+  "additional_reference_check": {
+    "cases": 5998,
+    "maximum_input_length": 64,
+    "all_pass": true
+  },
+  "max_execution_steps": 139,
+  "cases_with_actually_revisited_nodes": 38763,
+  "wrong_prefix_control": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "outside_domain_original_four_color_Y": {
+    "finished": true,
+    "actual_output": "YRBYGRB",
+    "original_expected": "RBYGRBY",
+    "exact_pass": false
+  }
+}

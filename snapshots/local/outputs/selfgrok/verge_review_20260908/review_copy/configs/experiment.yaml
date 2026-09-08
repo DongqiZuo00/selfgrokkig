@@ -1,0 +1,102 @@
+experiment_name: has_transfer_witness
+model:
+  id: Qwen/Qwen3-4B-Instruct-2507
+  local_path: models/Qwen3-4B-Instruct-2507
+  dtype: bfloat16
+  text_only: true
+  thinking_mode: false
+  quantization: none
+data:
+  split_seed: 20260901
+  candidate_generation_seed: 314159
+  target_train: 610
+  initial_audit: 32
+  development: 50
+  confirmation: 50
+  official_test: 100
+  target_family: has
+audit:
+  target_rollouts_per_instance: 128
+  candidate_stage1_instances: 8
+  candidate_stage1_rollouts_per_instance: 8
+  candidate_instances: 32
+  candidate_rollouts_per_instance: 8
+  generation_batch_size: 128
+  uncertainty_definition: "4 * p * (1 - p)"
+  top_candidates: 8
+candidate_pool:
+  configurations:
+    - name: low
+      color_mode: two_color
+      sequence_lengths: [1, 2]
+      count_thresholds: [1, 4]
+      numerical_thresholds: [1, 8]
+      regex_max_pattern_length: [1, 1]
+    - name: medium
+      color_mode: two_color
+      sequence_lengths: [2, 4]
+      count_thresholds: [3, 12]
+      numerical_thresholds: [4, 32]
+      regex_max_pattern_length: [1, 2]
+    - name: high
+      color_mode: four_color
+      sequence_lengths: [4, 6]
+      count_thresholds: [8, 32]
+      numerical_thresholds: [16, 128]
+      regex_max_pattern_length: [2, 3]
+  selected_families: 8
+training:
+  discovery_seed: 42
+  confirmation_seeds: []
+  seeds: [42]
+  root_updates: 100
+  candidate_updates: 100
+  initial_total_updates: 500
+  extension_block_updates: 100
+  prompts_per_update: 16
+  rollouts_per_prompt: 8
+  precision: bf16
+  lora_rank: 64
+  lora_alpha: 128
+  lora_dropout: 0.0
+  lora_target: all-linear
+  optimizer: AdamW
+  learning_rate: 1.0e-5
+  betas: [0.9, 0.95]
+  weight_decay: 0.0
+  max_grad_norm: 1.0
+  warmup_ratio: 0.03
+  scheduler: constant_with_warmup
+  grpo_clip_epsilon: 0.2
+  kl_beta: 0.0
+  train_microbatch: 1
+  generation_batch_size: 128
+  resume_interval: 10
+evaluation:
+  checkpoints: [0, 100, 300, 500]
+  monitor_instances: 32
+  monitor_rollouts_per_instance: 8
+  rollouts_per_instance: 16
+  hidden_tests_per_confirmed_program: 32
+sampling:
+  max_prompt_tokens: 2048
+  max_completion_tokens: 8192
+  temperature: 1.0
+  top_p: 0.95
+  top_k: 20
+  presence_penalty: 0.0
+fast_protocol:
+  version: 2
+  raw_root: raw_results/protocol_v2
+  completion_definition: "model output through the first complete END end plus closing manufactoria fence"
+  base_screen_rollouts: 64
+  finalist_screen_rollouts: 256
+  frozen_candidates: 8
+  discovery_candidates_per_batch: 4
+  discovery_pairs_per_batch: 2
+  discovery_min_absolute_gap: 0.02
+  discovery_max_success_rate_gap: 0.05
+  discovery_max_uncertainty_gap: 0.05
+  discovery_max_batches: 2
+  fixed_endpoint_updates: 100
+  no_extension: true

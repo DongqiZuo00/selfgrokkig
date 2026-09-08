@@ -1,0 +1,33 @@
+{
+  "phase": {
+    "phase_id": "g3_segment_1",
+    "segment": 1,
+    "kind": "curriculum_stage",
+    "stage_id": "target_small3",
+    "quota": 16384,
+    "tokens_before": 0,
+    "tokens_after": 16384,
+    "target_probability": 0.25,
+    "checkpoint_alias": "g3_m1"
+  },
+  "checkpoint": {
+    "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+    "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+    "weights_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+  },
+  "training_ledgers": [
+    {
+      "name": "g3_segment_1",
+      "quota": 16384,
+      "generated_tokens": 16384,
+      "loss_eligible_tokens": 16377,
+      "nonzero_advantage_tokens": 0,
+      "boundary_drain_tokens": 7,
+      "rollouts": 97,
+      "optimizer_steps": 0,
+      "constant_groups": 12
+    }
+  ],
+  "actual_optimizer_steps": 0,
+  "backend_tokens_all_generation_calls": 16384
+}

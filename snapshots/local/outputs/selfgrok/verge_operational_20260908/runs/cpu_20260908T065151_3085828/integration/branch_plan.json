@@ -1,0 +1,353 @@
+{
+  "alpha": 0.25,
+  "mode": "synthetic_CPU_integration_not_model_training",
+  "plan": {
+    "base_checkpoint": "SYNTHETIC_SHARED_BASE",
+    "budget_unit": "generated_tokens",
+    "curricula": [
+      {
+        "base_checkpoint": "SYNTHETIC_SHARED_BASE",
+        "beta": 0.0,
+        "branch_id": "g1",
+        "fresh_optimizer": true,
+        "generated_token_budget": 131,
+        "milestones": [
+          0,
+          33,
+          66,
+          99,
+          131
+        ],
+        "solver_reward": "binary_full_pass",
+        "stage_tokens": [
+          33,
+          33,
+          33
+        ],
+        "stages": [
+          {
+            "kind": "registered",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR"
+                ],
+                "max_length": 64,
+                "min_length": 0
+              },
+              "family": "prepend_identity",
+              "instance_tuples": [
+                [
+                  "b89c5deb6d5be5c8b336ce593c6464a186196207fb654bb13357fedf731d9911",
+                  "5deafb8dc5f68049632b7812181aec1f9153a964dab79fc91d73d6e0df67bd59"
+                ]
+              ],
+              "kind": "registered",
+              "mutation_tier": 0,
+              "tier": 0
+            }
+          },
+          {
+            "kind": "tape_transform",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR"
+                ],
+                "max_length": 64,
+                "min_length": 0
+              },
+              "expression": {
+                "arg": {
+                  "op": "input"
+                },
+                "op": "reverse"
+              },
+              "instance_tuples": [
+                [
+                  "566d7bc9b51f3946265cbe69410e7bee9a54137e804e44405fc1d8cf3545c256",
+                  "5deafb8dc5f68049632b7812181aec1f9153a964dab79fc91d73d6e0df67bd59"
+                ]
+              ],
+              "kind": "tape_transform"
+            }
+          },
+          {
+            "kind": "hinted_target",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR"
+                ],
+                "max_length": 64,
+                "min_length": 0
+              },
+              "family": "fixed_prepend_target",
+              "hint_id": "SYNTHETIC_ORACLE_LIBRARY_FIXTURE",
+              "hint_relation": "smaller_train",
+              "instance_tuples": [
+                [
+                  "ab3aaac9425169b5186a7aadf89c988f6f187d9531391901ecc124f2c1173ba0",
+                  "5259ae323e016debf1c69e6d131f0ad23ea85c5828f0146eec7e2ae703470c00"
+                ]
+              ],
+              "kind": "hinted_target",
+              "mutation_tier": 0,
+              "target_size": 64,
+              "tier": 0
+            }
+          }
+        ],
+        "tail_tokens": 32,
+        "weight_decay": 0.0
+      },
+      {
+        "base_checkpoint": "SYNTHETIC_SHARED_BASE",
+        "beta": 0.0,
+        "branch_id": "g2",
+        "fresh_optimizer": true,
+        "generated_token_budget": 131,
+        "milestones": [
+          0,
+          33,
+          66,
+          99,
+          131
+        ],
+        "solver_reward": "binary_full_pass",
+        "stage_tokens": [
+          33,
+          33,
+          33
+        ],
+        "stages": [
+          {
+            "kind": "tape_transform",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR"
+                ],
+                "max_length": 64,
+                "min_length": 0
+              },
+              "expression": {
+                "arg": {
+                  "op": "input"
+                },
+                "op": "reverse"
+              },
+              "instance_tuples": [
+                [
+                  "566d7bc9b51f3946265cbe69410e7bee9a54137e804e44405fc1d8cf3545c256",
+                  "5deafb8dc5f68049632b7812181aec1f9153a964dab79fc91d73d6e0df67bd59"
+                ]
+              ],
+              "kind": "tape_transform"
+            }
+          },
+          {
+            "kind": "registered",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR"
+                ],
+                "max_length": 64,
+                "min_length": 0
+              },
+              "family": "prepend_identity",
+              "instance_tuples": [
+                [
+                  "b89c5deb6d5be5c8b336ce593c6464a186196207fb654bb13357fedf731d9911",
+                  "5deafb8dc5f68049632b7812181aec1f9153a964dab79fc91d73d6e0df67bd59"
+                ]
+              ],
+              "kind": "registered",
+              "mutation_tier": 0,
+              "tier": 0
+            }
+          },
+          {
+            "kind": "hinted_target",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR"
+                ],
+                "max_length": 64,
+                "min_length": 0
+              },
+              "family": "fixed_prepend_target",
+              "hint_id": "SYNTHETIC_ORACLE_LIBRARY_FIXTURE",
+              "hint_relation": "smaller_train",
+              "instance_tuples": [
+                [
+                  "ab3aaac9425169b5186a7aadf89c988f6f187d9531391901ecc124f2c1173ba0",
+                  "5259ae323e016debf1c69e6d131f0ad23ea85c5828f0146eec7e2ae703470c00"
+                ]
+              ],
+              "kind": "hinted_target",
+              "mutation_tier": 0,
+              "target_size": 64,
+              "tier": 0
+            }
+          }
+        ],
+        "tail_tokens": 32,
+        "weight_decay": 0.0
+      },
+      {
+        "base_checkpoint": "SYNTHETIC_SHARED_BASE",
+        "beta": 0.0,
+        "branch_id": "g3",
+        "fresh_optimizer": true,
+        "generated_token_budget": 131,
+        "milestones": [
+          0,
+          33,
+          66,
+          99,
+          131
+        ],
+        "solver_reward": "binary_full_pass",
+        "stage_tokens": [
+          33,
+          33,
+          33
+        ],
+        "stages": [
+          {
+            "kind": "hinted_target",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR"
+                ],
+                "max_length": 64,
+                "min_length": 0
+              },
+              "family": "fixed_prepend_target",
+              "hint_id": "SYNTHETIC_ORACLE_LIBRARY_FIXTURE",
+              "hint_relation": "smaller_train",
+              "instance_tuples": [
+                [
+                  "ab3aaac9425169b5186a7aadf89c988f6f187d9531391901ecc124f2c1173ba0",
+                  "5259ae323e016debf1c69e6d131f0ad23ea85c5828f0146eec7e2ae703470c00"
+                ]
+              ],
+              "kind": "hinted_target",
+              "mutation_tier": 0,
+              "target_size": 64,
+              "tier": 0
+            }
+          },
+          {
+            "kind": "tape_transform",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR"
+                ],
+                "max_length": 64,
+                "min_length": 0
+              },
+              "expression": {
+                "arg": {
+                  "op": "input"
+                },
+                "op": "reverse"
+              },
+              "instance_tuples": [
+                [
+                  "566d7bc9b51f3946265cbe69410e7bee9a54137e804e44405fc1d8cf3545c256",
+                  "5deafb8dc5f68049632b7812181aec1f9153a964dab79fc91d73d6e0df67bd59"
+                ]
+              ],
+              "kind": "tape_transform"
+            }
+          },
+          {
+            "kind": "registered",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR"
+                ],
+                "max_length": 64,
+                "min_length": 0
+              },
+              "family": "prepend_identity",
+              "instance_tuples": [
+                [
+                  "b89c5deb6d5be5c8b336ce593c6464a186196207fb654bb13357fedf731d9911",
+                  "5deafb8dc5f68049632b7812181aec1f9153a964dab79fc91d73d6e0df67bd59"
+                ]
+              ],
+              "kind": "registered",
+              "mutation_tier": 0,
+              "tier": 0
+            }
+          }
+        ],
+        "tail_tokens": 32,
+        "weight_decay": 0.0
+      }
+    ],
+    "direct": {
+      "base_checkpoint": "SYNTHETIC_SHARED_BASE",
+      "beta": 0.0,
+      "branch_id": "direct",
+      "fresh_optimizer": true,
+      "generated_token_budget": 131,
+      "milestones": [
+        0,
+        33,
+        66,
+        99,
+        131
+      ],
+      "solver_reward": "binary_full_pass",
+      "stage_tokens": [],
+      "stages": [],
+      "tail_tokens": 131,
+      "weight_decay": 0.0
+    }
+  }
+}

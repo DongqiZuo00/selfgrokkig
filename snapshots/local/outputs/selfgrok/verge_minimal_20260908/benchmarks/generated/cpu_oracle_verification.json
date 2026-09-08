@@ -1,0 +1,1064 @@
+{
+  "mode": "CPU_reference_only_no_model",
+  "parser_path": "/blue/du.j/jinjiaguo/self grok/vendor/rl-grok-recipe/manufactoria/verifier/manufactoria_parser.py",
+  "parser_sha256": "fa8bb2a00447c0c0f73f5bec34759d60fea08c5c67e99ff0a06850e421acdb72",
+  "candidates": [
+    {
+      "stage_id": "identity",
+      "training_suite": {
+        "parse_valid": true,
+        "reward": 1,
+        "passed_cases": 16,
+        "total_cases": 16,
+        "per_test": [
+          {
+            "test_id": "57eddb75dbc4692d9da5b7f398e2ed7e9f0ce6fcd8662bc7730648b6df604b3b",
+            "input": "B",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "bc22afb23abd5c17fed94fff964125de54bf7d9ecf6286867b03607595444e97",
+            "input": "R",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "e999c64ccad3418e572c82cc40f35d592b619bc610763a47633c927aaeabf763",
+            "input": "BB",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "3bd7f597c0d81600e22017361dc71139965fce409e4ae9da85a28b2f690aaa2c",
+            "input": "BR",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "e32c9b7ccde55f7c6fc575394d9545f112bc5a74f03dda517d44259ab185a6c3",
+            "input": "RR",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "4eeea9a457ba8b9d00ce8cbf221a8454d5c2439e5f7399dfe0da66219d53cdc3",
+            "input": "BBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "576391f325e3aa92a2220a72b2da2d8a52654ee49853bdaeff0642ec9dbe8e60",
+            "input": "BBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "19a54876e6d0f768e2ac9a8948fb7427820737e2e06791652ac87bb571865174",
+            "input": "BRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "cdded4543c8e576b5fa9209d9a5c59175cd25fe56017c85ec1e83e1ff341cc86",
+            "input": "BRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "93258dd80e9de948cb26405694a27e85f96bd1f332e821a572e77f1ad1c4d904",
+            "input": "RBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "bfde4a06c4292f9058cc54b8b44af1eed0fbab743d050a618c92c670e2ea47a8",
+            "input": "RBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "a0f0d661dad90f0a851b755c185ab12db2c479fbc90d20f67b7d60697cb29f99",
+            "input": "RRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "0f1d5b6aa07bbf464253de306d0847c2fd4927c8b985f33cf8f7f0a38aec00eb",
+            "input": "RRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "cb62bbed787f3155e3373d73758672da8db5747f5fcae55849f7b7e3f4c544d1",
+            "input": "RRBRBBRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "4c5a96acf6b28355b2fb173c77a509e1897d3d6b3d91305bc1ce239e592a2b6f",
+            "input": "RBBBRBBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          },
+          {
+            "test_id": "8daafab063bc1d58e0b19eae0cb108194f5de9fc5c764120a57436bcf13256ec",
+            "input": "RBBRBBRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 2
+          }
+        ]
+      },
+      "oracle_exhaustive_cases": 511,
+      "exhaustive_all_pass": true,
+      "max_execution_steps": 2,
+      "program_nodes": 2,
+      "model_rollouts": 0
+    },
+    {
+      "stage_id": "append_R",
+      "training_suite": {
+        "parse_valid": true,
+        "reward": 1,
+        "passed_cases": 16,
+        "total_cases": 16,
+        "per_test": [
+          {
+            "test_id": "2cb9fc4863262623c8ee61db9e88a9d1b4d86941f00210a70300a647dd0fbc9d",
+            "input": "B",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "c2c6922a49bd443f6f678f574b4e232bd31c05d9815ff200d7cff1304962c300",
+            "input": "R",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "b7d0896b62fb6f127efa5813a9581c89c4b0a9679406082bdfe51530914ea68d",
+            "input": "BB",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "3ecb938fae44cab66788ff7eb274b1803a3cc5007242d6fb7ac63eb68a029b61",
+            "input": "BR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "3c7cb29a5054ce0662e178358ab4825189bf060b47467c97cb590dc7cd19bd87",
+            "input": "RR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "3152e48aaa30cced82e00da9a1e2d8975a3d552327dcff877a254b803e722c70",
+            "input": "BBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "b0b7db0731a636269ff553c3cbe81404fdf5567f1d67bfa674b0d3b263995846",
+            "input": "BBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "7827abda97b80ab6a3d8f5abe2535fe326dcfcfea412e777959e4b931dd6eb4e",
+            "input": "BRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "4d0d66cc7f71f4b56097f4cb58399744fc785449ea1eba14a46cbbd1ae5a5dea",
+            "input": "BRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "67e76e8ebb30bd597c6435bfd2fca35371791eb35e7fe338354f7b4f9c9590ec",
+            "input": "RBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "105ee12c0e33a96d32be989929f21a0b69a2eabf55f54293f72dff3bfaf04501",
+            "input": "RBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "d11e7cd218d04c8879d7cca4f08b91655e91728802f774775213872da80dd7ef",
+            "input": "RRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "58f9b4dc4101a51adc488147958b3fb5a7e3f5d158b26076b6112c7baa764cfb",
+            "input": "RRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "16d924a6e49dfd57f46fa6fb88c5862127f4ae5f18c3735544f7d4f135f6c4cd",
+            "input": "RRBRBBRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "e3f8ed83f4ff31256953a51bedc20ce48162e2c240ba28e949cabca6d6785af6",
+            "input": "RBBBRBBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "49764d96228196b28d54e04350e576b5ea54f829be80a91c0b32c8bc5ddb56e4",
+            "input": "RBBRBBRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          }
+        ]
+      },
+      "oracle_exhaustive_cases": 511,
+      "exhaustive_all_pass": true,
+      "max_execution_steps": 3,
+      "program_nodes": 3,
+      "model_rollouts": 0
+    },
+    {
+      "stage_id": "append_B",
+      "training_suite": {
+        "parse_valid": true,
+        "reward": 1,
+        "passed_cases": 16,
+        "total_cases": 16,
+        "per_test": [
+          {
+            "test_id": "35e003ea06c60a205439549ff13136dc14e7ddecfb615af3b96dc55543dd8d7c",
+            "input": "B",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "663030f23ef175523e870b314ad6c9e309bdfa24efe9a9d1f7427a6048841ca7",
+            "input": "R",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "0b25cea0bf5f13ab4c3e7b758b9ce1d3633755a2246b4552005613674d47dedd",
+            "input": "BB",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "cd45bf1fe28401c64be9448a8d797fae51fe9c4295e7bb8b063068f5a392f14b",
+            "input": "BR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "59892450d4ca9669f0c3b45f1764cbdb354d6702117de0e814eada30005b6df8",
+            "input": "RR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "47f5dd537be259a03f40a24acb2f6eaba7111b0ebb6602a6080d32829ebd92ba",
+            "input": "BBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "64c60c5fc1bc717c7cb566e01108c156eb44a63b21688fef93bd643706a52c76",
+            "input": "BBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "0af36723290ea446726dc02c310e450472fdb2aa34d81a2c9120f37ca78d6e55",
+            "input": "BRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "2269e2bc97bc5de261d5130b5f6d2d6d9c6fe78243c6600b3bca0728ce1b4cea",
+            "input": "BRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "255da246e759bc1787a496bb1f55b462a5433c0fb4321c7f4e97b800d2e67368",
+            "input": "RBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "9dfc07441838f2d5bc3b0f8ca04af9c66cafdaabcebf30cc227ca70be197f9b2",
+            "input": "RBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "c8ae0ea8f10b08d61f98868c82eb1f46b609a56f8f1132497d2b6e5582c416d6",
+            "input": "RRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "43db77af40b5b6836ba071f488ab1b0314a40432e474efb518416dcaa347d3c6",
+            "input": "RRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "48d04f3caf50962ff9273514c3a20a283faf71cc8fe4b7ef5fa031771de80323",
+            "input": "RRBRBBRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "8d4c6b6f846269cc54d6e40baffbbfdd903f207360d775f3b0f334244887fd35",
+            "input": "RBBBRBBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          },
+          {
+            "test_id": "f957a1a8f37f6c8a510757b29d59a1d5d1114d815158e34de5e1aaeac76c5f22",
+            "input": "RBBRBBRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 3
+          }
+        ]
+      },
+      "oracle_exhaustive_cases": 511,
+      "exhaustive_all_pass": true,
+      "max_execution_steps": 3,
+      "program_nodes": 3,
+      "model_rollouts": 0
+    },
+    {
+      "stage_id": "replace_R_to_B",
+      "training_suite": {
+        "parse_valid": true,
+        "reward": 1,
+        "passed_cases": 16,
+        "total_cases": 16,
+        "per_test": [
+          {
+            "test_id": "918061c83a70e7b54980a55d8a35266bc13afdb05dbce70713a3ee429b77c6e5",
+            "input": "B",
+            "pass": 1,
+            "reason": null,
+            "steps": 7
+          },
+          {
+            "test_id": "3be04550d6125d916c242bc18ddfe9da5c64b346bef49558d2c357b04e6dc43f",
+            "input": "R",
+            "pass": 1,
+            "reason": null,
+            "steps": 7
+          },
+          {
+            "test_id": "e0481d84dbd69b554b8d1c22e3614f58c0e3f922ca252f5536dedf2485412426",
+            "input": "BB",
+            "pass": 1,
+            "reason": null,
+            "steps": 9
+          },
+          {
+            "test_id": "5d4df6e53513eb207de08658577e4fa68abc59bcee5fd6a590c71c4d7fab2f45",
+            "input": "BR",
+            "pass": 1,
+            "reason": null,
+            "steps": 9
+          },
+          {
+            "test_id": "0905a04c0f964b020cae3e51b5514ea7b917ffd8eda3ef567cde38c09d082aeb",
+            "input": "RR",
+            "pass": 1,
+            "reason": null,
+            "steps": 9
+          },
+          {
+            "test_id": "68749cb2ca43e3a29cde0a895f6835059ad854e4334a8172f57077769614bec7",
+            "input": "BBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "5d5474c98904110ced5c577a7015c10606f478c1b182488a29d72628e667e480",
+            "input": "BBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "783427aa6e6396ebeadacb4aeac59d21916285526d01df2211d4c8699f934f0d",
+            "input": "BRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "8e68d04cbfe581f1533a26f8453e0dbfc6846599155e76704cd0b647437fd282",
+            "input": "BRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "2fdb0a6dcf1a6571c73807a883af2f025b83366e9915196aa2856cd7dc545a1b",
+            "input": "RBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "41b655cbe92c2008e9fc82de1f6221e1e143911e793f61eac83ef4339f7cc736",
+            "input": "RBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "550447d6e5e9fe2cbae0016ac126b15f45e4b847c8523951366deb65b8674c4b",
+            "input": "RRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "f1b61bff484ba1ad107a666204d711479f0c2c25232d287042c1c9191aed65f4",
+            "input": "RRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "706c1ad07efbd66b655045ae7ce9c551ea90b7f5e7d0b386664f64edf328ee8d",
+            "input": "RRBRBBRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 21
+          },
+          {
+            "test_id": "9ab634ed0d4d4fd6144af8bb929ce6e455a4e82b12c4fe91d26809d7fd7d87d2",
+            "input": "RBBBRBBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 21
+          },
+          {
+            "test_id": "9fe87cbbaaa38781e9b98ff45e930c4dbd4b00acc5297d38bb0103ab09b5c9fa",
+            "input": "RBBRBBRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 21
+          }
+        ]
+      },
+      "oracle_exhaustive_cases": 511,
+      "exhaustive_all_pass": true,
+      "max_execution_steps": 21,
+      "program_nodes": 6,
+      "model_rollouts": 0
+    },
+    {
+      "stage_id": "replace_RB_to_YG",
+      "training_suite": {
+        "parse_valid": true,
+        "reward": 1,
+        "passed_cases": 16,
+        "total_cases": 16,
+        "per_test": [
+          {
+            "test_id": "caa3e3597fea5c872b713be872fa9a5ba57a7285e35aa617a8d9969dc7e32967",
+            "input": "B",
+            "pass": 1,
+            "reason": null,
+            "steps": 7
+          },
+          {
+            "test_id": "969223237727e13504bde0f51b558cc1fe332b8fada184c52a1e3fcf82ba962f",
+            "input": "R",
+            "pass": 1,
+            "reason": null,
+            "steps": 7
+          },
+          {
+            "test_id": "eaae365adff6133ddf5045b8912a670369ccb3690187b341df7af76913cc3e96",
+            "input": "BB",
+            "pass": 1,
+            "reason": null,
+            "steps": 9
+          },
+          {
+            "test_id": "16e0d923463c15d9a46348b9a3956ea1f24b85fc70c54c84a238db87c562003a",
+            "input": "BR",
+            "pass": 1,
+            "reason": null,
+            "steps": 9
+          },
+          {
+            "test_id": "1f9ec560409514a77e90d4d6deac0e6a10b4381ec57a30ceec9583578ea1e85d",
+            "input": "RR",
+            "pass": 1,
+            "reason": null,
+            "steps": 9
+          },
+          {
+            "test_id": "306b6ccd5113b26342f12acf06f9942a17c6cd12c205c25c8610482b71dc396e",
+            "input": "BBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "9d03ab22e318338c88eb8c32ab94105ab36745e340e214632da4052e4d5b0035",
+            "input": "BBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "e5af41f74be3c96ffe311a6c59f2073b7d076fabcff5703a0f4b5fa0e5048426",
+            "input": "BRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "cd8388a7050406b9ac4d65c4ebc1d2ed3f4b0da3760bdf00578f74b596be9888",
+            "input": "BRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "df49e273d14989173c9e365426a71be017670d963b5b42fe17d3c5a32e741e55",
+            "input": "RBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "348b58bd78f18d80e1577f33cf1b3944d40f09206269b1bd587448f8d0c251c8",
+            "input": "RBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "c589dce5279fb3508d85b2121503cfd1dcac9d9666a5e9d75d6450e8e21b6335",
+            "input": "RRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "d39eeb96bbbe7e153dc19991e202d700add98ce396dc89c08fa99e79f06c5804",
+            "input": "RRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "ae38fe9483accbdfb96973c3215aa6a19c27eeb4364d7568830149bf8c97a18d",
+            "input": "RRBRBBRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 21
+          },
+          {
+            "test_id": "bfe3260eded06fb643fa96096c018f88647673916d4f297e57b4209d32054392",
+            "input": "RBBBRBBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 21
+          },
+          {
+            "test_id": "aee9fb4443e96e7fce6ccbbe0b4a015e88e68e3a85ecde887a2c7229a36bf8d9",
+            "input": "RBBRBBRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 21
+          }
+        ]
+      },
+      "oracle_exhaustive_cases": 511,
+      "exhaustive_all_pass": true,
+      "max_execution_steps": 21,
+      "program_nodes": 12,
+      "model_rollouts": 0
+    },
+    {
+      "stage_id": "prepend_R",
+      "training_suite": {
+        "parse_valid": true,
+        "reward": 1,
+        "passed_cases": 16,
+        "total_cases": 16,
+        "per_test": [
+          {
+            "test_id": "7fdb55ef9559512225dfa9ca9b168bce298e8558f865d1ca72aca3d3930edff5",
+            "input": "B",
+            "pass": 1,
+            "reason": null,
+            "steps": 8
+          },
+          {
+            "test_id": "e85c00d5fe3c8ab8ad79de5eb5f5926d8da16b8a799f7a3eaaaa585d30fd20a0",
+            "input": "R",
+            "pass": 1,
+            "reason": null,
+            "steps": 8
+          },
+          {
+            "test_id": "616fb02b219826124472f6ad8ad3b3a5c9056e6d7baeca31d899e59df56a258d",
+            "input": "BB",
+            "pass": 1,
+            "reason": null,
+            "steps": 10
+          },
+          {
+            "test_id": "f8efdea4a2fafff1385ae1b0c32e180d4d3095fc79a1acbcd10775ca2089a9ba",
+            "input": "BR",
+            "pass": 1,
+            "reason": null,
+            "steps": 10
+          },
+          {
+            "test_id": "6c600140c4cf3c372a23e8860d4d7e77fae503361fe87f4d33b874be45bb9e79",
+            "input": "RR",
+            "pass": 1,
+            "reason": null,
+            "steps": 10
+          },
+          {
+            "test_id": "6e8dbecdbd262e01b9b705da33e20c2fb5d126e1fa9f0ab6b59859a1cfefe3f1",
+            "input": "BBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 12
+          },
+          {
+            "test_id": "61695f5f0d4d85158a005003005c12aab5637da3a345e39d805739871352719a",
+            "input": "BBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 12
+          },
+          {
+            "test_id": "910ea9ce75fd190fa75343aad676118051e3ca31aa6ecee3fc8dea9a30fabc7d",
+            "input": "BRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 12
+          },
+          {
+            "test_id": "a1a11dad3827b7c84832f58c5d7d347053a984abfa179663f6a7d30f92eb1336",
+            "input": "BRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 12
+          },
+          {
+            "test_id": "528fc50a9f9a202f2b268236f662a53c3c093cfaaf8c4f1bfaab0751db64d7b1",
+            "input": "RBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 12
+          },
+          {
+            "test_id": "9da176f3a5e10cd5b6d49d1ce5e437450c0fb9a1724bb367d2371e73cdbdfba6",
+            "input": "RBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 12
+          },
+          {
+            "test_id": "647c53b9c754e0bd233378bb0ca865a8abca2fc8381b1d02d5c63e5f7bf58ac9",
+            "input": "RRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 12
+          },
+          {
+            "test_id": "7b4f0496d12450a17f166a90d726b7c05c7ee0cde00cf6654372a48f3feac709",
+            "input": "RRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 12
+          },
+          {
+            "test_id": "e46e8c085240e86c6dabae61e3ab3224e9d6a82bc0266df1e32656b4275240b4",
+            "input": "RRBRBBRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 22
+          },
+          {
+            "test_id": "d632c08f2578e44d55f4c2634633e0b5fd103ef4f4b747f556d71f6650ce3a52",
+            "input": "RBBBRBBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 22
+          },
+          {
+            "test_id": "d70ec6ef827b8d9b9c27a37b4594dbf0ac7a2b987f08188cdb09d0d5e598f6b5",
+            "input": "RBBRBBRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 22
+          }
+        ]
+      },
+      "oracle_exhaustive_cases": 511,
+      "exhaustive_all_pass": true,
+      "max_execution_steps": 22,
+      "program_nodes": 8,
+      "model_rollouts": 0
+    },
+    {
+      "stage_id": "prepend_RB",
+      "training_suite": {
+        "parse_valid": true,
+        "reward": 1,
+        "passed_cases": 16,
+        "total_cases": 16,
+        "per_test": [
+          {
+            "test_id": "89b3178042aa645f8245191d156a121b772eb015bdd3223e6d355b34428c1fe4",
+            "input": "B",
+            "pass": 1,
+            "reason": null,
+            "steps": 9
+          },
+          {
+            "test_id": "c3c8bf43420a5fdccf3ca5368411583b8b408747c2cfaa217d5ba95a4fad7a21",
+            "input": "R",
+            "pass": 1,
+            "reason": null,
+            "steps": 9
+          },
+          {
+            "test_id": "2c938fefe20047c695496b0006a5c29b8f6ca854fbf7c06bf69cf8e0e7f02f27",
+            "input": "BB",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "457ef6af48a510f16366d3826be907ad1ba8fd2f708c121444d5d399f28f2a58",
+            "input": "BR",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "e65240566d8ff0382134bebfdd36393702073b8492d51903ed31c32990f945b9",
+            "input": "RR",
+            "pass": 1,
+            "reason": null,
+            "steps": 11
+          },
+          {
+            "test_id": "35b7476479b716047dc0e354c9e7d357095a32c79c36417acfb489378bc134ed",
+            "input": "BBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 13
+          },
+          {
+            "test_id": "4c6d61fba4d9e1f1a2c9c6cd753739dea0719b5299add540e013386b23ff00a8",
+            "input": "BBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 13
+          },
+          {
+            "test_id": "f04340a5355833bea41af7880c6d8c67f5e5577a42ecbf138d9788dbaed40447",
+            "input": "BRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 13
+          },
+          {
+            "test_id": "305b7f28b08225eb6965c28bf4de2712032d0b61803b10a392cb9986d506cc8a",
+            "input": "BRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 13
+          },
+          {
+            "test_id": "75d2cbb679cebdd01b9c7651df8aced720877c636c76e6cf1958f15fbd1542e3",
+            "input": "RBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 13
+          },
+          {
+            "test_id": "c74855029aa60f0366cec1ee58a295ff2f231d949c0e12a909d2db3e38fab61e",
+            "input": "RBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 13
+          },
+          {
+            "test_id": "1721cb21be49d6afc9d82ab880877c97db502289343509b2cc2b7db90ef88341",
+            "input": "RRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 13
+          },
+          {
+            "test_id": "3314febd3af1ad81308a4dbb284e6b9fbfa87d23e9f25cdf06b16aac6450cf56",
+            "input": "RRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 13
+          },
+          {
+            "test_id": "f27ff5cb337602318a38b5f364046d9456c1ea245f08af04d3cf032ee1293038",
+            "input": "RRBRBBRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 23
+          },
+          {
+            "test_id": "6e660f94df2add9a6d05db058d53ed118775ce18d0f4f73d304362b8857e99c6",
+            "input": "RBBBRBBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 23
+          },
+          {
+            "test_id": "03af0fddcc774bbfa86138fc03df29d207600d539718a735d20b1c59d88b8fda",
+            "input": "RBBRBBRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 23
+          }
+        ]
+      },
+      "oracle_exhaustive_cases": 511,
+      "exhaustive_all_pass": true,
+      "max_execution_steps": 23,
+      "program_nodes": 9,
+      "model_rollouts": 0
+    },
+    {
+      "stage_id": "target_small2",
+      "training_suite": {
+        "parse_valid": true,
+        "reward": 1,
+        "passed_cases": 5,
+        "total_cases": 5,
+        "per_test": [
+          {
+            "test_id": "565906dd49e5adff6f08eb91d82e1a8af5b5f8419de2a2b49ae95fe1dc1a21db",
+            "input": "B",
+            "pass": 1,
+            "reason": null,
+            "steps": 13
+          },
+          {
+            "test_id": "a4ea1a437266763e6a37ec0b82587c73ea40a1f50f1b999d9975729e4b94760e",
+            "input": "R",
+            "pass": 1,
+            "reason": null,
+            "steps": 13
+          },
+          {
+            "test_id": "51d331eb87a68be08e0320707ec9579bba2dc49582cecce70870db9769baf2d1",
+            "input": "BB",
+            "pass": 1,
+            "reason": null,
+            "steps": 15
+          },
+          {
+            "test_id": "664bbf3324bf06eda4154a5a97cf96629021f9c84617867826afe818bbec2332",
+            "input": "BR",
+            "pass": 1,
+            "reason": null,
+            "steps": 15
+          },
+          {
+            "test_id": "5a89dc32a99abce5921cb112ff21f67d0dd7220c5515889a7e62f06baeb4a286",
+            "input": "RR",
+            "pass": 1,
+            "reason": null,
+            "steps": 15
+          }
+        ]
+      },
+      "oracle_exhaustive_cases": 7,
+      "exhaustive_all_pass": true,
+      "max_execution_steps": 15,
+      "program_nodes": 18,
+      "model_rollouts": 0
+    },
+    {
+      "stage_id": "target_small3",
+      "training_suite": {
+        "parse_valid": true,
+        "reward": 1,
+        "passed_cases": 13,
+        "total_cases": 13,
+        "per_test": [
+          {
+            "test_id": "c9b8e65f59f955025d6b3efd759eecf63cc7e3947fd575276e59a779632f2ad3",
+            "input": "B",
+            "pass": 1,
+            "reason": null,
+            "steps": 13
+          },
+          {
+            "test_id": "015add8400b96ffb7c29791ec95e4b8b1cb66b6cd50ad1009af770fdd033a68e",
+            "input": "R",
+            "pass": 1,
+            "reason": null,
+            "steps": 13
+          },
+          {
+            "test_id": "a3d17d6aa044fba57e4b7beb07a378cf9039b0774bfbbbc703f58019065b9240",
+            "input": "BB",
+            "pass": 1,
+            "reason": null,
+            "steps": 15
+          },
+          {
+            "test_id": "81be868eb0988fcaf814a993b8b7dbe381b591f4ccd9eea59827b29e58b77f0e",
+            "input": "BR",
+            "pass": 1,
+            "reason": null,
+            "steps": 15
+          },
+          {
+            "test_id": "126d7b1207bc9843fb70dcffa55bd5eda19d4711b7552b3a7ac9be0e36981c32",
+            "input": "RR",
+            "pass": 1,
+            "reason": null,
+            "steps": 15
+          },
+          {
+            "test_id": "32851b906d8d97b50912eb8485243ea8b56a66c9cff8d13f1092745ab10bd923",
+            "input": "BBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 17
+          },
+          {
+            "test_id": "d2af835fea6d60f99332566d3499acf9e856d17660af41520bb776dad4ad8d5b",
+            "input": "BBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 17
+          },
+          {
+            "test_id": "25c7c73cac73787f95dff59cb818cd31777b99b6df49809045ebe72c499638d7",
+            "input": "BRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 17
+          },
+          {
+            "test_id": "c89789342abde1cb466e2f2e35188d07999f5ebb736ddf387ea6baac8cbaaef8",
+            "input": "BRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 17
+          },
+          {
+            "test_id": "509ca29cfd59ca1ff239b3cb02f2c74eda30d79bddc99f9efaeaa91172d3d390",
+            "input": "RBB",
+            "pass": 1,
+            "reason": null,
+            "steps": 17
+          },
+          {
+            "test_id": "a528efdce86c063e69b27c2285cb810de6c4a881f721bb6c9c00499d18bc0cc3",
+            "input": "RBR",
+            "pass": 1,
+            "reason": null,
+            "steps": 17
+          },
+          {
+            "test_id": "6fc1415513c352116d163933dda58e9d13038ce1e2bc5eff0e8d7f6cbaa151fb",
+            "input": "RRB",
+            "pass": 1,
+            "reason": null,
+            "steps": 17
+          },
+          {
+            "test_id": "b8c85cd5d7df6e1399fa87d2dd84307f85df2717270076fb7b798067ffa17bb7",
+            "input": "RRR",
+            "pass": 1,
+            "reason": null,
+            "steps": 17
+          }
+        ]
+      },
+      "oracle_exhaustive_cases": 15,
+      "exhaustive_all_pass": true,
+      "max_execution_steps": 17,
+      "program_nodes": 18,
+      "model_rollouts": 0
+    }
+  ],
+  "all_pass": true,
+  "total_training_suite_tests": 130,
+  "total_exhaustive_oracle_tests": 3599
+}

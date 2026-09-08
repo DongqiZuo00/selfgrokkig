@@ -1,0 +1,4 @@
+*.md text eol=lf
+*.py text eol=lf
+snapshots/** -text
+manifests/** -text

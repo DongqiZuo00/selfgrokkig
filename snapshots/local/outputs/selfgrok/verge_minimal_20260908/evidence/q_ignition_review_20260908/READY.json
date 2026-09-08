@@ -1,0 +1,151 @@
+{
+  "status": "real_base_and_challenger_complete",
+  "plan": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/plan.json",
+  "base_fragment": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_named_41417194/base/fragment.json",
+  "plan_sha256": "6bda7e01b4fbeed9a737bfe979a4903baecdee60d8c554be88f17f4006f86113",
+  "baseline_contract_sha256": "58dc2e952655ea7de589c2298a161d327e1f8fac9df92fdae425a95adb4b2ba6",
+  "target_rows": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/benchmarks/generated/naming_round_v2/target_rows.json",
+  "target_rows_sha256": "1e1407c3f529cd60da01ebf9888dc1635dae9da405c40a0d050139d77ade9420",
+  "catalogue": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/benchmarks/generated/naming_round_v2/catalogue.json",
+  "catalogue_sha256": "4fbe279cfed264dc14f9a4fca8072d8c9adaf841bff33fda38587d5d6d2649d7",
+  "current_prompt_view_sha256": "22706996b598b5961ea73149600d4405dbdfe6500c4ba9917dd5cfd31e813b4e",
+  "source_files": {
+    "target_rows.json": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/benchmarks/generated/naming_round_v2/target_rows.json",
+      "file_sha256": "1e1407c3f529cd60da01ebf9888dc1635dae9da405c40a0d050139d77ade9420"
+    },
+    "target_view_metadata.json": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/benchmarks/generated/naming_round_v2/target_view_metadata.json",
+      "file_sha256": "cb3c3f1e8ccce71333a3c673cb391fde6e0f5476ec7336f1db31c8595a39b0fd"
+    },
+    "catalogue.json": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/benchmarks/generated/naming_round_v2/catalogue.json",
+      "file_sha256": "4fbe279cfed264dc14f9a4fca8072d8c9adaf841bff33fda38587d5d6d2649d7"
+    },
+    "stage_validation_evidence.json": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/benchmarks/generated/naming_round_v2/stage_validation_evidence.json",
+      "file_sha256": "0c527eb7fa01fc3f58ffe4a3ba8628ba4da765a9792480c264807e752ce1581a"
+    }
+  },
+  "entry_source": {
+    "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runtime/prepare_named_round.py",
+    "file_sha256": "f5232be361ba319dab2b89a18946f1ccddc09648197b8a7aac378a4337570890"
+  },
+  "source_adapter": {
+    "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/adapter_model.safetensors",
+    "file_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+  },
+  "source_challenger": {
+    "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_challenger/resume_u0000/adapter_model.safetensors",
+    "file_sha256": "9596df4348ee3d959661bf451864f2b8dafe454212bd16928a6774eba5f5a321"
+  },
+  "screen_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498",
+  "screen_sources": {
+    "summary": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/SUMMARY.json",
+      "file_sha256": "97f02ccadb333a2d92ab48453cf874e0d56a85905e56a8b4cf086f5056cbbe97"
+    },
+    "frozen": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/frozen_screen.json",
+      "file_sha256": "23dd5de0ed5dc3871176f0e93000b21d74a0c21911046e1442e49a253bf78f6f"
+    },
+    "task_file": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/benchmarks/generated/naming_prompt_v2/screen_tasks.json",
+      "file_sha256": "6c8bb5931d7dbc4386d9156ba5c31ed04bcd6bcd6e3dd72b3df87747f6153dd5"
+    },
+    "raw_evidence": [
+      {
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/00_identity_concise.json",
+        "file_sha256": "a054036c51fc3e126367d9505e637886c91ba7d9f5f0b902538cd3af5a938f13"
+      },
+      {
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/01_append_R_concise.json",
+        "file_sha256": "c292e502c6a140e42dd6ee3c3c72290d636404b689be6c8322d996a2109816b0"
+      },
+      {
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/02_append_B_concise.json",
+        "file_sha256": "215877b1718683776759b7564a39c5c1ecc66c697b16ee76d791a22a3ca723c7"
+      },
+      {
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/03_replace_R_to_B_concise.json",
+        "file_sha256": "5096b5670a6e40903a466dad2824a6915239bbfc17a79307aed257bb0dd10e68"
+      },
+      {
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/04_replace_RB_to_YG_concise.json",
+        "file_sha256": "48f836637e462d72dfa955b90044962543681fa31e1818640dd8496407174eb1"
+      },
+      {
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/05_prepend_R_concise.json",
+        "file_sha256": "8c8af9ab33d00e3412c83403c52e1864598221d2d44887c28e0c95d3b0a96563"
+      },
+      {
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/06_prepend_RB_concise.json",
+        "file_sha256": "d67602ee126f90a1197ed5ae1e6c9a443be9437ac4c182804bcac1e5bec5c2dc"
+      },
+      {
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/07_target_small2_concise.json",
+        "file_sha256": "fff3a67fbb521e648e0acb196d2e84a18ca10e02a82d1d1c7a7f40d0d3698928"
+      },
+      {
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/08_target_small3_concise.json",
+        "file_sha256": "cdc52514254d2fd18363bd83f76a714f0d39b4c52bf43f4f610ed16f3c678a2e"
+      },
+      {
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/09_identity_official.json",
+        "file_sha256": "a63deefe8ee3d0790316fc9707b5927af546d6e640cdb2974a3fff2e1fe7ff5a"
+      },
+      {
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/10_append_R_official.json",
+        "file_sha256": "e088d575abe63699fba9e9689e9a3e725212f91ff6ad68140c9a34f8bbad1195"
+      },
+      {
+        "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/11_append_B_official.json",
+        "file_sha256": "f46c2cf8a248418d2e022afa8fb83372ed2d064778169f05a2bf6f667044ecb5"
+      }
+    ]
+  },
+  "history_sources": {
+    "summary.json": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round1_result/summary.json",
+      "file_sha256": "d1b13121cb4722cf24e767b7024e00d363092718494c171bb0fd99f32e7368e9"
+    },
+    "round_score.json": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round1_result/round_score.json",
+      "file_sha256": "5730ed407ef7b93423a81ca745c9ed87afe43e22b8d21e50f680bf013533c8d9"
+    },
+    "delta.json": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round1_result/delta.json",
+      "file_sha256": "db89ec7309cd177bcb0cc85d0373ec9a0d08753c3b3a6873bb93b08468599b28"
+    },
+    "archive.json": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round1_result/archive.json",
+      "file_sha256": "debb770358506f51f87e785a2701d8d00e6d7d76d380d331b3ab8001cee43498"
+    },
+    "exchange.json": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round1_result/exchange.json",
+      "file_sha256": "f6a330ecc34dcf1255bca246054b77b35274f377476f0215634649ee1ad0e6de"
+    },
+    "plan.json": {
+      "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/plan.json",
+      "file_sha256": "30ec2b2206934c46fad19e9f44682bd03826eebc8a58b104558eaeed26fb8cb5"
+    }
+  },
+  "history_prompt_view_sha256": "6b1f0506a1ec26cd0e9fabe27ac3826b660b1701ab1b61c90941caee88d298f6",
+  "curricula": {
+    "g1": [
+      "prepend_RB",
+      "target_small3",
+      "prepend_R"
+    ],
+    "g2": [
+      "replace_RB_to_YG",
+      "target_small3",
+      "target_small2"
+    ],
+    "g3": [
+      "target_small3",
+      "prepend_R",
+      "prepend_RB"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+test_exact_task_order_caps_and_seeds (__main__.NamingViewTests.test_exact_task_order_caps_and_seeds) ... ok
+test_exactly_one_common_prompt_delta_all_other_fields_unchanged (__main__.NamingViewTests.test_exactly_one_common_prompt_delta_all_other_fields_unchanged) ... ok
+test_freeze_idempotent_refuses_replacement (__main__.NamingViewTests.test_freeze_idempotent_refuses_replacement) ... ok
+test_generic_names_do_not_fix_route (__main__.NamingViewTests.test_generic_names_do_not_fix_route) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.066s
+
+OK

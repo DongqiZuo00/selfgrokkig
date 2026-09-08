@@ -1,0 +1,410 @@
+{
+  "version": "verge_ignition_stage_catalogue_v1_20260908",
+  "status": "candidate_stages_CPU_oracles_only_model_ignition_unmeasured",
+  "fixed_target_parameters": {
+    "prepend_sequence": "RBYGRB",
+    "mutation_type": "replace_pattern_to_pattern",
+    "source_pattern": "RB",
+    "target_pattern": "YG"
+  },
+  "fixed_target_version": "verge_prepend_rb_v1_20260908",
+  "fixed_target_manifest_sha256": "e81af53883ff38670b0b1abfa26119be88d0057934e50e1b81e6a84801003a62",
+  "old_release_modified": false,
+  "model_results_read_to_choose_tasks": false,
+  "reference_is_training_supervision": false,
+  "variants": [
+    "compact",
+    "official_syntax"
+  ],
+  "candidates": [
+    {
+      "stage_id": "identity",
+      "kind": "tape_transform",
+      "task_definition": {
+        "operation": "identity",
+        "max_length": 8,
+        "alphabet": "RB",
+        "min_length": 0,
+        "output_alphabet": "RBYG"
+      },
+      "instance_tuple": [
+        "c4cf77ad5325939a97f5adef41c45ce19dc7e3727f7d5eb7f20bc3d6f49cee2d",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "case_count": 16,
+      "distinct_expected_outputs": 16,
+      "inputs": [
+        "B",
+        "R",
+        "BB",
+        "BR",
+        "RR",
+        "BBB",
+        "BBR",
+        "BRB",
+        "BRR",
+        "RBB",
+        "RBR",
+        "RRB",
+        "RRR",
+        "RRBRBBRR",
+        "RBBBRBBR",
+        "RBBRBBRR"
+      ],
+      "inputs_containing_RB": 7,
+      "empty_input_in_train_suite": false,
+      "protected_input_overlap": 0,
+      "reference_file": "references/identity.manufactoria"
+    },
+    {
+      "stage_id": "append_R",
+      "kind": "tape_transform",
+      "task_definition": {
+        "operation": "append",
+        "literal": "R",
+        "max_length": 8,
+        "alphabet": "RB",
+        "min_length": 0,
+        "output_alphabet": "RBYG"
+      },
+      "instance_tuple": [
+        "57b1de2dbd200bdd8fc0e3ecc91682b18d6b1aedbc7079ed6c94667aff79ab13",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "case_count": 16,
+      "distinct_expected_outputs": 16,
+      "inputs": [
+        "B",
+        "R",
+        "BB",
+        "BR",
+        "RR",
+        "BBB",
+        "BBR",
+        "BRB",
+        "BRR",
+        "RBB",
+        "RBR",
+        "RRB",
+        "RRR",
+        "RRBRBBRR",
+        "RBBBRBBR",
+        "RBBRBBRR"
+      ],
+      "inputs_containing_RB": 7,
+      "empty_input_in_train_suite": false,
+      "protected_input_overlap": 0,
+      "reference_file": "references/append_R.manufactoria"
+    },
+    {
+      "stage_id": "append_B",
+      "kind": "tape_transform",
+      "task_definition": {
+        "operation": "append",
+        "literal": "B",
+        "max_length": 8,
+        "alphabet": "RB",
+        "min_length": 0,
+        "output_alphabet": "RBYG"
+      },
+      "instance_tuple": [
+        "e05c3f0e041cc0eba83191c46a36bf163bbdea79fe0dc4157bc084cb157caa21",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "case_count": 16,
+      "distinct_expected_outputs": 16,
+      "inputs": [
+        "B",
+        "R",
+        "BB",
+        "BR",
+        "RR",
+        "BBB",
+        "BBR",
+        "BRB",
+        "BRR",
+        "RBB",
+        "RBR",
+        "RRB",
+        "RRR",
+        "RRBRBBRR",
+        "RBBBRBBR",
+        "RBBRBBRR"
+      ],
+      "inputs_containing_RB": 7,
+      "empty_input_in_train_suite": false,
+      "protected_input_overlap": 0,
+      "reference_file": "references/append_B.manufactoria"
+    },
+    {
+      "stage_id": "replace_R_to_B",
+      "kind": "tape_transform",
+      "task_definition": {
+        "operation": "replace",
+        "old": "R",
+        "new": "B",
+        "max_length": 8,
+        "alphabet": "RB",
+        "min_length": 0,
+        "output_alphabet": "RBYG"
+      },
+      "instance_tuple": [
+        "bc4ff1c270d28b1ab14680828692ba48adcf53a8e04d1f00ff55bd2bbc1b263a",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "case_count": 16,
+      "distinct_expected_outputs": 4,
+      "inputs": [
+        "B",
+        "R",
+        "BB",
+        "BR",
+        "RR",
+        "BBB",
+        "BBR",
+        "BRB",
+        "BRR",
+        "RBB",
+        "RBR",
+        "RRB",
+        "RRR",
+        "RRBRBBRR",
+        "RBBBRBBR",
+        "RBBRBBRR"
+      ],
+      "inputs_containing_RB": 7,
+      "empty_input_in_train_suite": false,
+      "protected_input_overlap": 0,
+      "reference_file": "references/replace_R_to_B.manufactoria"
+    },
+    {
+      "stage_id": "replace_RB_to_YG",
+      "kind": "registered",
+      "task_definition": {
+        "operation": "replace",
+        "old": "RB",
+        "new": "YG",
+        "max_length": 8,
+        "alphabet": "RB",
+        "min_length": 0,
+        "output_alphabet": "RBYG"
+      },
+      "instance_tuple": [
+        "12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "case_count": 16,
+      "distinct_expected_outputs": 16,
+      "inputs": [
+        "B",
+        "R",
+        "BB",
+        "BR",
+        "RR",
+        "BBB",
+        "BBR",
+        "BRB",
+        "BRR",
+        "RBB",
+        "RBR",
+        "RRB",
+        "RRR",
+        "RRBRBBRR",
+        "RBBBRBBR",
+        "RBBRBBRR"
+      ],
+      "inputs_containing_RB": 7,
+      "empty_input_in_train_suite": false,
+      "protected_input_overlap": 0,
+      "reference_file": "references/replace_RB_to_YG.manufactoria"
+    },
+    {
+      "stage_id": "prepend_R",
+      "kind": "tape_transform",
+      "task_definition": {
+        "operation": "prepend",
+        "literal": "R",
+        "max_length": 8,
+        "alphabet": "RB",
+        "min_length": 0,
+        "output_alphabet": "RBYG"
+      },
+      "instance_tuple": [
+        "dbc9c193aba35d835bf4114f279c236d87b2556c8fd494ca077d92ad820d4846",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "case_count": 16,
+      "distinct_expected_outputs": 16,
+      "inputs": [
+        "B",
+        "R",
+        "BB",
+        "BR",
+        "RR",
+        "BBB",
+        "BBR",
+        "BRB",
+        "BRR",
+        "RBB",
+        "RBR",
+        "RRB",
+        "RRR",
+        "RRBRBBRR",
+        "RBBBRBBR",
+        "RBBRBBRR"
+      ],
+      "inputs_containing_RB": 7,
+      "empty_input_in_train_suite": false,
+      "protected_input_overlap": 0,
+      "reference_file": "references/prepend_R.manufactoria"
+    },
+    {
+      "stage_id": "prepend_RB",
+      "kind": "tape_transform",
+      "task_definition": {
+        "operation": "prepend",
+        "literal": "RB",
+        "max_length": 8,
+        "alphabet": "RB",
+        "min_length": 0,
+        "output_alphabet": "RBYG"
+      },
+      "instance_tuple": [
+        "ff7e78db2ae681ca30467800ca47779e8fcc21abca91c923f7b4ab416f3958fc",
+        "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+      ],
+      "case_count": 16,
+      "distinct_expected_outputs": 16,
+      "inputs": [
+        "B",
+        "R",
+        "BB",
+        "BR",
+        "RR",
+        "BBB",
+        "BBR",
+        "BRB",
+        "BRR",
+        "RBB",
+        "RBR",
+        "RRB",
+        "RRR",
+        "RRBRBBRR",
+        "RBBBRBBR",
+        "RBBRBBRR"
+      ],
+      "inputs_containing_RB": 7,
+      "empty_input_in_train_suite": false,
+      "protected_input_overlap": 0,
+      "reference_file": "references/prepend_RB.manufactoria"
+    },
+    {
+      "stage_id": "target_small2",
+      "kind": "registered",
+      "task_definition": {
+        "operation": "fixed_target",
+        "max_length": 2,
+        "alphabet": "RB",
+        "min_length": 0,
+        "output_alphabet": "RBYG",
+        "parameters": {
+          "prepend_sequence": "RBYGRB",
+          "mutation_type": "replace_pattern_to_pattern",
+          "source_pattern": "RB",
+          "target_pattern": "YG"
+        }
+      },
+      "instance_tuple": [
+        "4123931be4048fafa2161b21e3521cfe14760279143a1db2b186326953e17280",
+        "4baf581fd2b125634a1bc04ffe69e711d1533d13d8b2eba910957d6b4155f352"
+      ],
+      "case_count": 5,
+      "distinct_expected_outputs": 5,
+      "inputs": [
+        "B",
+        "R",
+        "BB",
+        "BR",
+        "RR"
+      ],
+      "inputs_containing_RB": 0,
+      "empty_input_in_train_suite": false,
+      "protected_input_overlap": 0,
+      "reference_file": "references/target_small2.manufactoria"
+    },
+    {
+      "stage_id": "target_small3",
+      "kind": "registered",
+      "task_definition": {
+        "operation": "fixed_target",
+        "max_length": 3,
+        "alphabet": "RB",
+        "min_length": 0,
+        "output_alphabet": "RBYG",
+        "parameters": {
+          "prepend_sequence": "RBYGRB",
+          "mutation_type": "replace_pattern_to_pattern",
+          "source_pattern": "RB",
+          "target_pattern": "YG"
+        }
+      },
+      "instance_tuple": [
+        "1bbe0fce7485c119f79063aa1ff1db334e12f7e287e01376ac77b7aa001f887f",
+        "3956187c4e56535e528bef5707d6f3ebf8e0f270daa9f93d1d72780e8e29ac44"
+      ],
+      "case_count": 13,
+      "distinct_expected_outputs": 13,
+      "inputs": [
+        "B",
+        "R",
+        "BB",
+        "BR",
+        "RR",
+        "BBB",
+        "BBR",
+        "BRB",
+        "BRR",
+        "RBB",
+        "RBR",
+        "RRB",
+        "RRR"
+      ],
+      "inputs_containing_RB": 4,
+      "empty_input_in_train_suite": false,
+      "protected_input_overlap": 0,
+      "reference_file": "references/target_small3.manufactoria"
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\ddong\\Documents\\Codex\\2026-09-06\\hipergator-x20\\outputs\\selfgrok\\verge_operational_20260908\\benchmark\\benchmark.py": "cb59f723f4ef5148ec0de308b7d9e15d8b2093b798e37d8f90a4a1271ef751d9",
+    "C:\\Users\\ddong\\Documents\\Codex\\2026-09-06\\hipergator-x20\\outputs\\selfgrok\\verge_operational_20260908\\stages\\operational_stages.py": "8c06b0486485830c25ecc5f8e55d07e8fb05d1f5eb9b28aecbd11f2334d326cd",
+    "C:\\Users\\ddong\\Documents\\Codex\\2026-09-06\\hipergator-x20\\outputs\\selfgrok\\verge_operational_20260908\\benchmark\\generated\\target_prompt.txt": "da2df245942e43509a089db1ebd210375ceb54413dbd6ca1b06383e62f7c3686"
+  },
+  "protected_actual_input_count": 3090,
+  "frozen_target_split_sha256": {
+    "train": {
+      "count": 128,
+      "sha256": "89f79a4df80a5871db61a02cc4f36319e46300626fdcf6431e697923c13be585",
+      "distinct_input_tapes": 2396
+    },
+    "selection": {
+      "count": 64,
+      "sha256": "b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "distinct_input_tapes": 1087
+    },
+    "heldout": {
+      "count": 64,
+      "sha256": "de781c7b05b44daa5e538222d5652efc4cce3236e4495fc1786d237a414e3964",
+      "distinct_input_tapes": 987
+    },
+    "test": {
+      "count": 64,
+      "sha256": "4b488db1565a61772e55fb93db4e528636919fafe24d5dd2125ddfea0ee8d240",
+      "distinct_input_tapes": 1016
+    }
+  },
+  "row_file_sha256": {
+    "compact": "c7910a4a5b65bac6c6334e3c2e1cd1872579680717fb553418e3f24af322ed75",
+    "official_syntax": "41d01035e0a6b2c6d69d304670824c7e0f33db0619a373847e7918bfa10a3201"
+  }
+}

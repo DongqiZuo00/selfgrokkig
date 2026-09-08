@@ -1,0 +1,1239 @@
+{
+  "final_target_has_hint": false,
+  "hint_probe": {
+    "condition_id": "SYNTHETIC_HINT_BINARY_OUTCOMES_NO_MODEL_SAMPLING",
+    "instance_ids": [
+      "verge_prepend_rb_v1_20260908_train_0000",
+      "verge_prepend_rb_v1_20260908_train_0001",
+      "verge_prepend_rb_v1_20260908_train_0002",
+      "verge_prepend_rb_v1_20260908_train_0003",
+      "verge_prepend_rb_v1_20260908_train_0004",
+      "verge_prepend_rb_v1_20260908_train_0005",
+      "verge_prepend_rb_v1_20260908_train_0006",
+      "verge_prepend_rb_v1_20260908_train_0007",
+      "verge_prepend_rb_v1_20260908_train_0008",
+      "verge_prepend_rb_v1_20260908_train_0009",
+      "verge_prepend_rb_v1_20260908_train_0010",
+      "verge_prepend_rb_v1_20260908_train_0011",
+      "verge_prepend_rb_v1_20260908_train_0012",
+      "verge_prepend_rb_v1_20260908_train_0013",
+      "verge_prepend_rb_v1_20260908_train_0014",
+      "verge_prepend_rb_v1_20260908_train_0015",
+      "verge_prepend_rb_v1_20260908_train_0016",
+      "verge_prepend_rb_v1_20260908_train_0017",
+      "verge_prepend_rb_v1_20260908_train_0018",
+      "verge_prepend_rb_v1_20260908_train_0019",
+      "verge_prepend_rb_v1_20260908_train_0020",
+      "verge_prepend_rb_v1_20260908_train_0021",
+      "verge_prepend_rb_v1_20260908_train_0022",
+      "verge_prepend_rb_v1_20260908_train_0023",
+      "verge_prepend_rb_v1_20260908_train_0024",
+      "verge_prepend_rb_v1_20260908_train_0025",
+      "verge_prepend_rb_v1_20260908_train_0026",
+      "verge_prepend_rb_v1_20260908_train_0027",
+      "verge_prepend_rb_v1_20260908_train_0028",
+      "verge_prepend_rb_v1_20260908_train_0029",
+      "verge_prepend_rb_v1_20260908_train_0030",
+      "verge_prepend_rb_v1_20260908_train_0031"
+    ],
+    "rollout_seed_ids": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ],
+      [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ],
+      [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      [
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      [
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135
+      ],
+      [
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143
+      ],
+      [
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151
+      ],
+      [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159
+      ],
+      [
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167
+      ],
+      [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      [
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183
+      ],
+      [
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191
+      ],
+      [
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199
+      ],
+      [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207
+      ],
+      [
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      [
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223
+      ],
+      [
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231
+      ],
+      [
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239
+      ],
+      [
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247
+      ],
+      [
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255
+      ]
+    ],
+    "with_hint": [
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    ],
+    "without_hint": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "hint_probe_outcomes_are_synthetic": true,
+  "identity_definitions": {
+    "hinted_target": {
+      "benchmark_version": "verge_prepend_rb_v1_20260908",
+      "input_alphabet": "RB",
+      "max_input_length": 64,
+      "parameters": {
+        "mutation_type": "replace_pattern_to_pattern",
+        "prepend_sequence": "RBYGRB",
+        "source_pattern": "RB",
+        "target_pattern": "YG"
+      }
+    },
+    "registered": {
+      "alphabet": "RB",
+      "family": "prepend_identity",
+      "mutation_tier": 0,
+      "prefix": "R",
+      "tier": 0
+    },
+    "tape_transform": {
+      "alphabet": "RB",
+      "expression": {
+        "arg": {
+          "op": "input"
+        },
+        "op": "reverse"
+      },
+      "family": "tape_transform"
+    }
+  },
+  "library_is_synthetic_fixture_only": true,
+  "mode": "synthetic_CPU_integration_not_model_training",
+  "small_oracle_exact_pass": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "small_oracle_inputs": [
+    "B",
+    "R",
+    "BB",
+    "BR"
+  ],
+  "specifications": [
+    {
+      "distribution": {
+        "alphabet": "RB",
+        "corner_cases": [
+          "B",
+          "R",
+          "BB",
+          "BR"
+        ],
+        "max_length": 64,
+        "min_length": 0
+      },
+      "family": "prepend_identity",
+      "instance_tuples": [
+        [
+          "b89c5deb6d5be5c8b336ce593c6464a186196207fb654bb13357fedf731d9911",
+          "5deafb8dc5f68049632b7812181aec1f9153a964dab79fc91d73d6e0df67bd59"
+        ]
+      ],
+      "kind": "registered",
+      "mutation_tier": 0,
+      "tier": 0
+    },
+    {
+      "distribution": {
+        "alphabet": "RB",
+        "corner_cases": [
+          "B",
+          "R",
+          "BB",
+          "BR"
+        ],
+        "max_length": 64,
+        "min_length": 0
+      },
+      "expression": {
+        "arg": {
+          "op": "input"
+        },
+        "op": "reverse"
+      },
+      "instance_tuples": [
+        [
+          "566d7bc9b51f3946265cbe69410e7bee9a54137e804e44405fc1d8cf3545c256",
+          "5deafb8dc5f68049632b7812181aec1f9153a964dab79fc91d73d6e0df67bd59"
+        ]
+      ],
+      "kind": "tape_transform"
+    },
+    {
+      "distribution": {
+        "alphabet": "RB",
+        "corner_cases": [
+          "B",
+          "R",
+          "BB",
+          "BR"
+        ],
+        "max_length": 64,
+        "min_length": 0
+      },
+      "family": "fixed_prepend_target",
+      "hint_id": "SYNTHETIC_ORACLE_LIBRARY_FIXTURE",
+      "hint_relation": "smaller_train",
+      "instance_tuples": [
+        [
+          "ab3aaac9425169b5186a7aadf89c988f6f187d9531391901ecc124f2c1173ba0",
+          "5259ae323e016debf1c69e6d131f0ad23ea85c5828f0146eec7e2ae703470c00"
+        ]
+      ],
+      "kind": "hinted_target",
+      "mutation_tier": 0,
+      "target_size": 64,
+      "tier": 0
+    }
+  ],
+  "validations": [
+    {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "hint_regret": "NA",
+        "no_leakage": true,
+        "nonconstant": true
+      },
+      "details": {
+        "canonical_kind": "registered",
+        "case_count": 37,
+        "delta": 0.1,
+        "distinct_corner_outputs": 4,
+        "implementation": "verge-operational-20260908",
+        "leakage": {
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "35e1b2fd3183353f4f0e17e004d68b39f108db3cef045df126699d5e51f538eb",
+          "protected_tuple_count": 192
+        },
+        "legacy_alias_normalized": false,
+        "protocol_id": "synthetic-registry-prepend-identity-v1"
+      }
+    },
+    {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "hint_regret": "NA",
+        "no_leakage": true,
+        "nonconstant": true
+      },
+      "details": {
+        "canonical_kind": "tape_transform",
+        "case_count": 37,
+        "delta": 0.1,
+        "distinct_corner_outputs": 4,
+        "implementation": "verge-operational-20260908",
+        "leakage": {
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "35e1b2fd3183353f4f0e17e004d68b39f108db3cef045df126699d5e51f538eb",
+          "protected_tuple_count": 192
+        },
+        "legacy_alias_normalized": false,
+        "protocol_id": "verge-stage-cases-v1"
+      }
+    },
+    {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "hint_regret": true,
+        "no_leakage": true,
+        "nonconstant": true
+      },
+      "details": {
+        "canonical_kind": "hinted_target",
+        "case_count": 37,
+        "delta": 0.1,
+        "distinct_corner_outputs": 4,
+        "hint_probe": {
+          "accepted": true,
+          "condition_id": "SYNTHETIC_HINT_BINARY_OUTCOMES_NO_MODEL_SAMPLING",
+          "improves": true,
+          "mixed_groups_are_diagnostic_only": true,
+          "mixed_groups_with_hint": 32,
+          "mixed_groups_without_hint": 0,
+          "p_with_hint": 0.5,
+          "p_without_hint": 0.0,
+          "rollouts_per_arm": 256,
+          "shape_per_arm": [
+            32,
+            8
+          ],
+          "total_rollouts": 512,
+          "unsaturated": true
+        },
+        "hint_provenance": {
+          "entry_id": "SYNTHETIC_ORACLE_LIBRARY_FIXTURE",
+          "family": "fixed_prepend_target",
+          "instance_size": 2,
+          "program": "START start:\n    NEXT delimiter\n\nPAINTER_YELLOW delimiter:\n    NEXT prefix_0\n\nPAINTER_RED prefix_0:\n    NEXT prefix_1\n\nPAINTER_BLUE prefix_1:\n    NEXT prefix_2\n\nPAINTER_YELLOW prefix_2:\n    NEXT prefix_3\n\nPAINTER_GREEN prefix_3:\n    NEXT prefix_4\n\nPAINTER_RED prefix_4:\n    NEXT prefix_5\n\nPAINTER_BLUE prefix_5:\n    NEXT scan\n\nPULLER_RB scan:\n    [R] pending_r\n    [B] emit_b\n    [EMPTY] finish\n\nPAINTER_BLUE emit_b:\n    NEXT scan\n\nPULLER_RB pending_r:\n    [R] emit_r_pending\n    [B] emit_y\n    [EMPTY] finish_pending\n\nPAINTER_RED emit_r_pending:\n    NEXT pending_r\n\nPAINTER_YELLOW emit_y:\n    NEXT emit_g\n\nPAINTER_GREEN emit_g:\n    NEXT scan\n\nPULLER_YG finish:\n    [Y] end\n    [G] NONE\n    [EMPTY] NONE\n\nPULLER_YG finish_pending:\n    [Y] emit_last_r\n    [G] NONE\n    [EMPTY] NONE\n\nPAINTER_RED emit_last_r:\n    NEXT end\n\nEND end\n",
+          "program_sha256": "cc4b8449b93938085c07586de447760ad97e6e9d3adc1a6b6da2adaa4c3fdcf2",
+          "source_instance_tuple": [
+            "ab3aaac9425169b5186a7aadf89c988f6f187d9531391901ecc124f2c1173ba0",
+            "a3ef5189e1bbba5a79873d42841884b0131e6aec04b14ab341147a211fe63e1f"
+          ],
+          "source_split": "train",
+          "verification_id": "CPU-small-oracle-check",
+          "verification_test_ids": [
+            "5bb6a6d36bfb18c02de153e1856ee954b6903a01e4314ae671e1d0f7cd0da6a2",
+            "aa9e7e59a3b1fb7b2b88a8fdbe4803cb6862a04b9fe342547eeaf35ad81bd869",
+            "5334044026c90bbe5094d9f96399cdac114c666ed6b8de31ef00c68eb771ce4a",
+            "cf992cb3e6d21ffbfe176ff88f71915a6e8c512fa5c1f0f8589c6ed10e8524d0"
+          ],
+          "verifier_protocol_id": "verge_prepend_rb_v1_20260908"
+        },
+        "implementation": "verge-operational-20260908",
+        "leakage": {
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "35e1b2fd3183353f4f0e17e004d68b39f108db3cef045df126699d5e51f538eb",
+          "protected_tuple_count": 192
+        },
+        "legacy_alias_normalized": false,
+        "protocol_id": "verge_prepend_rb_v1_20260908"
+      }
+    }
+  ]
+}

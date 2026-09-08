@@ -1,0 +1,261 @@
+{
+  "suite": "verge_book_v2",
+  "source_document": "VERGE_self_play_revised.pdf: Algorithm 1, Sections 4-5, Appendices C/D/G/H/M/O",
+  "scope": "Full experimental matrix adapted to explicit user restrictions; not a multi-seed replication",
+  "backbone": "mistralai/Ministral-3-3B-Instruct-2512-BF16",
+  "training_seeds": [
+    42
+  ],
+  "initialization": "Exact copies of the original untrained rank16 alpha32 dropout0 v1 Solver/Challenger roots; empty autonomous archive; no learned v1 state",
+  "primary_arms": [
+    "verge",
+    "frozen",
+    "uncertainty",
+    "outcome"
+  ],
+  "maximum_outer_rounds": 6,
+  "branches_per_round": 4,
+  "training_tokens_per_branch": 524288,
+  "primary_block_total_loss_tokens": 50331648,
+  "completion_cap": 2048,
+  "group_size": 8,
+  "update_threshold_tokens": 16384,
+  "maximum_updates_per_branch": 100,
+  "solver_learning_rate": 0.00001,
+  "challenger_learning_rate": 0.000001,
+  "solver_optimizer": "fresh per branch, AdamW weight_decay0; immutable round-start KL reference",
+  "challenger_optimizer": "retain state across committed rounds; frozen arm never steps",
+  "kl_beta": 0.02,
+  "alpha_target_prompt_fraction": 0.25,
+  "eta_target_tail_token_fraction": 0.25,
+  "scope_max_drop": 0,
+  "scope_rule": "Observed non-decrease against current start and direct; no population guarantee",
+  "selection_instances": 64,
+  "selection_samples_per_instance": 8,
+  "completion_instances": 64,
+  "completion_samples": 1,
+  "reward_switch_q": 4,
+  "saturation_margin_delta": 0.1,
+  "selector_beta": 2,
+  "bootstrap_replicates": 2000,
+  "extra_screening_samples": 0,
+  "extra_stage_probe_samples": 0,
+  "uncertainty_definition": "Mean across stages of 1-2*abs(p-0.5); p is observed binary success over curriculum-only training rollouts, not target trajectory pooling",
+  "scope_guard_instances": 32,
+  "scope_guard_samples": 4,
+  "worker_gpu": "1 B200",
+  "worker_cpus": 8,
+  "worker_memory_gb": 32,
+  "maximum_concurrent_workers": 2,
+  "worker_wall_limit_hours": 2,
+  "no_early_success_stop": true,
+  "official_test_opened": false,
+  "test_opening_rule": "Only after all adaptive branches for that comparison are frozen; final test never restarts training",
+  "held_out_instances": 50,
+  "test_instances": 108,
+  "final_samples_per_instance": 32,
+  "pass_at_k": [
+    1,
+    4,
+    8,
+    16,
+    32
+  ],
+  "follow_on_tokens_per_candidate": 262144,
+  "shaping_coefficient_lambda": 1,
+  "replay_shuffle_count": 5,
+  "comparison_accounting": "Primary arms match loss-token allocations and report complete end-to-end generation/verification/GPU costs. A separate common-total-compute analysis is required before claiming manuscript total-compute matching.",
+  "required_matrix": [
+    {
+      "id": "primary_multiround",
+      "source": "5.1, Table1",
+      "arms": [
+        "verge",
+        "frozen",
+        "uncertainty",
+        "outcome"
+      ],
+      "status": "ready_to_execute"
+    },
+    {
+      "id": "direct_and_search",
+      "source": "Table1, AppendixD",
+      "arms": [
+        "binary_direct",
+        "dense_direct",
+        "dense_then_binary",
+        "target_only_search",
+        "random_curriculum",
+        "human_reference",
+        "uniform_stages",
+        "cross_family_only"
+      ],
+      "status": "implementation_pending"
+    },
+    {
+      "id": "total_compute_matching",
+      "source": "4,5.1,AppendixN",
+      "arms": [
+        "common_compute_curves",
+        "extended_direct_4x"
+      ],
+      "status": "implementation_pending"
+    },
+    {
+      "id": "feedback_placement",
+      "source": "Table2,AppendixD",
+      "arms": [
+        "outcome_binary",
+        "outcome_shaped",
+        "partial_binary",
+        "partial_shaped"
+      ],
+      "status": "implementation_pending"
+    },
+    {
+      "id": "generic_dsl",
+      "source": "5.3,AppendixD",
+      "arms": [
+        "generic_dsl_equal_budget"
+      ],
+      "status": "implementation_pending"
+    },
+    {
+      "id": "component_controls",
+      "source": "AppendixD,Table10",
+      "arms": [
+        "scalar_partial_credit",
+        "fresh_archive",
+        "fixed_initial_solver"
+      ],
+      "status": "implementation_pending"
+    },
+    {
+      "id": "challenger_new_curricula",
+      "source": "5.2,AppendixD",
+      "arms": [
+        "trained_empty_archive",
+        "frozen_empty_archive",
+        "trained_matched_archive",
+        "frozen_matched_archive"
+      ],
+      "status": "implementation_pending"
+    },
+    {
+      "id": "curriculum_replay",
+      "source": "5.2,AppendixD",
+      "arms": [
+        "discovered_order",
+        "five_shuffles",
+        "reverse",
+        "pooled",
+        "direct_reference"
+      ],
+      "status": "implementation_pending"
+    },
+    {
+      "id": "follow_on_all_candidates",
+      "source": "5.3,AppendixD/O",
+      "arms": [
+        "condition_ranking",
+        "uncertainty_ranking",
+        "random_ranking"
+      ],
+      "status": "implementation_pending"
+    },
+    {
+      "id": "partial_check_controls",
+      "source": "AppendixD",
+      "arms": [
+        "prefix_residual",
+        "coarse_execution",
+        "shifted_thresholds",
+        "deleted_thresholds",
+        "redundant_checks",
+        "shuffled_predicates",
+        "unrelated_target_checks"
+      ],
+      "status": "implementation_pending"
+    },
+    {
+      "id": "within_family_transfer",
+      "source": "5.4",
+      "arms": [
+        "held_out_generator_configurations"
+      ],
+      "status": "implementation_pending"
+    },
+    {
+      "id": "second_task_space",
+      "source": "5.4,Table10",
+      "arms": [
+        "target_A",
+        "target_B"
+      ],
+      "status": "choice_pending"
+    },
+    {
+      "id": "second_backbone",
+      "source": "5.4,Table10",
+      "arms": [
+        "Gemma"
+      ],
+      "status": "independent_runtime_adaptation_pending",
+      "model_family_selected_by_user": "Gemma",
+      "model_id": "google/gemma-4-12B",
+      "manuscript_size_band": "User-approved ~11.95B; outside original7-8B band, not same-size control",
+      "selection_record": "manifests/verge_book_v1_second_backbone_selection.json"
+    },
+    {
+      "id": "heterogeneous_set",
+      "source": "AppendixD/K",
+      "arms": [
+        "initial",
+        "binary_direct"
+      ],
+      "status": "needs_no_audit_protocol_resolution"
+    },
+    {
+      "id": "held_out_and_sealed_test",
+      "source": "AppendixG/M",
+      "arms": [
+        "all_frozen_endpoints"
+      ],
+      "status": "blocked_until_adaptive_work_frozen"
+    },
+    {
+      "id": "statistics_and_delivery",
+      "source": "Tables8-12,AppendixO",
+      "arms": [
+        "first_success_censoring",
+        "condition_profiles",
+        "resources",
+        "csv_figures_latex_results"
+      ],
+      "status": "pending_all_required_results"
+    }
+  ],
+  "explicit_user_overrides": [
+    "Mistral replaces Qwen",
+    "One training seed replaces six/three repetitions",
+    "No new eligibility audits or checkpoint hash scans",
+    "CPU memory cap64GB total",
+    "All experiments and caches remain inside self grok",
+    "2026-09-06 user approved separately versioned independent-RNG restart and its additional total compute cost"
+  ],
+  "completion_rule": "Never set suite_complete while any required matrix item lacks verified outputs or an explicit user-approved protocol exception. Primary-block completion alone is not experiment-book completion.",
+  "sampling_protocol": "per_prompt_disjoint_seed_ranges_v1",
+  "restart_authorization": "manifests/verge_book_v2_restart_authorization.json",
+  "sampling_recovery": {
+    "legacy_suite": "verge_book_v1",
+    "legacy_results_preserved": true,
+    "legacy_dispatch_remains_blocked": true,
+    "paired_base_stream_ids": "verge_book_v1_paired_rXX (unchanged)",
+    "parent_seed": "base + prompt_index * n",
+    "child_seed": "parent_seed + draw_index",
+    "http_max_concurrency": 8,
+    "cache_validation": "exact request, backend version and per-record seed/prompt mapping",
+    "additional_diagnostic_model_samples": 0,
+    "additional_restart_compute_disclosed": true
+  }
+}

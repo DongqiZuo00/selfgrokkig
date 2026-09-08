@@ -1,0 +1,13 @@
+test_all_branch_fragments_merge_and_score_using_same_interface (test_execute_round.ExecutorTests.test_all_branch_fragments_merge_and_score_using_same_interface) ... ok
+test_base_only_batches_are_8_and_seeds_are_chunk_not_per_sample (test_execute_round.ExecutorTests.test_base_only_batches_are_8_and_seeds_are_chunk_not_per_sample) ... ok
+test_default_factory_explicitly_enables_grammar (test_execute_round.ExecutorTests.test_default_factory_explicitly_enables_grammar) ... ok
+test_direct_constant_groups_never_update_save_or_resample_target_eval (test_execute_round.ExecutorTests.test_direct_constant_groups_never_update_save_or_resample_target_eval) ... ok
+test_frozen_input_interface_rejects_hint_and_wrong_plan (test_execute_round.ExecutorTests.test_frozen_input_interface_rejects_hint_and_wrong_plan) ... ok
+test_graph_cycle_uses_actual_nodes_routes_including_unreachable_component (test_execute_round.ExecutorTests.test_graph_cycle_uses_actual_nodes_routes_including_unreachable_component) ... ok
+test_mixed_training_uses_backend_update_and_saves_changed_weights_only (test_execute_round.ExecutorTests.test_mixed_training_uses_backend_update_and_saves_changed_weights_only) ... ok
+test_preproposal_base_contract_reuses_without_fabricated_q_plan (test_execute_round.ExecutorTests.test_preproposal_base_contract_reuses_without_fabricated_q_plan) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.127s
+
+OK

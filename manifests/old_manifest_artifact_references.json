@@ -1,0 +1,2327 @@
+{
+  "scope": "Structured relative project paths in the locally copied old manifests; path references are not proof that remote artifacts still exist.",
+  "manifest_count": 169,
+  "reference_count": 132,
+  "by_prefix": {
+    "checkpoints": 128,
+    "data": 4
+  },
+  "missing_at_conventional_old_mirror": {
+    "checkpoints": 128,
+    "data": 4
+  },
+  "references": [
+    {
+      "relative_project_path": "checkpoints/decisive_mistral_v5_5__oracle/resume_u0004",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/decisive_mistral_v5_5__oracle/resume_u0004",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_mistral_repair_acceptance.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_mistral_repair_acceptance_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_mistral_repair_v2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_mistral_round1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_mistral_round1_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v1_frozen_r00_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v1_frozen_r00_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_frozen_r00_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_frozen_r01.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v1_frozen_r01_candidate_1/resume_u0015",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v1_frozen_r01_candidate_1/resume_u0015",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_sampling_incident.json",
+          "json_pointer": "$/confirmed_durable_checkpoints_before_cancellation/1"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v1_frozen_r01_direct/resume_u0016",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v1_frozen_r01_direct/resume_u0016",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_sampling_incident.json",
+          "json_pointer": "$/confirmed_durable_checkpoints_before_cancellation/0"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v1_initial_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v1_initial_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_frozen_r00.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_outcome_r00.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_uncertainty_r00.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_verge_r00.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v1_initial_solver/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v1_initial_solver/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_frozen_r00.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_frozen_r00_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_frozen_r01.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_outcome_r00.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_outcome_r00_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v1_outcome_r00_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v1_outcome_r00_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_outcome_r00_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v1_uncertainty_r00_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v1_uncertainty_r00_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_uncertainty_r00_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v1_verge_r00_candidate_3/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v1_verge_r00_candidate_3/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_verge_r00_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_verge_r01.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_verge_r01_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v1_verge_r00_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v1_verge_r00_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_verge_r00_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_verge_r01.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v1_verge_r01_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v1_verge_r01_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_verge_r01_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r00_candidate_1/resume_u0027",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r00_candidate_1/resume_u0027",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r00_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r00_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r00_candidate_2/resume_u0031",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r00_candidate_2/resume_u0031",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r00_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r00_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r00_candidate_3/resume_u0031",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r00_candidate_3/resume_u0031",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r00_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r00_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r00_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r00_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r00_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r01.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r01_candidate_1/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r01_candidate_1/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r01_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r01_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r01_candidate_2/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r01_candidate_2/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r01_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r01_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r01_candidate_3/resume_u0028",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r01_candidate_3/resume_u0028",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r01_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r01_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r01_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r01_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r01_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r02.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r02_candidate_1/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r02_candidate_1/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r02_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r02_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r02_candidate_2/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r02_candidate_2/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r02_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r02_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r02_candidate_3/resume_u0028",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r02_candidate_3/resume_u0028",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r02_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r02_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r02_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r02_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r02_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r03.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r03_candidate_1/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r03_candidate_1/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r03_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r03_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r03_candidate_2/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r03_candidate_2/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r03_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r03_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r03_candidate_3/resume_u0027",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r03_candidate_3/resume_u0027",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r03_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r04.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r03_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r03_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r04_c1.json",
+          "json_pointer": "$/followon_source/source_solver_initial"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r03_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r03_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r03_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r04.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r04_candidate_1/resume_u0031",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r04_candidate_1/resume_u0031",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r04_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r04_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r04_candidate_2/resume_u0031",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r04_candidate_2/resume_u0031",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r04_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r04_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r04_candidate_3/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r04_candidate_3/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r04_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r05.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r05_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r04_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r04_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r04_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r04_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r04_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r05.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r05_candidate_1/resume_u0032",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r05_candidate_1/resume_u0032",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r05_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r05_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r05_candidate_2/resume_u0032",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r05_candidate_2/resume_u0032",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r05_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r05_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r05_candidate_3/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r05_candidate_3/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r05_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_frozen_r05_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_frozen_r05_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_frozen_r05_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r05_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_initial_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_initial_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r00.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r00.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r00.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_verge_r00.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r00.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r00_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r01.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r01_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_frozen_r02.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r00_candidate_1/resume_u0028",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r00_candidate_1/resume_u0028",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r00_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r00_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r00_candidate_2/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r00_candidate_2/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r00_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r00_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r00_candidate_3/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r00_candidate_3/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r00_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r00_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r00_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r00_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r00_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r01.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r01_candidate_1/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r01_candidate_1/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r01_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r01_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r01_candidate_2/resume_u0028",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r01_candidate_2/resume_u0028",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r01_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r01_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r01_candidate_3/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r01_candidate_3/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r01_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r01_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r01_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r01_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r01_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r02.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r02_candidate_1/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r02_candidate_1/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r02_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r02_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r02_candidate_2/resume_u0028",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r02_candidate_2/resume_u0028",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r02_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r02_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r02_candidate_3/resume_u0028",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r02_candidate_3/resume_u0028",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r02_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r02_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r02_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r02_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r02_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r03.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r03_candidate_1/resume_u0026",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r03_candidate_1/resume_u0026",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r03_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r03_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r03_candidate_2/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r03_candidate_2/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r03_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r03_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r03_candidate_3/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r03_candidate_3/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r03_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r04.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r03_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r03_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r04_c1.json",
+          "json_pointer": "$/followon_source/source_solver_initial"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r03_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r03_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r03_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r04.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r04_candidate_1/resume_u0031",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r04_candidate_1/resume_u0031",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r04_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r04_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r04_candidate_2/resume_u0031",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r04_candidate_2/resume_u0031",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r04_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r04_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r04_candidate_3/resume_u0031",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r04_candidate_3/resume_u0031",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r04_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r05.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r04_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r04_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r05_c1.json",
+          "json_pointer": "$/followon_source/source_solver_initial"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r04_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r04_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r04_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r05.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r05_candidate_1/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r05_candidate_1/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r05_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r05_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r05_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r05_candidate_2/resume_u0032",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r05_candidate_2/resume_u0032",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r05_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r05_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r05_candidate_3/resume_u0032",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r05_candidate_3/resume_u0032",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r05_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_outcome_r05_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_outcome_r05_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_outcome_r05_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_outcome_r05_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r00_candidate_1/resume_u0027",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r00_candidate_1/resume_u0027",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r00_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r00_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r00_candidate_2/resume_u0031",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r00_candidate_2/resume_u0031",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r00_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r01.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r01_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r02.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r00_c2.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r00_candidate_3/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r00_candidate_3/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r00_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r00_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r00_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r00_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r00_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r01.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r01_candidate_1/resume_u0031",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r01_candidate_1/resume_u0031",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r01_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r01_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r01_candidate_2/resume_u0031",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r01_candidate_2/resume_u0031",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r01_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r01_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r01_candidate_3/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r01_candidate_3/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r01_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r01_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r01_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r01_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r01_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r02.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r02_candidate_1/resume_u0032",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r02_candidate_1/resume_u0032",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r02_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r03.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r03_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r04.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r04_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r02_candidate_2/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r02_candidate_2/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r02_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r02_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r02_candidate_3/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r02_candidate_3/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r02_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r02_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r02_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r02_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r02_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r03.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r03_candidate_1/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r03_candidate_1/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r03_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r03_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r03_candidate_2/resume_u0032",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r03_candidate_2/resume_u0032",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r03_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r03_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r03_candidate_3/resume_u0032",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r03_candidate_3/resume_u0032",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r03_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r03_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r03_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r03_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r03_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r04.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r04_candidate_1/resume_u0032",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r04_candidate_1/resume_u0032",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r04_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r04_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r04_candidate_2/resume_u0031",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r04_candidate_2/resume_u0031",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r04_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r04_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r04_candidate_3/resume_u0031",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r04_candidate_3/resume_u0031",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r04_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r04_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r04_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r04_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r04_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r05.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r05_candidate_1/resume_u0032",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r05_candidate_1/resume_u0032",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r05_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r05_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r05_candidate_2/resume_u0032",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r05_candidate_2/resume_u0032",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r05_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r05_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r05_candidate_3/resume_u0032",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r05_candidate_3/resume_u0032",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r05_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_uncertainty_r05_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_uncertainty_r05_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_uncertainty_r05_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_uncertainty_r05_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r00_candidate_1/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r00_candidate_1/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r00_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r00_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r00_candidate_2/resume_u0031",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r00_candidate_2/resume_u0031",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r00_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r00_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r00_candidate_3/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r00_candidate_3/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r00_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r00_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r00_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r00_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_verge_r00_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_verge_r01.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r01_candidate_1/resume_u0031",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r01_candidate_1/resume_u0031",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r01_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r01_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r01_candidate_2/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r01_candidate_2/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r01_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r01_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r01_candidate_3/resume_u0027",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r01_candidate_3/resume_u0027",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r01_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r01_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r01_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r01_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_verge_r01_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_verge_r02.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r02_candidate_1/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r02_candidate_1/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r02_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r02_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r02_candidate_2/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r02_candidate_2/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r02_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r02_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r02_candidate_3/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r02_candidate_3/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r02_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r02_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r02_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r02_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_verge_r02_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_verge_r03.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r03_candidate_1/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r03_candidate_1/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r03_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r03_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r03_candidate_2/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r03_candidate_2/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r03_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r03_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r03_candidate_3/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r03_candidate_3/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r03_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r03_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r03_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r03_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_verge_r03_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_verge_r04.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r04_candidate_1/resume_u0028",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r04_candidate_1/resume_u0028",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r04_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r04_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r04_candidate_2/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r04_candidate_2/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r04_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r04_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r04_candidate_3/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r04_candidate_3/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r04_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r04_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r04_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r04_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_verge_r04_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_verge_r05.json",
+          "json_pointer": "$/challenger_start_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r05_candidate_1/resume_u0027",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r05_candidate_1/resume_u0027",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r05_c1.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r05_c1.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r05_candidate_2/resume_u0030",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r05_candidate_2/resume_u0030",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r05_c2.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r05_c2.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r05_candidate_3/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r05_candidate_3/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r05_c3.json",
+          "json_pointer": "$/solver_start"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_followon_v1_verge_r05_c3.json",
+          "json_pointer": "$/followon_source/source_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_book_v2_verge_r05_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_book_v2_verge_r05_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v2_verge_r05_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_binary_r00_direct/resume_u0026",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_binary_r00_direct/resume_u0026",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_binary_r01.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_binary_r01_direct/resume_u0026",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_binary_r01_direct/resume_u0026",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_binary_r02.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_binary_r02_direct/resume_u0026",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_binary_r02_direct/resume_u0026",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_binary_r03.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_binary_r03_direct/resume_u0028",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_binary_r03_direct/resume_u0028",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_binary_r04.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_binary_r04_direct/resume_u0027",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_binary_r04_direct/resume_u0027",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_binary_r05.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_dense_r00_direct/resume_u0027",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_dense_r00_direct/resume_u0027",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_dense_r01.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_dense_r01_direct/resume_u0026",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_dense_r01_direct/resume_u0026",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_dense_r02.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_dense_r02_direct/resume_u0026",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_dense_r02_direct/resume_u0026",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_dense_r03.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_dense_r03_direct/resume_u0027",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_dense_r03_direct/resume_u0027",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_dense_r04.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_dense_r04_direct/resume_u0025",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_dense_r04_direct/resume_u0025",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_dense_r05.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_dense_then_binary_r00_direct/resume_u0026",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_dense_then_binary_r00_direct/resume_u0026",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_dense_then_binary_r01.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_dense_then_binary_r01_direct/resume_u0027",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_dense_then_binary_r01_direct/resume_u0027",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_dense_then_binary_r02.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_dense_then_binary_r02_direct/resume_u0027",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_dense_then_binary_r02_direct/resume_u0027",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_dense_then_binary_r03.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_dense_then_binary_r03_direct/resume_u0027",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_dense_then_binary_r03_direct/resume_u0027",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_dense_then_binary_r04.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_control_v1_dense_then_binary_r04_direct/resume_u0027",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_control_v1_dense_then_binary_r04_direct/resume_u0027",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_control_v1_dense_then_binary_r05.json",
+          "json_pointer": "$/solver_start"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_mistral_repair_acceptance_challenger/resume_u0000",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_mistral_repair_acceptance_challenger/resume_u0000",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_mistral_repair_acceptance_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_mistral_repair_v2_candidate_1/resume_u0029",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_mistral_repair_v2_candidate_1/resume_u0029",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_mistral_repair_v2_complete.json",
+          "json_pointer": "$/solver_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_mistral_repair_v2_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_mistral_repair_v2_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_mistral_repair_v2_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "checkpoints/verge_mistral_round1_challenger/resume_u0001",
+      "artifact_prefix": "checkpoints",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/checkpoints/verge_mistral_round1_challenger/resume_u0001",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_mistral_round1_complete.json",
+          "json_pointer": "$/challenger_checkpoint"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "data/root/basic_mix",
+      "artifact_prefix": "data",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/data/root/basic_mix",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_frozen_r00.json",
+          "json_pointer": "$/scope_dataset"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_frozen_r01.json",
+          "json_pointer": "$/scope_dataset"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_outcome_r00.json",
+          "json_pointer": "$/scope_dataset"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_uncertainty_r00.json",
+          "json_pointer": "$/scope_dataset"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_verge_r00.json",
+          "json_pointer": "$/scope_dataset"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "data/verge_mistral_round1/target_completion",
+      "artifact_prefix": "data",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/data/verge_mistral_round1/target_completion",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_frozen_r00.json",
+          "json_pointer": "$/target_completion"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_frozen_r01.json",
+          "json_pointer": "$/target_completion"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_outcome_r00.json",
+          "json_pointer": "$/target_completion"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_uncertainty_r00.json",
+          "json_pointer": "$/target_completion"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_verge_r00.json",
+          "json_pointer": "$/target_completion"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "data/verge_mistral_round1/target_selection",
+      "artifact_prefix": "data",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/data/verge_mistral_round1/target_selection",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_frozen_r00.json",
+          "json_pointer": "$/target_selection"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_frozen_r01.json",
+          "json_pointer": "$/target_selection"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_outcome_r00.json",
+          "json_pointer": "$/target_selection"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_uncertainty_r00.json",
+          "json_pointer": "$/target_selection"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_verge_r00.json",
+          "json_pointer": "$/target_selection"
+        }
+      ],
+      "current_remote_existence_verified": false
+    },
+    {
+      "relative_project_path": "data/verge_mistral_round1/target_train",
+      "artifact_prefix": "data",
+      "mirror_path": "outputs/selfgrok/verge_review_20260908/review_copy/data/verge_mistral_round1/target_train",
+      "mirror_exists": false,
+      "evidence": [
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_frozen_r00.json",
+          "json_pointer": "$/target_train"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_frozen_r01.json",
+          "json_pointer": "$/target_train"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_outcome_r00.json",
+          "json_pointer": "$/target_train"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_uncertainty_r00.json",
+          "json_pointer": "$/target_train"
+        },
+        {
+          "source_manifest": "outputs/selfgrok/verge_review_20260908/review_copy/manifests/verge_book_v1_verge_r00.json",
+          "json_pointer": "$/target_train"
+        }
+      ],
+      "current_remote_existence_verified": false
+    }
+  ]
+}

@@ -1,0 +1,1030 @@
+{
+  "conditions_are_invented_fixture_not_model_verification": true,
+  "mode": "synthetic_CPU_integration_not_model_training",
+  "records": [
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_00",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_01",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_02",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_03",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_04",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_05",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_06",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_07",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_08",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_09",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_10",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_11",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_12",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_13",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_14",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_15",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_16",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_17",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_18",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_19",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_20",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_21",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_22",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_23",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_24",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_25",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_26",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_27",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_28",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_29",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_30",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0000",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_31",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_00",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_01",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_02",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_03",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_04",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_05",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_06",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_07",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_08",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_09",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_10",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_11",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_12",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_13",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_14",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_15",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_16",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_17",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_18",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_19",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_20",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_21",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_22",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_23",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_24",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_25",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_26",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_27",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_28",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_29",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_30",
+      "training_seed": 20260908
+    },
+    {
+      "checkpoint": "SYNTHETIC_SHARED_BASE",
+      "conditions": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "has_cycle": false,
+      "instance_id": "verge_prepend_rb_v1_20260908_selection_0001",
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_id": "synthetic_slot_31",
+      "training_seed": 20260908
+    }
+  ]
+}

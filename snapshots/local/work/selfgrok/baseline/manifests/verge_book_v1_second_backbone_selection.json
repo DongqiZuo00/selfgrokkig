@@ -1,0 +1,34 @@
+{
+  "suite": "verge_book_v1",
+  "record_type": "user_selected_secondary_backbone",
+  "selected_on": "2026-09-06",
+  "model_repo_id": "google/gemma-4-12B",
+  "source_url": "https://huggingface.co/google/gemma-4-12B",
+  "selection_authority": "Exact repository URL supplied by user after selecting Gemma as the second backbone",
+  "model_card_architecture": "Gemma 4 12B Unified",
+  "model_card_parameters_billion": 11.95,
+  "manuscript_original_size_band_billion": [7, 8],
+  "size_deviation": "User selected a 12B-class secondary backbone. Report both family and size change; this is not a parameter-matched backbone comparison.",
+  "primary_backbone_unchanged": "mistralai/Ministral-3-3B-Instruct-2512-BF16",
+  "primary_protocol_unchanged": true,
+  "primary_frozen_protocol": "raw_results/verge_book_v1/protocol_frozen.json",
+  "no_implicit_repository_substitution": true,
+  "model_card_example_note": "Some examples on this card use google/gemma-4-12B-it. The user supplied google/gemma-4-12B; do not silently replace that exact repository.",
+  "status": "model_selected_runtime_pending",
+  "model_weights_downloaded_by_this_selection": false,
+  "training_submitted": false,
+  "new_sampling_performed": false,
+  "runtime_requirements": [
+    "Use an isolated Gemma runtime; do not upgrade or change the running Mistral environment",
+    "Verify model architecture, tokenizer/chat template, EOS, thinking configuration, LoRA support and matched sampler/learner distributions before freezing the Gemma run",
+    "Initialize Gemma-native adapters; never reuse Mistral adapters or optimizer states",
+    "Use text-only task inputs; preserve the task verifier and fixed output-token budget",
+    "Keep all remote artifacts and caches within /blue/du.j/jinjiaguo/self grok",
+    "Share the experiment-wide ceiling of 2 B200 GPUs and 64 GB CPU memory with Mistral jobs; no automatic resource-cap increase"
+  ],
+  "second_task_space": {
+    "status": "pending_user_specification",
+    "selection_authority": "User chose to provide the task-space settings"
+  },
+  "amendment_rule": "This selection record resolves a pending matrix choice without rewriting the frozen primary protocol or claiming the secondary experiment has run."
+}

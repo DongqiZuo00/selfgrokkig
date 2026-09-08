@@ -1,0 +1,10 @@
+{
+  "repo_id": "mistralai/Ministral-3-3B-Instruct-2512-BF16",
+  "local_path": "/blue/du.j/jinjiaguo/self grok/models/Ministral-3-3B-Instruct-2512-BF16",
+  "qwen_prohibited": true,
+  "safetensor_files": [
+    "consolidated.safetensors",
+    "model-00001-of-00002.safetensors",
+    "model-00002-of-00002.safetensors"
+  ]
+}

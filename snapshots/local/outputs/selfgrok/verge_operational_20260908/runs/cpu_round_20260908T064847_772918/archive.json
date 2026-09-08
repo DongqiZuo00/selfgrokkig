@@ -1,0 +1,216 @@
+{
+  "cells": [
+    {
+      "candidate": {
+        "cycle_count": 0,
+        "evaluation": {
+          "checkpoint": "SYNTHETIC_g2_final",
+          "counts": [
+            [
+              32,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            [
+              32,
+              4,
+              4,
+              4,
+              4,
+              4
+            ]
+          ],
+          "instance_ids": [
+            "verge_prepend_rb_v1_20260908_selection_0000",
+            "verge_prepend_rb_v1_20260908_selection_0001"
+          ],
+          "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+          "sample_ids": [
+            "synthetic_slot_00",
+            "synthetic_slot_01",
+            "synthetic_slot_02",
+            "synthetic_slot_03",
+            "synthetic_slot_04",
+            "synthetic_slot_05",
+            "synthetic_slot_06",
+            "synthetic_slot_07",
+            "synthetic_slot_08",
+            "synthetic_slot_09",
+            "synthetic_slot_10",
+            "synthetic_slot_11",
+            "synthetic_slot_12",
+            "synthetic_slot_13",
+            "synthetic_slot_14",
+            "synthetic_slot_15",
+            "synthetic_slot_16",
+            "synthetic_slot_17",
+            "synthetic_slot_18",
+            "synthetic_slot_19",
+            "synthetic_slot_20",
+            "synthetic_slot_21",
+            "synthetic_slot_22",
+            "synthetic_slot_23",
+            "synthetic_slot_24",
+            "synthetic_slot_25",
+            "synthetic_slot_26",
+            "synthetic_slot_27",
+            "synthetic_slot_28",
+            "synthetic_slot_29",
+            "synthetic_slot_30",
+            "synthetic_slot_31"
+          ],
+          "training_seed": 20260908
+        }
+      },
+      "key": [
+        2,
+        0
+      ]
+    },
+    {
+      "candidate": {
+        "cycle_count": 64,
+        "evaluation": {
+          "checkpoint": "SYNTHETIC_g1_final",
+          "counts": [
+            [
+              32,
+              8,
+              8,
+              8,
+              8,
+              8
+            ],
+            [
+              32,
+              8,
+              8,
+              8,
+              8,
+              8
+            ]
+          ],
+          "instance_ids": [
+            "verge_prepend_rb_v1_20260908_selection_0000",
+            "verge_prepend_rb_v1_20260908_selection_0001"
+          ],
+          "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+          "sample_ids": [
+            "synthetic_slot_00",
+            "synthetic_slot_01",
+            "synthetic_slot_02",
+            "synthetic_slot_03",
+            "synthetic_slot_04",
+            "synthetic_slot_05",
+            "synthetic_slot_06",
+            "synthetic_slot_07",
+            "synthetic_slot_08",
+            "synthetic_slot_09",
+            "synthetic_slot_10",
+            "synthetic_slot_11",
+            "synthetic_slot_12",
+            "synthetic_slot_13",
+            "synthetic_slot_14",
+            "synthetic_slot_15",
+            "synthetic_slot_16",
+            "synthetic_slot_17",
+            "synthetic_slot_18",
+            "synthetic_slot_19",
+            "synthetic_slot_20",
+            "synthetic_slot_21",
+            "synthetic_slot_22",
+            "synthetic_slot_23",
+            "synthetic_slot_24",
+            "synthetic_slot_25",
+            "synthetic_slot_26",
+            "synthetic_slot_27",
+            "synthetic_slot_28",
+            "synthetic_slot_29",
+            "synthetic_slot_30",
+            "synthetic_slot_31"
+          ],
+          "training_seed": 20260908
+        }
+      },
+      "key": [
+        2,
+        1
+      ]
+    }
+  ],
+  "changes": {
+    "direct": "retained",
+    "g1": "inserted",
+    "g2": "replaced",
+    "g3": "retained"
+  },
+  "lead": {
+    "cycle_count": 64,
+    "evaluation": {
+      "checkpoint": "SYNTHETIC_g1_final",
+      "counts": [
+        [
+          32,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        [
+          32,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      ],
+      "instance_ids": [
+        "verge_prepend_rb_v1_20260908_selection_0000",
+        "verge_prepend_rb_v1_20260908_selection_0001"
+      ],
+      "manifest_id": "SYNTHETIC_CONDITIONS_USING_FROZEN_INSTANCE_IDS|b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "sample_ids": [
+        "synthetic_slot_00",
+        "synthetic_slot_01",
+        "synthetic_slot_02",
+        "synthetic_slot_03",
+        "synthetic_slot_04",
+        "synthetic_slot_05",
+        "synthetic_slot_06",
+        "synthetic_slot_07",
+        "synthetic_slot_08",
+        "synthetic_slot_09",
+        "synthetic_slot_10",
+        "synthetic_slot_11",
+        "synthetic_slot_12",
+        "synthetic_slot_13",
+        "synthetic_slot_14",
+        "synthetic_slot_15",
+        "synthetic_slot_16",
+        "synthetic_slot_17",
+        "synthetic_slot_18",
+        "synthetic_slot_19",
+        "synthetic_slot_20",
+        "synthetic_slot_21",
+        "synthetic_slot_22",
+        "synthetic_slot_23",
+        "synthetic_slot_24",
+        "synthetic_slot_25",
+        "synthetic_slot_26",
+        "synthetic_slot_27",
+        "synthetic_slot_28",
+        "synthetic_slot_29",
+        "synthetic_slot_30",
+        "synthetic_slot_31"
+      ],
+      "training_seed": 20260908
+    }
+  },
+  "mode": "synthetic_CPU_integration_not_model_training",
+  "saturated": false
+}

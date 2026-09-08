@@ -1,0 +1,18 @@
+{
+  "rounds_completed": 1,
+  "completed_at": 1788667437.6838167,
+  "solver_checkpoint": "checkpoints/decisive_mistral_v5_5__oracle/resume_u0004",
+  "challenger_checkpoint": "checkpoints/verge_mistral_round1_challenger/resume_u0001",
+  "scope_safe_continuation": true,
+  "artifacts": [
+    "raw_results/verge_mistral_round1/round_frozen.json",
+    "raw_results/verge_mistral_round1/decision.json",
+    "raw_results/verge_mistral_round1/challenger_update.json",
+    "raw_results/verge_mistral_round1/completion_profile.json",
+    "raw_results/verge_mistral_round1/compute_ledger.json",
+    "raw_results/verge_mistral_round1/archive.json",
+    "raw_results/verge_mistral_round1/RESULTS.md"
+  ],
+  "official_test_opened": false,
+  "claim_limit": "One warm-start outer round, not the completed paper experiment"
+}

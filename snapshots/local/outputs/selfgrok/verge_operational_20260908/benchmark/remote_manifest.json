@@ -1,0 +1,104 @@
+{
+  "version": "verge_prepend_rb_v1_20260908",
+  "status": "new_benchmark_spec_cpu_validated_model_regime_unmeasured",
+  "target_parameters": {
+    "prepend_sequence": "RBYGRB",
+    "mutation_type": "replace_pattern_to_pattern",
+    "source_pattern": "RB",
+    "target_pattern": "YG"
+  },
+  "input_alphabet": "RB",
+  "dsl_alphabet": "RBYG",
+  "length_range_inclusive": [
+    0,
+    64
+  ],
+  "class_ids": [
+    "matches_0__pending_r_0",
+    "matches_0__pending_r_1",
+    "matches_1__pending_r_0",
+    "matches_1__pending_r_1",
+    "matches_2plus__pending_r_0",
+    "matches_2plus__pending_r_1"
+  ],
+  "class_rule": "nonoverlapping RB count in {0,1,2plus} crossed with endswith(R)",
+  "empty_input_class": "matches_0__pending_r_0",
+  "empty_input_split": "selection",
+  "per_suite_class_denominators": {
+    "matches_0__pending_r_0": 6,
+    "matches_0__pending_r_1": 6,
+    "matches_1__pending_r_0": 6,
+    "matches_1__pending_r_1": 6,
+    "matches_2plus__pending_r_0": 6,
+    "matches_2plus__pending_r_1": 6
+  },
+  "tests_per_suite": 36,
+  "empty_class_policy": "reject dataset/profile",
+  "split_rule": "SHA256(version+'|input|'+tape) integer mod100: train<50; selection<70; heldout<85; else test",
+  "same_split_input_reuse": true,
+  "cross_split_input_reuse": false,
+  "support_generation": "all RB tapes length<=12; all B^a R^b length<=64; 4096 seeded random length13..64; repeated RB paths",
+  "support_count": 14417,
+  "support_sha256": "df0f751faddd3664278cfc54e1c09e97101009e1a480c132ac9a997e4405fd25",
+  "reference_usage": "CPU executable witness only; not Solver imitation data, hint, or model completion",
+  "prompt_sha256": "f73abb6fe8cb351a661e4b51850333f856ac1bad76184a6a012054767f534b7e",
+  "wrapper_sha256": "b6016c6e6bebd953542845a0feba7386f2640ae997823eb2c2a87a5a9e7befa7",
+  "model_results_read": false,
+  "independent_task_family_generalization": false,
+  "split_rows": {
+    "train": {
+      "count": 128,
+      "sha256": "89f79a4df80a5871db61a02cc4f36319e46300626fdcf6431e697923c13be585",
+      "distinct_input_tapes": 2396
+    },
+    "selection": {
+      "count": 64,
+      "sha256": "b2870c11e093e105b2e7457ece3a1bd2892ec9b0460935f536caa413ef1ab08e",
+      "distinct_input_tapes": 1087
+    },
+    "heldout": {
+      "count": 64,
+      "sha256": "de781c7b05b44daa5e538222d5652efc4cce3236e4495fc1786d237a414e3964",
+      "distinct_input_tapes": 987
+    },
+    "test": {
+      "count": 64,
+      "sha256": "4b488db1565a61772e55fb93db4e528636919fafe24d5dd2125ddfea0ee8d240",
+      "distinct_input_tapes": 1016
+    }
+  },
+  "pool_counts": {
+    "train": {
+      "matches_0__pending_r_0": 36,
+      "matches_0__pending_r_1": 1051,
+      "matches_1__pending_r_0": 150,
+      "matches_1__pending_r_1": 377,
+      "matches_2plus__pending_r_0": 2938,
+      "matches_2plus__pending_r_1": 2686
+    },
+    "selection": {
+      "matches_0__pending_r_0": 11,
+      "matches_0__pending_r_1": 398,
+      "matches_1__pending_r_0": 51,
+      "matches_1__pending_r_1": 133,
+      "matches_2plus__pending_r_0": 1197,
+      "matches_2plus__pending_r_1": 1085
+    },
+    "heldout": {
+      "matches_0__pending_r_0": 7,
+      "matches_0__pending_r_1": 322,
+      "matches_1__pending_r_0": 41,
+      "matches_1__pending_r_1": 102,
+      "matches_2plus__pending_r_0": 909,
+      "matches_2plus__pending_r_1": 767
+    },
+    "test": {
+      "matches_0__pending_r_0": 11,
+      "matches_0__pending_r_1": 309,
+      "matches_1__pending_r_0": 48,
+      "matches_1__pending_r_1": 114,
+      "matches_2plus__pending_r_0": 866,
+      "matches_2plus__pending_r_1": 808
+    }
+  }
+}

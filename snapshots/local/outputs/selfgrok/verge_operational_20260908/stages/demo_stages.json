@@ -1,0 +1,644 @@
+{
+  "synthetic_fixture": true,
+  "formal_model_training": false,
+  "model_rollouts_executed": 0,
+  "validations": {
+    "registered": {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "nonconstant": true,
+        "no_leakage": true,
+        "hint_regret": "NA"
+      },
+      "details": {
+        "implementation": "verge-operational-20260908",
+        "delta": 0.1,
+        "canonical_kind": "registered",
+        "legacy_alias_normalized": false,
+        "leakage": {
+          "protected_tuple_count": 3,
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "ca499a28c7a2de62dc0278cfb30e5ef869fe995326716e8c6f7b9558bc8856b1"
+        },
+        "protocol_id": "synthetic-reverse-tests-v1",
+        "case_count": 18,
+        "distinct_corner_outputs": 3
+      }
+    },
+    "tape_transform": {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "nonconstant": true,
+        "no_leakage": true,
+        "hint_regret": "NA"
+      },
+      "details": {
+        "implementation": "verge-operational-20260908",
+        "delta": 0.1,
+        "canonical_kind": "tape_transform",
+        "legacy_alias_normalized": false,
+        "leakage": {
+          "protected_tuple_count": 3,
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "ca499a28c7a2de62dc0278cfb30e5ef869fe995326716e8c6f7b9558bc8856b1"
+        },
+        "protocol_id": "verge-stage-cases-v1",
+        "case_count": 18,
+        "distinct_corner_outputs": 3
+      }
+    },
+    "hinted_target": {
+      "accepted": true,
+      "checks": {
+        "executable": true,
+        "nonconstant": true,
+        "no_leakage": true,
+        "hint_regret": true
+      },
+      "details": {
+        "implementation": "verge-operational-20260908",
+        "delta": 0.1,
+        "canonical_kind": "hinted_target",
+        "legacy_alias_normalized": false,
+        "leakage": {
+          "protected_tuple_count": 3,
+          "instance_count": 1,
+          "overlap_count": 0,
+          "protected_manifest_sha256": "ca499a28c7a2de62dc0278cfb30e5ef869fe995326716e8c6f7b9558bc8856b1"
+        },
+        "protocol_id": "synthetic-reverse-tests-v1",
+        "hint_provenance": {
+          "entry_id": "hint-1",
+          "program": "SYNTHETIC verified reverse example",
+          "program_sha256": "161af82b52e3599ef370d50b8b749edddbef1684a9f4e6348579f73648a51837",
+          "family": "reverse",
+          "instance_size": 2,
+          "source_instance_tuple": [
+            "c3ecdb17ccacb3425ddf015da4c6d51f63e846d64fba13fd664caf728bb7bbe6",
+            "3554d2b8a1e34099053865de8576d1460b807430ec8c6b85315c9607ba93d308"
+          ],
+          "source_split": "train",
+          "verification_id": "fixture-verifier-log-1",
+          "verifier_protocol_id": "synthetic-reverse-tests-v1",
+          "verification_test_ids": [
+            "fixture-a",
+            "fixture-b"
+          ]
+        },
+        "case_count": 18,
+        "distinct_corner_outputs": 3,
+        "hint_probe": {
+          "accepted": true,
+          "p_with_hint": 0.5,
+          "p_without_hint": 0.0,
+          "improves": true,
+          "unsaturated": true,
+          "mixed_groups_with_hint": 32,
+          "mixed_groups_without_hint": 0,
+          "shape_per_arm": [
+            32,
+            8
+          ],
+          "rollouts_per_arm": 256,
+          "total_rollouts": 512,
+          "condition_id": "synthetic-binary-full-pass-v1",
+          "mixed_groups_are_diagnostic_only": true
+        }
+      }
+    }
+  },
+  "rft_plan_only": {
+    "cumulative_examples": [
+      {
+        "base": {
+          "cell": [
+            1,
+            0
+          ],
+          "checkpoint_id": "synthetic-base"
+        },
+        "branch_id": "g1",
+        "candidate_evidence_id": "fixture-g1-rate-log",
+        "context": {
+          "delta": [
+            [
+              0.1,
+              0.1
+            ]
+          ],
+          "synthetic_fixture": true
+        },
+        "curriculum": [
+          {
+            "distribution": {
+              "alphabet": "ab",
+              "corner_cases": [
+                "",
+                "ab",
+                "b"
+              ],
+              "max_length": 4,
+              "min_length": 0
+            },
+            "expression": {
+              "arg": {
+                "op": "input"
+              },
+              "op": "reverse"
+            },
+            "instance_tuples": [
+              [
+                "c3ecdb17ccacb3425ddf015da4c6d51f63e846d64fba13fd664caf728bb7bbe6",
+                "0cc35bd5d2367973e3201926afdf3b7cf25b61ff2fc3f1f735fefff81137b0d5"
+              ]
+            ],
+            "kind": "tape_transform"
+          }
+        ],
+        "example_id": "28cc497ccd525c00fa2e961bc05f9e1a7448438e6d6e61535083c4ecfb68c736",
+        "gamma": 0.2,
+        "paired_ci": [
+          0.1,
+          0.3
+        ],
+        "provenance": {
+          "condition_id": "fixed-kappa-1",
+          "evidence_id": "fixture-1-round-1",
+          "run_id": "fixture-run"
+        },
+        "round_id": "round-1",
+        "seed": 1
+      },
+      {
+        "base": {
+          "cell": [
+            1,
+            0
+          ],
+          "checkpoint_id": "synthetic-base"
+        },
+        "branch_id": "g1",
+        "candidate_evidence_id": "fixture-g1-rate-log",
+        "context": {
+          "delta": [
+            [
+              0.1,
+              0.1
+            ]
+          ],
+          "synthetic_fixture": true
+        },
+        "curriculum": [
+          {
+            "distribution": {
+              "alphabet": "ab",
+              "corner_cases": [
+                "",
+                "ab",
+                "b"
+              ],
+              "max_length": 4,
+              "min_length": 0
+            },
+            "expression": {
+              "arg": {
+                "op": "input"
+              },
+              "op": "reverse"
+            },
+            "instance_tuples": [
+              [
+                "c3ecdb17ccacb3425ddf015da4c6d51f63e846d64fba13fd664caf728bb7bbe6",
+                "0cc35bd5d2367973e3201926afdf3b7cf25b61ff2fc3f1f735fefff81137b0d5"
+              ]
+            ],
+            "kind": "tape_transform"
+          }
+        ],
+        "example_id": "f1c1f653ceac2dfd63fc99e89fb6eb75023b86ee9f51bd4c411f5a14c4723f9d",
+        "gamma": 0.2,
+        "paired_ci": [
+          0.1,
+          0.3
+        ],
+        "provenance": {
+          "condition_id": "fixed-kappa-1",
+          "evidence_id": "fixture-2-round-1",
+          "run_id": "fixture-run"
+        },
+        "round_id": "round-1",
+        "seed": 2
+      }
+    ],
+    "dataset_sha256": "fd32dc68c6e64341fe917de834f156fbd6998077554fee47a37c3413550f3404",
+    "epochs": 1,
+    "example_ids": [
+      "28cc497ccd525c00fa2e961bc05f9e1a7448438e6d6e61535083c4ecfb68c736",
+      "f1c1f653ceac2dfd63fc99e89fb6eb75023b86ee9f51bd4c411f5a14c4723f9d"
+    ],
+    "method": "rejection_sampling_fine_tuning",
+    "new_count_at_plan": 2,
+    "plan_id": "challenger-rft-1"
+  },
+  "buffer": {
+    "active_plan": {
+      "cumulative_examples": [
+        {
+          "base": {
+            "cell": [
+              1,
+              0
+            ],
+            "checkpoint_id": "synthetic-base"
+          },
+          "branch_id": "g1",
+          "candidate_evidence_id": "fixture-g1-rate-log",
+          "context": {
+            "delta": [
+              [
+                0.1,
+                0.1
+              ]
+            ],
+            "synthetic_fixture": true
+          },
+          "curriculum": [
+            {
+              "distribution": {
+                "alphabet": "ab",
+                "corner_cases": [
+                  "",
+                  "ab",
+                  "b"
+                ],
+                "max_length": 4,
+                "min_length": 0
+              },
+              "expression": {
+                "arg": {
+                  "op": "input"
+                },
+                "op": "reverse"
+              },
+              "instance_tuples": [
+                [
+                  "c3ecdb17ccacb3425ddf015da4c6d51f63e846d64fba13fd664caf728bb7bbe6",
+                  "0cc35bd5d2367973e3201926afdf3b7cf25b61ff2fc3f1f735fefff81137b0d5"
+                ]
+              ],
+              "kind": "tape_transform"
+            }
+          ],
+          "example_id": "28cc497ccd525c00fa2e961bc05f9e1a7448438e6d6e61535083c4ecfb68c736",
+          "gamma": 0.2,
+          "paired_ci": [
+            0.1,
+            0.3
+          ],
+          "provenance": {
+            "condition_id": "fixed-kappa-1",
+            "evidence_id": "fixture-1-round-1",
+            "run_id": "fixture-run"
+          },
+          "round_id": "round-1",
+          "seed": 1
+        },
+        {
+          "base": {
+            "cell": [
+              1,
+              0
+            ],
+            "checkpoint_id": "synthetic-base"
+          },
+          "branch_id": "g1",
+          "candidate_evidence_id": "fixture-g1-rate-log",
+          "context": {
+            "delta": [
+              [
+                0.1,
+                0.1
+              ]
+            ],
+            "synthetic_fixture": true
+          },
+          "curriculum": [
+            {
+              "distribution": {
+                "alphabet": "ab",
+                "corner_cases": [
+                  "",
+                  "ab",
+                  "b"
+                ],
+                "max_length": 4,
+                "min_length": 0
+              },
+              "expression": {
+                "arg": {
+                  "op": "input"
+                },
+                "op": "reverse"
+              },
+              "instance_tuples": [
+                [
+                  "c3ecdb17ccacb3425ddf015da4c6d51f63e846d64fba13fd664caf728bb7bbe6",
+                  "0cc35bd5d2367973e3201926afdf3b7cf25b61ff2fc3f1f735fefff81137b0d5"
+                ]
+              ],
+              "kind": "tape_transform"
+            }
+          ],
+          "example_id": "f1c1f653ceac2dfd63fc99e89fb6eb75023b86ee9f51bd4c411f5a14c4723f9d",
+          "gamma": 0.2,
+          "paired_ci": [
+            0.1,
+            0.3
+          ],
+          "provenance": {
+            "condition_id": "fixed-kappa-1",
+            "evidence_id": "fixture-2-round-1",
+            "run_id": "fixture-run"
+          },
+          "round_id": "round-1",
+          "seed": 2
+        }
+      ],
+      "dataset_sha256": "fd32dc68c6e64341fe917de834f156fbd6998077554fee47a37c3413550f3404",
+      "epochs": 1,
+      "example_ids": [
+        "28cc497ccd525c00fa2e961bc05f9e1a7448438e6d6e61535083c4ecfb68c736",
+        "f1c1f653ceac2dfd63fc99e89fb6eb75023b86ee9f51bd4c411f5a14c4723f9d"
+      ],
+      "method": "rejection_sampling_fine_tuning",
+      "new_count_at_plan": 2,
+      "plan_id": "challenger-rft-1"
+    },
+    "archive": [
+      {
+        "base": {
+          "cell": [
+            1,
+            0
+          ],
+          "checkpoint_id": "synthetic-base"
+        },
+        "candidates": [
+          {
+            "branch_id": "g1",
+            "curriculum": [
+              {
+                "distribution": {
+                  "alphabet": "ab",
+                  "corner_cases": [
+                    "",
+                    "ab",
+                    "b"
+                  ],
+                  "max_length": 4,
+                  "min_length": 0
+                },
+                "expression": {
+                  "arg": {
+                    "op": "input"
+                  },
+                  "op": "reverse"
+                },
+                "instance_tuples": [
+                  [
+                    "c3ecdb17ccacb3425ddf015da4c6d51f63e846d64fba13fd664caf728bb7bbe6",
+                    "0cc35bd5d2367973e3201926afdf3b7cf25b61ff2fc3f1f735fefff81137b0d5"
+                  ]
+                ],
+                "kind": "tape_transform"
+              }
+            ],
+            "evidence_id": "fixture-g1-rate-log",
+            "gamma": 0.2,
+            "paired_ci": [
+              0.1,
+              0.3
+            ]
+          }
+        ],
+        "context": {
+          "delta": [
+            [
+              0.1,
+              0.1
+            ]
+          ],
+          "synthetic_fixture": true
+        },
+        "j_plus": [
+          "g1"
+        ],
+        "provenance": {
+          "condition_id": "fixed-kappa-1",
+          "evidence_id": "fixture-1-round-1",
+          "run_id": "fixture-run"
+        },
+        "round_id": "round-1",
+        "seed": 1
+      },
+      {
+        "base": {
+          "cell": [
+            1,
+            0
+          ],
+          "checkpoint_id": "synthetic-base"
+        },
+        "candidates": [
+          {
+            "branch_id": "g1",
+            "curriculum": [
+              {
+                "distribution": {
+                  "alphabet": "ab",
+                  "corner_cases": [
+                    "",
+                    "ab",
+                    "b"
+                  ],
+                  "max_length": 4,
+                  "min_length": 0
+                },
+                "expression": {
+                  "arg": {
+                    "op": "input"
+                  },
+                  "op": "reverse"
+                },
+                "instance_tuples": [
+                  [
+                    "c3ecdb17ccacb3425ddf015da4c6d51f63e846d64fba13fd664caf728bb7bbe6",
+                    "0cc35bd5d2367973e3201926afdf3b7cf25b61ff2fc3f1f735fefff81137b0d5"
+                  ]
+                ],
+                "kind": "tape_transform"
+              }
+            ],
+            "evidence_id": "fixture-g1-rate-log",
+            "gamma": 0.2,
+            "paired_ci": [
+              0.1,
+              0.3
+            ]
+          }
+        ],
+        "context": {
+          "delta": [
+            [
+              0.1,
+              0.1
+            ]
+          ],
+          "synthetic_fixture": true
+        },
+        "j_plus": [
+          "g1"
+        ],
+        "provenance": {
+          "condition_id": "fixed-kappa-1",
+          "evidence_id": "fixture-2-round-1",
+          "run_id": "fixture-run"
+        },
+        "round_id": "round-1",
+        "seed": 2
+      }
+    ],
+    "completed_updates": [],
+    "examples": [
+      {
+        "base": {
+          "cell": [
+            1,
+            0
+          ],
+          "checkpoint_id": "synthetic-base"
+        },
+        "branch_id": "g1",
+        "candidate_evidence_id": "fixture-g1-rate-log",
+        "context": {
+          "delta": [
+            [
+              0.1,
+              0.1
+            ]
+          ],
+          "synthetic_fixture": true
+        },
+        "curriculum": [
+          {
+            "distribution": {
+              "alphabet": "ab",
+              "corner_cases": [
+                "",
+                "ab",
+                "b"
+              ],
+              "max_length": 4,
+              "min_length": 0
+            },
+            "expression": {
+              "arg": {
+                "op": "input"
+              },
+              "op": "reverse"
+            },
+            "instance_tuples": [
+              [
+                "c3ecdb17ccacb3425ddf015da4c6d51f63e846d64fba13fd664caf728bb7bbe6",
+                "0cc35bd5d2367973e3201926afdf3b7cf25b61ff2fc3f1f735fefff81137b0d5"
+              ]
+            ],
+            "kind": "tape_transform"
+          }
+        ],
+        "example_id": "28cc497ccd525c00fa2e961bc05f9e1a7448438e6d6e61535083c4ecfb68c736",
+        "gamma": 0.2,
+        "paired_ci": [
+          0.1,
+          0.3
+        ],
+        "provenance": {
+          "condition_id": "fixed-kappa-1",
+          "evidence_id": "fixture-1-round-1",
+          "run_id": "fixture-run"
+        },
+        "round_id": "round-1",
+        "seed": 1
+      },
+      {
+        "base": {
+          "cell": [
+            1,
+            0
+          ],
+          "checkpoint_id": "synthetic-base"
+        },
+        "branch_id": "g1",
+        "candidate_evidence_id": "fixture-g1-rate-log",
+        "context": {
+          "delta": [
+            [
+              0.1,
+              0.1
+            ]
+          ],
+          "synthetic_fixture": true
+        },
+        "curriculum": [
+          {
+            "distribution": {
+              "alphabet": "ab",
+              "corner_cases": [
+                "",
+                "ab",
+                "b"
+              ],
+              "max_length": 4,
+              "min_length": 0
+            },
+            "expression": {
+              "arg": {
+                "op": "input"
+              },
+              "op": "reverse"
+            },
+            "instance_tuples": [
+              [
+                "c3ecdb17ccacb3425ddf015da4c6d51f63e846d64fba13fd664caf728bb7bbe6",
+                "0cc35bd5d2367973e3201926afdf3b7cf25b61ff2fc3f1f735fefff81137b0d5"
+              ]
+            ],
+            "kind": "tape_transform"
+          }
+        ],
+        "example_id": "f1c1f653ceac2dfd63fc99e89fb6eb75023b86ee9f51bd4c411f5a14c4723f9d",
+        "gamma": 0.2,
+        "paired_ci": [
+          0.1,
+          0.3
+        ],
+        "provenance": {
+          "condition_id": "fixed-kappa-1",
+          "evidence_id": "fixture-2-round-1",
+          "run_id": "fixture-run"
+        },
+        "round_id": "round-1",
+        "seed": 2
+      }
+    ],
+    "failed_updates": [],
+    "n_min": 2,
+    "new_count": 2,
+    "trained_ids": [],
+    "zero_positive_rounds": 0
+  }
+}

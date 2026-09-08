@@ -1,0 +1,15 @@
+test_archive_keeps_new_cells_and_requires_significant_replacement (__main__.ExplicitSpecFixtures.test_archive_keeps_new_cells_and_requires_significant_replacement) ... ok
+test_empty_missing_duplicate_classes_rejected (__main__.ExplicitSpecFixtures.test_empty_missing_duplicate_classes_rejected) ... ok
+test_fixed_denominator_preserves_timeout_failure (__main__.ExplicitSpecFixtures.test_fixed_denominator_preserves_timeout_failure) ... ok
+test_full_pass_requires_all_classes (__main__.ExplicitSpecFixtures.test_full_pass_requires_all_classes) ... ok
+test_hint_rate_increase_without_mixed_groups (__main__.ExplicitSpecFixtures.test_hint_rate_increase_without_mixed_groups) ... ok
+test_jplus_rejects_zero_or_crossing_ci (__main__.ExplicitSpecFixtures.test_jplus_rejects_zero_or_crossing_ci) ... ok
+test_lead_can_have_worse_full_pass (__main__.ExplicitSpecFixtures.test_lead_can_have_worse_full_pass) ... ok
+test_minimum_is_not_pooled_fraction (__main__.ExplicitSpecFixtures.test_minimum_is_not_pooled_fraction) ... ok
+test_positive_gain_can_fail_to_change_archive (__main__.ExplicitSpecFixtures.test_positive_gain_can_fail_to_change_archive) ... ok
+test_switch_requires_two_branches_including_direct (__main__.ExplicitSpecFixtures.test_switch_requires_two_branches_including_direct) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+OK

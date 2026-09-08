@@ -1,0 +1,60 @@
+START start:
+    NEXT delimiter
+
+PAINTER_YELLOW delimiter:
+    NEXT prefix_0
+
+PAINTER_RED prefix_0:
+    NEXT prefix_1
+
+PAINTER_BLUE prefix_1:
+    NEXT prefix_2
+
+PAINTER_YELLOW prefix_2:
+    NEXT prefix_3
+
+PAINTER_GREEN prefix_3:
+    NEXT prefix_4
+
+PAINTER_RED prefix_4:
+    NEXT prefix_5
+
+PAINTER_BLUE prefix_5:
+    NEXT scan
+
+PULLER_RB scan:
+    [R] pending_r
+    [B] emit_b
+    [EMPTY] finish
+
+PAINTER_BLUE emit_b:
+    NEXT scan
+
+PULLER_RB pending_r:
+    [R] emit_r_pending
+    [B] emit_y
+    [EMPTY] finish_pending
+
+PAINTER_RED emit_r_pending:
+    NEXT pending_r
+
+PAINTER_YELLOW emit_y:
+    NEXT emit_g
+
+PAINTER_GREEN emit_g:
+    NEXT scan
+
+PULLER_YG finish:
+    [Y] end
+    [G] NONE
+    [EMPTY] NONE
+
+PULLER_YG finish_pending:
+    [Y] emit_last_r
+    [G] NONE
+    [EMPTY] NONE
+
+PAINTER_RED emit_last_r:
+    NEXT end
+
+END end

@@ -1,0 +1,35 @@
+{
+  "mode": "read_only_backend_review_CPU_no_model_generation",
+  "ast_checked": [
+    "runtime\\hf_backend.py",
+    "runtime\\prepare_round.py",
+    "runtime\\execute_round.py",
+    "decoding\\hf_grammar_bridge.py",
+    "decoding\\grammar_service.py"
+  ],
+  "source_sha256": {
+    "runtime\\hf_backend.py": "443699d84c7ed9f626cb2ed0535cb1f308b98cfe1288718a654bfb3334318623",
+    "runtime\\prepare_round.py": "9287daf5513e586d280b480effdccdfc807649379f26117159b956d961e01255",
+    "runtime\\execute_round.py": "54ab5e4d4ed153b6c7683412bd884c3478186a740195a1cd0505a477d4dae72c",
+    "decoding\\hf_grammar_bridge.py": "ffb91164527cd62eb3c7b96265575722ff4b8d4890c7779368d5b1fcd4540863",
+    "decoding\\grammar_service.py": "19fcb6b311f41d3b095a23263310bec991e6273706507438b9d248d7746a8ba0"
+  },
+  "actual_catalogue_stages_passing_frozen_gate": [
+    "identity",
+    "append_R",
+    "append_B",
+    "replace_R_to_B",
+    "replace_RB_to_YG",
+    "prepend_R",
+    "prepend_RB",
+    "target_small2",
+    "target_small3"
+  ],
+  "challenger_schema_branches": 3,
+  "stages_per_branch": 3,
+  "structured_constants_expanded": 27,
+  "eos_trim_controls_passed": 2,
+  "actual_model_or_gpu_run": false,
+  "sampling_policy_verified_by_this_check": false,
+  "note": "Gate/schema/AST assertions only. Existing actual-tokenizer CPU mask replay evidence is referenced separately."
+}

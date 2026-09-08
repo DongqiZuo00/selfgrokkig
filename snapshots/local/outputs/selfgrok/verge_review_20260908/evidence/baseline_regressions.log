@@ -1,0 +1,70 @@
+test_constant_reward_preserves_warm_optimizer_and_scheduler (test_verge_fresh_review.FreshReview.test_constant_reward_preserves_warm_optimizer_and_scheduler) ... 
+  test_constant_reward_preserves_warm_optimizer_and_scheduler (test_verge_fresh_review.FreshReview.test_constant_reward_preserves_warm_optimizer_and_scheduler) (reward=0) ... FAIL
+  test_constant_reward_preserves_warm_optimizer_and_scheduler (test_verge_fresh_review.FreshReview.test_constant_reward_preserves_warm_optimizer_and_scheduler) (reward=1) ... FAIL
+test_fresh_constant_reward_preserves_empty_optimizer (test_verge_fresh_review.FreshReview.test_fresh_constant_reward_preserves_empty_optimizer) ... ok
+test_legacy_nonzero_kl_still_explicitly_steps (test_verge_fresh_review.FreshReview.test_legacy_nonzero_kl_still_explicitly_steps) ... ok
+test_profile_preserves_valid_counts (test_verge_fresh_review.FreshReview.test_profile_preserves_valid_counts) ... ok
+test_profile_rejects_duplicate_instance_identity (test_verge_fresh_review.FreshReview.test_profile_rejects_duplicate_instance_identity) ... FAIL
+test_profile_rejects_duplicate_rollout_identity (test_verge_fresh_review.FreshReview.test_profile_rejects_duplicate_rollout_identity) ... FAIL
+test_profile_rejects_empty_samples (test_verge_fresh_review.FreshReview.test_profile_rejects_empty_samples) ... ERROR
+test_profile_rejects_missing_instances_and_unbalanced_draws (test_verge_fresh_review.FreshReview.test_profile_rejects_missing_instances_and_unbalanced_draws) ... FAIL
+
+======================================================================
+ERROR: test_profile_rejects_empty_samples (test_verge_fresh_review.FreshReview.test_profile_rejects_empty_samples)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_review_20260908/baseline/src/test_verge_fresh_review.py", line 72, in test_profile_rejects_empty_samples
+    with self.assertRaises(ValueError):profile([],[])
+                                       ^^^^^^^^^^^^^^
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_review_20260908/baseline/src/verge_round_core.py", line 194, in profile
+    rates = [n / len(keyed) for n in counts]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_review_20260908/baseline/src/verge_round_core.py", line 194, in <listcomp>
+    rates = [n / len(keyed) for n in counts]
+             ~~^~~~~~~~~~~~
+ZeroDivisionError: division by zero
+
+======================================================================
+FAIL: test_constant_reward_preserves_warm_optimizer_and_scheduler (test_verge_fresh_review.FreshReview.test_constant_reward_preserves_warm_optimizer_and_scheduler) (reward=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_review_20260908/baseline/src/test_verge_fresh_review.py", line 39, in test_constant_reward_preserves_warm_optimizer_and_scheduler
+    self.assertFalse(metric["optimizer_step"])
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_constant_reward_preserves_warm_optimizer_and_scheduler (test_verge_fresh_review.FreshReview.test_constant_reward_preserves_warm_optimizer_and_scheduler) (reward=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_review_20260908/baseline/src/test_verge_fresh_review.py", line 39, in test_constant_reward_preserves_warm_optimizer_and_scheduler
+    self.assertFalse(metric["optimizer_step"])
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_profile_rejects_duplicate_instance_identity (test_verge_fresh_review.FreshReview.test_profile_rejects_duplicate_instance_identity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_review_20260908/baseline/src/test_verge_fresh_review.py", line 70, in test_profile_rejects_duplicate_instance_identity
+    with self.assertRaises(ValueError):profile(records,rows)
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_profile_rejects_duplicate_rollout_identity (test_verge_fresh_review.FreshReview.test_profile_rejects_duplicate_rollout_identity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_review_20260908/baseline/src/test_verge_fresh_review.py", line 65, in test_profile_rejects_duplicate_rollout_identity
+    with self.assertRaises(ValueError):profile(records,rows)
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_profile_rejects_missing_instances_and_unbalanced_draws (test_verge_fresh_review.FreshReview.test_profile_rejects_missing_instances_and_unbalanced_draws)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_review_20260908/baseline/src/test_verge_fresh_review.py", line 79, in test_profile_rejects_missing_instances_and_unbalanced_draws
+    with self.assertRaises(ValueError):profile(records,[{"id":"a"},{"id":"b"}])
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 8 tests in 3.716s
+
+FAILED (failures=5, errors=1)

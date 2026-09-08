@@ -1,0 +1,16 @@
+{
+  "status": "snapshot_or_needs_reconciliation",
+  "actual_saved_native_generated_tokens": 822497,
+  "generation_totals": {
+    "solver_training": 614074,
+    "solver_evaluation": 110234,
+    "challenger": 8092,
+    "stage_probe": 90097
+  },
+  "issues": []
+}
+{
+  "reuse_status": "verified",
+  "all_named_jobs_terminal": false,
+  "allocated_b200_hours": 2.1205555555555557
+}

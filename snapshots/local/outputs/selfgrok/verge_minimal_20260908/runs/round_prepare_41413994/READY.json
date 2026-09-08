@@ -1,0 +1,23 @@
+{
+  "status": "real_base_and_challenger_complete",
+  "plan": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/plan.json",
+  "base_fragment": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round_prepare_41413994/base/fragment.json",
+  "plan_sha256": "7233ae26ce4e07e7dd1263fd5c6e3f68d9ff992d184ada70f35e105bd6da2de9",
+  "curricula": {
+    "g1": [
+      "prepend_RB",
+      "replace_RB_to_YG",
+      "prepend_R"
+    ],
+    "g2": [
+      "append_R",
+      "replace_RB_to_YG",
+      "target_small2"
+    ],
+    "g3": [
+      "target_small3",
+      "prepend_R",
+      "replace_RB_to_YG"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+test_cross_seed_cumulative_data_threshold_and_single_epoch (test_operational_stages.BufferTests.test_cross_seed_cumulative_data_threshold_and_single_epoch) ... ok
+test_empty_jplus_records_archive_without_update (test_operational_stages.BufferTests.test_empty_jplus_records_archive_without_update) ... ok
+test_examples_arriving_during_training_remain_new (test_operational_stages.BufferTests.test_examples_arriving_during_training_remain_new) ... ok
+test_failed_training_keeps_new_examples_and_retry_cumulative (test_operational_stages.BufferTests.test_failed_training_keeps_new_examples_and_retry_cumulative) ... ok
+test_jplus_uses_positive_significant_gain_only_atomic_insert (test_operational_stages.BufferTests.test_jplus_uses_positive_significant_gain_only_atomic_insert) ... ok
+test_provenance_is_snapshotted_and_duplicate_round_rejected (test_operational_stages.BufferTests.test_provenance_is_snapshotted_and_duplicate_round_rejected) ... ok
+test_distribution_is_explicit_and_frozen_generator_repeats (test_operational_stages.StageTests.test_distribution_is_explicit_and_frozen_generator_repeats) ... ok
+test_dsl_operations_are_data_only_and_bounded (test_operational_stages.StageTests.test_dsl_operations_are_data_only_and_bounded) ... ok
+test_exact_tuple_leakage_all_three_protected_splits (test_operational_stages.StageTests.test_exact_tuple_leakage_all_three_protected_splits) ... ok
+test_final_target_prompt_rejects_hint_contamination (test_operational_stages.StageTests.test_final_target_prompt_rejects_hint_contamination) ... ok
+test_hint_probe_512_paired_budget_and_two_conditions (test_operational_stages.StageTests.test_hint_probe_512_paired_budget_and_two_conditions) ... ok
+test_hint_probe_rejects_wrong_shape_nonbinary_and_unpaired_ids (test_operational_stages.StageTests.test_hint_probe_rejects_wrong_shape_nonbinary_and_unpaired_ids) ... ok
+test_hint_smaller_relationship_and_library_source_leakage (test_operational_stages.StageTests.test_hint_smaller_relationship_and_library_source_leakage) ... ok
+test_library_requires_verified_train_provenance (test_operational_stages.StageTests.test_library_requires_verified_train_provenance) ... ok
+test_mixed_reward_group_is_diagnostic_not_fifth_gate (test_operational_stages.StageTests.test_mixed_reward_group_is_diagnostic_not_fifth_gate) ... ok
+test_nonconstant_is_checked_on_corners_not_random_samples (test_operational_stages.StageTests.test_nonconstant_is_checked_on_corners_not_random_samples) ... ok
+test_registered_family_tier_and_output_contract (test_operational_stages.StageTests.test_registered_family_tier_and_output_contract) ... ok
+test_three_stage_sources_have_exactly_four_checks (test_operational_stages.StageTests.test_three_stage_sources_have_exactly_four_checks) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.005s
+
+OK

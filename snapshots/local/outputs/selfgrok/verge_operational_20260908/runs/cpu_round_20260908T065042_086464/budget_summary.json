@@ -1,0 +1,198 @@
+{
+  "actual_model_generated_tokens": 0,
+  "branch_ledgers": {
+    "direct": [
+      {
+        "boundary_drain_tokens": 1,
+        "constant_groups": 1,
+        "generated_tokens": 33,
+        "loss_eligible_tokens": 32,
+        "name": "segment_1",
+        "nonzero_advantage_tokens": 0,
+        "optimizer_steps": 0,
+        "quota": 33,
+        "rollouts": 9
+      },
+      {
+        "boundary_drain_tokens": 1,
+        "constant_groups": 1,
+        "generated_tokens": 33,
+        "loss_eligible_tokens": 32,
+        "name": "segment_2",
+        "nonzero_advantage_tokens": 0,
+        "optimizer_steps": 0,
+        "quota": 33,
+        "rollouts": 9
+      },
+      {
+        "boundary_drain_tokens": 1,
+        "constant_groups": 1,
+        "generated_tokens": 33,
+        "loss_eligible_tokens": 32,
+        "name": "segment_3",
+        "nonzero_advantage_tokens": 0,
+        "optimizer_steps": 0,
+        "quota": 33,
+        "rollouts": 9
+      },
+      {
+        "boundary_drain_tokens": 0,
+        "constant_groups": 1,
+        "generated_tokens": 32,
+        "loss_eligible_tokens": 32,
+        "name": "segment_4_target_tail",
+        "nonzero_advantage_tokens": 0,
+        "optimizer_steps": 0,
+        "quota": 32,
+        "rollouts": 8
+      }
+    ],
+    "g1": [
+      {
+        "boundary_drain_tokens": 1,
+        "constant_groups": 1,
+        "generated_tokens": 33,
+        "loss_eligible_tokens": 32,
+        "name": "segment_1",
+        "nonzero_advantage_tokens": 0,
+        "optimizer_steps": 0,
+        "quota": 33,
+        "rollouts": 9
+      },
+      {
+        "boundary_drain_tokens": 1,
+        "constant_groups": 1,
+        "generated_tokens": 33,
+        "loss_eligible_tokens": 32,
+        "name": "segment_2",
+        "nonzero_advantage_tokens": 0,
+        "optimizer_steps": 0,
+        "quota": 33,
+        "rollouts": 9
+      },
+      {
+        "boundary_drain_tokens": 1,
+        "constant_groups": 0,
+        "generated_tokens": 33,
+        "loss_eligible_tokens": 32,
+        "name": "segment_3",
+        "nonzero_advantage_tokens": 32,
+        "optimizer_steps": 1,
+        "quota": 33,
+        "rollouts": 9
+      },
+      {
+        "boundary_drain_tokens": 0,
+        "constant_groups": 1,
+        "generated_tokens": 32,
+        "loss_eligible_tokens": 32,
+        "name": "segment_4_target_tail",
+        "nonzero_advantage_tokens": 0,
+        "optimizer_steps": 0,
+        "quota": 32,
+        "rollouts": 8
+      }
+    ],
+    "g2": [
+      {
+        "boundary_drain_tokens": 1,
+        "constant_groups": 0,
+        "generated_tokens": 33,
+        "loss_eligible_tokens": 32,
+        "name": "segment_1",
+        "nonzero_advantage_tokens": 32,
+        "optimizer_steps": 1,
+        "quota": 33,
+        "rollouts": 9
+      },
+      {
+        "boundary_drain_tokens": 1,
+        "constant_groups": 0,
+        "generated_tokens": 33,
+        "loss_eligible_tokens": 32,
+        "name": "segment_2",
+        "nonzero_advantage_tokens": 32,
+        "optimizer_steps": 1,
+        "quota": 33,
+        "rollouts": 9
+      },
+      {
+        "boundary_drain_tokens": 1,
+        "constant_groups": 1,
+        "generated_tokens": 33,
+        "loss_eligible_tokens": 32,
+        "name": "segment_3",
+        "nonzero_advantage_tokens": 0,
+        "optimizer_steps": 0,
+        "quota": 33,
+        "rollouts": 9
+      },
+      {
+        "boundary_drain_tokens": 0,
+        "constant_groups": 1,
+        "generated_tokens": 32,
+        "loss_eligible_tokens": 32,
+        "name": "segment_4_target_tail",
+        "nonzero_advantage_tokens": 0,
+        "optimizer_steps": 0,
+        "quota": 32,
+        "rollouts": 8
+      }
+    ],
+    "g3": [
+      {
+        "boundary_drain_tokens": 1,
+        "constant_groups": 0,
+        "generated_tokens": 33,
+        "loss_eligible_tokens": 32,
+        "name": "segment_1",
+        "nonzero_advantage_tokens": 32,
+        "optimizer_steps": 1,
+        "quota": 33,
+        "rollouts": 9
+      },
+      {
+        "boundary_drain_tokens": 1,
+        "constant_groups": 0,
+        "generated_tokens": 33,
+        "loss_eligible_tokens": 32,
+        "name": "segment_2",
+        "nonzero_advantage_tokens": 32,
+        "optimizer_steps": 1,
+        "quota": 33,
+        "rollouts": 9
+      },
+      {
+        "boundary_drain_tokens": 1,
+        "constant_groups": 1,
+        "generated_tokens": 33,
+        "loss_eligible_tokens": 32,
+        "name": "segment_3",
+        "nonzero_advantage_tokens": 0,
+        "optimizer_steps": 0,
+        "quota": 33,
+        "rollouts": 9
+      },
+      {
+        "boundary_drain_tokens": 0,
+        "constant_groups": 1,
+        "generated_tokens": 32,
+        "loss_eligible_tokens": 32,
+        "name": "segment_4_target_tail",
+        "nonzero_advantage_tokens": 0,
+        "optimizer_steps": 0,
+        "quota": 32,
+        "rollouts": 8
+      }
+    ]
+  },
+  "callback_update_counts_not_model_steps": {
+    "direct": 0,
+    "g1": 1,
+    "g2": 2,
+    "g3": 2
+  },
+  "generated_tokens_are_synthetic": true,
+  "mode": "synthetic_CPU_integration_not_model_training",
+  "total_training_fixture_tokens": 524
+}

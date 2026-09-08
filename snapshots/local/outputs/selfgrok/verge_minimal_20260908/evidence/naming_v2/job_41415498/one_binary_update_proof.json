@@ -1,0 +1,36 @@
+{
+  "selected_stage": {
+    "stage_id": "identity",
+    "variant": "concise",
+    "parse_valid": 8,
+    "binary_successes": 1,
+    "mixed_group": true,
+    "generated_tokens": 822,
+    "first_routes": [
+      "n0",
+      "n0",
+      "n0",
+      "n0",
+      "start",
+      "n0",
+      "n0",
+      "n0"
+    ],
+    "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/samples/00_identity_concise.json",
+    "sampling_seconds": 8.615213632583618
+  },
+  "update": {
+    "tokens_used": 822,
+    "nonzero_advantage_tokens": 822,
+    "optimizer_step": true,
+    "loss": -0.03771668991613272,
+    "loss_policy": "same_dsl_grammar_masked_native_suffix",
+    "parameters_changed": true,
+    "optimizer_steps": 1,
+    "beta": 0,
+    "weight_decay": 0,
+    "binary_reward_only": true
+  },
+  "round_base_changed": false,
+  "checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/naming_v2_41415498/one_binary_update_proof"
+}

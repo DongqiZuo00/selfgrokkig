@@ -1,0 +1,25 @@
+{
+  "mode": "synthetic_CPU_integration_not_model_training",
+  "status": "PASS",
+  "actual_model_rollouts": 0,
+  "actual_model_optimizer_steps": 0,
+  "actual_GPU_used": false,
+  "actual_reference_verifier_cases": 76,
+  "all_three_stage_validators_accepted_synthetic_fixture": true,
+  "branches": 4,
+  "synthetic_generated_tokens_per_branch": 131,
+  "synthetic_generated_tokens_total": 524,
+  "shared_base": "SYNTHETIC_SHARED_BASE",
+  "direct_synthetic_callback_state_unchanged": true,
+  "score_kappa": 6,
+  "j_plus": [
+    "g1",
+    "g2"
+  ],
+  "archive_cells": 2,
+  "delta_includes_target_only_tail": true,
+  "raw_final_first8_identity_checked": true,
+  "all_telescoping_residuals_zero": true,
+  "challenger_RFT": "plan_only_not_executed",
+  "run_directory": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_operational_20260908/runs/cpu_round_20260908T065042_086464"
+}

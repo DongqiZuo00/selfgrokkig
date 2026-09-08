@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "physical_model_draws": 768,
+  "case_executions": 27648,
+  "datasets": [
+    {
+      "dataset": "round1_initial_compact",
+      "counts": {
+        "generated_tokens": 33854,
+        "programs": 256,
+        "test_case_executions": 9216,
+        "parse_valid": 256,
+        "binary_full_pass": 0,
+        "case_exact_pass": 0,
+        "any_case_pass": 0
+      },
+      "f_distribution": {
+        "0.0": 256
+      },
+      "failure_reasons": {
+        "Routed to NONE": 2772,
+        "output_mismatch": 1333,
+        "Maximum iterations exceeded (possible infinite loop)": 5111
+      },
+      "cycle_diagnostics": {
+        "saved_static_cycle_False": 72,
+        "saved_static_cycle_True": 184
+      },
+      "posthoc_output_diagnostics": {},
+      "posthoc_denominators": {}
+    },
+    {
+      "dataset": "round2_initial_named",
+      "counts": {
+        "generated_tokens": 60151,
+        "programs": 256,
+        "test_case_executions": 9216,
+        "parse_valid": 256,
+        "binary_full_pass": 0,
+        "case_exact_pass": 0,
+        "any_case_pass": 0
+      },
+      "f_distribution": {
+        "0.0": 256
+      },
+      "failure_reasons": {
+        "Maximum iterations exceeded (possible infinite loop)": 2600,
+        "output_mismatch": 5437,
+        "Routed to NONE": 1179
+      },
+      "cycle_diagnostics": {
+        "saved_static_cycle_True": 204,
+        "saved_static_cycle_False": 52
+      },
+      "posthoc_output_diagnostics": {},
+      "posthoc_denominators": {}
+    },
+    {
+      "dataset": "round3_g1_updated_named",
+      "counts": {
+        "generated_tokens": 61055,
+        "programs": 256,
+        "test_case_executions": 9216,
+        "parse_valid": 256,
+        "binary_full_pass": 0,
+        "case_exact_pass": 0,
+        "any_case_pass": 0
+      },
+      "f_distribution": {
+        "0.0": 256
+      },
+      "failure_reasons": {
+        "output_mismatch": 5253,
+        "Maximum iterations exceeded (possible infinite loop)": 2892,
+        "Routed to NONE": 1071
+      },
+      "cycle_diagnostics": {
+        "saved_static_cycle_False": 52,
+        "saved_static_cycle_True": 204
+      },
+      "posthoc_output_diagnostics": {},
+      "posthoc_denominators": {}
+    }
+  ]
+}

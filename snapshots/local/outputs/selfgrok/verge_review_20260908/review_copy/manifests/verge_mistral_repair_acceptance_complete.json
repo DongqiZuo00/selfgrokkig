@@ -1,0 +1,19 @@
+{
+  "rounds_completed": 1,
+  "completed_at": 1788672827.4577808,
+  "solver_checkpoint": "checkpoints/decisive_mistral_v5_5__oracle/resume_u0004",
+  "challenger_checkpoint": "checkpoints/verge_mistral_repair_acceptance_challenger/resume_u0000",
+  "scope_safe_continuation": true,
+  "artifacts": [
+    "raw_results/verge_mistral_repair_acceptance/round_frozen.json",
+    "raw_results/verge_mistral_repair_acceptance/decision.json",
+    "raw_results/verge_mistral_repair_acceptance/challenger_update.json",
+    "raw_results/verge_mistral_repair_acceptance/completion_profile.json",
+    "raw_results/verge_mistral_repair_acceptance/compute_ledger.json",
+    "raw_results/verge_mistral_repair_acceptance/archive.json",
+    "raw_results/verge_mistral_repair_acceptance/RESULTS.md"
+  ],
+  "official_test_opened": false,
+  "acceptance_only": true,
+  "claim_limit": "Engineering acceptance only, not a scientific result"
+}

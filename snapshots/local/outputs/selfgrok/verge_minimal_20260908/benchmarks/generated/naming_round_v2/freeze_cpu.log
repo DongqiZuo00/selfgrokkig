@@ -1,0 +1,10 @@
+{
+  "status": "frozen_CPU_only_no_GPU_submission",
+  "manifest_id": "verge_prepend_rb_v1_20260908:selection_first8:naming_v2:19840cace70bd077",
+  "prompt_view_sha256": "22706996b598b5961ea73149600d4405dbdfe6500c4ba9917dd5cfd31e813b4e",
+  "stage_prompt_view_sha256": "e0fe6234cc312e4b5f15e145d32b0ec34dde8d58b7793e7f7bba18e55f1f58cb",
+  "train_count": 128,
+  "selection_count": 8,
+  "stage_count": 9,
+  "source_train_manifest_sha256": "89f79a4df80a5871db61a02cc4f36319e46300626fdcf6431e697923c13be585"
+}

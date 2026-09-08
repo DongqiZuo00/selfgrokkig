@@ -1,0 +1,13 @@
+test_actual_generation_exact_with_early_eos_and_boundary_drain (test_generated_budget.GeneratedBudgetTests.test_actual_generation_exact_with_early_eos_and_boundary_drain) ... ok
+test_all_zero_and_all_one_do_not_call_update (test_generated_budget.GeneratedBudgetTests.test_all_zero_and_all_one_do_not_call_update) ... ok
+test_backends_cannot_overrun_cap_or_mix_prompts (test_generated_budget.GeneratedBudgetTests.test_backends_cannot_overrun_cap_or_mix_prompts) ... ok
+test_binary_group_contract (test_generated_budget.GeneratedBudgetTests.test_binary_group_contract) ... ok
+test_equal_direct_and_curriculum_generated_budget (test_generated_budget.GeneratedBudgetTests.test_equal_direct_and_curriculum_generated_budget) ... ok
+test_fresh_actual_optimizer_settings (test_generated_budget.GeneratedBudgetTests.test_fresh_actual_optimizer_settings) ... ok
+test_log_tampering_and_existing_run_rejected (test_generated_budget.GeneratedBudgetTests.test_log_tampering_and_existing_run_rejected) ... ok
+test_partial_ledger_requires_explicit_resume_reconciliation (test_generated_budget.GeneratedBudgetTests.test_partial_ledger_requires_explicit_resume_reconciliation) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.070s
+
+OK

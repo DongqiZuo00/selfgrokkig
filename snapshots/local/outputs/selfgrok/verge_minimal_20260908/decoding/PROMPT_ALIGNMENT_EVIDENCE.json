@@ -1,0 +1,487 @@
+{
+  "mode": "saved_train_stage_raw_prompt_alignment_review",
+  "GPU_used": false,
+  "model_loaded": false,
+  "new_samples": 0,
+  "frozen_files_modified": false,
+  "actual_tokenizer_read_only_inspection": {
+    "path": "/blue/du.j/jinjiaguo/self grok/models/Ministral-3-3B-Instruct-2512-BF16/tokenizer.json",
+    "sha256": "d5f6046775b112f0e2d456ee9dba450684ab964fe5c4e231599bdc6773028135",
+    "model_type": "BPE",
+    "tokens": {"1048": "0", "1049": "1", "1110": "n", "10460": "start", "1314": "st", "1490": "art", "16071": "NO", "79919": "NON", "1078": "N", "1474": "end", "1101": "e", "1298": "nd"},
+    "GPU_used": false,
+    "weights_loaded": false
+  },
+  "jobs": [
+    {
+      "job": "41410864",
+      "totals": {
+        "samples": 96,
+        "binary_successes": 0,
+        "rows_with_noncanonical_intermediate_declaration_spelling": 68,
+        "rows_with_no_intermediate_declaration_spelling": 28,
+        "parse_valid": 1,
+        "generated_tokens": 62977
+      },
+      "start_destinations": {
+        "clean_taper": 1,
+        "1": 30,
+        "0": 41,
+        "0x00": 1,
+        "painterRED": 1,
+        "painter_red": 1,
+        "01YELLOW": 1,
+        "{[": 1,
+        "painter_BLUE": 1,
+        "fillLastSymbol": 1,
+        "painter_blue": 2,
+        "1_0": 1,
+        "001": 1,
+        "100_red": 1,
+        "100": 1,
+        "paint_room_R": 1,
+        "tape_painter": 1,
+        "tape_rb": 1,
+        "1002": 1,
+        "10": 1,
+        "चा": 1,
+        "0\\invalid": 1,
+        "pull_first": 1,
+        "Regelncheck": 1,
+        "p：": 1,
+        "begin": 1
+      },
+      "first_native_token_counts": {
+        "9375": 1,
+        "1049": 35,
+        "1048": 45,
+        "46112": 5,
+        "126149": 1,
+        "12369": 1,
+        "15504": 1,
+        "28415": 2,
+        "112521": 1,
+        "11373": 1,
+        "111672": 1,
+        "1274": 1,
+        "6036": 1
+      },
+      "groups": [
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41410864\\samples\\00_identity_concise.json",
+          "start_destinations": {
+            "clean_taper": 1,
+            "1": 3,
+            "0": 2,
+            "0x00": 1,
+            "painterRED": 1
+          },
+          "binary_successes": 0,
+          "parse_valid": 0,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "f5f54464918299edd06b6ace9c2aa49e8afc92bd7a98ba5f4452e37cb02a460c",
+          "seed": 2026090800,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41410864\\samples\\01_append_R_concise.json",
+          "start_destinations": {
+            "0": 3,
+            "painter_red": 1,
+            "01YELLOW": 1,
+            "1": 2,
+            "{[": 1
+          },
+          "binary_successes": 0,
+          "parse_valid": 0,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "3ff09865e762a5dcf4dff06b0eca3d36648a68fff71f9d3c2a6217c43779955c",
+          "seed": 2026090801,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41410864\\samples\\02_append_B_concise.json",
+          "start_destinations": {
+            "painter_BLUE": 1,
+            "0": 4,
+            "fillLastSymbol": 1,
+            "painter_blue": 1,
+            "1": 1
+          },
+          "binary_successes": 0,
+          "parse_valid": 0,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "3dd1953c30c9c458d0194f6408e31d8951d3fb1041cd7a79d1ff10514cb9e689",
+          "seed": 2026090802,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41410864\\samples\\03_replace_R_to_B_concise.json",
+          "start_destinations": {
+            "0": 2,
+            "1_0": 1,
+            "1": 2,
+            "001": 1,
+            "painter_blue": 1,
+            "100_red": 1
+          },
+          "binary_successes": 0,
+          "parse_valid": 0,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "34d156348077320d0118120ace4b00d3ddb9d5cdf44885391e94eceac57f9dae",
+          "seed": 2026090803,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41410864\\samples\\04_replace_RB_to_YG_concise.json",
+          "start_destinations": {
+            "0": 5,
+            "1": 1,
+            "100": 1,
+            "paint_room_R": 1
+          },
+          "binary_successes": 0,
+          "parse_valid": 0,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "daa5bc81a2819f247ef73bb461e9cdea2e8b5f4dbd5e9adb97a664a4c03bef20",
+          "seed": 2026090804,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41410864\\samples\\05_prepend_R_concise.json",
+          "start_destinations": {
+            "1": 4,
+            "0": 2,
+            "tape_painter": 1,
+            "tape_rb": 1
+          },
+          "binary_successes": 0,
+          "parse_valid": 0,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "bb7cf2e490f773494e38fdd424480b303f36b556be8e3b180ef03edc02cd221e",
+          "seed": 2026090805,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41410864\\samples\\06_prepend_RB_concise.json",
+          "start_destinations": {
+            "0": 3,
+            "1": 4,
+            "1002": 1
+          },
+          "binary_successes": 0,
+          "parse_valid": 0,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "63d1e721402e0cd6795b62d2020a67a02e145b8c68470cebb135387e2945351c",
+          "seed": 2026090806,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41410864\\samples\\07_target_small2_concise.json",
+          "start_destinations": {
+            "0": 5,
+            "1": 2,
+            "10": 1
+          },
+          "binary_successes": 0,
+          "parse_valid": 0,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "d845d0938a6c07d5ea7d68a1275be41b8825cf028784563869f104368de6a0a4",
+          "seed": 2026090807,
+          "cap": 2048
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41410864\\samples\\08_target_small3_concise.json",
+          "start_destinations": {
+            "1": 6,
+            "0": 2
+          },
+          "binary_successes": 0,
+          "parse_valid": 0,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "7324065452b142d6a8e8f9c5afc9d4f0dfdf287822099ef3a34e6b7999a5ec8c",
+          "seed": 2026090808,
+          "cap": 2048
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41410864\\samples\\09_identity_official.json",
+          "start_destinations": {
+            "0": 6,
+            "1": 1,
+            "चा": 1
+          },
+          "binary_successes": 0,
+          "parse_valid": 1,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "b6a0b2240c562009d2e25a6ecdd46c7d8aa765265f39bbcb5c97e9b033a920b7",
+          "seed": 2026090809,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41410864\\samples\\10_append_R_official.json",
+          "start_destinations": {
+            "0\\invalid": 1,
+            "1": 2,
+            "0": 3,
+            "pull_first": 1,
+            "Regelncheck": 1
+          },
+          "binary_successes": 0,
+          "parse_valid": 0,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "946d797916f67842f24e2ffe62d1a19cc34d7e606963289877ea5f1720ba9b4a",
+          "seed": 2026090810,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41410864\\samples\\11_append_B_official.json",
+          "start_destinations": {
+            "0": 4,
+            "p：": 1,
+            "begin": 1,
+            "1": 2
+          },
+          "binary_successes": 0,
+          "parse_valid": 0,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "c07e545de5fb33d7a8f54ebbc17b723f1e94ac4772e5b172fa170797e249fa44",
+          "seed": 2026090811,
+          "cap": 768
+        }
+      ],
+      "raw_sha256": {
+        "evidence\\stage_ignition\\job_41410864\\samples\\00_identity_concise.json": "ddaaf9f3e088369a115834cb9614b50217c76ce35ccccd87262fa61aafeaf027",
+        "evidence\\stage_ignition\\job_41410864\\samples\\01_append_R_concise.json": "a68409f1c53ac11bc4bbd68d93e7db00deaecb60ec2937666d395b892f67db27",
+        "evidence\\stage_ignition\\job_41410864\\samples\\02_append_B_concise.json": "528e07ac6c5843b63a2b035457e76aed54bbc24b106c51c8df6a9f7734fbdb49",
+        "evidence\\stage_ignition\\job_41410864\\samples\\03_replace_R_to_B_concise.json": "c232598c9d70ca7829d4246f2b790f521bd5b2f465d3e89451e53b2ab9061f63",
+        "evidence\\stage_ignition\\job_41410864\\samples\\04_replace_RB_to_YG_concise.json": "e1cf5bacc365f155a7116151569d5fa87d9a736c3b51bd88e275af080eb80df6",
+        "evidence\\stage_ignition\\job_41410864\\samples\\05_prepend_R_concise.json": "56c8ed97cf474be14916283c4471370e0f8ed134550b6ff1b4145b8a3d7e7e21",
+        "evidence\\stage_ignition\\job_41410864\\samples\\06_prepend_RB_concise.json": "3b512ff98f4222a9759808c52030fb628fd30576c91d68c9be02b7cfdba6d223",
+        "evidence\\stage_ignition\\job_41410864\\samples\\07_target_small2_concise.json": "b63eb1d5c8c8f945be5dfcec87a3293d996f14340c0b22659269ab3a4777d89e",
+        "evidence\\stage_ignition\\job_41410864\\samples\\08_target_small3_concise.json": "72399dd1d7a2d740ee8b45b0fa1eeba197a9a8efb99f86c9e8031e757b7a0adb",
+        "evidence\\stage_ignition\\job_41410864\\samples\\09_identity_official.json": "25f403b71c510329a377f82e5dfe7fefc6a403aec820d35414dcbc411892e695",
+        "evidence\\stage_ignition\\job_41410864\\samples\\10_append_R_official.json": "bfc898bf4259a53b12167c26f6064defce3ccc4bb5c56995c08ccb089ea7b8dd",
+        "evidence\\stage_ignition\\job_41410864\\samples\\11_append_B_official.json": "4fd0617e176d4863b31b1a88dcebdb8397f84181d4208cbbb255cb087bf890fc"
+      }
+    },
+    {
+      "job": "41412533",
+      "totals": {
+        "samples": 96,
+        "binary_successes": 1,
+        "rows_with_noncanonical_intermediate_declaration_spelling": 0,
+        "rows_with_no_intermediate_declaration_spelling": 48,
+        "parse_valid": 96,
+        "generated_tokens": 10089
+      },
+      "start_destinations": {
+        "NONE": 21,
+        "start": 63,
+        "end": 9,
+        "n1": 2,
+        "n0": 1
+      },
+      "first_native_token_counts": {
+        "16071": 9,
+        "10460": 47,
+        "79919": 5,
+        "1314": 10,
+        "1474": 4,
+        "1110": 3,
+        "1078": 7,
+        "1115": 5,
+        "1101": 4,
+        "10113": 1,
+        "1262": 1
+      },
+      "groups": [
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41412533\\samples\\00_identity_concise.json",
+          "start_destinations": {
+            "NONE": 4,
+            "start": 3,
+            "end": 1
+          },
+          "binary_successes": 1,
+          "parse_valid": 8,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "f5f54464918299edd06b6ace9c2aa49e8afc92bd7a98ba5f4452e37cb02a460c",
+          "seed": 2026090800,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41412533\\samples\\01_append_R_concise.json",
+          "start_destinations": {
+            "start": 5,
+            "n1": 1,
+            "NONE": 2
+          },
+          "binary_successes": 0,
+          "parse_valid": 8,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "3ff09865e762a5dcf4dff06b0eca3d36648a68fff71f9d3c2a6217c43779955c",
+          "seed": 2026090801,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41412533\\samples\\02_append_B_concise.json",
+          "start_destinations": {
+            "n0": 1,
+            "start": 6,
+            "NONE": 1
+          },
+          "binary_successes": 0,
+          "parse_valid": 8,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "3dd1953c30c9c458d0194f6408e31d8951d3fb1041cd7a79d1ff10514cb9e689",
+          "seed": 2026090802,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41412533\\samples\\03_replace_R_to_B_concise.json",
+          "start_destinations": {
+            "NONE": 5,
+            "start": 3
+          },
+          "binary_successes": 0,
+          "parse_valid": 8,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "34d156348077320d0118120ace4b00d3ddb9d5cdf44885391e94eceac57f9dae",
+          "seed": 2026090803,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41412533\\samples\\04_replace_RB_to_YG_concise.json",
+          "start_destinations": {
+            "start": 8
+          },
+          "binary_successes": 0,
+          "parse_valid": 8,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "daa5bc81a2819f247ef73bb461e9cdea2e8b5f4dbd5e9adb97a664a4c03bef20",
+          "seed": 2026090804,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41412533\\samples\\05_prepend_R_concise.json",
+          "start_destinations": {
+            "NONE": 4,
+            "start": 4
+          },
+          "binary_successes": 0,
+          "parse_valid": 8,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "bb7cf2e490f773494e38fdd424480b303f36b556be8e3b180ef03edc02cd221e",
+          "seed": 2026090805,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41412533\\samples\\06_prepend_RB_concise.json",
+          "start_destinations": {
+            "start": 4,
+            "n1": 1,
+            "NONE": 2,
+            "end": 1
+          },
+          "binary_successes": 0,
+          "parse_valid": 8,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "63d1e721402e0cd6795b62d2020a67a02e145b8c68470cebb135387e2945351c",
+          "seed": 2026090806,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41412533\\samples\\07_target_small2_concise.json",
+          "start_destinations": {
+            "start": 7,
+            "end": 1
+          },
+          "binary_successes": 0,
+          "parse_valid": 8,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "d845d0938a6c07d5ea7d68a1275be41b8825cf028784563869f104368de6a0a4",
+          "seed": 2026090807,
+          "cap": 2048
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41412533\\samples\\08_target_small3_concise.json",
+          "start_destinations": {
+            "start": 3,
+            "end": 2,
+            "NONE": 3
+          },
+          "binary_successes": 0,
+          "parse_valid": 8,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "7324065452b142d6a8e8f9c5afc9d4f0dfdf287822099ef3a34e6b7999a5ec8c",
+          "seed": 2026090808,
+          "cap": 2048
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41412533\\samples\\09_identity_official.json",
+          "start_destinations": {
+            "start": 8
+          },
+          "binary_successes": 0,
+          "parse_valid": 8,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "b6a0b2240c562009d2e25a6ecdd46c7d8aa765265f39bbcb5c97e9b033a920b7",
+          "seed": 2026090809,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41412533\\samples\\10_append_R_official.json",
+          "start_destinations": {
+            "start": 7,
+            "end": 1
+          },
+          "binary_successes": 0,
+          "parse_valid": 8,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "946d797916f67842f24e2ffe62d1a19cc34d7e606963289877ea5f1720ba9b4a",
+          "seed": 2026090810,
+          "cap": 768
+        },
+        {
+          "raw_file": "evidence\\stage_ignition\\job_41412533\\samples\\11_append_B_official.json",
+          "start_destinations": {
+            "start": 5,
+            "end": 3
+          },
+          "binary_successes": 0,
+          "parse_valid": 8,
+          "contains_n0_in_actual_prompt": false,
+          "prompt_sha256": "c07e545de5fb33d7a8f54ebbc17b723f1e94ac4772e5b172fa170797e249fa44",
+          "seed": 2026090811,
+          "cap": 768
+        }
+      ],
+      "raw_sha256": {
+        "evidence\\stage_ignition\\job_41412533\\samples\\00_identity_concise.json": "ccdd6367e30c5944fd9c496355a5d499c37608b63f64690c77410f957eb51468",
+        "evidence\\stage_ignition\\job_41412533\\samples\\01_append_R_concise.json": "148f4da370e967dcea924474471f0aeca363b35a0edb5255328ad99dae05d2f4",
+        "evidence\\stage_ignition\\job_41412533\\samples\\02_append_B_concise.json": "d7538dbfe18312b31acecab1570711e7a96f09ad95f04467952bece6db6b1187",
+        "evidence\\stage_ignition\\job_41412533\\samples\\03_replace_R_to_B_concise.json": "b014675d298f6b0bc4a35a79ee0bd7f6a61510d75d14e9b406986dbdb4e39cfa",
+        "evidence\\stage_ignition\\job_41412533\\samples\\04_replace_RB_to_YG_concise.json": "0a8c494407b7913af61c75959d703f57574ea67ce6c122151fdf81b082545870",
+        "evidence\\stage_ignition\\job_41412533\\samples\\05_prepend_R_concise.json": "647f403133b8d68cc9a9429be38397a8ec66c6ba435f5d933417612ef569e284",
+        "evidence\\stage_ignition\\job_41412533\\samples\\06_prepend_RB_concise.json": "720a5ab5265dcb4044c276162d3680e1e97cef529616fb3d267f586faaf54edf",
+        "evidence\\stage_ignition\\job_41412533\\samples\\07_target_small2_concise.json": "411aee3a702759c633812d2c3529c0c53f55fdec45870fc9431b167439d7eded",
+        "evidence\\stage_ignition\\job_41412533\\samples\\08_target_small3_concise.json": "765166aa12eec000aef0e74e9a6892e407278dfbbcaa00fcaa0d6f399874bb20",
+        "evidence\\stage_ignition\\job_41412533\\samples\\09_identity_official.json": "bee2de834e8533bd6143271fe339b22ea941c4e21c718332bf8c0ce7ace0a28c",
+        "evidence\\stage_ignition\\job_41412533\\samples\\10_append_R_official.json": "2cfb169070168b6a38c28c127d4d54c5bfd0bf0338b51932941544bbcd825c74",
+        "evidence\\stage_ignition\\job_41412533\\samples\\11_append_B_official.json": "bcb9be81118c849b1ad60c0ef431404805a8668af8722999ce130f3ce326ce21"
+      }
+    }
+  ],
+  "matched_prompt_seed_cap_across_stage_jobs": true,
+  "tokenizer_prior_evidence": {
+    "tokenizer_json_sha256": "d5f6046775b112f0e2d456ee9dba450684ab964fe5c4e231599bdc6773028135",
+    "hf_vocab_sha256": "aa7cc25c58691ff3909e3bbea9f5d4c93d92e13a40ed0f50eaee15666702543a",
+    "training_worker_vocab_maps_identical": true,
+    "all_generation_masks_equal_training_replay": true
+  },
+  "limits": [
+    "Unconstrained lexical identifiers are not claimed to be valid parsed programs.",
+    "No unmasked logits were saved, so mass removed by grammar and causal attribution are unknown.",
+    "Current branch stage-1 zero-success status was reported by root; no corresponding downloaded raw files were available in this review."
+  ]
+}

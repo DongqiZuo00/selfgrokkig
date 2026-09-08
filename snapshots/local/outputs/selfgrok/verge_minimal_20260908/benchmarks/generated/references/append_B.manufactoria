@@ -1,0 +1,5 @@
+START start:
+    NEXT paint
+PAINTER_BLUE paint:
+    NEXT end
+END end

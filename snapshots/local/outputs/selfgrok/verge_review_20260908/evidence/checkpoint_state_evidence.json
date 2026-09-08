@@ -1,0 +1,83 @@
+{
+  "torch": "2.8.0+cu128",
+  "cuda_visible": "",
+  "roots": {
+    "solver": {
+      "state_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000/state.pt",
+      "keys": [
+        "optimizer",
+        "scheduler",
+        "runtime_state",
+        "update"
+      ],
+      "runtime_state": {
+        "role": "solver",
+        "book_initialization": true,
+        "trained_tokens": 0,
+        "human_curriculum": false,
+        "teacher_steps_prior": 0
+      },
+      "optimizer_entries": 0,
+      "optimizer_groups": [
+        {
+          "lr": 1e-05,
+          "betas": [
+            0.9,
+            0.95
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0.0,
+          "amsgrad": false,
+          "maximize": false,
+          "foreach": null,
+          "capturable": false,
+          "differentiable": false,
+          "fused": null,
+          "decoupled_weight_decay": true,
+          "initial_lr": 1e-05
+        }
+      ]
+    },
+    "challenger": {
+      "state_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_challenger/resume_u0000/state.pt",
+      "keys": [
+        "optimizer",
+        "scheduler",
+        "runtime_state",
+        "update"
+      ],
+      "runtime_state": {
+        "role": "challenger",
+        "book_initialization": true,
+        "trained_tokens": 0,
+        "human_curriculum": false,
+        "teacher_steps_prior": 0
+      },
+      "optimizer_entries": 0,
+      "optimizer_groups": [
+        {
+          "lr": 1e-06,
+          "betas": [
+            0.9,
+            0.95
+          ],
+          "eps": 1e-08,
+          "weight_decay": 0.0,
+          "amsgrad": false,
+          "maximize": false,
+          "foreach": null,
+          "capturable": false,
+          "differentiable": false,
+          "fused": null,
+          "decoupled_weight_decay": true,
+          "initial_lr": 1e-06
+        }
+      ]
+    }
+  },
+  "source_sha256": {
+    "common.py": "bf5ec94a586dee95aa1842f9c01d0e58361e82ce6e90b380bdc50bce9f30ff44",
+    "verge_round_core.py": "e05a87d35578318abd9b07072090e8babc28826ba8bea5c80d9addfbd7ad0ba9",
+    "verge_repair_training.py": "892ba4b3e6f7060ec0e2df892954b26570e153f7a9058f29a2c3d5cbbe3a5dfb"
+  }
+}

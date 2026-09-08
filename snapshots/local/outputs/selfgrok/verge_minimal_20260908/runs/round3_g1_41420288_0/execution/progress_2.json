@@ -1,0 +1,44 @@
+{
+  "phase": {
+    "phase_id": "g1_segment_2",
+    "segment": 2,
+    "kind": "curriculum_stage",
+    "stage_id": "target_small3",
+    "quota": 16384,
+    "tokens_before": 16384,
+    "tokens_after": 32768,
+    "target_probability": 0.25,
+    "checkpoint_alias": "g1_m2"
+  },
+  "checkpoint": {
+    "path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round3_g1_41420288_0/execution/checkpoints/g1_m1",
+    "weights_file": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/round3_g1_41420288_0/execution/checkpoints/g1_m1/adapter_model.safetensors",
+    "weights_sha256": "b5278b1fed5e784945b6770b9abfd3b8d0cede946d2d98ffd771871f2fc86090"
+  },
+  "training_ledgers": [
+    {
+      "name": "g1_segment_1",
+      "quota": 16384,
+      "generated_tokens": 16384,
+      "loss_eligible_tokens": 16383,
+      "nonzero_advantage_tokens": 924,
+      "boundary_drain_tokens": 1,
+      "rollouts": 113,
+      "optimizer_steps": 1,
+      "constant_groups": 13
+    },
+    {
+      "name": "g1_segment_2",
+      "quota": 16384,
+      "generated_tokens": 16384,
+      "loss_eligible_tokens": 16378,
+      "nonzero_advantage_tokens": 0,
+      "boundary_drain_tokens": 6,
+      "rollouts": 89,
+      "optimizer_steps": 0,
+      "constant_groups": 11
+    }
+  ],
+  "actual_optimizer_steps": 1,
+  "backend_tokens_all_generation_calls": 48997
+}

@@ -1,0 +1,35 @@
+{
+  "rounds_completed": 1,
+  "completed_at": 1788802093.019209,
+  "solver_checkpoint": "checkpoints/verge_book_v2_outcome_r05_candidate_1/resume_u0030",
+  "challenger_checkpoint": "checkpoints/verge_book_v2_outcome_r05_challenger/resume_u0000",
+  "scope_safe_continuation": true,
+  "artifacts": [
+    "raw_results/verge_book_v2_outcome_r05/round_frozen.json",
+    "raw_results/verge_book_v2_outcome_r05/decision.json",
+    "raw_results/verge_book_v2_outcome_r05/challenger_update.json",
+    "raw_results/verge_book_v2_outcome_r05/completion_profile.json",
+    "raw_results/verge_book_v2_outcome_r05/compute_ledger.json",
+    "raw_results/verge_book_v2_outcome_r05/archive.json",
+    "raw_results/verge_book_v2_outcome_r05/RESULTS.md",
+    "raw_results/verge_book_v2_outcome_r05/branch_results.csv",
+    "raw_results/verge_book_v2_outcome_r05/condition_profiles.csv",
+    "raw_results/verge_book_v2_outcome_r05/result_table.tex",
+    "raw_results/verge_book_v2_outcome_r05/main_figure.png",
+    "raw_results/verge_book_v2_outcome_r05/analysis_metadata.json"
+  ],
+  "official_test_opened": false,
+  "acceptance_only": false,
+  "claim_limit": "One atomic round of a single-seed manuscript comparison; full matrix not yet complete",
+  "book_suite": "verge_book_v2",
+  "book_arm": "outcome",
+  "book_round": 5,
+  "root_provenance": "Fresh rank-16 LoRA on frozen Mistral backbone, no human-curriculum training",
+  "parent_versions": [
+    "verge_book_v2_outcome_r00",
+    "verge_book_v2_outcome_r01",
+    "verge_book_v2_outcome_r02",
+    "verge_book_v2_outcome_r03",
+    "verge_book_v2_outcome_r04"
+  ]
+}

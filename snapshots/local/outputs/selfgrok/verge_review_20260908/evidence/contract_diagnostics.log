@@ -1,0 +1,130 @@
+{
+  "timeout_fixture": {
+    "per_test_pass": [
+      0,
+      1,
+      1
+    ],
+    "fixed_denominator": 3,
+    "f_single_explicit_fixture_class": 0.6666666666666666,
+    "current_11_conditions": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "design_6_conditions": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "status": "CURRENT_LADDER_CONFLICT",
+    "note": "Production class assignment remains undefined."
+  },
+  "invalid_input_contracts": {
+    "empty_full_verifier_reward": 1,
+    "zero_test_thresholds": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "missing_output_field_full_reward": 1,
+    "status": "CURRENT_VALIDATION_CONFLICT"
+  },
+  "constant_stage": {
+    "schema_accepted": true,
+    "status": "NONCONST_VALIDATOR_ABSENT_IN_THIS_PATH"
+  },
+  "optimizer": {
+    "baseline": {
+      "optimizer_step": true,
+      "max_parameter_change": 0.0033932384103536606,
+      "optimizer_state_identical": false,
+      "scheduler_state_identical": false
+    },
+    "review_copy": {
+      "optimizer_step": false,
+      "max_parameter_change": 0.0,
+      "optimizer_state_identical": true,
+      "scheduler_state_identical": true
+    }
+  },
+  "lead_counterexample": {
+    "A": [
+      0.99,
+      0.98,
+      0.97,
+      0.95,
+      0.88,
+      0.87
+    ],
+    "B": [
+      0.99,
+      0.98,
+      0.97,
+      0.95,
+      0.89,
+      0.01
+    ],
+    "same_b": 5,
+    "same_s": 0,
+    "lead_by_design": "B",
+    "higher_full_pass": "A"
+  },
+  "hint_counterexample": {
+    "tasks": 32,
+    "hint_solved_tasks": 8,
+    "samples_per_task": 8,
+    "hint_rate": 0.25,
+    "no_hint_rate": 0.0,
+    "nonconstant_reward_groups": 0,
+    "explanation": "Each hinted task has either eight successes or eight failures; validator rates pass but every update group is constant."
+  },
+  "nondegeneracy_counterexample": {
+    "class_A_pass_rates": [
+      1.0,
+      0.5
+    ],
+    "class_B_pass_rates": [
+      0.0,
+      0.0
+    ],
+    "f_for_two_distinct_behaviors": [
+      0.0,
+      0.0
+    ],
+    "full_pass": [
+      0,
+      0
+    ]
+  },
+  "verification_replay": [
+    {
+      "source": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/raw_results/verge_book_v2_verge_r02/branches/0/target.jsonl",
+      "total_records": 512,
+      "checked": 32,
+      "sample_rule": "first 32 in stored order, preselected before reading reward",
+      "mismatches": [],
+      "new_model_samples": 0
+    },
+    {
+      "source": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/raw_results/verge_book_v2_verge_r02/branches/1/target.jsonl",
+      "total_records": 512,
+      "checked": 32,
+      "sample_rule": "first 32 in stored order, preselected before reading reward",
+      "mismatches": [],
+      "new_model_samples": 0
+    }
+  ]
+}

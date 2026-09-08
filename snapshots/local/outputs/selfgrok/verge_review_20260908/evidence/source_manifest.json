@@ -1,0 +1,18 @@
+{
+  "original_snapshot": "8c759ec6e6bdf4b7301c071d47b30a5a5fccdc4f148675afaf549dfa94fd5cb2",
+  "files": {
+    "src/common.py": {
+      "before": "bf5ec94a586dee95aa1842f9c01d0e58361e82ce6e90b380bdc50bce9f30ff44",
+      "after": "a205b9cafb05f46947c62fc8623fb283becffaab7bd4dd40deb0f241a09813c5"
+    },
+    "src/verge_round_core.py": {
+      "before": "e05a87d35578318abd9b07072090e8babc28826ba8bea5c80d9addfbd7ad0ba9",
+      "after": "7c21709cc5567936bbb3e27c8922526aac5119724ee3d642ba9885f9e22ce54a"
+    },
+    "src/verge_repair_training.py": {
+      "before": "892ba4b3e6f7060ec0e2df892954b26570e153f7a9058f29a2c3d5cbbe3a5dfb",
+      "after": "32990c1e8d5d0543eaad0fa96d5c1f9296a78f8e772e7f4e865b206ca5ad5494"
+    }
+  },
+  "note": "Source hashes prove only this audit's original-vs-review-copy identity, not model weight equivalence."
+}

@@ -1,0 +1,4 @@
+JobID|JobName|State|ExitCode|Start|End|Elapsed|ElapsedRaw|AllocTRES|ReqMem|MaxRSS
+41415498|verge-minimal|COMPLETED|0:0|2026-09-08T14:33:47|2026-09-08T14:37:19|00:03:32|212|billing=4,cpu=4,energy=113461,gres/gpu:b200=1,gres/gpu=1,mem=64G,node=1|64G|
+41415498.batch|batch|COMPLETED|0:0|2026-09-08T14:33:47|2026-09-08T14:37:19|00:03:32|212|cpu=4,gres/gpu:b200=1,gres/gpu=1,mem=64G,node=1||2799484K
+41415498.extern|extern|COMPLETED|0:0|2026-09-08T14:33:47|2026-09-08T14:37:19|00:03:32|212|billing=4,cpu=4,gres/gpu:b200=1,gres/gpu=1,mem=64G,node=1||

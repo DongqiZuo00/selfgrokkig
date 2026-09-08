@@ -1,0 +1,1141 @@
+{
+  "active_plan": null,
+  "archive": [
+    {
+      "base": {
+        "cell": [
+          2,
+          1
+        ],
+        "checkpoint_id": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+      },
+      "candidates": [
+        {
+          "branch_id": "g1",
+          "curriculum": [
+            {
+              "kind": "tape_transform",
+              "spec": {
+                "distribution": {
+                  "alphabet": "RB",
+                  "corner_cases": [
+                    "B",
+                    "R",
+                    "BB",
+                    "BR",
+                    "RR",
+                    "BBB",
+                    "BBR",
+                    "BRB",
+                    "BRR",
+                    "RBB",
+                    "RBR",
+                    "RRB",
+                    "RRR",
+                    "RRBRBBRR",
+                    "RBBBRBBR",
+                    "RBBRBBRR"
+                  ],
+                  "max_length": 8,
+                  "min_length": 0
+                },
+                "expression": {
+                  "args": [
+                    {
+                      "op": "literal",
+                      "value": "RB"
+                    },
+                    {
+                      "op": "input"
+                    }
+                  ],
+                  "op": "concat"
+                },
+                "instance_tuples": [
+                  [
+                    "ff7e78db2ae681ca30467800ca47779e8fcc21abca91c923f7b4ab416f3958fc",
+                    "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                  ]
+                ],
+                "kind": "tape_transform"
+              },
+              "stage_id": "prepend_RB"
+            },
+            {
+              "kind": "registered",
+              "spec": {
+                "distribution": {
+                  "alphabet": "RB",
+                  "corner_cases": [
+                    "B",
+                    "R",
+                    "BB",
+                    "BR",
+                    "RR",
+                    "BBB",
+                    "BBR",
+                    "BRB",
+                    "BRR",
+                    "RBB",
+                    "RBR",
+                    "RRB",
+                    "RRR",
+                    "RRBRBBRR",
+                    "RBBBRBBR",
+                    "RBBRBBRR"
+                  ],
+                  "max_length": 8,
+                  "min_length": 0
+                },
+                "family": "verge_catalogue_replace_RB_to_YG",
+                "instance_tuples": [
+                  [
+                    "12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1",
+                    "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                  ]
+                ],
+                "kind": "registered",
+                "mutation_tier": 0,
+                "tier": 0
+              },
+              "stage_id": "replace_RB_to_YG"
+            },
+            {
+              "kind": "tape_transform",
+              "spec": {
+                "distribution": {
+                  "alphabet": "RB",
+                  "corner_cases": [
+                    "B",
+                    "R",
+                    "BB",
+                    "BR",
+                    "RR",
+                    "BBB",
+                    "BBR",
+                    "BRB",
+                    "BRR",
+                    "RBB",
+                    "RBR",
+                    "RRB",
+                    "RRR",
+                    "RRBRBBRR",
+                    "RBBBRBBR",
+                    "RBBRBBRR"
+                  ],
+                  "max_length": 8,
+                  "min_length": 0
+                },
+                "expression": {
+                  "args": [
+                    {
+                      "op": "literal",
+                      "value": "R"
+                    },
+                    {
+                      "op": "input"
+                    }
+                  ],
+                  "op": "concat"
+                },
+                "instance_tuples": [
+                  [
+                    "dbc9c193aba35d835bf4114f279c236d87b2556c8fd494ca077d92ad820d4846",
+                    "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                  ]
+                ],
+                "kind": "tape_transform"
+              },
+              "stage_id": "prepend_R"
+            }
+          ],
+          "evidence_id": "verge_minimal_round1_20260908/round_score.json#g1",
+          "first_success_observed": false,
+          "gamma": 0.0,
+          "paired_ci": [
+            0.0,
+            0.0
+          ],
+          "per_stage_delta": {
+            "checkpoint_endpoints": {
+              "course": [
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+              ],
+              "direct": [
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+              ]
+            },
+            "deltas": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "final_probe_gap": 0.0,
+            "final_probe_is_identical_raw_first8": true,
+            "gamma": 0.0,
+            "initial_gap": 0.0,
+            "kappa": 2,
+            "milestones": [
+              0,
+              16384,
+              32768,
+              49152,
+              65536
+            ],
+            "sampling_correction": 0.0,
+            "segments": [
+              "stage_1",
+              "stage_2",
+              "stage_3",
+              "target_only_tail"
+            ],
+            "telescoping_residual": 0.0
+          }
+        },
+        {
+          "branch_id": "g2",
+          "curriculum": [
+            {
+              "kind": "tape_transform",
+              "spec": {
+                "distribution": {
+                  "alphabet": "RB",
+                  "corner_cases": [
+                    "B",
+                    "R",
+                    "BB",
+                    "BR",
+                    "RR",
+                    "BBB",
+                    "BBR",
+                    "BRB",
+                    "BRR",
+                    "RBB",
+                    "RBR",
+                    "RRB",
+                    "RRR",
+                    "RRBRBBRR",
+                    "RBBBRBBR",
+                    "RBBRBBRR"
+                  ],
+                  "max_length": 8,
+                  "min_length": 0
+                },
+                "expression": {
+                  "args": [
+                    {
+                      "op": "input"
+                    },
+                    {
+                      "op": "literal",
+                      "value": "R"
+                    }
+                  ],
+                  "op": "concat"
+                },
+                "instance_tuples": [
+                  [
+                    "57b1de2dbd200bdd8fc0e3ecc91682b18d6b1aedbc7079ed6c94667aff79ab13",
+                    "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                  ]
+                ],
+                "kind": "tape_transform"
+              },
+              "stage_id": "append_R"
+            },
+            {
+              "kind": "registered",
+              "spec": {
+                "distribution": {
+                  "alphabet": "RB",
+                  "corner_cases": [
+                    "B",
+                    "R",
+                    "BB",
+                    "BR",
+                    "RR",
+                    "BBB",
+                    "BBR",
+                    "BRB",
+                    "BRR",
+                    "RBB",
+                    "RBR",
+                    "RRB",
+                    "RRR",
+                    "RRBRBBRR",
+                    "RBBBRBBR",
+                    "RBBRBBRR"
+                  ],
+                  "max_length": 8,
+                  "min_length": 0
+                },
+                "family": "verge_catalogue_replace_RB_to_YG",
+                "instance_tuples": [
+                  [
+                    "12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1",
+                    "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                  ]
+                ],
+                "kind": "registered",
+                "mutation_tier": 0,
+                "tier": 0
+              },
+              "stage_id": "replace_RB_to_YG"
+            },
+            {
+              "kind": "registered",
+              "spec": {
+                "distribution": {
+                  "alphabet": "RB",
+                  "corner_cases": [
+                    "B",
+                    "R",
+                    "BB",
+                    "BR",
+                    "RR"
+                  ],
+                  "max_length": 2,
+                  "min_length": 0
+                },
+                "family": "verge_catalogue_target_small2",
+                "instance_tuples": [
+                  [
+                    "4123931be4048fafa2161b21e3521cfe14760279143a1db2b186326953e17280",
+                    "4baf581fd2b125634a1bc04ffe69e711d1533d13d8b2eba910957d6b4155f352"
+                  ]
+                ],
+                "kind": "registered",
+                "mutation_tier": 0,
+                "tier": 0
+              },
+              "stage_id": "target_small2"
+            }
+          ],
+          "evidence_id": "verge_minimal_round1_20260908/round_score.json#g2",
+          "first_success_observed": false,
+          "gamma": 0.0,
+          "paired_ci": [
+            0.0,
+            0.0
+          ],
+          "per_stage_delta": {
+            "checkpoint_endpoints": {
+              "course": [
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+              ],
+              "direct": [
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+              ]
+            },
+            "deltas": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "final_probe_gap": 0.0,
+            "final_probe_is_identical_raw_first8": true,
+            "gamma": 0.0,
+            "initial_gap": 0.0,
+            "kappa": 2,
+            "milestones": [
+              0,
+              16384,
+              32768,
+              49152,
+              65536
+            ],
+            "sampling_correction": 0.0,
+            "segments": [
+              "stage_1",
+              "stage_2",
+              "stage_3",
+              "target_only_tail"
+            ],
+            "telescoping_residual": 0.0
+          }
+        },
+        {
+          "branch_id": "g3",
+          "curriculum": [
+            {
+              "kind": "registered",
+              "spec": {
+                "distribution": {
+                  "alphabet": "RB",
+                  "corner_cases": [
+                    "B",
+                    "R",
+                    "BB",
+                    "BR",
+                    "RR",
+                    "BBB",
+                    "BBR",
+                    "BRB",
+                    "BRR",
+                    "RBB",
+                    "RBR",
+                    "RRB",
+                    "RRR"
+                  ],
+                  "max_length": 3,
+                  "min_length": 0
+                },
+                "family": "verge_catalogue_target_small3",
+                "instance_tuples": [
+                  [
+                    "1bbe0fce7485c119f79063aa1ff1db334e12f7e287e01376ac77b7aa001f887f",
+                    "3956187c4e56535e528bef5707d6f3ebf8e0f270daa9f93d1d72780e8e29ac44"
+                  ]
+                ],
+                "kind": "registered",
+                "mutation_tier": 0,
+                "tier": 0
+              },
+              "stage_id": "target_small3"
+            },
+            {
+              "kind": "tape_transform",
+              "spec": {
+                "distribution": {
+                  "alphabet": "RB",
+                  "corner_cases": [
+                    "B",
+                    "R",
+                    "BB",
+                    "BR",
+                    "RR",
+                    "BBB",
+                    "BBR",
+                    "BRB",
+                    "BRR",
+                    "RBB",
+                    "RBR",
+                    "RRB",
+                    "RRR",
+                    "RRBRBBRR",
+                    "RBBBRBBR",
+                    "RBBRBBRR"
+                  ],
+                  "max_length": 8,
+                  "min_length": 0
+                },
+                "expression": {
+                  "args": [
+                    {
+                      "op": "literal",
+                      "value": "R"
+                    },
+                    {
+                      "op": "input"
+                    }
+                  ],
+                  "op": "concat"
+                },
+                "instance_tuples": [
+                  [
+                    "dbc9c193aba35d835bf4114f279c236d87b2556c8fd494ca077d92ad820d4846",
+                    "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                  ]
+                ],
+                "kind": "tape_transform"
+              },
+              "stage_id": "prepend_R"
+            },
+            {
+              "kind": "registered",
+              "spec": {
+                "distribution": {
+                  "alphabet": "RB",
+                  "corner_cases": [
+                    "B",
+                    "R",
+                    "BB",
+                    "BR",
+                    "RR",
+                    "BBB",
+                    "BBR",
+                    "BRB",
+                    "BRR",
+                    "RBB",
+                    "RBR",
+                    "RRB",
+                    "RRR",
+                    "RRBRBBRR",
+                    "RBBBRBBR",
+                    "RBBRBBRR"
+                  ],
+                  "max_length": 8,
+                  "min_length": 0
+                },
+                "family": "verge_catalogue_replace_RB_to_YG",
+                "instance_tuples": [
+                  [
+                    "12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1",
+                    "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                  ]
+                ],
+                "kind": "registered",
+                "mutation_tier": 0,
+                "tier": 0
+              },
+              "stage_id": "replace_RB_to_YG"
+            }
+          ],
+          "evidence_id": "verge_minimal_round1_20260908/round_score.json#g3",
+          "first_success_observed": false,
+          "gamma": 0.0,
+          "paired_ci": [
+            0.0,
+            0.0
+          ],
+          "per_stage_delta": {
+            "checkpoint_endpoints": {
+              "course": [
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+              ],
+              "direct": [
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+                "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000"
+              ]
+            },
+            "deltas": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "final_probe_gap": 0.0,
+            "final_probe_is_identical_raw_first8": true,
+            "gamma": 0.0,
+            "initial_gap": 0.0,
+            "kappa": 2,
+            "milestones": [
+              0,
+              16384,
+              32768,
+              49152,
+              65536
+            ],
+            "sampling_correction": 0.0,
+            "segments": [
+              "stage_1",
+              "stage_2",
+              "stage_3",
+              "target_only_tail"
+            ],
+            "telescoping_residual": 0.0
+          }
+        }
+      ],
+      "context": {
+        "archive": [],
+        "conditions": [
+          "parse",
+          "min-per-class exact fraction >= 1/36",
+          ">= 0.25",
+          ">= 0.5",
+          ">= 0.75",
+          "full pass"
+        ],
+        "incumbents": [
+          {
+            "b": 2,
+            "base_checkpoint": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/checkpoints/verge_book_v2_initial_solver/resume_u0000",
+            "full_pass_count": 0,
+            "rho": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "s": 1,
+            "samples": 256
+          }
+        ],
+        "per_stage_delta_definition": "fixed-round-kappa difference of curriculum/direct gaps at matched token boundaries; include target-only tail and P32-minus-P8 correction",
+        "per_stage_delta_history": [],
+        "pilot_search_restriction": "This development round selects from nine frozen executable task specifications. It does not establish the value of open transform synthesis.",
+        "stage_catalogue": [
+          {
+            "kind": "tape_transform",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR",
+                  "RR",
+                  "BBB",
+                  "BBR",
+                  "BRB",
+                  "BRR",
+                  "RBB",
+                  "RBR",
+                  "RRB",
+                  "RRR",
+                  "RRBRBBRR",
+                  "RBBBRBBR",
+                  "RBBRBBRR"
+                ],
+                "max_length": 8,
+                "min_length": 0
+              },
+              "expression": {
+                "op": "input"
+              },
+              "instance_tuples": [
+                [
+                  "c4cf77ad5325939a97f5adef41c45ce19dc7e3727f7d5eb7f20bc3d6f49cee2d",
+                  "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                ]
+              ],
+              "kind": "tape_transform"
+            },
+            "stage_id": "identity"
+          },
+          {
+            "kind": "tape_transform",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR",
+                  "RR",
+                  "BBB",
+                  "BBR",
+                  "BRB",
+                  "BRR",
+                  "RBB",
+                  "RBR",
+                  "RRB",
+                  "RRR",
+                  "RRBRBBRR",
+                  "RBBBRBBR",
+                  "RBBRBBRR"
+                ],
+                "max_length": 8,
+                "min_length": 0
+              },
+              "expression": {
+                "args": [
+                  {
+                    "op": "input"
+                  },
+                  {
+                    "op": "literal",
+                    "value": "R"
+                  }
+                ],
+                "op": "concat"
+              },
+              "instance_tuples": [
+                [
+                  "57b1de2dbd200bdd8fc0e3ecc91682b18d6b1aedbc7079ed6c94667aff79ab13",
+                  "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                ]
+              ],
+              "kind": "tape_transform"
+            },
+            "stage_id": "append_R"
+          },
+          {
+            "kind": "tape_transform",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR",
+                  "RR",
+                  "BBB",
+                  "BBR",
+                  "BRB",
+                  "BRR",
+                  "RBB",
+                  "RBR",
+                  "RRB",
+                  "RRR",
+                  "RRBRBBRR",
+                  "RBBBRBBR",
+                  "RBBRBBRR"
+                ],
+                "max_length": 8,
+                "min_length": 0
+              },
+              "expression": {
+                "args": [
+                  {
+                    "op": "input"
+                  },
+                  {
+                    "op": "literal",
+                    "value": "B"
+                  }
+                ],
+                "op": "concat"
+              },
+              "instance_tuples": [
+                [
+                  "e05c3f0e041cc0eba83191c46a36bf163bbdea79fe0dc4157bc084cb157caa21",
+                  "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                ]
+              ],
+              "kind": "tape_transform"
+            },
+            "stage_id": "append_B"
+          },
+          {
+            "kind": "tape_transform",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR",
+                  "RR",
+                  "BBB",
+                  "BBR",
+                  "BRB",
+                  "BRR",
+                  "RBB",
+                  "RBR",
+                  "RRB",
+                  "RRR",
+                  "RRBRBBRR",
+                  "RBBBRBBR",
+                  "RBBRBBRR"
+                ],
+                "max_length": 8,
+                "min_length": 0
+              },
+              "expression": {
+                "arg": {
+                  "op": "input"
+                },
+                "new": "B",
+                "old": "R",
+                "op": "replace"
+              },
+              "instance_tuples": [
+                [
+                  "bc4ff1c270d28b1ab14680828692ba48adcf53a8e04d1f00ff55bd2bbc1b263a",
+                  "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                ]
+              ],
+              "kind": "tape_transform"
+            },
+            "stage_id": "replace_R_to_B"
+          },
+          {
+            "kind": "registered",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR",
+                  "RR",
+                  "BBB",
+                  "BBR",
+                  "BRB",
+                  "BRR",
+                  "RBB",
+                  "RBR",
+                  "RRB",
+                  "RRR",
+                  "RRBRBBRR",
+                  "RBBBRBBR",
+                  "RBBRBBRR"
+                ],
+                "max_length": 8,
+                "min_length": 0
+              },
+              "family": "verge_catalogue_replace_RB_to_YG",
+              "instance_tuples": [
+                [
+                  "12c0a05e248ed89103373dc44f8ac44a608a921e9186ea2bfb92bbac3b0456a1",
+                  "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                ]
+              ],
+              "kind": "registered",
+              "mutation_tier": 0,
+              "tier": 0
+            },
+            "stage_id": "replace_RB_to_YG"
+          },
+          {
+            "kind": "tape_transform",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR",
+                  "RR",
+                  "BBB",
+                  "BBR",
+                  "BRB",
+                  "BRR",
+                  "RBB",
+                  "RBR",
+                  "RRB",
+                  "RRR",
+                  "RRBRBBRR",
+                  "RBBBRBBR",
+                  "RBBRBBRR"
+                ],
+                "max_length": 8,
+                "min_length": 0
+              },
+              "expression": {
+                "args": [
+                  {
+                    "op": "literal",
+                    "value": "R"
+                  },
+                  {
+                    "op": "input"
+                  }
+                ],
+                "op": "concat"
+              },
+              "instance_tuples": [
+                [
+                  "dbc9c193aba35d835bf4114f279c236d87b2556c8fd494ca077d92ad820d4846",
+                  "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                ]
+              ],
+              "kind": "tape_transform"
+            },
+            "stage_id": "prepend_R"
+          },
+          {
+            "kind": "tape_transform",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR",
+                  "RR",
+                  "BBB",
+                  "BBR",
+                  "BRB",
+                  "BRR",
+                  "RBB",
+                  "RBR",
+                  "RRB",
+                  "RRR",
+                  "RRBRBBRR",
+                  "RBBBRBBR",
+                  "RBBRBBRR"
+                ],
+                "max_length": 8,
+                "min_length": 0
+              },
+              "expression": {
+                "args": [
+                  {
+                    "op": "literal",
+                    "value": "RB"
+                  },
+                  {
+                    "op": "input"
+                  }
+                ],
+                "op": "concat"
+              },
+              "instance_tuples": [
+                [
+                  "ff7e78db2ae681ca30467800ca47779e8fcc21abca91c923f7b4ab416f3958fc",
+                  "0928b9700edd20f1aa1cc7b588c0ec0ce4cf5d28aa2b4f87e2c1e2187c2685de"
+                ]
+              ],
+              "kind": "tape_transform"
+            },
+            "stage_id": "prepend_RB"
+          },
+          {
+            "kind": "registered",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR",
+                  "RR"
+                ],
+                "max_length": 2,
+                "min_length": 0
+              },
+              "family": "verge_catalogue_target_small2",
+              "instance_tuples": [
+                [
+                  "4123931be4048fafa2161b21e3521cfe14760279143a1db2b186326953e17280",
+                  "4baf581fd2b125634a1bc04ffe69e711d1533d13d8b2eba910957d6b4155f352"
+                ]
+              ],
+              "kind": "registered",
+              "mutation_tier": 0,
+              "tier": 0
+            },
+            "stage_id": "target_small2"
+          },
+          {
+            "kind": "registered",
+            "spec": {
+              "distribution": {
+                "alphabet": "RB",
+                "corner_cases": [
+                  "B",
+                  "R",
+                  "BB",
+                  "BR",
+                  "RR",
+                  "BBB",
+                  "BBR",
+                  "BRB",
+                  "BRR",
+                  "RBB",
+                  "RBR",
+                  "RRB",
+                  "RRR"
+                ],
+                "max_length": 3,
+                "min_length": 0
+              },
+              "family": "verge_catalogue_target_small3",
+              "instance_tuples": [
+                [
+                  "1bbe0fce7485c119f79063aa1ff1db334e12f7e287e01376ac77b7aa001f887f",
+                  "3956187c4e56535e528bef5707d6f3ebf8e0f270daa9f93d1d72780e8e29ac44"
+                ]
+              ],
+              "kind": "registered",
+              "mutation_tier": 0,
+              "tier": 0
+            },
+            "stage_id": "target_small3"
+          }
+        ],
+        "stage_screen": [
+          {
+            "binary_successes": 1,
+            "generated_tokens": 545,
+            "instance_id": "verge_ignition_stage_catalogue_v1_20260908__identity__compact",
+            "mixed_group": true,
+            "parse_valid": 8,
+            "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/00_identity_concise.json",
+            "sampling_seconds": 6.922886371612549,
+            "stage_id": "identity",
+            "variant": "concise"
+          },
+          {
+            "binary_successes": 0,
+            "generated_tokens": 1074,
+            "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_R__compact",
+            "mixed_group": false,
+            "parse_valid": 8,
+            "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/01_append_R_concise.json",
+            "sampling_seconds": 11.197383642196655,
+            "stage_id": "append_R",
+            "variant": "concise"
+          },
+          {
+            "binary_successes": 0,
+            "generated_tokens": 1216,
+            "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_B__compact",
+            "mixed_group": false,
+            "parse_valid": 8,
+            "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/02_append_B_concise.json",
+            "sampling_seconds": 12.976891279220581,
+            "stage_id": "append_B",
+            "variant": "concise"
+          },
+          {
+            "binary_successes": 0,
+            "generated_tokens": 643,
+            "instance_id": "verge_ignition_stage_catalogue_v1_20260908__replace_R_to_B__compact",
+            "mixed_group": false,
+            "parse_valid": 8,
+            "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/03_replace_R_to_B_concise.json",
+            "sampling_seconds": 5.139854192733765,
+            "stage_id": "replace_R_to_B",
+            "variant": "concise"
+          },
+          {
+            "binary_successes": 0,
+            "generated_tokens": 218,
+            "instance_id": "verge_ignition_stage_catalogue_v1_20260908__replace_RB_to_YG__compact",
+            "mixed_group": false,
+            "parse_valid": 8,
+            "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/04_replace_RB_to_YG_concise.json",
+            "sampling_seconds": 3.1448006629943848,
+            "stage_id": "replace_RB_to_YG",
+            "variant": "concise"
+          },
+          {
+            "binary_successes": 0,
+            "generated_tokens": 1076,
+            "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_R__compact",
+            "mixed_group": false,
+            "parse_valid": 8,
+            "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/05_prepend_R_concise.json",
+            "sampling_seconds": 6.957237958908081,
+            "stage_id": "prepend_R",
+            "variant": "concise"
+          },
+          {
+            "binary_successes": 0,
+            "generated_tokens": 500,
+            "instance_id": "verge_ignition_stage_catalogue_v1_20260908__prepend_RB__compact",
+            "mixed_group": false,
+            "parse_valid": 8,
+            "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/06_prepend_RB_concise.json",
+            "sampling_seconds": 7.340212106704712,
+            "stage_id": "prepend_RB",
+            "variant": "concise"
+          },
+          {
+            "binary_successes": 0,
+            "generated_tokens": 1172,
+            "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small2__compact",
+            "mixed_group": false,
+            "parse_valid": 8,
+            "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/07_target_small2_concise.json",
+            "sampling_seconds": 8.896175384521484,
+            "stage_id": "target_small2",
+            "variant": "concise"
+          },
+          {
+            "binary_successes": 0,
+            "generated_tokens": 1251,
+            "instance_id": "verge_ignition_stage_catalogue_v1_20260908__target_small3__compact",
+            "mixed_group": false,
+            "parse_valid": 8,
+            "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/08_target_small3_concise.json",
+            "sampling_seconds": 15.055969953536987,
+            "stage_id": "target_small3",
+            "variant": "concise"
+          },
+          {
+            "binary_successes": 0,
+            "generated_tokens": 737,
+            "instance_id": "verge_ignition_stage_catalogue_v1_20260908__identity__official_syntax",
+            "mixed_group": false,
+            "parse_valid": 8,
+            "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/09_identity_official.json",
+            "sampling_seconds": 10.148619651794434,
+            "stage_id": "identity",
+            "variant": "official"
+          },
+          {
+            "binary_successes": 0,
+            "generated_tokens": 1046,
+            "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_R__official_syntax",
+            "mixed_group": false,
+            "parse_valid": 8,
+            "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/10_append_R_official.json",
+            "sampling_seconds": 12.330236673355103,
+            "stage_id": "append_R",
+            "variant": "official"
+          },
+          {
+            "binary_successes": 0,
+            "generated_tokens": 611,
+            "instance_id": "verge_ignition_stage_catalogue_v1_20260908__append_B__official_syntax",
+            "mixed_group": false,
+            "parse_valid": 8,
+            "raw_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/11_append_B_official.json",
+            "sampling_seconds": 6.247089862823486,
+            "stage_id": "append_B",
+            "variant": "official"
+          }
+        ],
+        "stage_sources": {
+          "hinted_target": "retained, but not admissible this round because no 512-rollout hint-regret probe is complete",
+          "registered": "available",
+          "tape_transform": "bounded catalogue available; open expression interface retained"
+        },
+        "target": "Write a Manufactoria program. Output one ```manufactoria ...``` code block.\nThe tape is a FIFO sequence. A painter appends its color to the BACK of the tape.\nPULLER_RB removes the FRONT symbol only if it is R or B, then follows its [R] or [B] route.\nIts [EMPTY] route leaves the tape unchanged when empty or when the front is Y/G.\nPULLER_YG does the same for Y/G; its [EMPTY] route also leaves an R/B front unchanged.\nReaching end accepts. NONE, an undefined route, or 1000 execution steps rejects.\nAvailable painter types: PAINTER_RED, PAINTER_BLUE, PAINTER_YELLOW, PAINTER_GREEN.\nNode and route syntax (angle brackets denote placeholders, not literal code):\nSTART start:\n    NEXT <node_id>\nPULLER_RB <node_id>:\n    [R] <node_id>\n    [B] <node_id>\n    [EMPTY] <node_id>\nPULLER_YG <node_id>:\n    [Y] <node_id>\n    [G] <node_id>\n    [EMPTY] <node_id>\n<painter_type> <node_id>:\n    NEXT <node_id>\nEND end\nUse unique node ids and four-space route indentation. END has no colon.\nTask:\nThe input tape contains only R and B, with length from 0 to 64. Replace every nonoverlapping occurrence of RB with YG, then prepend RBYGRB. Keep all other symbols in order. All valid inputs must reach end with exactly the required output. The full standard R/B/Y/G DSL is available.",
+        "training": {
+          "B": 65536,
+          "G": 3,
+          "L": 3,
+          "alpha": 0.25,
+          "binary_reward_only": true,
+          "eta": 0.25
+        },
+        "verified_program_library_index": [
+          {
+            "evidence_path": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_minimal_20260908/runs/stage_grammar_v1_41412533/samples/00_identity_concise.json",
+            "hint_regret_validated": false,
+            "rollout_slot": 7,
+            "stage_id": "identity",
+            "variant": "concise",
+            "verified_on": "complete frozen train-side stage suite"
+          }
+        ]
+      },
+      "j_plus": [],
+      "provenance": {
+        "condition_id": "frozen_kappa_2",
+        "evidence_id": "verge_minimal_round1_20260908/round_score.json",
+        "run_id": "verge_minimal_round1_20260908"
+      },
+      "round_id": "verge_minimal_round1_20260908",
+      "seed": 20260908
+    }
+  ],
+  "completed_updates": [],
+  "examples": [],
+  "failed_updates": [],
+  "n_min": 8,
+  "new_count": 0,
+  "trained_ids": [],
+  "zero_positive_rounds": 1
+}

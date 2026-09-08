@@ -1,0 +1,150 @@
+{
+  "status": "saved_evidence_verified",
+  "cpu_tests": {
+    "protocol": 36,
+    "stages": 18,
+    "runtime": 14,
+    "benchmark": 15
+  },
+  "cpu_tests_total": 83,
+  "cpu_runner_directory": "C:\\Users\\ddong\\Documents\\Codex\\2026-09-06\\hipergator-x20\\outputs\\selfgrok\\verge_operational_20260908\\runs\\cpu_20260908T070139_3112249",
+  "synthetic_integration": {
+    "actual_GPU_used": false,
+    "actual_model_optimizer_steps": 0,
+    "actual_model_rollouts": 0,
+    "actual_reference_verifier_cases": 76,
+    "all_telescoping_residuals_zero": true,
+    "all_three_stage_validators_accepted_synthetic_fixture": true,
+    "archive_cells": 2,
+    "branches": 4,
+    "challenger_RFT": "plan_only_not_executed",
+    "delta_includes_target_only_tail": true,
+    "direct_synthetic_callback_state_unchanged": true,
+    "j_plus": [
+      "g1",
+      "g2"
+    ],
+    "mode": "synthetic_CPU_integration_not_model_training",
+    "raw_final_first8_identity_checked": true,
+    "run_directory": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/outputs/verge_operational_20260908/runs/cpu_20260908T070139_3112249/integration",
+    "score_kappa": 6,
+    "shared_base": "SYNTHETIC_SHARED_BASE",
+    "status": "PASS",
+    "synthetic_generated_tokens_per_branch": 131,
+    "synthetic_generated_tokens_total": 524
+  },
+  "gpu_runs": {
+    "gpu_smoke_41369486": {
+      "summary": {
+        "status": "complete",
+        "mode": "real_backbone_pipeline_smoke",
+        "groups": 4,
+        "rollouts": 32,
+        "generated_tokens": 16384,
+        "binary_successes": 0,
+        "optimizer_steps": 0,
+        "elapsed_seconds": 83.77415132522583,
+        "constant_groups_exact_skip_checked": 4,
+        "mixed_binary_update_exercised": false,
+        "b200_hours": 0.023270597789022657,
+        "max_gpu_memory_bytes": 10861607936,
+        "source_adapter_unchanged": true,
+        "benchmark_regime_established": false,
+        "formal_verge_round": false,
+        "original_sources_changed": false
+      },
+      "parse_valid": 0,
+      "all_binary": true,
+      "journal_verified": true,
+      "summary_matches_native_records": true
+    },
+    "gpu_smoke_prefill_41370126": {
+      "summary": {
+        "status": "complete",
+        "mode": "failure_driven_format_prefill_pipeline_smoke",
+        "groups": 1,
+        "rollouts": 8,
+        "generated_tokens": 12483,
+        "binary_successes": 0,
+        "parse_valid": 0,
+        "max_generated_tokens": 16384,
+        "max_new_tokens": 2048,
+        "gpu_minutes_ceiling": 17,
+        "failure_source_job_id": "41369486",
+        "format_prefix": "```manufactoria\nSTART start:\n    NEXT ",
+        "prefix_in_prompt_only": true,
+        "loss_uses_generated_suffix_only": true,
+        "sampling": {
+          "temperature": 1.0,
+          "top_p": 1.0,
+          "top_k": 0,
+          "stop_strings": null
+        },
+        "optimizer_steps": 0,
+        "elapsed_seconds": 83.74331665039062,
+        "constant_groups_exact_skip_checked": 1,
+        "mixed_binary_update_exercised": false,
+        "script_section_gpu_hours": 0.023262032601568432,
+        "allocation_cost_source": "Slurm sacct Elapsed times allocated GPU count; script timing excludes allocation startup",
+        "max_gpu_memory_bytes": 10909184000,
+        "source_adapter_unchanged": true,
+        "benchmark_regime_established": false,
+        "formal_verge_round": false,
+        "original_sources_changed": false
+      },
+      "parse_valid": 0,
+      "all_binary": true,
+      "journal_verified": true,
+      "summary_matches_native_records": true
+    }
+  },
+  "slurm_allocations": {
+    "41369486": {
+      "elapsed_seconds": 129,
+      "b200_hours": 0.035833333333333335,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "allocated_tres": "billing=4,cpu=4,energy=59319,gres/gpu:b200=1,gres/gpu=1,mem=64G,node=1"
+    },
+    "41370126": {
+      "elapsed_seconds": 113,
+      "b200_hours": 0.03138888888888889,
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "allocated_tres": "billing=4,cpu=4,energy=49832,gres/gpu:b200=1,gres/gpu=1,mem=64G,node=1"
+    }
+  },
+  "total_b200_hours": 0.06722222222222222,
+  "source_sha256": {
+    "benchmark/benchmark.py": "cb59f723f4ef5148ec0de308b7d9e15d8b2093b798e37d8f90a4a1271ef751d9",
+    "benchmark/revisions/pre_smoke_41369486.py": "3356f8efe2240fe938ffe48711ab48d1e0c5be3571d216183584062a359b6842",
+    "benchmark/RUN_CPU.sh": "8d408b05d39f5df4ea94aa66a09a2f708838c00592db501c9534f42faa0668a9",
+    "benchmark/test_benchmark.py": "2d23c474783692c3745466bce1874e16fb89d7da250c8cb883a8abdb83442e35",
+    "integration_round.py": "877538b1dc678630ae9d579b8528059398d855ef637f855c53b0b0f486508c26",
+    "protocol/round_evidence.py": "c6e71f86b4f9112af741cfafe73b5e87c03e49ac3c27a88f287d7badfe1de12d",
+    "protocol/test_live_smoke_prefill.py": "f836857d5e5acd12ce71bf2120629290a60d05225e458a531fb871a98d1a62c7",
+    "protocol/test_round_evidence.py": "b50c03dda73360ed32cf86edef23334b07c003cb992e3bb0674b0858d7ab39c2",
+    "protocol/test_verge_protocol.py": "c37c6e502f331941d389aff2957a6e0a4000877b47ba83f0ca18601add05671e",
+    "protocol/verge_protocol.py": "16a87ac797ed37bf859c6b7d4f86436059cbe1ce7b0736a21fac3ca4d153b3f6",
+    "RUN_CPU_TESTS.sh": "dd934c1887e3f4347938d02f6a39e7d01b2f6a8c4a0ec6c0d211589d220715f8",
+    "RUN_GPU_SMOKE.sbatch": "e763ab04f40402c649599bf277b66441e8f9ca2b384adf79ce253e1d716b56d6",
+    "RUN_GPU_SMOKE_PREFILL.sbatch": "3999dc579723ba48473eb804f7d7b8485da5ded5e7a627cee503a4cb8f9d8cea",
+    "runtime/generated_budget.py": "c7a043ad3fcb0fe34d9def0f080c417de2a8def1540dbc5550de34c4cec10fba",
+    "runtime/live_smoke.py": "50144de8dccfc8cd9fb631561f135486b1bbb4faccb790e64c1e593f6c4b6fe1",
+    "runtime/live_smoke_prefill.py": "e831d9d343238fa0de2970808c56533e3a3ec7aaed2f49fcac2954da79a1c095",
+    "runtime/preflight_smoke_inputs.py": "710cb1fba2a556cd3b63fe078fe357673ff4f90c87bce02582099aa9438fc2c7",
+    "runtime/replay_gpu_smoke.py": "dd60f4f9b635577bc710c614cd324a61209ba8b735a44047558780c8b9c4f17f",
+    "runtime/solver_update.py": "fe595fc224c2967ed072cd146e8e5c6f301d56e555c76bc2ba60cd3eb5cfd65e",
+    "runtime/test_generated_budget.py": "e73a17efb012605d5c2f100264eb21730b6502394ba78b551082f0ffe44c9b4f",
+    "runtime/test_torch_solver.py": "83b4ca18b7467412bf55f306f53576d5eafe296036b484a73c1b8e3bdc2d2b78",
+    "stages/__init__.py": "ed6ecb4d8cfb4ceb2e9c798ae55fdbdac4f6018708b395819552ee8cffe5bc27",
+    "stages/demo_stages.py": "82547aaf09a953cdf4f04454a26032974e744e6adb06f44f38f992054f68efca",
+    "stages/operational_stages.py": "8c06b0486485830c25ecc5f8e55d07e8fb05d1f5eb9b28aecbd11f2334d326cd",
+    "stages/test_operational_stages.py": "17dc559a65e4ad795f748874f0005c3ba4e97161ab895d6b9ba22bfdf3b10690",
+    "SUBMIT_GPU_SMOKE.sh": "6d82c20cedfbf1d2fbaeb7ab865e10a90303af85d52ea26f598e0b38986674ed",
+    "SUBMIT_GPU_SMOKE_PREFILL.sh": "d711049fb6e1f5eedb49a8caec5900713193edaf1f580411c59575940c6a354c",
+    "VERIFY_RESULTS.py": "b61908fc33cd26e7194442de0e0e834e7493d6280bad12aefa4b68a09488ed32"
+  },
+  "formal_closed_loop_completed": false,
+  "scientific_predictions_established": false
+}

@@ -1,0 +1,28 @@
+{
+  "kappa": 2,
+  "reward_switched": false,
+  "gains": {
+    "g1": {
+      "estimate": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_instances": 8,
+      "confidence": 0.95
+    },
+    "g2": {
+      "estimate": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_instances": 8,
+      "confidence": 0.95
+    },
+    "g3": {
+      "estimate": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "n_instances": 8,
+      "confidence": 0.95
+    }
+  },
+  "j_plus": []
+}

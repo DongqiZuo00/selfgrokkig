@@ -1,0 +1,52 @@
+{
+  "suite": "verge_book_v1",
+  "detected_on": "2026-09-06",
+  "status": "awaiting_recovery_authorization",
+  "block_dispatch": true,
+  "issue": "All 64 fixed-target prompts have identical native token lists. A single completions request reused one parent seed for every prompt, and vLLM assigned seed plus within-prompt draw index to its n=8 children.",
+  "observed_request_structure": {
+    "prompt_count": 64,
+    "distinct_prompt_token_lists": 1,
+    "samples_per_prompt": 8,
+    "nominal_outputs": 512,
+    "distinct_configured_child_seed_values": 8,
+    "seed_values_reused_across_prompt_instances": true,
+    "numerical_note": "GPU numerical/scheduling effects yield some different outputs despite shared RNG. Do not equate eight configured streams with exactly eight distinct strings or assert an exact effective sample size. The 512 outputs are not independent draws."
+  },
+  "source_evidence": [
+    "src/verge_repair_sampling.py: one prompt-list request with one seed",
+    "envs/vllm/lib/python3.11/site-packages/vllm/entrypoints/openai/completion/serving.py: rebuilds sampling parameters from the same request for each prompt",
+    "envs/vllm/lib/python3.11/site-packages/vllm/v1/engine/parallel_sampling.py: child seed equals parent seed plus within-prompt index"
+  ],
+  "existing_data_checked": [
+    "raw_results/verge_book_v1_verge_r00/initial",
+    "raw_results/verge_book_v1_verge_r00/branches/3",
+    "raw_results/verge_book_v1_verge_r01/initial",
+    "raw_results/verge_book_v1_verge_r01/branches/2"
+  ],
+  "impact": [
+    "Raw observed counts remain recorded observations, not independent-binomial estimates with N=512",
+    "Existing paired intervals and confidence-gated continuation decisions cannot be treated as valid under the intended independent-draw protocol",
+    "Later Solver/Challenger trajectories inherited decisions or credit based on the affected endpoint estimates",
+    "The ordinary training sampler requests one prompt with eight distinct child seeds; this particular cross-prompt seed-reuse defect concerns multi-prompt evaluation",
+    "Older repaired pilot runs use the same interface and must not supply independent-draw claims without correction"
+  ],
+  "cancelled_array": "41253859",
+  "cancelled_finish": "41253860",
+  "confirmed_durable_checkpoints_before_cancellation": [
+    "checkpoints/verge_book_v1_frozen_r01_direct/resume_u0016",
+    "checkpoints/verge_book_v1_frozen_r01_candidate_1/resume_u0015"
+  ],
+  "old_results_deleted": false,
+  "frozen_protocol_rewritten": false,
+  "completion_markers_preserved_as_execution_records_only": true,
+  "candidate_fix": "src/verge_independent_sampling.py",
+  "candidate_fix_tests_passed": 6,
+  "candidate_fix_deployed_to_sampler": false,
+  "candidate_fix_real_model_verified": false,
+  "candidate_fix_design": "One request per prompt, bounded concurrency, parent seed base+i*n; vLLM child offsets then give disjoint streams for all (prompt,draw) pairs. Same paired streams across compared checkpoints, unchanged completion cap and sampling distribution, exact-request recovery cache.",
+  "recovery_requires": "User decision on a separately versioned corrected replay/restart because affected adaptive choices cannot be retroactively repaired in place and rerunning adds total compute cost",
+  "scope_preservation": "Keep the same model, tasks, one training seed, six rounds, branch-token budget and 2B200/64GB caps; no eligibility audit or checkpoint hash scan",
+  "new_sampling_for_diagnosis": false,
+  "new_training_submitted": false
+}
