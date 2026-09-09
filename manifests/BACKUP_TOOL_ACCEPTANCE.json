@@ -1,0 +1,26 @@
+{
+  "status": "synthetic_cpu_acceptance_passed",
+  "remote_tests": 16,
+  "remote_skipped": 0,
+  "real_zstd_roundtrip": true,
+  "full_pack_executed": false,
+  "source_files_edited": false,
+  "part_max_bytes": 1073741824,
+  "max_compression_threads": 4,
+  "posix_address_space_limits_gib": {
+    "python": 12,
+    "child": 4
+  },
+  "artifact_hashes": {
+    "scripts\\backup_repo.py": "dc6a860490b4423ad0d306a8a0f664c94a9666cf96ca7735462aaf160cd84b72",
+    "scripts\\test_backup_repo.py": "7b944fc760e0aba662b3cfd315239cb55cd86c9d940b10f0832be07e33d81c98",
+    "BACKUP_CPU_TESTS_REMOTE_2.log": "834f3a3717a1f6e76e0c64cb482486ce2dd77097a66db7c7a881eee4d979e46c"
+  },
+  "known_limitations": [
+    "Not an atomic source-tree snapshot; changes, pending files and unplanned new paths are explicit.",
+    "Current duplicate checkpoint aliases are rehashed, so all 365.6GB checkpoint source bytes are reread during packing.",
+    "Compression disk failures preserve a per-file/group recovery journal and partial manifest; uncommitted tar groups are not claimed restorable.",
+    "Text SHA mismatch skips that path as pending/missing and continues; archive is not marked complete.",
+    "Source .git is excluded and requires the separately prepared git bundle."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "repository": "https://github.com/DongqiZuo00/selfgrokkig",
+  "observed_remote_commit": "3b4565f6569e0c96ab750ed574246ed324fa6fc0",
+  "snapshot_files_verified": 1576,
+  "snapshot_bytes_verified": 640360368,
+  "verification": "Every committed Git blob SHA256 matches source manifest; commit ID equals independently observed GitHub main ref.",
+  "scope": "Current HiPerGator minimal experiment and initial checkpoints; historical full archive tracked separately"
+}

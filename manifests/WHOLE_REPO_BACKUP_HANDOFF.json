@@ -1,0 +1,680 @@
+{
+  "schema": "whole-repository-backup-census-handoff-v1",
+  "root": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness",
+  "inventory_file": "REMOTE_INVENTORY_REFRESH.json",
+  "inventory_file_sha256": "93eeb424a8b422425394cfcb48403c48f278b527b8115725d4860399f5009db4",
+  "inventory_started_at": "2026-09-08T23:30:05.430683+00:00",
+  "inventory_finished_at": "2026-09-08T23:32:50.373819+00:00",
+  "inventory_is_atomic_snapshot": false,
+  "scope": "All regular files inside this repository, including all older experiment families, except .git/ (separate git bundle) and outputs/github_archive_20260908/ (backup destination). No outside-WORK/REPO traversal or symlink dereferencing.",
+  "backup_regular_files": 241881,
+  "backup_apparent_bytes": 431635543074,
+  "checkpoint_hash_jsonl": "ALL_CHECKPOINT_SHA256.jsonl",
+  "hash_vs_refresh_differences": [],
+  "refresh_checkpoint_files_without_hash": [],
+  "checkpoint_hash_and_refresh_metadata_match": true,
+  "active_jobs_inside_selfgrok": [
+    {
+      "job_id": 41442053,
+      "array_job_id": {
+        "set": true,
+        "infinite": false,
+        "number": 0
+      },
+      "array_task_id": {
+        "set": false,
+        "infinite": false,
+        "number": 0
+      },
+      "name": "vf-partial_shaped-r5-prepare",
+      "job_state": [
+        "RUNNING"
+      ],
+      "state_reason": "None",
+      "current_working_directory": "/blue/du.j/jinjiaguo/self grok",
+      "command": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/scripts/verge_feedback_round.sbatch",
+      "standard_output": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/logs/verge_feedback_round_%j.out",
+      "standard_error": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/logs/verge_feedback_round_%j.err",
+      "cpus": {
+        "set": true,
+        "infinite": false,
+        "number": 8
+      },
+      "memory_per_node": {
+        "set": true,
+        "infinite": false,
+        "number": 32768
+      },
+      "tres_alloc_str": "cpu=8,mem=32G,node=1,billing=8,gres/gpu=1,gres/gpu:b200=1",
+      "tres_req_str": "cpu=8,mem=32G,node=1,billing=8,gres/gpu=1,gres/gpu:b200=1",
+      "start_time": {
+        "set": true,
+        "infinite": false,
+        "number": 1788910192
+      },
+      "time_limit": {
+        "set": true,
+        "infinite": false,
+        "number": 120
+      },
+      "existing_directory_candidates_by_job_id": [],
+      "directory_match_is_heuristic": true
+    },
+    {
+      "job_id": 41442054,
+      "array_job_id": {
+        "set": true,
+        "infinite": false,
+        "number": 41442054
+      },
+      "array_task_id": {
+        "set": false,
+        "infinite": false,
+        "number": 0
+      },
+      "name": "vf-partial_shaped-r5-workers",
+      "job_state": [
+        "PENDING"
+      ],
+      "state_reason": "Dependency",
+      "current_working_directory": "/blue/du.j/jinjiaguo/self grok",
+      "command": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/scripts/verge_feedback_workers.sbatch",
+      "standard_output": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/logs/verge_feedback_%A_%a.out",
+      "standard_error": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/logs/verge_feedback_%A_%a.err",
+      "cpus": {
+        "set": true,
+        "infinite": false,
+        "number": 8
+      },
+      "memory_per_node": {
+        "set": true,
+        "infinite": false,
+        "number": 32768
+      },
+      "tres_alloc_str": "",
+      "tres_req_str": "cpu=8,mem=32G,node=1,billing=8,gres/gpu=1,gres/gpu:b200=1",
+      "start_time": {
+        "set": true,
+        "infinite": false,
+        "number": 0
+      },
+      "time_limit": {
+        "set": true,
+        "infinite": false,
+        "number": 120
+      },
+      "existing_directory_candidates_by_job_id": [],
+      "directory_match_is_heuristic": true
+    },
+    {
+      "job_id": 41442055,
+      "array_job_id": {
+        "set": true,
+        "infinite": false,
+        "number": 0
+      },
+      "array_task_id": {
+        "set": false,
+        "infinite": false,
+        "number": 0
+      },
+      "name": "vf-partial_shaped-r5-finish",
+      "job_state": [
+        "PENDING"
+      ],
+      "state_reason": "Dependency",
+      "current_working_directory": "/blue/du.j/jinjiaguo/self grok",
+      "command": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/scripts/verge_feedback_round.sbatch",
+      "standard_output": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/logs/verge_feedback_round_%j.out",
+      "standard_error": "/blue/du.j/jinjiaguo/self grok/experiments/has_transfer_witness/logs/verge_feedback_round_%j.err",
+      "cpus": {
+        "set": true,
+        "infinite": false,
+        "number": 8
+      },
+      "memory_per_node": {
+        "set": true,
+        "infinite": false,
+        "number": 32768
+      },
+      "tres_alloc_str": "",
+      "tres_req_str": "cpu=8,mem=32G,node=1,billing=8,gres/gpu=1,gres/gpu:b200=1",
+      "start_time": {
+        "set": true,
+        "infinite": false,
+        "number": 0
+      },
+      "time_limit": {
+        "set": true,
+        "infinite": false,
+        "number": 120
+      },
+      "existing_directory_candidates_by_job_id": [],
+      "directory_match_is_heuristic": true
+    }
+  ],
+  "active_directory_family_hints": [
+    "raw_results/verge_feedback_v1_partial_shaped_r05/",
+    "checkpoints/verge_feedback_v1_partial_shaped_r05*/",
+    "checkpoints/runtime_lora/verge_feedback_v1_partial_shaped_r05*/",
+    "logs/verge_feedback_round_41442053.*",
+    "logs/verge_feedback_41442054_*.out",
+    "logs/verge_feedback_41442054_*.err",
+    "logs/verge_feedback_round_41442055.*"
+  ],
+  "source_caches_present": [
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/0ae1d62f3250043e35c9be85887e0194-le64.cache-8",
+      "bytes": 9072,
+      "allocated_bytes": 12288,
+      "mtime_ns": 1788888402000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/123d59b33ddb0e7c76bb24004bd5cfac-le64.cache-8",
+      "bytes": 108112,
+      "allocated_bytes": 110592,
+      "mtime_ns": 1788888402000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/18db0204b1f108dd01663673626fcd3d-le64.cache-8",
+      "bytes": 8392,
+      "allocated_bytes": 12288,
+      "mtime_ns": 1788888402000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/210c0516121708a580e22e6b1f9a103a-le64.cache-8",
+      "bytes": 25912,
+      "allocated_bytes": 28672,
+      "mtime_ns": 1788888390000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/221930ae9526a9cb8049af2916f03412-le64.cache-8",
+      "bytes": 21952,
+      "allocated_bytes": 24576,
+      "mtime_ns": 1788888402000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-8",
+      "bytes": 672,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1788888390000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/3e9ca894d7ccd8b9fedb236c4f3f7c4e-le64.cache-8",
+      "bytes": 8088,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788888402000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/427eb62078a821f08aa6ed364f2467bf-le64.cache-8",
+      "bytes": 9368,
+      "allocated_bytes": 12288,
+      "mtime_ns": 1788888402000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/4f24d13e67e82878e860af3d5bcfaaa7-le64.cache-8",
+      "bytes": 57224,
+      "allocated_bytes": 57344,
+      "mtime_ns": 1788888390000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/5535e07303e0edee0923e77e4e59b69c-le64.cache-8",
+      "bytes": 7248,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788888402000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/6ee3103884cce7b2fe6f32eba9089175-le64.cache-8",
+      "bytes": 32232,
+      "allocated_bytes": 32768,
+      "mtime_ns": 1788888402000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/7bbebb41f246c24642924bd8585d5345-le64.cache-8",
+      "bytes": 19112,
+      "allocated_bytes": 20480,
+      "mtime_ns": 1788888402000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/CACHEDIR.TAG",
+      "bytes": 200,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1788888390000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/cf759820c416606818fc74e5e9991313-le64.cache-8",
+      "bytes": 7616,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788888402000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/fontconfig/de3fc716275e870cc68457cf08da2de7-le64.cache-8",
+      "bytes": 7128,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788888402000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/cache/mpl/fontlist-v3.11.0.json",
+      "bytes": 87582,
+      "allocated_bytes": 90112,
+      "mtime_ns": 1788888403000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/0ae1d62f3250043e35c9be85887e0194-le64.cache-8",
+      "bytes": 9072,
+      "allocated_bytes": 12288,
+      "mtime_ns": 1788888501000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/123d59b33ddb0e7c76bb24004bd5cfac-le64.cache-8",
+      "bytes": 108112,
+      "allocated_bytes": 110592,
+      "mtime_ns": 1788888502000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/18db0204b1f108dd01663673626fcd3d-le64.cache-8",
+      "bytes": 8392,
+      "allocated_bytes": 12288,
+      "mtime_ns": 1788888501000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/210c0516121708a580e22e6b1f9a103a-le64.cache-8",
+      "bytes": 25912,
+      "allocated_bytes": 28672,
+      "mtime_ns": 1788888492000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/221930ae9526a9cb8049af2916f03412-le64.cache-8",
+      "bytes": 21952,
+      "allocated_bytes": 24576,
+      "mtime_ns": 1788888501000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-8",
+      "bytes": 672,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1788888492000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/3e9ca894d7ccd8b9fedb236c4f3f7c4e-le64.cache-8",
+      "bytes": 8088,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788888502000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/427eb62078a821f08aa6ed364f2467bf-le64.cache-8",
+      "bytes": 9368,
+      "allocated_bytes": 12288,
+      "mtime_ns": 1788888501000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/4f24d13e67e82878e860af3d5bcfaaa7-le64.cache-8",
+      "bytes": 57224,
+      "allocated_bytes": 57344,
+      "mtime_ns": 1788888492000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/5535e07303e0edee0923e77e4e59b69c-le64.cache-8",
+      "bytes": 7248,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788888502000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/6ee3103884cce7b2fe6f32eba9089175-le64.cache-8",
+      "bytes": 32232,
+      "allocated_bytes": 32768,
+      "mtime_ns": 1788888501000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/7bbebb41f246c24642924bd8585d5345-le64.cache-8",
+      "bytes": 19112,
+      "allocated_bytes": 20480,
+      "mtime_ns": 1788888501000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/CACHEDIR.TAG",
+      "bytes": 200,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1788888492000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/cf759820c416606818fc74e5e9991313-le64.cache-8",
+      "bytes": 7616,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788888501000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/fontconfig/de3fc716275e870cc68457cf08da2de7-le64.cache-8",
+      "bytes": 7128,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788888502000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/cache/mpl/fontlist-v3.11.0.json",
+      "bytes": 87582,
+      "allocated_bytes": 90112,
+      "mtime_ns": 1788888502000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/0ae1d62f3250043e35c9be85887e0194-le64.cache-8",
+      "bytes": 9072,
+      "allocated_bytes": 12288,
+      "mtime_ns": 1788892729000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/123d59b33ddb0e7c76bb24004bd5cfac-le64.cache-8",
+      "bytes": 108112,
+      "allocated_bytes": 110592,
+      "mtime_ns": 1788892729000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/18db0204b1f108dd01663673626fcd3d-le64.cache-8",
+      "bytes": 8392,
+      "allocated_bytes": 12288,
+      "mtime_ns": 1788892729000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/210c0516121708a580e22e6b1f9a103a-le64.cache-8",
+      "bytes": 25912,
+      "allocated_bytes": 28672,
+      "mtime_ns": 1788892719000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/221930ae9526a9cb8049af2916f03412-le64.cache-8",
+      "bytes": 21952,
+      "allocated_bytes": 24576,
+      "mtime_ns": 1788892729000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-8",
+      "bytes": 672,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1788892719000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/3e9ca894d7ccd8b9fedb236c4f3f7c4e-le64.cache-8",
+      "bytes": 8088,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788892729000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/427eb62078a821f08aa6ed364f2467bf-le64.cache-8",
+      "bytes": 9368,
+      "allocated_bytes": 12288,
+      "mtime_ns": 1788892729000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/4f24d13e67e82878e860af3d5bcfaaa7-le64.cache-8",
+      "bytes": 57224,
+      "allocated_bytes": 57344,
+      "mtime_ns": 1788892719000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/5535e07303e0edee0923e77e4e59b69c-le64.cache-8",
+      "bytes": 7248,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788892729000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/6ee3103884cce7b2fe6f32eba9089175-le64.cache-8",
+      "bytes": 32232,
+      "allocated_bytes": 32768,
+      "mtime_ns": 1788892729000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/7bbebb41f246c24642924bd8585d5345-le64.cache-8",
+      "bytes": 19112,
+      "allocated_bytes": 20480,
+      "mtime_ns": 1788892729000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/CACHEDIR.TAG",
+      "bytes": 200,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1788892719000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/cf759820c416606818fc74e5e9991313-le64.cache-8",
+      "bytes": 7616,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788892729000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/fontconfig/de3fc716275e870cc68457cf08da2de7-le64.cache-8",
+      "bytes": 7128,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788892729000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_minimal_20260908/decoding/numeric_variant/cache/mpl/fontlist-v3.11.0.json",
+      "bytes": 87582,
+      "allocated_bytes": 90112,
+      "mtime_ns": 1788892729000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/0ae1d62f3250043e35c9be85887e0194-le64.cache-8",
+      "bytes": 9072,
+      "allocated_bytes": 12288,
+      "mtime_ns": 1788850155000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/123d59b33ddb0e7c76bb24004bd5cfac-le64.cache-8",
+      "bytes": 108112,
+      "allocated_bytes": 110592,
+      "mtime_ns": 1788850155000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/18db0204b1f108dd01663673626fcd3d-le64.cache-8",
+      "bytes": 8392,
+      "allocated_bytes": 12288,
+      "mtime_ns": 1788850155000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/210c0516121708a580e22e6b1f9a103a-le64.cache-8",
+      "bytes": 25912,
+      "allocated_bytes": 28672,
+      "mtime_ns": 1788850142000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/221930ae9526a9cb8049af2916f03412-le64.cache-8",
+      "bytes": 21952,
+      "allocated_bytes": 24576,
+      "mtime_ns": 1788850155000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le64.cache-8",
+      "bytes": 672,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1788850142000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/3e9ca894d7ccd8b9fedb236c4f3f7c4e-le64.cache-8",
+      "bytes": 8088,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788850155000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/427eb62078a821f08aa6ed364f2467bf-le64.cache-8",
+      "bytes": 9368,
+      "allocated_bytes": 12288,
+      "mtime_ns": 1788850155000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/4f24d13e67e82878e860af3d5bcfaaa7-le64.cache-8",
+      "bytes": 57224,
+      "allocated_bytes": 57344,
+      "mtime_ns": 1788850142000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/5535e07303e0edee0923e77e4e59b69c-le64.cache-8",
+      "bytes": 7248,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788850155000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/6ee3103884cce7b2fe6f32eba9089175-le64.cache-8",
+      "bytes": 32232,
+      "allocated_bytes": 32768,
+      "mtime_ns": 1788850155000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/7bbebb41f246c24642924bd8585d5345-le64.cache-8",
+      "bytes": 19112,
+      "allocated_bytes": 20480,
+      "mtime_ns": 1788850155000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/CACHEDIR.TAG",
+      "bytes": 200,
+      "allocated_bytes": 4096,
+      "mtime_ns": 1788850142000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/cf759820c416606818fc74e5e9991313-le64.cache-8",
+      "bytes": 7616,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788850155000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/fontconfig/de3fc716275e870cc68457cf08da2de7-le64.cache-8",
+      "bytes": 7128,
+      "allocated_bytes": 8192,
+      "mtime_ns": 1788850155000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    },
+    {
+      "path": "outputs/verge_operational_20260908/cache/mpl/fontlist-v3.11.0.json",
+      "bytes": 87582,
+      "allocated_bytes": 90112,
+      "mtime_ns": 1788850156000000000,
+      "hardlink_count": 1,
+      "scope_hint": "explicit_verge_named_artifact"
+    }
+  ],
+  "packing_rule": "The packer rechecks source SHA/stat and records missing or changing files. Do not chase later jobs indefinitely or claim an atomic completed-experiment snapshot. Do not delete, move or stop source jobs."
+}

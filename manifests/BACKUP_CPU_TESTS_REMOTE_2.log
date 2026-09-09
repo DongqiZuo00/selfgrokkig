@@ -1,0 +1,21 @@
+test_changed_checkpoint_is_not_restored_as_unchanged_duplicate (test_backup_repo.BackupFixture.test_changed_checkpoint_is_not_restored_as_unchanged_duplicate) ... ok
+test_checkpoint_listing_requires_footer_and_sha_size_consistency (test_backup_repo.BackupFixture.test_checkpoint_listing_requires_footer_and_sha_size_consistency) ... ok
+test_corrupt_asset_rejected_before_creating_restore_destination (test_backup_repo.BackupFixture.test_corrupt_asset_rejected_before_creating_restore_destination) ... ok
+test_duplicate_alias_same_size_and_restored_mtime_rehashes_current_bytes (test_backup_repo.BackupFixture.test_duplicate_alias_same_size_and_restored_mtime_rehashes_current_bytes) ... ok
+test_explicit_bounded_prefix_probe_does_not_capture_other_directories (test_backup_repo.BackupFixture.test_explicit_bounded_prefix_probe_does_not_capture_other_directories) ... ok
+test_failed_group_keeps_journal_and_partial_manifest_without_claiming_group (test_backup_repo.BackupFixture.test_failed_group_keeps_journal_and_partial_manifest_without_claiming_group) ... ok
+test_final_restat_detects_change_after_capture_without_claiming_atomicity (test_backup_repo.BackupFixture.test_final_restat_detects_change_after_capture_without_claiming_atomicity) ... ok
+test_identical_sources_produce_identical_compressed_asset_bytes (test_backup_repo.BackupFixture.test_identical_sources_produce_identical_compressed_asset_bytes) ... ok
+test_inventory_and_restore_traversal_rejected (test_backup_repo.BackupFixture.test_inventory_and_restore_traversal_rejected) ... ok
+test_new_unlisted_file_is_recorded_and_not_silently_packed (test_backup_repo.BackupFixture.test_new_unlisted_file_is_recorded_and_not_silently_packed) ... ok
+test_real_zstd_roundtrip (test_backup_repo.BackupFixture.test_real_zstd_roundtrip) ... ok
+test_restore_cannot_write_into_original_source_tree (test_backup_repo.BackupFixture.test_restore_cannot_write_into_original_source_tree) ... ok
+test_roundtrip_bytes_paths_nanosecond_mtimes_and_checkpoint_aliases (test_backup_repo.BackupFixture.test_roundtrip_bytes_paths_nanosecond_mtimes_and_checkpoint_aliases) ... ok
+test_tar_symlink_member_is_refused (test_backup_repo.BackupFixture.test_tar_symlink_member_is_refused) ... ok
+test_text_scan_hash_binds_archived_bytes (test_backup_repo.BackupFixture.test_text_scan_hash_binds_archived_bytes) ... ok
+test_verify_reads_all_assets_and_members_without_restoring (test_backup_repo.BackupFixture.test_verify_reads_all_assets_and_members_without_restoring) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 5.593s
+
+OK
